@@ -7202,6 +7202,101 @@ const topicsData = [
             explanation: 'Puducherry falls under the Madras High Court along with Tamil Nadu.'
           },
         ]
+      },
+      {
+        id: 'subordinate-courts',
+        name: 'Subordinate Courts (Part VI: Articles 233-237)',
+        flashcards: [
+          {
+            id: 'subc-1',
+            front: 'What is the regulatory framework for Subordinate Courts?',
+            back: 'Articles 233-237 in Part VI ensure the independence and organisation of subordinate courts.'
+          },
+          {
+            id: 'subc-2',
+            front: 'How are District Judges appointed? (Article 233)',
+            back: 'Appointed by the Governor with High Court consultation.\nQualifications:\n- Not in service of the Union/State\n- Advocate/pleader for 7 years\n- High Court recommendation'
+          },
+          {
+            id: 'subc-3',
+            front: 'How are other judicial officers appointed? (Article 234)',
+            back: 'Appointed by the Governor as per rules after consulting State Public Service Commission and High Court.'
+          },
+          {
+            id: 'subc-4',
+            front: 'What does Article 235 provide?',
+            back: 'Control over Subordinate Courts: High Court manages district and lower courts, overseeing transfers, promotions, and leave of officers below district judge rank.'
+          },
+          {
+            id: 'subc-5',
+            front: 'What does "District Judge" include? (Article 236)',
+            back: 'Includes city civil court judges, sessions judges, and chief magistrates. "Judicial Service" includes posts below district judges.'
+          },
+          {
+            id: 'subc-6',
+            front: 'What is the hierarchy of lower courts?',
+            back: 'High Court\n↓\nDistrict and Sessions Judge Court (highest judicial authority of district)\n↓ Civil side: Subordinate Judges Court → Munsiff\'s Court (civil cases of small pecuniary value)\n↓ Criminal side: Chief Judicial Magistrate Court (criminal cases, up to 7 years) → Judicial Magistrate Court (criminal cases, up to 3 years)'
+          },
+          {
+            id: 'subc-7',
+            front: 'What are the powers of District Judges and Sessions Judges?',
+            back: 'District Judges: Handle civil and administrative matters; appeals go to the High Court. Subordinate judges court has unlimited pecuniary jurisdiction over civil suits.\nSessions Judges: Can impose life imprisonment or capital punishment, subject to High Court confirmation.'
+          },
+          {
+            id: 'subc-8',
+            front: 'What are Metropolitan and other special courts?',
+            back: '- City Civil Courts: Handle civil cases in metropolitan areas\n- Metropolitan Magistrates\' Courts: Deal with criminal cases\n- Small Cause Courts: Summary decisions on minor civil cases (HC has revision power)\n- Panchayat Courts: Handle petty civil and criminal cases, known by various local names'
+          },
+        ],
+        quiz: [
+          {
+            id: 'subc-q1',
+            question: 'District Judges are appointed by:',
+            options: ['President', 'CJI', 'Governor with HC consultation', 'Chief Minister'],
+            correct: 2,
+            explanation: 'Article 233: District Judges are appointed by the Governor with High Court consultation.'
+          },
+          {
+            id: 'subc-q2',
+            question: 'To be appointed as a District Judge, one must have been an advocate for:',
+            options: ['5 years', '7 years', '10 years', '3 years'],
+            correct: 1,
+            explanation: 'Qualification includes being an advocate/pleader for 7 years, not in Union/State service, and HC recommendation.'
+          },
+          {
+            id: 'subc-q3',
+            question: 'Control over subordinate courts under Article 235 is vested in:',
+            options: ['Governor', 'State Government', 'High Court', 'Supreme Court'],
+            correct: 2,
+            explanation: 'Article 235: High Court manages district and lower courts — transfers, promotions, and leave of officers below district judge rank.'
+          },
+          {
+            id: 'subc-q4',
+            question: 'Sessions Judges can impose capital punishment subject to:',
+            options: ['Governor\'s approval', 'SC confirmation', 'High Court confirmation', 'President\'s approval'],
+            correct: 2,
+            explanation: 'Sessions Judges can impose life imprisonment or capital punishment, subject to High Court confirmation.'
+          },
+          {
+            id: 'subc-q5',
+            question: 'Under Article 236, "District Judge" includes:',
+            options: [
+              'Only civil judges',
+              'City civil court judges, sessions judges, and chief magistrates',
+              'Only sessions judges',
+              'Only HC judges posted in districts'
+            ],
+            correct: 1,
+            explanation: 'Article 236: "District Judge" includes city civil court judges, sessions judges, and chief magistrates.'
+          },
+          {
+            id: 'subc-q6',
+            question: 'Chief Judicial Magistrate Court can handle criminal cases with punishment up to:',
+            options: ['3 years', '5 years', '7 years', '10 years'],
+            correct: 2,
+            explanation: 'Chief Judicial Magistrate Court handles criminal cases with punishment up to 7 years. Judicial Magistrate Court handles up to 3 years.'
+          },
+        ]
       }
     ]
   }
