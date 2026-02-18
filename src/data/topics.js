@@ -5294,6 +5294,118 @@ const topicsData = [
             explanation: 'Financial Bill (I) is introduced only on the recommendation of the President.'
           },
         ]
+      },
+      {
+        id: 'joint-sitting-article-108',
+        name: 'Joint Sitting (Article 108)',
+        flashcards: [
+          {
+            id: 'js-1',
+            front: 'What is a Joint Sitting under Article 108?',
+            back: 'A constitutional mechanism to resolve deadlocks between the two Houses of Parliament regarding the passage of a bill.'
+          },
+          {
+            id: 'js-2',
+            front: 'What are the conditions for a Joint Sitting?',
+            back: 'A deadlock occurs under any of these conditions after a bill has been passed by one House and sent to the other:\n1. The bill is rejected by the other House\n2. The Houses have disagreed on the amendments to be made\n3. More than six months have passed since the bill was received without being passed'
+          },
+          {
+            id: 'js-3',
+            front: 'Who summons a Joint Sitting and what majority is needed?',
+            back: 'The President summons both Houses to a joint sitting. If a bill is approved by a majority of the total number of members present and voting, it is deemed passed by both Houses.'
+          },
+          {
+            id: 'js-4',
+            front: 'Who presides over a Joint Sitting?',
+            back: '1. Speaker of the Lok Sabha presides\n2. In Speaker\'s absence → Deputy Speaker\n3. If both absent → Deputy Chairman of the Rajya Sabha\n4. If all absent → a member chosen by those present\n\nNote: The Chairman of Rajya Sabha does NOT preside as he is not a member of either House.'
+          },
+          {
+            id: 'js-5',
+            front: 'What is the quorum and procedure for a Joint Sitting?',
+            back: 'Quorum: One-tenth (1/10th) of the total members of both Houses.\nGoverned by the Rules of Procedure of the Lok Sabha.'
+          },
+          {
+            id: 'js-6',
+            front: 'Can a Joint Sitting be summoned after Lok Sabha dissolution?',
+            back: 'A joint sitting CANNOT be summoned if the disputed bill has lapsed due to dissolution of Lok Sabha.\nHOWEVER, if the Lok Sabha is dissolved AFTER the President notifies the intention to summon a sitting, the joint sitting can still occur.'
+          },
+          {
+            id: 'js-7',
+            front: 'How many times has the Joint Sitting provision been invoked?',
+            back: 'Only thrice:\n1. Dowry Prohibition Bill (1960)\n2. Banking Service Commission (Repeal) Bill (1977)\n3. Prevention of Terrorism Bill (2002)'
+          },
+          {
+            id: 'js-8',
+            front: 'To which bills is Joint Sitting applicable? (UPSC 2012)',
+            back: 'Applicable to: Ordinary bills and Financial bills\nNOT applicable to: Money bills or Constitutional Amendment bills (Article 108)\nThe bill can be passed by a simple majority of members present and voting. (UPSC 2015)'
+          },
+          {
+            id: 'js-9',
+            front: 'What amendments can be proposed at a Joint Sitting?',
+            back: 'New amendments can only be proposed in two scenarios:\n1. Those that caused final disagreement between the Houses\n2. Those that have become necessary due to delays in the bill\'s passage'
+          },
+        ],
+        quiz: [
+          {
+            id: 'js-q1',
+            question: 'Joint Sitting is NOT applicable to: (UPSC 2012)',
+            options: [
+              'Ordinary bills',
+              'Financial bills',
+              'Money bills and Constitutional Amendment bills',
+              'All types of bills'
+            ],
+            correct: 2,
+            explanation: 'Joint Sitting under Article 108 is applicable to ordinary and financial bills, but NOT to money bills or constitutional amendment bills.'
+          },
+          {
+            id: 'js-q2',
+            question: 'A bill at a Joint Sitting is passed by: (UPSC 2015)',
+            options: [
+              'Absolute majority of total membership',
+              'Simple majority of members present and voting',
+              '2/3 majority of members present and voting',
+              'Special majority'
+            ],
+            correct: 1,
+            explanation: 'At a Joint Sitting, the bill is passed by a simple majority of members present and voting.'
+          },
+          {
+            id: 'js-q3',
+            question: 'Who presides over a Joint Sitting?',
+            options: ['President', 'Vice President', 'Speaker of Lok Sabha', 'Chairman of Rajya Sabha'],
+            correct: 2,
+            explanation: 'The Speaker of Lok Sabha presides. The RS Chairman does NOT preside as he is not a member of either House.'
+          },
+          {
+            id: 'js-q4',
+            question: 'How many times has the Joint Sitting provision been invoked?',
+            options: ['Once', 'Twice', 'Thrice', 'Four times'],
+            correct: 2,
+            explanation: 'Joint Sitting has been invoked thrice: Dowry Prohibition Bill (1960), Banking Service Commission Bill (1977), Prevention of Terrorism Bill (2002).'
+          },
+          {
+            id: 'js-q5',
+            question: 'A deadlock for Joint Sitting occurs if the other House does not pass a bill within:',
+            options: ['3 months', '6 months', '1 year', '2 years'],
+            correct: 1,
+            explanation: 'A deadlock occurs if more than 6 months pass since the bill was received by the other House without being passed.'
+          },
+          {
+            id: 'js-q6',
+            question: 'The quorum for a Joint Sitting is:',
+            options: ['1/4th of total members', '1/3rd of total members', '1/10th of total members of both Houses', 'Majority of total members'],
+            correct: 2,
+            explanation: 'Quorum for a Joint Sitting is 1/10th of the total members of both Houses, governed by Lok Sabha Rules of Procedure.'
+          },
+          {
+            id: 'js-q7',
+            question: 'If the Speaker is absent from a Joint Sitting, who presides next?',
+            options: ['Chairman of RS', 'Deputy Speaker of LS', 'Senior-most MP', 'President'],
+            correct: 1,
+            explanation: 'Order: Speaker → Deputy Speaker → Deputy Chairman of RS → member chosen by those present. The RS Chairman never presides.'
+          },
+        ]
       }
     ]
   }
