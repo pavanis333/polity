@@ -888,6 +888,178 @@ const topicsData = [
             explanation: 'Article 324 (dealing with Elections) was among the provisions that came into force on 26 November 1949 itself.'
           },
         ]
+      },
+      {
+        id: 'sources-of-indian-constitution',
+        name: 'Sources of Indian Constitution',
+        flashcards: [
+          {
+            id: 'src-1',
+            front: 'Which features were borrowed from the Government of India Act, 1935?',
+            back: 'Federal scheme, Governor\'s office, Judiciary, Public Service Commission, Emergency Provisions, and Administrative details.'
+          },
+          {
+            id: 'src-2',
+            front: 'Which features were borrowed from the British Constitution?',
+            back: 'Parliamentary government, Rule of Law, Single Citizenship, Cabinet System, Parliamentary privileges, Bicameralism, and Prerogative writs.'
+          },
+          {
+            id: 'src-3',
+            front: 'Which features were borrowed from the US Constitution?',
+            back: 'Fundamental Rights, Independent Judiciary, Impeachment of President, Judicial review, Removal of Supreme Court and High Court judges, and Post of Vice-President.'
+          },
+          {
+            id: 'src-4',
+            front: 'Which features were borrowed from the Irish Constitution?',
+            back: 'DPSP (Directive Principles of State Policy), Method of election of President, and Nomination of Members to Rajya Sabha.'
+          },
+          {
+            id: 'src-5',
+            front: 'Which features were borrowed from the Canadian Constitution?',
+            back: 'Federation with a strong centre, vesting Residuary powers to the centre, Appointment of State Governors by the Centre, and Advisory Jurisdiction of the Supreme Court.'
+          },
+          {
+            id: 'src-6',
+            front: 'Which features were borrowed from the Australian Constitution?',
+            back: 'Concurrent List, Joint sitting of both Houses of Parliament, Freedom of trade, commerce and inter-course.'
+          },
+          {
+            id: 'src-7',
+            front: 'Which feature was borrowed from Germany (Weimar Constitution)?',
+            back: 'Suspension of Fundamental Rights during Emergency.'
+          },
+          {
+            id: 'src-8',
+            front: 'Which features were borrowed from the USSR Constitution?',
+            back: 'Fundamental Duties and the ideal of Justice (Social, Economic and Political) in the Preamble.'
+          },
+          {
+            id: 'src-9',
+            front: 'Which features were borrowed from the French Constitution?',
+            back: 'Republic and the Ideals of Liberty, Equality and Fraternity in the Preamble.'
+          },
+          {
+            id: 'src-10',
+            front: 'Which feature was borrowed from the South African Constitution?',
+            back: 'Procedure for Amendment of the Constitution and election of members of Rajya Sabha.'
+          },
+          {
+            id: 'src-11',
+            front: 'Which feature was borrowed from the Japanese Constitution?',
+            back: 'The Procedure Established by Law.'
+          },
+          {
+            id: 'src-12',
+            front: 'From which country was the concept of Judicial Review borrowed?',
+            back: 'USA.'
+          },
+          {
+            id: 'src-13',
+            front: 'From which country were Directive Principles of State Policy (DPSP) borrowed?',
+            back: 'Ireland (Irish Constitution).'
+          },
+          {
+            id: 'src-14',
+            front: 'From which country was the Concurrent List borrowed?',
+            back: 'Australia.'
+          },
+          {
+            id: 'src-15',
+            front: 'From which country was the concept of Fundamental Duties borrowed?',
+            back: 'USSR.'
+          },
+          {
+            id: 'src-16',
+            front: 'Which is the single largest source of the Indian Constitution?',
+            back: 'The Government of India Act, 1935 — it provided the federal scheme, judiciary structure, governor\'s office, PSC, emergency provisions, and administrative details.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'src-q1',
+            question: 'The concept of Fundamental Rights was borrowed from:',
+            options: ['British Constitution', 'US Constitution', 'Irish Constitution', 'French Constitution'],
+            correct: 1,
+            explanation: 'Fundamental Rights, Independent Judiciary, Judicial Review, Impeachment of President, and Post of Vice-President were borrowed from the US Constitution.'
+          },
+          {
+            id: 'src-q2',
+            question: 'Directive Principles of State Policy (DPSP) were borrowed from:',
+            options: ['USA', 'Canada', 'Ireland', 'Australia'],
+            correct: 2,
+            explanation: 'DPSP, method of election of President, and nomination of members to Rajya Sabha were borrowed from the Irish Constitution.'
+          },
+          {
+            id: 'src-q3',
+            question: 'The Concurrent List was borrowed from which country\'s constitution?',
+            options: ['USA', 'Canada', 'Australia', 'South Africa'],
+            correct: 2,
+            explanation: 'Concurrent List, Joint sitting of both Houses of Parliament, and Freedom of trade, commerce and inter-course were borrowed from Australia.'
+          },
+          {
+            id: 'src-q4',
+            question: 'The concept of "Federation with a strong centre" was borrowed from:',
+            options: ['USA', 'Australia', 'Canada', 'Germany'],
+            correct: 2,
+            explanation: 'Federation with a strong centre, Residuary powers to the centre, Appointment of State Governors by the Centre, and Advisory Jurisdiction of the Supreme Court were borrowed from Canada.'
+          },
+          {
+            id: 'src-q5',
+            question: 'Suspension of Fundamental Rights during Emergency was inspired by:',
+            options: ['USSR', 'France', 'Germany (Weimar Constitution)', 'Japan'],
+            correct: 2,
+            explanation: 'The concept of Suspension of Fundamental Rights during Emergency was borrowed from the Weimar Constitution of Germany.'
+          },
+          {
+            id: 'src-q6',
+            question: 'The ideals of Liberty, Equality and Fraternity in the Preamble were borrowed from:',
+            options: ['USA', 'UK', 'France', 'USSR'],
+            correct: 2,
+            explanation: 'Republic and the Ideals of Liberty, Equality and Fraternity in the Preamble were borrowed from the French Constitution.'
+          },
+          {
+            id: 'src-q7',
+            question: 'Fundamental Duties were borrowed from:',
+            options: ['France', 'Japan', 'USSR', 'Germany'],
+            correct: 2,
+            explanation: 'Fundamental Duties and the ideal of Justice (Social, Economic and Political) in the Preamble were borrowed from the USSR Constitution.'
+          },
+          {
+            id: 'src-q8',
+            question: '"Procedure Established by Law" was borrowed from:',
+            options: ['USA', 'UK', 'Japan', 'France'],
+            correct: 2,
+            explanation: 'The Procedure Established by Law was borrowed from the Japanese Constitution.'
+          },
+          {
+            id: 'src-q9',
+            question: 'The procedure for Amendment of the Constitution was borrowed from:',
+            options: ['USA', 'Australia', 'Canada', 'South Africa'],
+            correct: 3,
+            explanation: 'Procedure for Amendment of the Constitution and election of members of Rajya Sabha were borrowed from the South African Constitution.'
+          },
+          {
+            id: 'src-q10',
+            question: 'Which is the single largest source of the Indian Constitution?',
+            options: ['British Constitution', 'US Constitution', 'Government of India Act, 1935', 'Irish Constitution'],
+            correct: 2,
+            explanation: 'The Government of India Act, 1935 is the single largest source — it provided the federal scheme, judiciary, governor\'s office, PSC, emergency provisions, and administrative details.'
+          },
+          {
+            id: 'src-q11',
+            question: 'The Parliamentary system of government was borrowed from:',
+            options: ['USA', 'Britain', 'Canada', 'France'],
+            correct: 1,
+            explanation: 'Parliamentary government, Rule of Law, Single Citizenship, Cabinet System, Parliamentary privileges, Bicameralism, and Prerogative writs were borrowed from Britain.'
+          },
+          {
+            id: 'src-q12',
+            question: 'The method of election of the President was borrowed from:',
+            options: ['USA', 'France', 'Ireland', 'South Africa'],
+            correct: 2,
+            explanation: 'The method of election of President was borrowed from the Irish Constitution, along with DPSP and nomination of Rajya Sabha members.'
+          },
+        ]
       }
     ]
   }
