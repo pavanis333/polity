@@ -5678,6 +5678,101 @@ const topicsData = [
             explanation: 'Under Art 352/356/360, if LS is dissolved, the proclamation can remain effective if approved by RS alone.'
           },
         ]
+      },
+      {
+        id: 'parliamentary-privileges',
+        name: 'Parliamentary Privileges',
+        flashcards: [
+          {
+            id: 'pp-1',
+            front: 'What are the Collective Privileges of Parliament?',
+            back: '- Right to publish its reports, debates, and proceedings; right to prohibit others from publishing the same\n- Hold secret sittings excluding strangers from proceedings\n- Make rules to regulate its own procedure and conduct of business, and to adjudicate upon such matters\n- Punish members as well as outsiders for breach of privileges or contempt\n- Right to receive immediate information of arrest, detention, conviction, imprisonment and release of a member\n- Inquiries and orders the attendance of witnesses and sends for relevant papers and records'
+          },
+          {
+            id: 'pp-2',
+            front: 'What are the Individual Privileges of MPs?',
+            back: '- Cannot be arrested during the session of Parliament and 40 days before the beginning and 40 days after the end of a session (applicable only in civil cases, NOT in criminal cases or preventive detention cases)\n- Freedom of Speech: No member is liable to any proceedings in any court for anything said or any vote given by him in Parliament or its committees'
+          },
+          {
+            id: 'pp-3',
+            front: 'What is the privilege regarding courts and Parliament?',
+            back: '- Courts are prohibited to inquire into the proceedings of a House or its committees\n- No person (either a member or outsider) can be arrested, and no legal process (civil or criminal) can be served within the precincts of the House without the permission of the presiding officer'
+          },
+          {
+            id: 'pp-4',
+            front: 'What is the privilege regarding jury service for MPs?',
+            back: 'Exempted from Jury Service: An MP can refuse to give evidence and appear as a witness in a case pending in a court when Parliament is in session.'
+          },
+          {
+            id: 'pp-5',
+            front: 'What is the immunity from arrest for MPs?',
+            back: 'MPs cannot be arrested:\n- During the session\n- 40 days before the session begins\n- 40 days after the session ends\n\nThis applies ONLY to civil cases — NOT to criminal cases or preventive detention.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'pp-q1',
+            question: 'MPs cannot be arrested during session and for how many days before and after?',
+            options: ['20 days', '30 days', '40 days', '60 days'],
+            correct: 2,
+            explanation: 'MPs cannot be arrested during session and 40 days before the beginning and 40 days after the end of a session.'
+          },
+          {
+            id: 'pp-q2',
+            question: 'The immunity from arrest for MPs applies to:',
+            options: [
+              'All cases including criminal',
+              'Only civil cases, not criminal or preventive detention',
+              'Only criminal cases',
+              'Both civil and criminal cases'
+            ],
+            correct: 1,
+            explanation: 'The immunity applies only in civil cases — NOT in criminal cases or preventive detention cases.'
+          },
+          {
+            id: 'pp-q3',
+            question: 'Freedom of Speech privilege means:',
+            options: [
+              'MPs can say anything anywhere without consequences',
+              'No member is liable to court proceedings for anything said or voted in Parliament or its committees',
+              'MPs cannot be criticised in media',
+              'MPs can override court orders'
+            ],
+            correct: 1,
+            explanation: 'No member is liable to any proceedings in any court for anything said or any vote given by him in Parliament or its committees.'
+          },
+          {
+            id: 'pp-q4',
+            question: 'No legal process can be served within the precincts of the House without permission of:',
+            options: ['President', 'Prime Minister', 'Presiding Officer', 'Attorney General'],
+            correct: 2,
+            explanation: 'No person can be arrested and no legal process can be served within the precincts of the House without permission of the presiding officer.'
+          },
+          {
+            id: 'pp-q5',
+            question: 'Courts are prohibited to:',
+            options: [
+              'Hear cases filed by MPs',
+              'Inquire into the proceedings of a House or its committees',
+              'Appoint judges recommended by Parliament',
+              'Hear election petitions'
+            ],
+            correct: 1,
+            explanation: 'Courts are prohibited to inquire into the proceedings of a House or its committees — this is a collective privilege.'
+          },
+          {
+            id: 'pp-q6',
+            question: 'An MP can refuse to appear as a witness in court when:',
+            options: [
+              'Anytime they want',
+              'During elections',
+              'When Parliament is in session',
+              'When they hold a ministry'
+            ],
+            correct: 2,
+            explanation: 'MPs are exempted from jury service and can refuse to give evidence and appear as a witness when Parliament is in session.'
+          },
+        ]
       }
     ]
   }
