@@ -8383,6 +8383,113 @@ const topicsData = [
             explanation: 'SC upheld minimum education requirement for Panchayat elections to strengthen leadership and accountability.'
           },
         ]
+      },
+      {
+        id: '74th-amendment-municipalities',
+        name: '74th Amendment: Municipalities & 12th Schedule',
+        flashcards: [
+          {
+            id: 'mun-1',
+            front: 'What is the 74th Constitutional Amendment Act, 1992?',
+            back: 'Came into effect on 1 June 1993, establishing a constitutional framework for urban local governance in India.\nIntroduced Part IX-A (Articles 243-P to 243-ZG), granting municipalities constitutional recognition and enforceable rights.\nAdded the 12th Schedule containing 18 functional items.'
+          },
+          {
+            id: 'mun-2',
+            front: 'What are the types of Municipalities? (Article 243Q)',
+            back: '1. Nagar Panchayat: For transitional areas (rural to urban)\n2. Municipal Council: For smaller urban areas\n3. Municipal Corporation: For larger urban areas'
+          },
+          {
+            id: 'mun-3',
+            front: 'What are the composition and Wards Committee provisions?',
+            back: 'Composition (Article 243R):\n- All members directly elected from wards\n- State legislatures can provide representation for individuals with expertise in municipal administration\n\nWards Committees (Article 243S): Established in municipalities with population of 3 lakh or more.'
+          },
+          {
+            id: 'mun-4',
+            front: 'What are the reservation provisions for Municipalities? (Article 243T)',
+            back: '- SC/ST: Seats reserved in proportion to their population\n- Women: At least one-third of total seats reserved, including those from SC/ST\n- OBCs: Reservation provisions as determined by state legislature'
+          },
+          {
+            id: 'mun-5',
+            front: 'What are the duration and election provisions? (Article 243U, 243ZA)',
+            back: 'Duration (Article 243U):\n- Standard five-year term for municipalities\n- Fresh elections must occur within 6 months of dissolution or before the end of the five-year term\n\nElections (Article 243ZA): State Election Commission oversees municipal elections, including electoral rolls and conduct.'
+          },
+          {
+            id: 'mun-6',
+            front: 'What is the 12th Schedule?',
+            back: 'Contains 18 functional items for municipal governance. State legislatures can empower municipalities for economic development and social justice under Article 243W.'
+          },
+          {
+            id: 'mun-7',
+            front: 'List the 18 matters in the 12th Schedule (Part 1: 1-9)',
+            back: '1. Urban planning including town planning\n2. Regulation of land use and construction of buildings\n3. Planning for economic and social development\n4. Roads and bridges\n5. Water supply for domestic, industrial, commercial purposes\n6. Public health, sanitation, conservancy, solid waste management\n7. Fire services\n8. Urban forestry\n9. Protection of environment and promotion of ecological aspects'
+          },
+          {
+            id: 'mun-8',
+            front: 'List the 18 matters in the 12th Schedule (Part 2: 10-18)',
+            back: '10. Safeguarding interests of weaker sections\n11. Slum improvement and upgradation\n12. Urban poverty alleviation\n13. Provision of urban amenities (parks, gardens, playgrounds)\n14. Promotion of cultural, educational, aesthetic aspects\n15. Burials, cremations, electric crematoriums\n16. Cattle ponds, prevention of cruelty to animals\n17. Vital statistics (registration of births and deaths)\n18. Public amenities (street lighting, parking, bus stops, slaughterhouses, tanneries)'
+          },
+          {
+            id: 'mun-9',
+            front: 'What are the financial provisions for Municipalities?',
+            back: 'State legislature may:\n(a) Authorise municipality to levy, collect and appropriate taxes, duties, tolls and fees\n(b) Assign taxes collected by state government to municipality\n(c) Provide grants-in-aid from consolidated fund of state\n(d) Provide for constitution of funds for crediting all municipal money\n\nAudit (Article 243Z): Provisions for accounts and auditing made by state legislature.'
+          },
+          {
+            id: 'mun-10',
+            front: 'What are the exemptions and other provisions of the 74th Amendment?',
+            back: 'Application to UTs (Article 243ZB): Applies with potential modifications by President.\n\nExempted Areas (Article 243ZC): Does NOT apply to scheduled areas, tribal areas, or Darjeeling Gorkha Hill Council.\n\nBar to Court Interference (Article 243ZG): Courts cannot interfere in municipal electoral matters; challenges must be raised via election petitions.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'mun-q1',
+            question: 'The 74th Amendment came into effect on:',
+            options: ['1 April 1993', '1 June 1993', '26 January 1993', '1 April 1992'],
+            correct: 1,
+            explanation: 'The 74th Constitutional Amendment Act came into effect on 1 June 1993.'
+          },
+          {
+            id: 'mun-q2',
+            question: 'The 12th Schedule contains how many functional items?',
+            options: ['11', '18', '29', '33'],
+            correct: 1,
+            explanation: 'The 12th Schedule contains 18 functional items related to municipal governance.'
+          },
+          {
+            id: 'mun-q3',
+            question: 'Wards Committees are established in municipalities with population of:',
+            options: ['1 lakh or more', '2 lakh or more', '3 lakh or more', '5 lakh or more'],
+            correct: 2,
+            explanation: 'Article 243S: Wards Committees are established in municipalities with population of 3 lakh or more.'
+          },
+          {
+            id: 'mun-q4',
+            question: 'Nagar Panchayat is constituted for:',
+            options: ['Larger urban areas', 'Smaller urban areas', 'Transitional areas', 'Metropolitan cities'],
+            correct: 2,
+            explanation: 'Nagar Panchayat is for transitional areas (rural to urban). Municipal Council is for smaller urban areas, Municipal Corporation for larger.'
+          },
+          {
+            id: 'mun-q5',
+            question: 'Which of the following is NOT exempted from the 74th Amendment?',
+            options: ['Scheduled areas', 'Tribal areas', 'Darjeeling Gorkha Hill Council', 'Union Territories'],
+            correct: 3,
+            explanation: 'UTs are NOT exempted — the 74th Amendment applies to them with potential modifications by President. Scheduled areas, tribal areas, and Darjeeling Gorkha Hill Council are exempted.'
+          },
+          {
+            id: 'mun-q6',
+            question: 'Part IX-A of the Constitution contains Articles:',
+            options: ['243 to 243-O', '243-P to 243-ZG', '243-A to 243-N', '244 to 244-A'],
+            correct: 1,
+            explanation: 'Part IX-A (Articles 243-P to 243-ZG) was introduced by the 74th Amendment for municipalities.'
+          },
+          {
+            id: 'mun-q7',
+            question: 'Which is NOT in the 12th Schedule?',
+            options: ['Urban planning', 'Fire services', 'Agriculture', 'Slum improvement'],
+            correct: 2,
+            explanation: 'Agriculture is in the 11th Schedule (Panchayats). The 12th Schedule covers urban matters like urban planning, fire services, slum improvement.'
+          },
+        ]
       }
     ]
   }
