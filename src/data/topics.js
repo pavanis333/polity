@@ -4726,6 +4726,199 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'parliament',
+    name: 'Parliament (Part-V: Articles 79-122)',
+    icon: '🏫',
+    subtopics: [
+      {
+        id: 'rs-ls-composition-and-representation',
+        name: 'Composition, Representation & Emergency Extension',
+        flashcards: [
+          {
+            id: 'parl-1',
+            front: 'How are UT members represented in the Rajya Sabha?',
+            back: 'Indirectly elected by members of a specially constituted electoral college.'
+          },
+          {
+            id: 'parl-2',
+            front: 'How are UT members represented in the Lok Sabha? (UPSC 2012)',
+            back: 'Directly elected as per the Union Territories (Direct Election to the House of the People) Act, 1965.'
+          },
+          {
+            id: 'parl-3',
+            front: 'Can the Lok Sabha\'s term be extended during an emergency?',
+            back: 'Yes. Can extend for one year during a National Emergency (Article 352), but cannot exceed six months after the emergency ends.'
+          },
+          {
+            id: 'parl-4',
+            front: 'Can the Rajya Sabha\'s term be extended during an emergency?',
+            back: 'N/A — Rajya Sabha is a permanent body and is not subject to dissolution. 1/3 of members retire every 2 years.'
+          },
+          {
+            id: 'parl-5',
+            front: 'How many members can the President nominate to the Rajya Sabha?',
+            back: '12 members nominated by the President, having special knowledge or experience in literature, science, art, and social service (Article 80(3)). There are no nominations to the Lok Sabha (Anglo-Indian nomination ended in 2020).'
+          },
+        ],
+        quiz: [
+          {
+            id: 'parl-q1',
+            question: 'UT members in the Lok Sabha are: (UPSC 2012)',
+            options: [
+              'Nominated by the President',
+              'Indirectly elected by electoral college',
+              'Directly elected as per UT Direct Election Act, 1965',
+              'Appointed by the Governor'
+            ],
+            correct: 2,
+            explanation: 'UT members in Lok Sabha are directly elected as per the Union Territories (Direct Election to the House of the People) Act, 1965.'
+          },
+          {
+            id: 'parl-q2',
+            question: 'During a National Emergency, Lok Sabha\'s term can be extended by:',
+            options: ['6 months at a time', '1 year at a time', '2 years at a time', 'Unlimited duration'],
+            correct: 1,
+            explanation: 'Lok Sabha\'s term can extend for one year at a time during National Emergency (Art 352), but not more than 6 months after the emergency ends.'
+          },
+          {
+            id: 'parl-q3',
+            question: 'The President nominates members to Rajya Sabha under:',
+            options: ['Article 80(1)', 'Article 80(3)', 'Article 81', 'Article 85'],
+            correct: 1,
+            explanation: 'Article 80(3) provides for nomination of 12 members with special knowledge in literature, science, art, and social service.'
+          },
+          {
+            id: 'parl-q4',
+            question: 'UT members in the Rajya Sabha are:',
+            options: [
+              'Directly elected',
+              'Nominated by the President',
+              'Indirectly elected by a specially constituted electoral college',
+              'Appointed by the UT administrator'
+            ],
+            correct: 2,
+            explanation: 'UT members in Rajya Sabha are indirectly elected by members of a specially constituted electoral college.'
+          },
+        ]
+      },
+      {
+        id: 'qualifications-and-disqualifications',
+        name: 'Qualifications & Disqualifications of MPs',
+        flashcards: [
+          {
+            id: 'qd-1',
+            front: 'What are the Constitutional qualifications for Rajya Sabha membership?',
+            back: '- Citizenship of India\n- Oath or affirmation (Schedule 3)\n- Age: 30 years\n- Other qualifications as prescribed by Parliament'
+          },
+          {
+            id: 'qd-2',
+            front: 'What are the Constitutional qualifications for Lok Sabha membership? (UPSC 2017)',
+            back: '- Citizenship of India\n- Oath or affirmation (Schedule 3)\n- Age: 25 years (LS)\n- Other qualifications as prescribed by Parliament'
+          },
+          {
+            id: 'qd-3',
+            front: 'What are the RPA 1951 qualifications for RS and LS? (UPSC 2018)',
+            back: 'RS: Must be registered as an elector for a Parliamentary constituency; must be a member of SC/ST community for reserved seats. (UPSC 2018)\nLS: Must be registered as an elector for a Parliamentary constituency; must be a member of SC/ST community for reserved seats. (UPSC 2017)'
+          },
+          {
+            id: 'qd-4',
+            front: 'What are the Constitutional grounds for disqualification of MPs?',
+            back: '- Holds office of profit\n- Not a citizen of India\n- Unsound mind (court-declared)\n- Undischarged insolvent\n- Acquired foreign citizenship\n(Same for both RS and LS)'
+          },
+          {
+            id: 'qd-5',
+            front: 'What are the RPA 1951 grounds for disqualification? (UPSC 2020)',
+            back: 'Common to both RS & LS:\n- Guilty of election offences\n- Failed to lodge election expenses\n- Interest in government contracts\n- Managing agent/manager/secretary in a corporation with 25% government share (Sec.10 RPA 1951)\n\nAdditional for LS:\n- Convicted for promoting enmity\n- Punished for social crimes\n- Dismissed for corruption'
+          },
+          {
+            id: 'qd-6',
+            front: 'How is disqualification on grounds of defection decided?',
+            back: 'RS: Decided by the Chairman; judicially reviewable (Kihoto Hollohan Judgement 1992)\nLS: Decided by the Speaker; judicially reviewable (Kihoto Hollohan Judgement 1992)\nGrounds: Voluntarily leaving the party, voting contrary to party direction, etc.'
+          },
+          {
+            id: 'qd-7',
+            front: 'What are the rules for vacating of seats?',
+            back: 'RS: No double membership in both Houses. Must inform within 10 days if elected to both. Members elected to another House vacate their first House seat.\n\nLS: No double membership with state legislature; if not resigning within 14 days, Parliament seat becomes vacant. Seat vacated if subject to disqualification or if election declared void.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'qd-q1',
+            question: 'Minimum age for Rajya Sabha membership is:',
+            options: ['25 years', '30 years', '35 years', '21 years'],
+            correct: 1,
+            explanation: 'Minimum age for RS is 30 years. For LS it is 25 years.'
+          },
+          {
+            id: 'qd-q2',
+            question: 'Minimum age for Lok Sabha membership is: (UPSC 2017)',
+            options: ['21 years', '25 years', '30 years', '35 years'],
+            correct: 1,
+            explanation: 'Minimum age for Lok Sabha is 25 years.'
+          },
+          {
+            id: 'qd-q3',
+            question: 'Under RPA 1951, Sec.10 disqualifies a person who is a managing agent of a corporation with government share of: (UPSC 2020)',
+            options: ['10%', '15%', '20%', '25%'],
+            correct: 3,
+            explanation: 'Sec.10 of RPA 1951 disqualifies managing agent, manager, or secretary in a corporation with 25% government share.'
+          },
+          {
+            id: 'qd-q4',
+            question: 'Disqualification on grounds of defection is decided by:',
+            options: [
+              'Supreme Court',
+              'Election Commission',
+              'Chairman (RS) / Speaker (LS)',
+              'President'
+            ],
+            correct: 2,
+            explanation: 'Defection disqualification is decided by Chairman (RS) or Speaker (LS), and is judicially reviewable per Kihoto Hollohan Judgement 1992.'
+          },
+          {
+            id: 'qd-q5',
+            question: 'If elected to both Houses, a member must inform within:',
+            options: ['7 days', '10 days', '14 days', '30 days'],
+            correct: 1,
+            explanation: 'Must inform within 10 days if elected to both Houses of Parliament.'
+          },
+          {
+            id: 'qd-q6',
+            question: 'Which of the following is NOT a constitutional ground for disqualification?',
+            options: [
+              'Office of profit',
+              'Unsound mind',
+              'Failed to lodge election expenses',
+              'Acquired foreign citizenship'
+            ],
+            correct: 2,
+            explanation: 'Failed to lodge election expenses is a ground under RPA 1951, not under the Constitution.'
+          },
+        ]
+      },
+      {
+        id: 'salaries-and-allowances',
+        name: 'Salaries and Allowances of MPs',
+        flashcards: [
+          {
+            id: 'sal-1',
+            front: 'Who determines the salaries and allowances of MPs?',
+            back: 'Determined by Parliament for both RS and LS members. No pension provision in the Constitution; pensions were provided in 1976.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'sal-q1',
+            question: 'Pensions for MPs were provided in:',
+            options: ['1950', '1965', '1976', '1991'],
+            correct: 2,
+            explanation: 'Pensions for MPs were provided in 1976. There is no pension provision in the Constitution — it was determined by Parliament.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
