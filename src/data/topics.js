@@ -1659,6 +1659,281 @@ const topicsData = [
             explanation: 'Simple Majority (majority of members present and voting) is not considered under Article 368 for constitutional amendments.'
           },
         ]
+      },
+      {
+        id: 'major-constitutional-amendments',
+        name: 'Major Constitutional Amendments at a Glance',
+        flashcards: [
+          {
+            id: 'mca-1',
+            front: 'What were the key provisions of the 7th CAA, 1956?',
+            back: '- Extended jurisdiction of High Courts to Union Territories\n- Provision for additional and acting judges of HC\n- Common High Court for two or more states introduced\n- Abolished Class A, B, C, D states → reorganised into 14 States and 6 UTs\n- Article 153: Governor for each State; proviso for common Governor for 2+ States'
+          },
+          {
+            id: 'mca-2',
+            front: 'What did the 24th CAA, 1971 do?',
+            back: '- Affirmed Parliament\'s power to amend any part of the Constitution, including Fundamental Rights\n- Made it compulsory for the President to give assent to a Constitutional Amendment Bill'
+          },
+          {
+            id: 'mca-3',
+            front: 'What did the 25th CAA, 1971 do?',
+            back: 'Limited the right to property and protected laws under Article 39(b) or (c) from challenges based on Articles 14, 19, and 31.'
+          },
+          {
+            id: 'mca-4',
+            front: 'Why is the 42nd CAA, 1976 called the "Mini Constitution"?',
+            back: 'Because it made the most extensive changes to the Constitution — affecting the Preamble, Fundamental Rights, DPSPs, Fundamental Duties, judiciary, federalism, elections, Parliament, and emergency provisions.'
+          },
+          {
+            id: 'mca-5',
+            front: 'What three words were added to the Preamble by the 42nd CAA?',
+            back: 'Socialist, Secular, and Integrity.'
+          },
+          {
+            id: 'mca-6',
+            front: 'What did the 42nd CAA do regarding Fundamental Duties?',
+            back: 'Added Fundamental Duties by the citizens under a new Part IVA (Article 51A).'
+          },
+          {
+            id: 'mca-7',
+            front: 'Which four new DPSPs were added by the 42nd CAA?',
+            back: '1. Healthy development of children (Art 39)\n2. Equal justice and free legal aid (Art 39A)\n3. Participation of workers in management of industries (Art 43A)\n4. Protection of environment, forests, and wildlife (Art 48A)'
+          },
+          {
+            id: 'mca-8',
+            front: 'What did the 42nd CAA do regarding DPSPs vs Fundamental Rights?',
+            back: 'Established DPSPs as superior to Fundamental Rights.'
+          },
+          {
+            id: 'mca-9',
+            front: 'Which five subjects were shifted to the Concurrent List by the 42nd CAA?',
+            back: '1. Education\n2. Forests\n3. Weights & Measures\n4. Protection of Wild Animals and Birds\n5. Administration of Justice'
+          },
+          {
+            id: 'mca-10',
+            front: 'What changes did the 42nd CAA make to emergency provisions?',
+            back: 'Allowed localised emergencies and extended President\'s rule to one year.'
+          },
+          {
+            id: 'mca-11',
+            front: 'What were the key provisions of the 44th CAA, 1978?',
+            back: '- Replaced "internal disturbance" with "armed rebellion" for national emergency\n- President must declare emergency only on written recommendation of cabinet\n- Deleted right to property from FRs (made it only a legal right)\n- Art 20 and 21 cannot be suspended during national emergency'
+          },
+          {
+            id: 'mca-12',
+            front: 'What did the 44th CAA do to the right to property?',
+            back: 'Deleted the right to property from the list of Fundamental Rights and made it only a legal right (not a Fundamental Right).'
+          },
+          {
+            id: 'mca-13',
+            front: 'Which Fundamental Rights cannot be suspended even during a national emergency (after 44th CAA)?',
+            back: 'Article 20 (Protection in respect of conviction for offences) and Article 21 (Right to Life and Personal Liberty).'
+          },
+          {
+            id: 'mca-14',
+            front: 'How did the 44th CAA change the grounds for declaring national emergency?',
+            back: 'Replaced "internal disturbance" with "armed rebellion" — making it harder to declare emergency on internal grounds.'
+          },
+          {
+            id: 'mca-15',
+            front: 'What did the 42nd CAA change that the 44th CAA reversed or modified?',
+            back: '42nd gave unrestricted power to Parliament → 44th restored some checks.\n42nd allowed emergency for "internal disturbance" → 44th changed to "armed rebellion".\n42nd limited judicial review → 44th partially restored it.\n42nd made right to property weak → 44th removed it from FRs entirely.'
+          },
+          {
+            id: 'mca-16',
+            front: 'What did the 52nd CAA, 1985 do?',
+            back: 'Provided for disqualification of members of Parliament and state legislatures on grounds of defection. Added the Tenth Schedule (Anti-Defection Law).'
+          },
+          {
+            id: 'mca-17',
+            front: 'What did the 91st CAA, 2001 do?',
+            back: 'Strengthened anti-defection laws by removing exceptions for splits (previously, 1/3 of members splitting was allowed).'
+          },
+          {
+            id: 'mca-18',
+            front: 'What did the 101st CAA, 2017 introduce?',
+            back: 'Introduced the Goods and Services Tax (GST) in the country from 1st July 2017.'
+          },
+          {
+            id: 'mca-19',
+            front: 'What did the 102nd CAA, 2018 do?',
+            back: 'Gave Constitutional status to the National Commission for Backward Classes (NCBC) — Article 338B.'
+          },
+          {
+            id: 'mca-20',
+            front: 'What did the 103rd CAA, 2019 provide?',
+            back: 'Maximum 10% reservation for Economically Weaker Sections (EWS). Introduced Articles 15(6) and 16(6). Applies to non-OBC and non-SC/ST groups in admissions and government jobs, excluding minority-run institutions. Upheld by SC with 3:2 majority.'
+          },
+          {
+            id: 'mca-21',
+            front: 'What did the 104th CAA, 2020 do?',
+            back: '- Extended reservation of seats for SCs and STs in Lok Sabha and state assemblies until 2030\n- Discontinued special representation for the Anglo-Indian community'
+          },
+          {
+            id: 'mca-22',
+            front: 'What did the 105th CAA, 2021 do?',
+            back: 'Exempted state governments from consulting NCBC regarding preparation and maintenance of the list of Socially and Educationally Backward Classes (SEBCs) for their own purposes.'
+          },
+          {
+            id: 'mca-23',
+            front: 'What did the 106th CAA, 2023 do?',
+            back: 'Reserves one-third of all seats for women in Lok Sabha, State legislative assemblies, and Legislative Assembly of NCT of Delhi, including those reserved for SCs and STs.'
+          },
+          {
+            id: 'mca-24',
+            front: 'Which amendment added "Socialist, Secular, Integrity" to the Preamble?',
+            back: '42nd CAA, 1976 (Mini Constitution).'
+          },
+          {
+            id: 'mca-25',
+            front: 'Which amendment introduced GST?',
+            back: '101st CAA, 2017 — GST came into effect from 1st July 2017.'
+          },
+          {
+            id: 'mca-26',
+            front: 'Which amendment is known as the Anti-Defection Law?',
+            back: '52nd CAA, 1985 (added Tenth Schedule). Later strengthened by 91st CAA, 2001.'
+          },
+          {
+            id: 'mca-27',
+            front: 'Which amendment introduced EWS reservation?',
+            back: '103rd CAA, 2019 — 10% reservation for EWS (Articles 15(6) and 16(6)).'
+          },
+          {
+            id: 'mca-28',
+            front: 'Which amendment introduced women\'s reservation in legislatures?',
+            back: '106th CAA, 2023 — one-third seats reserved for women in Lok Sabha, State assemblies, and Delhi Assembly.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'mca-q1',
+            question: 'The 7th CAA, 1956 reorganised states into:',
+            options: ['12 States and 8 UTs', '14 States and 6 UTs', '16 States and 4 UTs', '15 States and 7 UTs'],
+            correct: 1,
+            explanation: 'The 7th CAA abolished Class A, B, C, D states and reorganised them into 14 States and 6 Union Territories.'
+          },
+          {
+            id: 'mca-q2',
+            question: 'Which amendment made it compulsory for the President to give assent to Constitutional Amendment Bills?',
+            options: ['7th CAA', '24th CAA', '42nd CAA', '44th CAA'],
+            correct: 1,
+            explanation: 'The 24th CAA, 1971 affirmed Parliament\'s power to amend the Constitution and made Presidential assent compulsory for Amendment Bills.'
+          },
+          {
+            id: 'mca-q3',
+            question: 'The 42nd CAA, 1976 is also known as:',
+            options: ['The Reform Act', 'The Mini Constitution', 'The Restoration Act', 'The Federal Amendment'],
+            correct: 1,
+            explanation: 'The 42nd CAA is called the "Mini Constitution" due to the most extensive changes it made to the Constitution.'
+          },
+          {
+            id: 'mca-q4',
+            question: 'Which words were added to the Preamble by the 42nd Amendment?',
+            options: [
+              'Democratic, Republic, Justice',
+              'Socialist, Secular, Integrity',
+              'Liberty, Equality, Fraternity',
+              'Sovereign, Federal, Secular'
+            ],
+            correct: 1,
+            explanation: 'The 42nd CAA (1976) added Socialist, Secular, and Integrity to the Preamble.'
+          },
+          {
+            id: 'mca-q5',
+            question: 'The 44th CAA replaced "internal disturbance" with which term for national emergency?',
+            options: ['Civil unrest', 'Armed rebellion', 'Public disorder', 'War-like situation'],
+            correct: 1,
+            explanation: 'The 44th CAA, 1978 replaced "internal disturbance" with "armed rebellion" making it harder to declare emergency on internal grounds.'
+          },
+          {
+            id: 'mca-q6',
+            question: 'Which Articles cannot be suspended during national emergency after the 44th CAA?',
+            options: ['Articles 14 and 19', 'Articles 20 and 21', 'Articles 19 and 21', 'Articles 14 and 21'],
+            correct: 1,
+            explanation: 'After the 44th CAA, Articles 20 (protection from conviction) and 21 (right to life) cannot be suspended during national emergency.'
+          },
+          {
+            id: 'mca-q7',
+            question: 'The Anti-Defection Law was introduced by:',
+            options: ['42nd CAA, 1976', '44th CAA, 1978', '52nd CAA, 1985', '91st CAA, 2001'],
+            correct: 2,
+            explanation: 'The 52nd CAA, 1985 introduced the Anti-Defection Law by adding the Tenth Schedule. The 91st CAA (2001) later strengthened it.'
+          },
+          {
+            id: 'mca-q8',
+            question: 'GST was introduced by which Constitutional Amendment?',
+            options: ['99th CAA', '100th CAA', '101st CAA', '102nd CAA'],
+            correct: 2,
+            explanation: 'The 101st CAA, 2017 introduced GST, which came into effect on 1st July 2017.'
+          },
+          {
+            id: 'mca-q9',
+            question: 'The 103rd CAA, 2019 provides reservation for EWS of:',
+            options: ['5%', '8%', '10%', '15%'],
+            correct: 2,
+            explanation: 'The 103rd CAA provides a maximum of 10% reservation for Economically Weaker Sections (EWS), upheld by SC with 3:2 majority.'
+          },
+          {
+            id: 'mca-q10',
+            question: 'Which amendment gave Constitutional status to NCBC?',
+            options: ['101st CAA, 2017', '102nd CAA, 2018', '103rd CAA, 2019', '104th CAA, 2020'],
+            correct: 1,
+            explanation: 'The 102nd CAA, 2018 gave Constitutional status to the National Commission for Backward Classes (NCBC) under Article 338B.'
+          },
+          {
+            id: 'mca-q11',
+            question: 'The reservation of seats for SCs and STs was extended until 2030 by:',
+            options: ['103rd CAA, 2019', '104th CAA, 2020', '105th CAA, 2021', '106th CAA, 2023'],
+            correct: 1,
+            explanation: 'The 104th CAA, 2020 extended SC/ST reservation in Lok Sabha and state assemblies until 2030 and discontinued Anglo-Indian representation.'
+          },
+          {
+            id: 'mca-q12',
+            question: 'The 106th CAA, 2023 reserves what fraction of seats for women?',
+            options: ['One-fourth', 'One-third', 'One-half', 'Two-thirds'],
+            correct: 1,
+            explanation: 'The 106th CAA reserves one-third of all seats for women in Lok Sabha, State legislative assemblies, and Delhi Assembly.'
+          },
+          {
+            id: 'mca-q13',
+            question: 'Which amendment removed right to property from Fundamental Rights?',
+            options: ['25th CAA, 1971', '42nd CAA, 1976', '44th CAA, 1978', '52nd CAA, 1985'],
+            correct: 2,
+            explanation: 'The 44th CAA, 1978 deleted right to property from Fundamental Rights and made it only a legal right.'
+          },
+          {
+            id: 'mca-q14',
+            question: 'Which five subjects were moved to the Concurrent List by the 42nd CAA?',
+            options: [
+              'Education, Health, Agriculture, Defence, Commerce',
+              'Education, Forests, Weights & Measures, Wildlife, Administration of Justice',
+              'Education, Labour, Trade, Environment, Banking',
+              'Education, Forests, Police, Railways, Taxation'
+            ],
+            correct: 1,
+            explanation: 'The 42nd CAA shifted Education, Forests, Weights & Measures, Protection of Wild Animals and Birds, and Administration of Justice to the Concurrent List.'
+          },
+          {
+            id: 'mca-q15',
+            question: 'The 91st CAA, 2001 strengthened anti-defection laws by:',
+            options: [
+              'Adding the Tenth Schedule',
+              'Removing exceptions for splits',
+              'Increasing the penalty for defection',
+              'Making defection a criminal offence'
+            ],
+            correct: 1,
+            explanation: 'The 91st CAA strengthened anti-defection laws by removing the exception that allowed 1/3 of members to split from a party without disqualification.'
+          },
+          {
+            id: 'mca-q16',
+            question: 'Which amendment made the President obligated to follow the cabinet\'s advice?',
+            options: ['24th CAA', '25th CAA', '42nd CAA', '44th CAA'],
+            correct: 2,
+            explanation: 'The 42nd CAA, 1976 made the President obligated to follow the cabinet\'s advice regarding unrestricted amendment powers.'
+          },
+        ]
       }
     ]
   }
