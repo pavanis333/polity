@@ -2367,6 +2367,96 @@ const topicsData = [
             explanation: 'Himachal Pradesh became a full state in 1971.'
           },
         ]
+      },
+      {
+        id: 'recent-reorganisation-acts',
+        name: 'Recent Reorganisation Acts (2019)',
+        flashcards: [
+          {
+            id: 'rra-1',
+            front: 'What did the Jammu and Kashmir Reorganisation Act, 2019 do?',
+            back: 'Article 370 was abrogated, ending Jammu and Kashmir\'s special status. The J&K Reorganisation Act created two Union Territories:\n- UT of Jammu & Kashmir (with Legislature)\n- UT of Ladakh (without Legislature)'
+          },
+          {
+            id: 'rra-2',
+            front: 'How were the districts of the former J&K state divided between the two new UTs?',
+            back: 'All districts except Kargil and Leh → UT of Jammu & Kashmir\nKargil and Leh districts → UT of Ladakh'
+          },
+          {
+            id: 'rra-3',
+            front: 'Under which Article was the J&K Reorganisation Act enacted?',
+            back: 'Under Article 3 (which deals with formation of new states and alteration of areas, boundaries, or names).'
+          },
+          {
+            id: 'rra-4',
+            front: 'Does the UT of Jammu & Kashmir have a legislature?',
+            back: 'Yes, UT of Jammu & Kashmir has a legislature. UT of Ladakh does NOT have a legislature.'
+          },
+          {
+            id: 'rra-5',
+            front: 'What did the Dadra and Nagar Haveli and Daman and Diu (Merger of UTs) Act, 2019 do?',
+            back: 'Merged two UTs — Dadra and Nagar Haveli, and Daman and Diu — into one UT.'
+          },
+          {
+            id: 'rra-6',
+            front: 'Which Article was abrogated by the J&K Reorganisation Act, 2019?',
+            back: 'Article 370, which gave special status to Jammu and Kashmir.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'rra-q1',
+            question: 'The J&K Reorganisation Act, 2019 created:',
+            options: [
+              'One state and one UT',
+              'Two states',
+              'Two Union Territories',
+              'One UT with legislature and one state'
+            ],
+            correct: 2,
+            explanation: 'The Act created two UTs: Jammu & Kashmir (with Legislature) and Ladakh (without Legislature).'
+          },
+          {
+            id: 'rra-q2',
+            question: 'Which UT created in 2019 does NOT have a legislature?',
+            options: ['Jammu & Kashmir', 'Ladakh', 'Both have legislatures', 'Neither has a legislature'],
+            correct: 1,
+            explanation: 'Ladakh does not have a legislature. J&K has a legislature.'
+          },
+          {
+            id: 'rra-q3',
+            question: 'Kargil and Leh districts became part of:',
+            options: ['UT of Jammu & Kashmir', 'UT of Ladakh', 'Remained with J&K state', 'A separate state'],
+            correct: 1,
+            explanation: 'Kargil and Leh districts became part of the UT of Ladakh. All other districts went to UT of Jammu & Kashmir.'
+          },
+          {
+            id: 'rra-q4',
+            question: 'The J&K Reorganisation Act was enacted under which Article?',
+            options: ['Article 1', 'Article 3', 'Article 370', 'Article 368'],
+            correct: 1,
+            explanation: 'The Act was enacted under Article 3, which deals with formation of new states and alteration of areas, boundaries, or names.'
+          },
+          {
+            id: 'rra-q5',
+            question: 'The Dadra and Nagar Haveli and Daman and Diu (Merger of UTs) Act, 2019:',
+            options: [
+              'Created two new UTs',
+              'Merged two UTs into one',
+              'Converted UTs into a state',
+              'Abolished both UTs'
+            ],
+            correct: 1,
+            explanation: 'The Act merged the two UTs of Dadra and Nagar Haveli, and Daman and Diu into a single UT.'
+          },
+          {
+            id: 'rra-q6',
+            question: 'Which Article was abrogated in 2019, ending J&K\'s special status?',
+            options: ['Article 35A', 'Article 356', 'Article 370', 'Article 368'],
+            correct: 2,
+            explanation: 'Article 370 was abrogated in 2019, ending Jammu and Kashmir\'s special status.'
+          },
+        ]
       }
     ]
   }
