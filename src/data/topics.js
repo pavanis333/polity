@@ -3627,6 +3627,132 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'directive-principles',
+    name: 'Directive Principles of State Policy (Part IV: Articles 36-51)',
+    icon: '🎯',
+    subtopics: [
+      {
+        id: 'new-directive-principles',
+        name: 'New Directive Principles (Amendments)',
+        flashcards: [
+          {
+            id: 'ndp-1',
+            front: 'Which new DPSPs were added by the 42nd CAA, 1976? (UPSC 2017)',
+            back: 'Added four new articles:\n- Article 39(f): Healthy development of children\n- Article 39A: Equal justice and free legal aid\n- Article 43A: Participation of workers in management of industries\n- Article 48A: Protection of environment, forests, and wildlife'
+          },
+          {
+            id: 'ndp-2',
+            front: 'What did the 42nd CAA (1976) do regarding the Concurrent List in relation to DPSPs?',
+            back: 'Shifted five subjects from State List to Concurrent List:\n1. Education\n2. Forests\n3. Weights and Measures\n4. Protection of Wild Animals and Birds\n5. Administration of Justice'
+          },
+          {
+            id: 'ndp-3',
+            front: 'What DPSP was added by the 44th CAA, 1978?',
+            back: 'Added Article 38(2): To minimise inequalities in income, status, facilities and opportunities.'
+          },
+          {
+            id: 'ndp-4',
+            front: 'What change did the 86th CAA, 2002 make to DPSPs?',
+            back: 'Changed the subject matter of Article 45. Elementary education was made a Fundamental Right under Article 21A. Article 45 now directs the state to provide early childhood care and education for children until they complete the age of six years.'
+          },
+          {
+            id: 'ndp-5',
+            front: 'What DPSP was added by the 97th CAA, 2011?',
+            back: 'Added Article 43B: To promote formation, functioning and management of Co-operative Societies.'
+          },
+          {
+            id: 'ndp-6',
+            front: 'What does Article 39A provide?',
+            back: 'Equal justice and free legal aid — the State shall secure that the legal system promotes justice on the basis of equal opportunity and shall provide free legal aid.'
+          },
+          {
+            id: 'ndp-7',
+            front: 'What does Article 43A provide?',
+            back: 'Participation of workers in management of industries — the State shall take steps to secure participation of workers in the management of undertakings, establishments or other organisations.'
+          },
+          {
+            id: 'ndp-8',
+            front: 'What does Article 48A provide?',
+            back: 'Protection and improvement of environment and safeguarding of forests and wildlife.'
+          },
+          {
+            id: 'ndp-9',
+            front: 'List all amendments that added new DPSPs in chronological order.',
+            back: '1. 42nd CAA, 1976: Art 39(f), 39A, 43A, 48A\n2. 44th CAA, 1978: Art 38(2)\n3. 86th CAA, 2002: Modified Art 45 (early childhood care)\n4. 97th CAA, 2011: Art 43B (Co-operative Societies)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'ndp-q1',
+            question: 'Article 39A (Equal justice and free legal aid) was added by: (UPSC 2017)',
+            options: ['1st Amendment, 1951', '42nd Amendment, 1976', '44th Amendment, 1978', '86th Amendment, 2002'],
+            correct: 1,
+            explanation: 'Article 39A was added by the 42nd CAA, 1976 along with Articles 39(f), 43A, and 48A.'
+          },
+          {
+            id: 'ndp-q2',
+            question: 'Article 38(2) — minimise inequalities in income, status — was added by:',
+            options: ['42nd CAA, 1976', '44th CAA, 1978', '86th CAA, 2002', '97th CAA, 2011'],
+            correct: 1,
+            explanation: 'Article 38(2) was added by the 44th CAA, 1978 to minimise inequalities in income, status, facilities and opportunities.'
+          },
+          {
+            id: 'ndp-q3',
+            question: 'Article 43B (Co-operative Societies) was added by:',
+            options: ['86th CAA, 2002', '92nd CAA, 2003', '97th CAA, 2011', '101st CAA, 2017'],
+            correct: 2,
+            explanation: 'Article 43B was added by the 97th CAA, 2011 to promote formation, functioning and management of Co-operative Societies.'
+          },
+          {
+            id: 'ndp-q4',
+            question: 'The 86th CAA, 2002 changed Article 45 to deal with:',
+            options: [
+              'Free legal aid',
+              'Early childhood care and education for children until age 6',
+              'Workers participation in management',
+              'Protection of environment'
+            ],
+            correct: 1,
+            explanation: 'The 86th CAA changed Article 45 — elementary education became FR under Art 21A, and Art 45 now directs early childhood care until age 6.'
+          },
+          {
+            id: 'ndp-q5',
+            question: 'Which of the following was NOT added by the 42nd CAA, 1976?',
+            options: ['Article 39A', 'Article 43A', 'Article 48A', 'Article 38(2)'],
+            correct: 3,
+            explanation: 'Article 38(2) was added by the 44th CAA, 1978. The 42nd CAA added Articles 39(f), 39A, 43A, and 48A.'
+          },
+          {
+            id: 'ndp-q6',
+            question: 'Article 48A deals with:',
+            options: [
+              'Equal justice and free legal aid',
+              'Workers participation in management',
+              'Protection of environment, forests and wildlife',
+              'Co-operative Societies'
+            ],
+            correct: 2,
+            explanation: 'Article 48A deals with protection and improvement of environment and safeguarding of forests and wildlife.'
+          },
+          {
+            id: 'ndp-q7',
+            question: 'The 42nd CAA shifted how many subjects from State to Concurrent List?',
+            options: ['3', '4', '5', '6'],
+            correct: 2,
+            explanation: 'Five subjects: Education, Forests, Weights & Measures, Protection of Wild Animals and Birds, and Administration of Justice.'
+          },
+          {
+            id: 'ndp-q8',
+            question: 'Which amendment made elementary education a Fundamental Right?',
+            options: ['42nd CAA, 1976', '44th CAA, 1978', '86th CAA, 2002', '97th CAA, 2011'],
+            correct: 2,
+            explanation: 'The 86th CAA, 2002 made elementary education a Fundamental Right under Article 21A and modified Article 45 for early childhood care.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
