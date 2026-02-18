@@ -8872,6 +8872,55 @@ const topicsData = [
             explanation: 'District Councils can make laws on land, forests, water, etc., but require Governor\'s assent.'
           },
         ]
+      },
+      {
+        id: 'special-provisions-states-overview',
+        name: 'Special Provisions for Some States (Art 371)',
+        flashcards: [
+          {
+            id: 'sps-1',
+            front: 'What are Special Provisions for States under the Constitution?',
+            back: 'Originally, the Constitution did not make any special provisions for these states. They have been incorporated by various subsequent amendments in the context of:\n- Reorganisation of states\n- Conferment of statehood on Union Territories\n\nArticles: Article 371 to 371-J, Part XXI'
+          },
+          {
+            id: 'sps-2',
+            front: 'Which 12 states have Special Provisions under Article 371 to 371-J?',
+            back: '1. Maharashtra\n2. Gujarat\n3. Nagaland\n4. Assam\n5. Manipur\n6. Andhra Pradesh\n7. Telangana\n8. Sikkim\n9. Mizoram\n10. Arunachal Pradesh\n11. Goa\n12. Karnataka'
+          },
+          {
+            id: 'sps-3',
+            front: 'What are the objectives of Special Provisions for States?',
+            back: '- To meet the aspiration of the people of the backward region\n- To protect cultural and economic interest of tribal people\n- To protect the interest of local people of the state\n- Deal with disturbed law and order conditions in some parts of the state'
+          },
+        ],
+        quiz: [
+          {
+            id: 'sps-q1',
+            question: 'Special Provisions for States are contained in:',
+            options: ['Part XX', 'Part XXI', 'Part XXII', 'Part XIX'],
+            correct: 1,
+            explanation: 'Special Provisions for States are in Part XXI, Articles 371 to 371-J.'
+          },
+          {
+            id: 'sps-q2',
+            question: 'How many states have Special Provisions under Article 371 series?',
+            options: ['8', '10', '12', '15'],
+            correct: 2,
+            explanation: '12 states have Special Provisions: Maharashtra, Gujarat, Nagaland, Assam, Manipur, AP, Telangana, Sikkim, Mizoram, Arunachal Pradesh, Goa, Karnataka.'
+          },
+          {
+            id: 'sps-q3',
+            question: 'Special Provisions for States were incorporated through:',
+            options: [
+              'Original Constitution only',
+              'Subsequent amendments during reorganisation/statehood',
+              'Judicial decisions',
+              'Executive orders'
+            ],
+            correct: 1,
+            explanation: 'These provisions were incorporated by subsequent amendments in the context of reorganisation of states or conferment of statehood on UTs.'
+          },
+        ]
       }
     ]
   }
