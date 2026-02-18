@@ -9505,6 +9505,89 @@ const topicsData = [
             explanation: 'RPA 1951 bars the jurisdiction of civil courts over electoral matters.'
           },
         ]
+      },
+      {
+        id: 'delimitation-commission',
+        name: 'Delimitation Commission',
+        flashcards: [
+          {
+            id: 'delim-1',
+            front: 'What is Delimitation?',
+            back: 'The process of fixing the boundaries of electoral constituencies to reflect population changes.\n\nInvolves redrawing Lok Sabha and Legislative Assembly constituencies, affecting seat allocation.\n\nExample: Delhi has 7 Lok Sabha and 70 Legislative Assembly constituencies.'
+          },
+          {
+            id: 'delim-2',
+            front: 'What are the Constitutional Provisions for Delimitation?',
+            back: 'Article 82: Parliament must enact a Delimitation Act after each Census, establishing a Delimitation Commission.\n\nArticle 170: States are similarly divided into constituencies after every Census.'
+          },
+          {
+            id: 'delim-3',
+            front: 'What is the historical background of Delimitation in India? (UPSC 2024)',
+            back: 'Delimitation Commissions constituted FOUR times in India. (UPSC 2024)\n\n- First Exercise: 1950-51; Act enacted in 1952\n- Subsequent: 1963, 1973, 2002\n\n42nd Amendment (1976): Frozen seat allocations until 2000\n84th Amendment (2001): Extended freeze to 2026\n87th Amendment (2003): Delimitation based on 2001 Census, not altering seat numbers\n\nFuture delimitation will follow next Census post-2026.'
+          },
+          {
+            id: 'delim-4',
+            front: 'What is the composition and appointment of the Delimitation Commission?',
+            back: 'Chairperson: A retired Supreme Court judge\nMembers: Chief Election Commissioner, State Election Commissioners\n\nAppointed by: President of India\nEstablished through: Parliamentary Act'
+          },
+          {
+            id: 'delim-5',
+            front: 'What are the functions and powers of the Delimitation Commission? (UPSC 2012)',
+            back: 'Functions:\n- Equalizes constituency populations\n- Identifies seats for SCs and STs\n\nPowers:\n- Orders presented to LS and state assemblies but are IMMUTABLE\n- Majority opinion prevails in disputes\n- Orders have force of law, NOT subject to court challenge (UPSC 2012)\n- LS/State Assembly CANNOT modify orders'
+          },
+          {
+            id: 'delim-6',
+            front: 'What is the Delimitation Commission process?',
+            back: 'Every 10 years, a Delimitation Act is enacted.\n\nProcess:\n1. Commission reviews demographic data and current constituencies\n2. Consults stakeholders\n3. Incorporates feedback\n4. Final report published in official gazettes\n5. Final order takes effect upon presidential communication\n6. Serves as basis for upcoming elections'
+          },
+          {
+            id: 'delim-7',
+            front: 'What was the Delimitation Commission for Jammu & Kashmir?',
+            back: 'Established March 2020, headed by Justice Ranjana Prakash Desai under Delimitation Act, 2002.\nFormed after abrogation of Article 370 on 5th August 2019.\n\nKey Recommendations:\n- Assembly Seats: Increased from 83 to 90 (6 additional for Jammu, 1 for Kashmir)\n- 5 Parliamentary Constituencies, each with 18 assembly segments\n- Reserved: 7 for SCs, 9 for STs, 2 for Kashmiri migrants, 1 for PoK displaced persons\n- 28 new constituencies created, 19 deleted\n- SC upheld Commission as lawful'
+          },
+        ],
+        quiz: [
+          {
+            id: 'delim-q1',
+            question: 'Delimitation Commissions have been constituted how many times in India? (UPSC 2024)',
+            options: ['Two', 'Three', 'Four', 'Five'],
+            correct: 2,
+            explanation: 'Delimitation Commissions have been constituted FOUR times in India: 1952, 1963, 1973, 2002.'
+          },
+          {
+            id: 'delim-q2',
+            question: 'The seat allocation freeze was extended to 2026 by:',
+            options: ['42nd Amendment', '84th Amendment', '87th Amendment', '91st Amendment'],
+            correct: 1,
+            explanation: '84th Amendment (2001) extended the freeze to 2026. 42nd Amendment (1976) initially froze until 2000.'
+          },
+          {
+            id: 'delim-q3',
+            question: 'Orders of the Delimitation Commission: (UPSC 2012)',
+            options: [
+              'Can be challenged in court',
+              'Can be modified by Parliament',
+              'Cannot be challenged in court or modified',
+              'Require President\'s approval to take effect'
+            ],
+            correct: 2,
+            explanation: 'Orders have force of law, are NOT subject to court challenge, and LS/State Assembly CANNOT modify them.'
+          },
+          {
+            id: 'delim-q4',
+            question: 'The Delimitation Commission is headed by:',
+            options: ['Chief Election Commissioner', 'Retired Supreme Court judge', 'Law Minister', 'President'],
+            correct: 1,
+            explanation: 'The Chairperson is a retired Supreme Court judge. CEC and State Election Commissioners are members.'
+          },
+          {
+            id: 'delim-q5',
+            question: 'After J&K delimitation, Assembly seats increased to:',
+            options: ['83', '87', '90', '95'],
+            correct: 2,
+            explanation: 'J&K Assembly seats increased from 83 to 90 (6 additional for Jammu, 1 for Kashmir).'
+          },
+        ]
       }
     ]
   }
