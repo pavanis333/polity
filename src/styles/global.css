@@ -15,6 +15,7 @@
   --radius: 12px;
   --radius-sm: 8px;
   --shadow: 0 4px 20px rgba(0,0,0,0.3);
+  --card-min-h: 140px;
 }
 
 * {
@@ -97,11 +98,15 @@ a.card-link { display: block; height: 100%; }
   margin-bottom: 32px;
 }
 
-/* Cards grid */
+/* Cards grid — uniform sizing */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 16px;
+}
+
+.card-grid .card-link {
+  display: flex;
 }
 
 .card {
@@ -113,6 +118,11 @@ a.card-link { display: block; height: 100%; }
   transition: all 0.2s;
   position: relative;
   overflow: hidden;
+  min-height: var(--card-min-h);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
@@ -132,18 +142,20 @@ a.card-link { display: block; height: 100%; }
   font-size: 0.85rem;
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .card-progress {
   height: 4px;
   background: var(--border);
   border-radius: 2px;
-  margin-top: 16px;
+  margin-top: auto;
+  padding-top: 16px;
   overflow: hidden;
 }
 
 .card-progress-bar {
-  height: 100%;
+  height: 4px;
   background: var(--accent);
   border-radius: 2px;
   transition: width 0.3s;
@@ -204,7 +216,7 @@ a.card-link { display: block; height: 100%; }
 
 .flashcard {
   width: 100%;
-  min-height: 300px;
+  height: 300px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s;
@@ -226,6 +238,7 @@ a.card-link { display: block; height: 100%; }
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow-y: auto;
 }
 
 .flashcard-back { transform: rotateY(180deg); }
@@ -236,11 +249,13 @@ a.card-link { display: block; height: 100%; }
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 16px;
+  flex-shrink: 0;
 }
 
 .flashcard-text {
   font-size: 1.2rem;
   line-height: 1.7;
+  white-space: pre-line;
 }
 
 .flashcard-counter {
@@ -327,6 +342,9 @@ a.card-link { display: block; height: 100%; }
   transition: all 0.2s;
   font-size: 1rem;
   text-align: left;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
 }
 
 .quiz-option:hover:not(.disabled) {
@@ -381,7 +399,7 @@ a.card-link { display: block; height: 100%; }
   margin: 16px 0;
 }
 
-/* Progress page */
+/* Progress page — stat cards uniform */
 .progress-stats {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -390,7 +408,7 @@ a.card-link { display: block; height: 100%; }
 }
 
 .progress-stats a {
-  display: block;
+  display: flex;
 }
 
 .stat-card {
@@ -399,6 +417,12 @@ a.card-link { display: block; height: 100%; }
   border-radius: var(--radius);
   padding: 20px;
   text-align: center;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .stat-value {
@@ -444,4 +468,5 @@ a.card-link { display: block; height: 100%; }
   .flashcard-face { padding: 24px; }
   .flashcard-text { font-size: 1rem; }
   .header-logo { font-size: 1.1rem; }
+  .flashcard { height: 260px; }
 }
