@@ -3474,6 +3474,157 @@ const topicsData = [
             explanation: 'Article 31C protects laws implementing Art 39(b)/(c) from contravention of Article 14 (Equality) and Article 19 (Freedoms) only.'
           },
         ]
+      },
+      {
+        id: 'rights-outside-part-iii-and-udhr',
+        name: 'Rights Outside Part III & UDHR',
+        flashcards: [
+          {
+            id: 'rop-1',
+            front: 'What does Article 265 (Part XII) state?',
+            back: 'No tax shall be levied or collected except by authority of law.'
+          },
+          {
+            id: 'rop-2',
+            front: 'What does Article 300-A (Part XII) state?',
+            back: 'No person shall be deprived of his property save by authority of law. (Right to property is now a legal right, not a Fundamental Right — moved here by the 44th Amendment.)'
+          },
+          {
+            id: 'rop-3',
+            front: 'What does Article 301 (Part XIII) state?',
+            back: 'Trade, commerce and intercourse throughout the territory of India shall be free.'
+          },
+          {
+            id: 'rop-4',
+            front: 'What does Article 326 (Part XV) provide? (UPSC 2017)',
+            back: 'Adult Suffrage (Right to Vote) — it is a constitutional right.'
+          },
+          {
+            id: 'rop-5',
+            front: 'What did the 61st Constitutional Amendment, 1989 do?',
+            back: 'Lowered the voting age for elections to Lok Sabha and State Legislative Assemblies from 21 to 18 years.'
+          },
+          {
+            id: 'rop-6',
+            front: 'When was the UDHR announced and by whom?',
+            back: 'The General Assembly of the United Nations announced the Universal Declaration of Human Rights (UDHR) on 10 December 1948. It contains 30 rights and freedoms.'
+          },
+          {
+            id: 'rop-7',
+            front: 'What does Article 26 of the UDHR state?',
+            back: 'Right to free elementary education.'
+          },
+          {
+            id: 'rop-8',
+            front: 'What does Article 27 of the UDHR state?',
+            back: 'Right to cultural participation and protection of intellectual work.'
+          },
+          {
+            id: 'rop-9',
+            front: 'How does the UDHR reflect in the Indian Constitution? (UPSC 2020)',
+            back: 'UDHR is reflected in:\n- Fundamental Rights\n- DPSPs\n- Fundamental Duties\n- The Preamble\nIt promises economic, social, political, cultural and civic rights for a life free from want and fear.'
+          },
+          {
+            id: 'rop-10',
+            front: 'How does the Preamble relate to UDHR? (UPSC 2020)',
+            back: 'The Preamble\'s Justice, Equality, and Liberty reflect Article 3 of UDHR: right to life, liberty, and security.'
+          },
+          {
+            id: 'rop-11',
+            front: 'How do DPSPs relate to UDHR? (UPSC 2020)',
+            back: 'DPSPs align with Article 22 of UDHR, ensuring social security and justice.'
+          },
+          {
+            id: 'rop-12',
+            front: 'How do Fundamental Duties relate to UDHR? (UPSC 2020)',
+            back: 'Fundamental Duties (Article 51A) are civic obligations, including ensuring education for children aged 6-14.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'rop-q1',
+            question: 'Article 300-A states:',
+            options: [
+              'Right to property is a Fundamental Right',
+              'No person shall be deprived of property save by authority of law',
+              'Property can be acquired without compensation',
+              'Only the state can own property'
+            ],
+            correct: 1,
+            explanation: 'Article 300-A (Part XII) provides that no person shall be deprived of his property save by authority of law. It is a legal right, not a Fundamental Right.'
+          },
+          {
+            id: 'rop-q2',
+            question: 'The voting age was lowered from 21 to 18 by:',
+            options: ['52nd Amendment', '61st Amendment', '73rd Amendment', '42nd Amendment'],
+            correct: 1,
+            explanation: 'The 61st Constitutional Amendment, 1989 lowered the voting age from 21 to 18 years.'
+          },
+          {
+            id: 'rop-q3',
+            question: 'Article 326 provides for: (UPSC 2017)',
+            options: [
+              'Right to Education',
+              'Right to Property',
+              'Adult Suffrage (Right to Vote)',
+              'Freedom of Trade'
+            ],
+            correct: 2,
+            explanation: 'Article 326 (Part XV) provides for Adult Suffrage — the constitutional right to vote.'
+          },
+          {
+            id: 'rop-q4',
+            question: 'The UDHR was announced on:',
+            options: ['26 January 1950', '15 August 1947', '10 December 1948', '26 November 1949'],
+            correct: 2,
+            explanation: 'The UDHR was announced by the UN General Assembly on 10 December 1948, containing 30 rights and freedoms.'
+          },
+          {
+            id: 'rop-q5',
+            question: 'Article 265 states that no tax shall be levied except by:',
+            options: [
+              'Executive order',
+              'Authority of law',
+              'Presidential decree',
+              'Cabinet resolution'
+            ],
+            correct: 1,
+            explanation: 'Article 265 (Part XII) states: No tax shall be levied or collected except by authority of law.'
+          },
+          {
+            id: 'rop-q6',
+            question: 'The Preamble\'s Justice, Equality, and Liberty reflect which UDHR Article? (UPSC 2020)',
+            options: ['Article 1', 'Article 3', 'Article 22', 'Article 26'],
+            correct: 1,
+            explanation: 'The Preamble reflects Article 3 of UDHR: right to life, liberty, and security.'
+          },
+          {
+            id: 'rop-q7',
+            question: 'How many rights and freedoms does the UDHR contain?',
+            options: ['20', '25', '30', '35'],
+            correct: 2,
+            explanation: 'The UDHR contains 30 rights and freedoms that belong to everyone.'
+          },
+          {
+            id: 'rop-q8',
+            question: 'DPSPs align with which Article of the UDHR? (UPSC 2020)',
+            options: ['Article 3', 'Article 22', 'Article 26', 'Article 27'],
+            correct: 1,
+            explanation: 'DPSPs align with Article 22 of UDHR, ensuring social security and justice.'
+          },
+          {
+            id: 'rop-q9',
+            question: 'Article 301 of the Indian Constitution states:',
+            options: [
+              'No tax without authority of law',
+              'Right to property by authority of law',
+              'Trade, commerce and intercourse throughout India shall be free',
+              'Adult suffrage for all citizens'
+            ],
+            correct: 2,
+            explanation: 'Article 301 (Part XIII) provides that trade, commerce and intercourse throughout the territory of India shall be free.'
+          },
+        ]
       }
     ]
   }
