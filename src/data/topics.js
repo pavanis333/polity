@@ -7297,6 +7297,89 @@ const topicsData = [
             explanation: 'Chief Judicial Magistrate Court handles criminal cases with punishment up to 7 years. Judicial Magistrate Court handles up to 3 years.'
           },
         ]
+      },
+      {
+        id: 'alternate-dispute-resolution',
+        name: 'Alternate Dispute Resolution (ADR)',
+        flashcards: [
+          {
+            id: 'adr-1',
+            front: 'What is Alternate Dispute Resolution (ADR)?',
+            back: 'A structured, non-judicial dispute redressal mechanism that helps parties resolve grievances without litigation, using a neutral third party to facilitate agreement.'
+          },
+          {
+            id: 'adr-2',
+            front: 'What is Arbitration?',
+            back: 'A neutral arbitrator makes binding decisions on disputes.\nGoverned by the Arbitration and Conciliation Act, 1996.\nUsed for both domestic and international disputes.'
+          },
+          {
+            id: 'adr-3',
+            front: 'What is Conciliation?',
+            back: 'A neutral party helps disputants reach an agreement amicably.\nFollows the UNCITRAL Conciliation Rules (1980).\nCommonly used in commercial and civil disputes.'
+          },
+          {
+            id: 'adr-4',
+            front: 'What is Mediation?',
+            back: 'Involves a facilitator assisting parties in negotiating a settlement.\nNon-binding.\nMandated by laws such as the Hindu Marriage Act.\nOften used in family and matrimonial disputes.'
+          },
+          {
+            id: 'adr-5',
+            front: 'What is Negotiation?',
+            back: 'Parties directly discuss and resolve disputes, with a neutral party having a limited role.\nEffective for family, industrial, and petty disputes.'
+          },
+          {
+            id: 'adr-6',
+            front: 'Compare: Arbitration vs Mediation vs Conciliation vs Negotiation',
+            back: 'Arbitration: Binding decision by neutral arbitrator (Act of 1996)\nConciliation: Amicable agreement, neutral party assists (UNCITRAL 1980)\nMediation: Non-binding, facilitator assists negotiation (family/matrimonial)\nNegotiation: Direct discussion, minimal third-party role (family/industrial/petty)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'adr-q1',
+            question: 'Arbitration in India is governed by:',
+            options: [
+              'Civil Procedure Code, 1908',
+              'Arbitration and Conciliation Act, 1996',
+              'Indian Contract Act, 1872',
+              'Legal Services Authority Act, 1987'
+            ],
+            correct: 1,
+            explanation: 'Arbitration is governed by the Arbitration and Conciliation Act, 1996, used for both domestic and international disputes.'
+          },
+          {
+            id: 'adr-q2',
+            question: 'Which ADR method results in a BINDING decision?',
+            options: ['Mediation', 'Negotiation', 'Arbitration', 'Conciliation'],
+            correct: 2,
+            explanation: 'Arbitration results in a binding decision by a neutral arbitrator. Mediation is non-binding.'
+          },
+          {
+            id: 'adr-q3',
+            question: 'Conciliation follows the rules of:',
+            options: ['UNCITRAL Conciliation Rules (1980)', 'Hague Convention', 'Geneva Protocol', 'ICC Rules'],
+            correct: 0,
+            explanation: 'Conciliation follows the UNCITRAL Conciliation Rules (1980) and is commonly used in commercial and civil disputes.'
+          },
+          {
+            id: 'adr-q4',
+            question: 'Mediation is commonly used in:',
+            options: [
+              'International trade disputes',
+              'Family and matrimonial disputes',
+              'Criminal cases',
+              'Constitutional matters'
+            ],
+            correct: 1,
+            explanation: 'Mediation is non-binding and often used in family and matrimonial disputes. It is mandated by laws like the Hindu Marriage Act.'
+          },
+          {
+            id: 'adr-q5',
+            question: 'In which ADR method do parties directly discuss with minimal third-party role?',
+            options: ['Arbitration', 'Conciliation', 'Mediation', 'Negotiation'],
+            correct: 3,
+            explanation: 'In Negotiation, parties directly discuss and resolve disputes with a neutral party having a limited role.'
+          },
+        ]
       }
     ]
   }
