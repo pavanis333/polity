@@ -5867,6 +5867,121 @@ const topicsData = [
             explanation: 'The Estimates Committee has 30 members all from Lok Sabha only. PAC and Public Undertakings Committee include RS members.'
           },
         ]
+      },
+      {
+        id: 'other-parliamentary-committees',
+        name: 'Other Parliamentary Committees',
+        flashcards: [
+          {
+            id: 'opc-1',
+            front: 'What is the Rules Committee?',
+            back: 'Purpose: Considers procedural matters and recommends amendments to House rules.\nComposition: 15 members (LS, including Speaker) as ex-officio chairman; 16 members (RS, including Chairman).'
+          },
+          {
+            id: 'opc-2',
+            front: 'What is the Business Advisory Committee?',
+            back: 'Purpose: Regulates the program and timetable of the House, allocating time for legislative business.\nComposition: 15 members (LS, including Speaker); 11 members (RS, including Chairman).'
+          },
+          {
+            id: 'opc-3',
+            front: 'What is the General Purposes Committee?',
+            back: 'Purpose: Advice on matters concerning the affairs of the House outside other committees\' jurisdiction.\nComposition: Numbers not given but includes the presiding officer (Speaker/Chairman) as ex-officio chairman, Deputy Speaker (Deputy Chairman in RS), members of panel of chairpersons, chairpersons of all departmental standing committees, leaders of recognised parties and groups, and such other members as nominated by the presiding officer.'
+          },
+          {
+            id: 'opc-4',
+            front: 'What is the Committee on Subordinate Legislation? (UPSC 2018)',
+            back: 'Purpose: Oversees rules and regulations made by authorities under legislative powers.\nComposition: 15 members (LS); 15 members (RS), nominated by the Speaker or Chairman.'
+          },
+          {
+            id: 'opc-5',
+            front: 'What is the Committee on Welfare of SC and ST?',
+            back: 'Purpose: Focuses on issues affecting Scheduled Castes and Scheduled Tribes.\nComposition: 30 members (20 from LS, 10 from RS), nominated by the Speaker or Chairman.'
+          },
+          {
+            id: 'opc-6',
+            front: 'What is the Committee on Empowerment of Women?',
+            back: 'Purpose: Addresses issues related to women\'s empowerment.\nComposition: 30 members (20 from LS, 10 from RS), nominated by the Speaker.'
+          },
+          {
+            id: 'opc-7',
+            front: 'What is the Joint Committee on Offices of Profit?',
+            back: 'Purpose: Examines the implications of offices of profit.\nComposition: 15 members (10 from LS, 5 from RS).'
+          },
+          {
+            id: 'opc-8',
+            front: 'What are the Committee on Petitions, Privileges, and Ethics?',
+            back: 'Committee on Petitions: Reviews petitions submitted to the House. 15 LS + 10 RS, nominated by Speaker/Chairman.\n\nCommittee of Privileges: Addresses matters related to privileges of House members. 15 LS + 10 RS, nominated by Speaker/Chairman.\n\nEthics Committee: Oversees ethical conduct and behaviour among members. No fixed strength; separate for both Houses, nominated by Speaker/Chairman.'
+          },
+          {
+            id: 'opc-9',
+            front: 'What are the Library Committee and Joint Committee on Salaries?',
+            back: 'Library Committee: Oversees functioning and management of Parliament Library. 9 members (6 LS, 3 RS); Chairperson appointed by Speaker.\n\nJoint Committee on Salaries and Allowances: Reviews and recommends salaries and allowances for members. 15 members (10 LS, 5 RS).'
+          },
+        ],
+        quiz: [
+          {
+            id: 'opc-q1',
+            question: 'The Committee on Subordinate Legislation oversees: (UPSC 2018)',
+            options: [
+              'Budget allocations',
+              'Rules and regulations made by authorities under legislative powers',
+              'Election procedures',
+              'Judicial appointments'
+            ],
+            correct: 1,
+            explanation: 'The Committee on Subordinate Legislation oversees rules and regulations made by authorities under legislative powers.'
+          },
+          {
+            id: 'opc-q2',
+            question: 'The Committee on Welfare of SC and ST has:',
+            options: ['15 members', '22 members', '30 members', '20 members'],
+            correct: 2,
+            explanation: 'The Committee on Welfare of SC and ST has 30 members (20 from LS, 10 from RS).'
+          },
+          {
+            id: 'opc-q3',
+            question: 'The Ethics Committee has:',
+            options: [
+              '15 members from each House',
+              '30 members total',
+              'No fixed strength; separate for both Houses',
+              '22 members total'
+            ],
+            correct: 2,
+            explanation: 'The Ethics Committee has no fixed strength and is separate for both Houses, nominated by the Speaker or Chairman.'
+          },
+          {
+            id: 'opc-q4',
+            question: 'The Business Advisory Committee regulates:',
+            options: [
+              'House rules and amendments',
+              'The program and timetable of the House',
+              'Subordinate legislation',
+              'Privileges of members'
+            ],
+            correct: 1,
+            explanation: 'The Business Advisory Committee regulates the program and timetable of the House, allocating time for legislative business.'
+          },
+          {
+            id: 'opc-q5',
+            question: 'The Library Committee has how many members?',
+            options: ['9 (6 LS + 3 RS)', '15 (10 LS + 5 RS)', '22 (15 LS + 7 RS)', '30 (20 LS + 10 RS)'],
+            correct: 0,
+            explanation: 'The Library Committee has 9 members (6 from LS, 3 from RS); Chairperson appointed by the Speaker.'
+          },
+          {
+            id: 'opc-q6',
+            question: 'The Joint Committee on Offices of Profit examines:',
+            options: [
+              'Salaries of MPs',
+              'The implications of offices of profit',
+              'Public sector undertakings',
+              'CAG audit reports'
+            ],
+            correct: 1,
+            explanation: 'The Joint Committee on Offices of Profit examines the implications of offices of profit. It has 15 members (10 LS + 5 RS).'
+          },
+        ]
       }
     ]
   }
