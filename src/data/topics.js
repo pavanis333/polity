@@ -8694,6 +8694,96 @@ const topicsData = [
             explanation: 'The Fifth Schedule empowers the Governor to adapt legislation for unique local needs in scheduled areas.'
           },
         ]
+      },
+      {
+        id: 'fifth-schedule-administration',
+        name: 'Administration of Scheduled Areas (Fifth Schedule)',
+        flashcards: [
+          {
+            id: 'fsa-1',
+            front: 'What is the role of the President in Scheduled Areas?',
+            back: 'The President appoints a commission to report on administration of Scheduled Areas and welfare of STs. Can appoint anytime, but was mandatory within 10 years of Constitution\'s commencement.\nNotable Commissions: U.N. Dhebar (1960) & Dilip Singh Bhuria (2002).\nDeclaration: President can declare, modify, or redesignate Scheduled Areas after consulting the state\'s Governor. (UPSC 2023)'
+          },
+          {
+            id: 'fsa-2',
+            front: 'Which states have Scheduled Areas as of 2024?',
+            back: '10 states: Andhra Pradesh, Telangana, Jharkhand, Chhattisgarh, Gujarat, Himachal Pradesh, Madhya Pradesh, Maharashtra, Odisha, and Rajasthan.'
+          },
+          {
+            id: 'fsa-3',
+            front: 'What are the executive powers regarding Scheduled Areas? (UPSC 2025)',
+            back: '- State\'s executive power extends to Scheduled Areas, but Governor has special authority\n- Governor must report to President on the area\'s administration\n- Centre can issue directives to the state regarding these areas\n- IMPORTANT: There is NO provision under Fifth Schedule allowing Union Government to take over total administration of Scheduled Areas (UPSC 2025)'
+          },
+          {
+            id: 'fsa-4',
+            front: 'What is the Tribes Advisory Council (TAC)?',
+            back: 'Each state having Scheduled Areas must establish a TAC to advise on welfare measures.\n- Maximum 20 members\n- 3/4th must represent STs from the State Legislative Assembly\n- States without Scheduled Areas can have a TAC if directed by the President'
+          },
+          {
+            id: 'fsa-5',
+            front: 'What powers does the Governor have for Scheduled Areas? (UPSC 2022)',
+            back: 'Governor decides whether state or central laws apply, with or without modifications.\nGovernor can make regulations for governance including:\n- Restrictions on land transfers among STs\n- Prohibition/restriction of transfer of land by or among STs\n- Regulation of allotment of land to STs\n- Regulation of money lending in relation to STs (UPSC 2022)'
+          },
+          {
+            id: 'fsa-6',
+            front: 'What was the Samatha v. State of AP (1997) case? (UPSC 2019)',
+            back: 'The Supreme Court held that the transfer of tribal land to private parties for mining was null and void under the Fifth Schedule. (UPSC 2019)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'fsa-q1',
+            question: 'As of 2024, Scheduled Areas exist in how many states?',
+            options: ['8', '10', '12', '15'],
+            correct: 1,
+            explanation: 'Scheduled Areas exist in 10 states: AP, Telangana, Jharkhand, Chhattisgarh, Gujarat, HP, MP, Maharashtra, Odisha, and Rajasthan.'
+          },
+          {
+            id: 'fsa-q2',
+            question: 'Scheduled Areas can be declared/modified by: (UPSC 2023)',
+            options: ['Governor', 'Chief Minister', 'President after consulting Governor', 'Parliament'],
+            correct: 2,
+            explanation: 'The President can declare, modify, or redesignate Scheduled Areas after consulting the state\'s Governor.'
+          },
+          {
+            id: 'fsa-q3',
+            question: 'The Tribes Advisory Council has maximum:',
+            options: ['10 members', '15 members', '20 members', '25 members'],
+            correct: 2,
+            explanation: 'TAC has maximum 20 members, 3/4th of whom represent STs from the State Legislative Assembly.'
+          },
+          {
+            id: 'fsa-q4',
+            question: 'Under the Fifth Schedule, the Governor can regulate: (UPSC 2022)',
+            options: [
+              'Only law and order',
+              'Land transfers and money lending in relation to STs',
+              'Only taxation',
+              'Only elections'
+            ],
+            correct: 1,
+            explanation: 'Governor can regulate land transfers among STs, allotment of land to STs, and money lending in relation to STs.'
+          },
+          {
+            id: 'fsa-q5',
+            question: 'In Samatha v. State of AP (1997), SC held: (UPSC 2019)',
+            options: [
+              'Mining in tribal areas is permitted',
+              'Transfer of tribal land to private parties for mining is null and void',
+              'States can take over tribal land',
+              'Fifth Schedule is unconstitutional'
+            ],
+            correct: 1,
+            explanation: 'SC held that transfer of tribal land to private parties for mining was null and void under the Fifth Schedule.'
+          },
+          {
+            id: 'fsa-q6',
+            question: 'Under the Fifth Schedule, can Union Government take over total administration of Scheduled Areas? (UPSC 2025)',
+            options: ['Yes, always', 'Yes, with Governor consent', 'No, there is no such provision', 'Only during emergency'],
+            correct: 2,
+            explanation: 'There is NO provision under the Fifth Schedule allowing Union Government to take over total administration of Scheduled Areas.'
+          },
+        ]
       }
     ]
   }
