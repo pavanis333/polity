@@ -577,6 +577,183 @@ const topicsData = [
             explanation: 'Vasant Krishan Vaidya did the Hindi calligraphy, while Nand Lal Bose illuminated it.'
           },
         ]
+      },
+      {
+        id: 'major-committees',
+        name: 'Major Committees',
+        flashcards: [
+          {
+            id: 'mc-1',
+            front: 'Which committees were chaired by Jawaharlal Nehru?',
+            back: 'Union Powers Committee, Union Constitution Committee, and States Committee.'
+          },
+          {
+            id: 'mc-2',
+            front: 'What was the Expert Committee of the Congress (July 8, 1946)?',
+            back: 'Chairman: Jawaharlal Nehru\nPurpose: To prepare material for the Constituent Assembly\nMembers: M. Asaf Ali, K.M. Munshi, N. Gopalaswami Ayyangar, K.T. Shah, D.R. Gadgil, Humayun Kabir, K. Santhanam'
+          },
+          {
+            id: 'mc-3',
+            front: 'Which committees were chaired by Dr. Rajendra Prasad?',
+            back: 'Rules of Procedure Committee and Steering Committee.'
+          },
+          {
+            id: 'mc-4',
+            front: 'Which committees were chaired by Sardar Patel?',
+            back: 'Provincial Constitution Committee, Advisory Committee on Fundamental Rights and Minorities & Tribal & Excluded Areas (which had 5 sub-committees).'
+          },
+          {
+            id: 'mc-5',
+            front: 'Name the 5 sub-committees under Sardar Patel\'s Advisory Committee.',
+            back: '1. Fundamental Rights Sub-Committee — J.B. Kripalani\n2. Minorities Sub-Committee — H.C. Mukherjee\n3. North-East Frontier Tribal Areas and Assam Excluded & Partially Excluded Areas Sub-Committee — Gopinath Bardoloi\n4. Excluded and Partially Excluded Areas (other than Assam) Sub-Committee — A.V. Thakkar\n5. North-West Frontier Tribal Areas Sub-Committee'
+          },
+          {
+            id: 'mc-6',
+            front: 'Who chaired the Fundamental Rights Sub-Committee?',
+            back: 'J.B. Kripalani.'
+          },
+          {
+            id: 'mc-7',
+            front: 'Who chaired the Minorities Sub-Committee?',
+            back: 'H.C. Mukherjee.'
+          },
+          {
+            id: 'mc-8',
+            front: 'Who chaired the North-East Frontier Tribal Areas and Assam Sub-Committee?',
+            back: 'Gopinath Bardoloi.'
+          },
+          {
+            id: 'mc-9',
+            front: 'Who chaired the Excluded and Partially Excluded Areas (other than Assam) Sub-Committee?',
+            back: 'A.V. Thakkar.'
+          },
+          {
+            id: 'mc-10',
+            front: 'Who was the Chairman of the Drafting Committee? How many members did it have?',
+            back: 'Dr. B.R. Ambedkar was the Chairman. It had 7 members.'
+          },
+          {
+            id: 'mc-11',
+            front: 'Name all 7 members of the Drafting Committee.',
+            back: '1. Dr. B.R. Ambedkar (Chairman)\n2. N. Gopalaswamy Ayyangar\n3. Alladi Krishnaswamy Ayyar\n4. Dr. K.M. Munshi\n5. Syed Mohammad Saadullah\n6. N. Madhava Rau (replaced B.L. Mitter who resigned due to ill health)\n7. T.T. Krishnamachari (replaced D.P. Khaitan who died in 1948)'
+          },
+          {
+            id: 'mc-12',
+            front: 'Who replaced B.L. Mitter in the Drafting Committee and why?',
+            back: 'N. Madhava Rau replaced B.L. Mitter who resigned due to ill health.'
+          },
+          {
+            id: 'mc-13',
+            front: 'Who replaced D.P. Khaitan in the Drafting Committee and why?',
+            back: 'T.T. Krishnamachari replaced D.P. Khaitan who died in 1948.'
+          },
+          {
+            id: 'mc-14',
+            front: 'When was the First Draft of the Constitution published?',
+            back: 'February 1948.'
+          },
+          {
+            id: 'mc-15',
+            front: 'How long was the public feedback period for the draft Constitution?',
+            back: 'Eight months.'
+          },
+          {
+            id: 'mc-16',
+            front: 'When was the Second Draft of the Constitution published?',
+            back: 'October 1948.'
+          },
+          {
+            id: 'mc-17',
+            front: 'How many total meetings did the Drafting Committee hold and how long did it take?',
+            back: '141 meetings over less than six months (completion time).'
+          },
+        ],
+        quiz: [
+          {
+            id: 'mc-q1',
+            question: 'Who chaired the Union Powers Committee?',
+            options: ['Dr. Rajendra Prasad', 'Sardar Patel', 'Jawaharlal Nehru', 'Dr. B.R. Ambedkar'],
+            correct: 2,
+            explanation: 'Jawaharlal Nehru chaired the Union Powers Committee, Union Constitution Committee, and States Committee.'
+          },
+          {
+            id: 'mc-q2',
+            question: 'The Rules of Procedure Committee was chaired by:',
+            options: ['Jawaharlal Nehru', 'Dr. B.R. Ambedkar', 'Dr. Rajendra Prasad', 'Sardar Patel'],
+            correct: 2,
+            explanation: 'Dr. Rajendra Prasad chaired both the Rules of Procedure Committee and the Steering Committee.'
+          },
+          {
+            id: 'mc-q3',
+            question: 'Who chaired the Advisory Committee on Fundamental Rights and Minorities?',
+            options: ['Jawaharlal Nehru', 'Sardar Patel', 'J.B. Kripalani', 'Dr. B.R. Ambedkar'],
+            correct: 1,
+            explanation: 'Sardar Patel chaired the Advisory Committee on Fundamental Rights and Minorities & Tribal & Excluded Areas.'
+          },
+          {
+            id: 'mc-q4',
+            question: 'How many sub-committees did Sardar Patel\'s Advisory Committee have?',
+            options: ['3', '4', '5', '6'],
+            correct: 2,
+            explanation: 'The Advisory Committee had 5 sub-committees: Fundamental Rights, Minorities, NE Frontier Tribal Areas, Excluded Areas (non-Assam), and NW Frontier Tribal Areas.'
+          },
+          {
+            id: 'mc-q5',
+            question: 'Who chaired the Fundamental Rights Sub-Committee?',
+            options: ['H.C. Mukherjee', 'J.B. Kripalani', 'Sardar Patel', 'A.V. Thakkar'],
+            correct: 1,
+            explanation: 'J.B. Kripalani chaired the Fundamental Rights Sub-Committee under Sardar Patel\'s Advisory Committee.'
+          },
+          {
+            id: 'mc-q6',
+            question: 'How many members were in the Drafting Committee?',
+            options: ['5', '6', '7', '9'],
+            correct: 2,
+            explanation: 'The Drafting Committee had 7 members, chaired by Dr. B.R. Ambedkar.'
+          },
+          {
+            id: 'mc-q7',
+            question: 'Who replaced B.L. Mitter in the Drafting Committee?',
+            options: ['T.T. Krishnamachari', 'N. Madhava Rau', 'K.M. Munshi', 'Alladi Krishnaswamy Ayyar'],
+            correct: 1,
+            explanation: 'N. Madhava Rau replaced B.L. Mitter who resigned due to ill health.'
+          },
+          {
+            id: 'mc-q8',
+            question: 'When was the first draft of the Constitution published?',
+            options: ['October 1947', 'February 1948', 'October 1948', 'January 1949'],
+            correct: 1,
+            explanation: 'The first draft was published in February 1948. After 8 months of public feedback, the second draft was published in October 1948.'
+          },
+          {
+            id: 'mc-q9',
+            question: 'How many meetings did the Drafting Committee hold?',
+            options: ['101', '121', '141', '161'],
+            correct: 2,
+            explanation: 'The Drafting Committee held 141 meetings with a completion time of less than six months.'
+          },
+          {
+            id: 'mc-q10',
+            question: 'Who chaired the Minorities Sub-Committee?',
+            options: ['J.B. Kripalani', 'Gopinath Bardoloi', 'H.C. Mukherjee', 'A.V. Thakkar'],
+            correct: 2,
+            explanation: 'H.C. Mukherjee chaired the Minorities Sub-Committee under the Advisory Committee.'
+          },
+          {
+            id: 'mc-q11',
+            question: 'Who replaced D.P. Khaitan in the Drafting Committee?',
+            options: ['N. Madhava Rau', 'Syed Mohammad Saadullah', 'T.T. Krishnamachari', 'N. Gopalaswamy Ayyangar'],
+            correct: 2,
+            explanation: 'T.T. Krishnamachari replaced D.P. Khaitan who died in 1948.'
+          },
+          {
+            id: 'mc-q12',
+            question: 'The Expert Committee of the Congress was formed on:',
+            options: ['July 8, 1946', 'December 9, 1946', 'November 26, 1949', 'August 15, 1947'],
+            correct: 0,
+            explanation: 'The Expert Committee of the Congress was formed on July 8, 1946, chaired by Jawaharlal Nehru, to prepare material for the Constituent Assembly.'
+          },
+        ]
       }
     ]
   }
