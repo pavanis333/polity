@@ -4802,6 +4802,109 @@ const topicsData = [
             explanation: 'The 1st ARC recommended designating a minister and secretary specifically for promoting administrative reform.'
           },
         ]
+      },
+      {
+        id: 'important-cabinet-committees',
+        name: 'Important Cabinet Committees',
+        flashcards: [
+          {
+            id: 'icc-1',
+            front: 'What is the Cabinet Committee on Political Affairs?',
+            back: 'Purpose: Addresses policy matters related to foreign and domestic affairs.\nComposition: Key cabinet ministers, including the Prime Minister. (Super-Cabinet)'
+          },
+          {
+            id: 'icc-2',
+            front: 'What is the Cabinet Committee on Economic Affairs?',
+            back: 'Purpose: Directs and coordinates governmental activities in the economic sphere.\nComposition: Ministers responsible for finance, planning, and economic portfolios.'
+          },
+          {
+            id: 'icc-3',
+            front: 'What is the Appointment Committee of the Cabinet?',
+            back: 'Purpose: Decides higher-level appointments in central secretariat, public enterprises, banks, and financial institutions.\nComposition: Prime Minister and Minister of Home Affairs.'
+          },
+          {
+            id: 'icc-4',
+            front: 'What is the Cabinet Committee on Parliamentary Affairs?',
+            back: 'Purpose: Oversees the progress of government business in Parliament.\nComposition: Ministers from various departments, often led by the Minister of Home Affairs.'
+          },
+          {
+            id: 'icc-5',
+            front: 'What is the Cabinet Committee on Security?',
+            back: 'Purpose: Responsible for national security and defence policy issues.\nComposition: Prime Minister, Defense Minister, and key security officials.'
+          },
+          {
+            id: 'icc-6',
+            front: 'What are the other Cabinet Committees?',
+            back: '- Cabinet Committee on Investment and Growth: Promotes investment and economic growth. Ministers from finance, commerce, and industry.\n- Cabinet Committee on Employment and Skill Development: Enhances employment and skill development. Ministers from labor, skill development, education.\n- Cabinet Committee on Accommodation: Manages allocation and maintenance of government accommodation. Ministers for housing and urban development.'
+          },
+          {
+            id: 'icc-7',
+            front: 'Which Cabinet Committee is known as the "Super-Cabinet"?',
+            back: 'The Cabinet Committee on Political Affairs — it is the most powerful committee, chaired by the PM, and deals with all major policy matters related to foreign and domestic affairs.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'icc-q1',
+            question: 'The "Super-Cabinet" refers to:',
+            options: [
+              'Cabinet Committee on Economic Affairs',
+              'Cabinet Committee on Political Affairs',
+              'Cabinet Committee on Security',
+              'Appointment Committee of the Cabinet'
+            ],
+            correct: 1,
+            explanation: 'The Cabinet Committee on Political Affairs is called the "Super-Cabinet" — chaired by PM, deals with foreign and domestic policy.'
+          },
+          {
+            id: 'icc-q2',
+            question: 'The Appointment Committee of the Cabinet consists of:',
+            options: [
+              'All Cabinet Ministers',
+              'PM and Finance Minister',
+              'PM and Minister of Home Affairs',
+              'PM, Home Minister, and Defence Minister'
+            ],
+            correct: 2,
+            explanation: 'The Appointment Committee of the Cabinet consists of the Prime Minister and the Minister of Home Affairs.'
+          },
+          {
+            id: 'icc-q3',
+            question: 'The Cabinet Committee on Security is responsible for:',
+            options: [
+              'Economic policy',
+              'Parliamentary business',
+              'National security and defence policy',
+              'Government accommodation'
+            ],
+            correct: 2,
+            explanation: 'The Cabinet Committee on Security is responsible for national security and defence policy issues.'
+          },
+          {
+            id: 'icc-q4',
+            question: 'The Cabinet Committee on Parliamentary Affairs oversees:',
+            options: [
+              'Higher-level appointments',
+              'Progress of government business in Parliament',
+              'Foreign affairs',
+              'Investment and growth'
+            ],
+            correct: 1,
+            explanation: 'The Cabinet Committee on Parliamentary Affairs oversees the progress of government business in Parliament.'
+          },
+          {
+            id: 'icc-q5',
+            question: 'The Cabinet Committee on Economic Affairs is composed of:',
+            options: [
+              'PM and Home Minister only',
+              'Ministers responsible for finance, planning, and economic portfolios',
+              'Defence Minister and security officials',
+              'All members of Parliament'
+            ],
+            correct: 1,
+            explanation: 'The Cabinet Committee on Economic Affairs consists of ministers responsible for finance, planning, and economic portfolios.'
+          },
+        ]
       }
     ]
   },
