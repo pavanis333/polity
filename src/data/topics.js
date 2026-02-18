@@ -9072,6 +9072,101 @@ const topicsData = [
             explanation: 'High GDP growth is not a criterion. SCS criteria include hilly terrain, low population density, strategic borders, economic backwardness, and weak finances.'
           },
         ]
+      },
+      {
+        id: 'official-language-india',
+        name: 'Official Language in India (Part XVII)',
+        flashcards: [
+          {
+            id: 'oli-1',
+            front: 'What are the Languages of the Union (Articles 343-344)?',
+            back: 'Article 343: Hindi (Devanagari script) is the official language of the Union; English continues for official purposes, extendable by Parliament.\n\nArticle 344: Commission and Parliamentary Committee to recommend use of Hindi and restrictions on English.\n\nPresident-appointed commissions recommend Hindi usage every 5 and 10 years.\n\nKey Commissions: B.G. Kher Commission (1955) & Parliamentary Committee under G.B. Pant (1957)'
+          },
+          {
+            id: 'oli-2',
+            front: 'What is the Official Languages Act (1963)?',
+            back: '- Continued English use; amended in 1967 to make English and Hindi compulsory in some cases\n- Hindi translations of official documents are authoritative\n- Bills require Hindi translations\n- Governors with President\'s consent may authorise Hindi in High Courts (with English translations)\n- Parliamentary Committee on Official Language set up in 1976 with 30 MPs (20 LS + 10 RS), chaired by Union Home Minister'
+          },
+          {
+            id: 'oli-3',
+            front: 'What are the Regional Language provisions (Articles 345-347)?',
+            back: 'Article 345: States may adopt any language(s) or Hindi as their official language.\n\nArticle 346: English serves for communication between Union and States.\n\nArticle 347: President can recognize minority languages in states.'
+          },
+          {
+            id: 'oli-4',
+            front: 'What are the Language of Judiciary provisions (Articles 348-349)?',
+            back: 'Article 348: English for all judicial proceedings and legal documents.\n\nArticle 349: Special procedure for language laws.\n\nState languages can be authorised in High Courts (except for judgments) with President\'s approval.\n\nParliament has NOT mandated Hindi use in the Supreme Court.'
+          },
+          {
+            id: 'oli-5',
+            front: 'What are the Special Directives (Articles 350-351)?',
+            back: 'Article 350: Language for grievances\nArticle 350A: Mother tongue education for linguistic minorities\nArticle 350B: Special officer to monitor safeguards for linguistic minorities\nArticle 351: Promote Hindi to represent India\'s cultural heritage'
+          },
+          {
+            id: 'oli-6',
+            front: 'What does the Eighth Schedule contain?',
+            back: 'Lists 22 official languages. Classical languages are NOT separately mentioned under the Eighth Schedule.\n\nArticle 120: Parliament conducts business in Hindi or English; members may speak in native languages with permission.\n\nArticle 210: Allows Hindi, English, or state languages in legislative matters.'
+          },
+          {
+            id: 'oli-7',
+            front: 'What is Classical Language Status?',
+            back: 'Classical Languages (Shastriya Bhasha): Languages with deep historical background, rich literary traditions, and cultural heritage.\n\nEstablished in 2004 for languages with high antiquity. Benefits: Financial aid, awards, and university chairs for scholars.\n\nCriteria: Ancient origin (1,500-2,000 years), literary heritage, originality, discontinuity from modern forms.\n\nLinguistics Expert Committee (July 2024) revised criteria under Ministry of Culture/Sahitya Akademi.'
+          },
+          {
+            id: 'oli-8',
+            front: 'Which languages have Classical Status?',
+            back: 'Original 6:\n- Tamil (2004)\n- Sanskrit (2005)\n- Telugu (2008)\n- Kannada (2008)\n- Malayalam (2013)\n- Odia (2014)\n\nNewly approved in October 2024:\n- Marathi\n- Bengali\n- Assamese\n- Pali\n- Prakrit\n\nTotal: 11 Classical Languages'
+          },
+        ],
+        quiz: [
+          {
+            id: 'oli-q1',
+            question: 'The official language of the Union under Article 343 is:',
+            options: ['English', 'Hindi in Devanagari script', 'Sanskrit', 'All 22 scheduled languages'],
+            correct: 1,
+            explanation: 'Article 343: Hindi (Devanagari script) is the official language of the Union; English continues for official purposes.'
+          },
+          {
+            id: 'oli-q2',
+            question: 'The Parliamentary Committee on Official Language has how many members?',
+            options: ['20', '25', '30', '40'],
+            correct: 2,
+            explanation: 'Parliamentary Committee on Official Language has 30 MPs — 20 from Lok Sabha and 10 from Rajya Sabha, chaired by Union Home Minister.'
+          },
+          {
+            id: 'oli-q3',
+            question: 'The first language to get Classical Status was:',
+            options: ['Sanskrit', 'Tamil', 'Telugu', 'Kannada'],
+            correct: 1,
+            explanation: 'Tamil was the first language to get Classical Status in 2004. Sanskrit followed in 2005.'
+          },
+          {
+            id: 'oli-q4',
+            question: 'Article 348 provides that judicial proceedings shall be in:',
+            options: ['Hindi only', 'English only', 'Hindi or English', 'State language'],
+            correct: 1,
+            explanation: 'Article 348 provides that English shall be used for all judicial proceedings and legal documents.'
+          },
+          {
+            id: 'oli-q5',
+            question: 'How many official languages are in the Eighth Schedule?',
+            options: ['18', '20', '22', '24'],
+            correct: 2,
+            explanation: 'The Eighth Schedule lists 22 official languages. Classical languages are not separately mentioned under it.'
+          },
+          {
+            id: 'oli-q6',
+            question: 'Which languages were added to Classical Language list in October 2024?',
+            options: [
+              'Tamil, Sanskrit, Telugu',
+              'Marathi, Bengali, Assamese, Pali, Prakrit',
+              'Hindi, Urdu, Gujarati',
+              'Malayalam, Odia, Kannada'
+            ],
+            correct: 1,
+            explanation: 'In October 2024, Marathi, Bengali, Assamese, Pali, and Prakrit were added to the Classical Language list.'
+          },
+        ]
       }
     ]
   }
