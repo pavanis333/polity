@@ -9288,6 +9288,67 @@ const topicsData = [
             explanation: 'Article 329 prevents court interference in electoral matters, except through election petitions.'
           },
         ]
+      },
+      {
+        id: 'key-electoral-officers',
+        name: 'Key Electoral Officers',
+        flashcards: [
+          {
+            id: 'keo-1',
+            front: 'What is the role of Chief Electoral Officer (CEO)?',
+            back: 'Nominated by the Election Commission.\nSupervises elections in a State/Union Territory.\nGoverned by: Representation of the People Act, 1950.'
+          },
+          {
+            id: 'keo-2',
+            front: 'What is the role of District Election Officer (DEO)?',
+            back: 'Manages elections at the district level.\nReports to the CEO.\nGoverned by: Representation of the People Act, 1950.'
+          },
+          {
+            id: 'keo-3',
+            front: 'What is the role of Returning Officer (RO)?',
+            back: 'Conducts elections in a parliamentary or assembly constituency.\nGoverned by: Representation of the People Act, 1951.'
+          },
+          {
+            id: 'keo-4',
+            front: 'What are the roles of ERO and Presiding Officer?',
+            back: 'Electoral Registration Officer (ERO): Prepares electoral rolls for constituencies.\n\nPresiding Officer: Oversees polling at stations; appointed by DEO or Returning Officer in Union Territories.'
+          },
+          {
+            id: 'keo-5',
+            front: 'What are Election Observers?',
+            back: 'Nominated by the Election Commission to monitor elections.\n\nTypes:\n- General Observers\n- Election Expenditure Observers\n- Awareness Observers\n\nStatutory powers established by amendments in 1996.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'keo-q1',
+            question: 'Chief Electoral Officer is nominated by:',
+            options: ['President', 'Governor', 'Election Commission', 'Parliament'],
+            correct: 2,
+            explanation: 'CEO is nominated by the Election Commission and supervises elections in a State/UT.'
+          },
+          {
+            id: 'keo-q2',
+            question: 'CEO and DEO are governed by:',
+            options: ['RPA 1950', 'RPA 1951', 'Constitution', 'ECI Act'],
+            correct: 0,
+            explanation: 'CEO and DEO are governed by the Representation of the People Act, 1950.'
+          },
+          {
+            id: 'keo-q3',
+            question: 'Returning Officer conducts elections in:',
+            options: ['Entire state', 'District', 'Parliamentary or assembly constituency', 'Polling booth'],
+            correct: 2,
+            explanation: 'Returning Officer conducts elections in a parliamentary or assembly constituency under RPA 1951.'
+          },
+          {
+            id: 'keo-q4',
+            question: 'Statutory powers for Election Observers were established in:',
+            options: ['1951', '1989', '1996', '2002'],
+            correct: 2,
+            explanation: 'Statutory powers for Election Observers were established by amendments in 1996.'
+          },
+        ]
       }
     ]
   }
