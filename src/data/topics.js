@@ -4622,6 +4622,108 @@ const topicsData = [
             explanation: 'Under Art 75 and 164, ministers hold office at the pleasure of the President (Centre) and Governor (State) respectively.'
           },
         ]
+      },
+      {
+        id: 'facts-about-indian-pms',
+        name: 'Facts About Indian Prime Ministers',
+        flashcards: [
+          {
+            id: 'fpm-1',
+            front: 'Who was the longest-serving Indian Prime Minister?',
+            back: 'Jawaharlal Nehru (1947–1964).'
+          },
+          {
+            id: 'fpm-2',
+            front: 'Who was the second longest-serving Indian PM?',
+            back: 'Indira Gandhi.'
+          },
+          {
+            id: 'fpm-3',
+            front: 'Who was the first non-Congress PM of India?',
+            back: 'Morarji Desai.'
+          },
+          {
+            id: 'fpm-4',
+            front: 'Which Indian PM was awarded Pakistan\'s highest civilian award?',
+            back: 'Morarji Desai — first Indian PM to receive Pakistan\'s highest civilian award.'
+          },
+          {
+            id: 'fpm-5',
+            front: 'Who was the youngest Indian PM?',
+            back: 'Rajiv Gandhi.'
+          },
+          {
+            id: 'fpm-6',
+            front: 'Who was the first PM from South India?',
+            back: 'P.V. Narasimha Rao.'
+          },
+          {
+            id: 'fpm-7',
+            front: 'Who was the first PM who was a member of the Rajya Sabha?',
+            back: 'Indira Gandhi.'
+          },
+          {
+            id: 'fpm-8',
+            front: 'Who served as Acting Prime Minister twice?',
+            back: 'Gulzari Lal Nanda.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'fpm-q1',
+            question: 'The longest-serving Indian PM was:',
+            options: ['Indira Gandhi', 'Jawaharlal Nehru', 'Narendra Modi', 'Rajiv Gandhi'],
+            correct: 1,
+            explanation: 'Jawaharlal Nehru served from 1947 to 1964, making him the longest-serving PM.'
+          },
+          {
+            id: 'fpm-q2',
+            question: 'The first non-Congress PM of India was:',
+            options: ['Atal Bihari Vajpayee', 'V.P. Singh', 'Morarji Desai', 'Charan Singh'],
+            correct: 2,
+            explanation: 'Morarji Desai was the first non-Congress PM of India.'
+          },
+          {
+            id: 'fpm-q3',
+            question: 'Which PM received Pakistan\'s highest civilian award?',
+            options: ['Jawaharlal Nehru', 'Rajiv Gandhi', 'Morarji Desai', 'Atal Bihari Vajpayee'],
+            correct: 2,
+            explanation: 'Morarji Desai was the first Indian PM awarded Pakistan\'s highest civilian award.'
+          },
+          {
+            id: 'fpm-q4',
+            question: 'The youngest Indian PM was:',
+            options: ['Jawaharlal Nehru', 'Indira Gandhi', 'Rajiv Gandhi', 'P.V. Narasimha Rao'],
+            correct: 2,
+            explanation: 'Rajiv Gandhi was the youngest Indian Prime Minister.'
+          },
+          {
+            id: 'fpm-q5',
+            question: 'The first PM from South India was:',
+            options: ['H.D. Deve Gowda', 'P.V. Narasimha Rao', 'I.K. Gujral', 'Charan Singh'],
+            correct: 1,
+            explanation: 'P.V. Narasimha Rao was the first PM from South India.'
+          },
+          {
+            id: 'fpm-q6',
+            question: 'Gulzari Lal Nanda is known for:',
+            options: [
+              'Being the youngest PM',
+              'Serving as Acting PM twice',
+              'Being the first non-Congress PM',
+              'Being the longest-serving PM'
+            ],
+            correct: 1,
+            explanation: 'Gulzari Lal Nanda served as Acting Prime Minister twice.'
+          },
+          {
+            id: 'fpm-q7',
+            question: 'The first PM who was a member of the Rajya Sabha was:',
+            options: ['Manmohan Singh', 'Indira Gandhi', 'Rajiv Gandhi', 'H.D. Deve Gowda'],
+            correct: 1,
+            explanation: 'Indira Gandhi was the first PM who was a member of the Rajya Sabha.'
+          },
+        ]
       }
     ]
   }
