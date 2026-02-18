@@ -6956,6 +6956,94 @@ const topicsData = [
             explanation: 'Doctrine of Territorial Nexus: State laws can apply outside the state if there is a sufficient nexus with the subject matter.'
           },
         ]
+      },
+      {
+        id: 'other-powers-sc-articles',
+        name: 'Other Powers of SC & Key Articles',
+        flashcards: [
+          {
+            id: 'opsc-1',
+            front: 'What is the SC\'s role in Election Disputes?',
+            back: 'The SC decides disputes regarding the election of the President and Vice-President. It has original, exclusive, and final authority in such matters.'
+          },
+          {
+            id: 'opsc-2',
+            front: 'What is the SC\'s role regarding UPSC Conduct?',
+            back: 'The SC enquires into the conduct of UPSC members based on Presidential reference. The advice given by the SC is binding on the President.'
+          },
+          {
+            id: 'opsc-3',
+            front: 'What is the SC\'s power of Self-Correction?',
+            back: 'The SC has the power to review its own judgments. It can correct errors or reconsider its previous decisions.'
+          },
+          {
+            id: 'opsc-4',
+            front: 'What is the SC\'s Case Management power?',
+            back: 'The SC can:\n- Withdraw cases from High Courts\n- Transfer cases between High Courts\nThis ensures justice and avoids conflicting judgments.'
+          },
+          {
+            id: 'opsc-5',
+            front: 'What does Article 141 provide?',
+            back: 'Law declared by the Supreme Court is binding on all courts in India. This establishes the SC as the final arbiter of law.'
+          },
+          {
+            id: 'opsc-6',
+            front: 'What does Article 142 provide?',
+            back: 'Enforcement of Supreme Court decrees and orders. The SC can pass any order necessary for doing complete justice in any case or matter pending before it.'
+          },
+          {
+            id: 'opsc-7',
+            front: 'Can Parliament enlarge the SC\'s jurisdiction?',
+            back: 'Yes. Parliament can enlarge the Supreme Court\'s jurisdiction regarding Union matters. This is a legislative power to expand the SC\'s scope.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'opsc-q1',
+            question: 'Disputes regarding the election of the President are decided by:',
+            options: ['Parliament', 'Election Commission', 'Supreme Court', 'High Court'],
+            correct: 2,
+            explanation: 'The SC has original, exclusive, and final authority in disputes regarding election of the President and Vice-President.'
+          },
+          {
+            id: 'opsc-q2',
+            question: 'Article 141 provides that:',
+            options: [
+              'SC can enforce its own decrees',
+              'Law declared by SC is binding on all courts',
+              'SC can transfer cases between HCs',
+              'SC can review its own judgments'
+            ],
+            correct: 1,
+            explanation: 'Article 141: Law declared by the Supreme Court is binding on all courts in India.'
+          },
+          {
+            id: 'opsc-q3',
+            question: 'Article 142 deals with:',
+            options: [
+              'Binding nature of SC law',
+              'Enforcement of SC decrees and orders',
+              'Advisory jurisdiction',
+              'Appointment of judges'
+            ],
+            correct: 1,
+            explanation: 'Article 142: Enforcement of SC decrees and orders — SC can pass any order for doing complete justice.'
+          },
+          {
+            id: 'opsc-q4',
+            question: 'The SC\'s advice on conduct of UPSC members is:',
+            options: ['Advisory only', 'Binding on the President', 'Non-binding', 'Subject to Parliament\'s approval'],
+            correct: 1,
+            explanation: 'The SC enquires into UPSC members\' conduct on Presidential reference, and the advice is binding on the President.'
+          },
+          {
+            id: 'opsc-q5',
+            question: 'Who can enlarge the SC\'s jurisdiction?',
+            options: ['President', 'CJI', 'Parliament', 'Law Commission'],
+            correct: 2,
+            explanation: 'Parliament can enlarge the Supreme Court\'s jurisdiction regarding Union matters.'
+          },
+        ]
       }
     ]
   }
