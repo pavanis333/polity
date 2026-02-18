@@ -8921,6 +8921,101 @@ const topicsData = [
             explanation: 'These provisions were incorporated by subsequent amendments in the context of reorganisation of states or conferment of statehood on UTs.'
           },
         ]
+      },
+      {
+        id: 'article-371-state-wise',
+        name: 'Article 371 State-wise Provisions',
+        flashcards: [
+          {
+            id: 'a371-1',
+            front: 'What are the provisions for Maharashtra and Gujarat (Article 371)?',
+            back: 'Governor\'s Responsibilities:\n- Establish Development Boards for Vidarbha, Marathwada, Saurashtra, and Kutch\n- Equitable allocation of funds for development\n- Facilities for technical education and vocational training\n- Employment opportunities in state services for these regions\n- Annual performance reports to State Legislative Assembly'
+          },
+          {
+            id: 'a371-2',
+            front: 'What are the provisions for Nagaland (Article 371A)? (UPSC 2025)',
+            back: 'Introduced by 13th Amendment (1962). Nagaland given statehood in 1963 through State of Nagaland Act, 1962. (UPSC 2025)\n- Governor\'s role in law and order until disturbances cease (decision final)\n- Central funds in Demand for Grants\n- Tuensang District: Regional Council (35 members), 10-year special provisions under Governor\n- Parliament acts on Naga customary law, religious/social practices, civil/criminal justice, land ownership don\'t apply unless State Assembly decides\n\nHonours 16-Point Agreement (1960) with Naga People\'s Convention.'
+          },
+          {
+            id: 'a371-3',
+            front: 'What are the provisions for Assam (371B) and Manipur (371C)?',
+            back: 'Assam (Article 371B) — 22nd Amendment (1969):\n- President can form a Committee of Legislative Assembly with members from tribal areas\n\nManipur (Article 371C) — 27th Amendment (1971):\n- President authorised to provide for Committee for Hill Areas in Legislative Assembly\n- Governor\'s special responsibility for committee functioning and annual reports'
+          },
+          {
+            id: 'a371-4',
+            front: 'What are the provisions for Andhra Pradesh and Telangana (Article 371D & 371E)?',
+            back: 'Article 371D: President empowered to provide for equitable opportunities in public employment and education.\n- Local cadres for civil posts\n- Establishment of an Administrative Tribunal\n\nArticle 371E: Parliament can establish a Central University in Andhra Pradesh.'
+          },
+          {
+            id: 'a371-5',
+            front: 'What are the provisions for Sikkim (Article 371F)?',
+            back: 'Introduced by 36th Amendment (1975):\n- Legislative Assembly must have at least 30 members\n- One Lok Sabha seat allocated to Sikkim\n- Governor\'s role in maintaining peace and advancing social/economic interests\n- President can extend any law (in force in any state) with modifications into Sikkim'
+          },
+          {
+            id: 'a371-6',
+            front: 'What are the provisions for Mizoram (371G) and Arunachal Pradesh (371H)?',
+            back: 'Mizoram (Article 371G) — 53rd Amendment (1986):\n- Parliament Acts on certain matters apply only if State Assembly agrees\n- Legislative Assembly must have at least 40 members\n\nArunachal Pradesh (Article 371H) — 55th Amendment (1986):\n- Governor\'s responsibility for law and order with final decision-making authority\n- Legislative Assembly must have at least 30 members\n- Capital Itanagar named after historical Ita Fort (Brick Fort) (UPSC 2025)'
+          },
+          {
+            id: 'a371-7',
+            front: 'What are the provisions for Goa (371I) and Karnataka (371J)?',
+            back: 'Goa (Article 371I) — 56th Amendment (1987):\n- Legislative Assembly must have not less than 30 members\n\nKarnataka (Article 371J) — 98th Amendment:\n- Development Board for Hyderabad-Karnataka Region\n- Oversee development initiatives, annual reports\n- Equitable fund allocation\n- Reservations in education/vocational training and state government posts for local residents'
+          },
+        ],
+        quiz: [
+          {
+            id: 'a371-q1',
+            question: 'Article 371A for Nagaland was introduced by: (UPSC 2025)',
+            options: ['11th Amendment', '13th Amendment', '22nd Amendment', '27th Amendment'],
+            correct: 1,
+            explanation: 'Article 371A was introduced by the 13th Amendment (1962). Nagaland got statehood in 1963.'
+          },
+          {
+            id: 'a371-q2',
+            question: 'Under Article 371, Development Boards are established for:',
+            options: [
+              'Vidarbha, Marathwada, Saurashtra, Kutch',
+              'Only Vidarbha and Marathwada',
+              'All districts of Maharashtra',
+              'Only Saurashtra and Kutch'
+            ],
+            correct: 0,
+            explanation: 'Article 371 provides for Development Boards for Vidarbha, Marathwada (Maharashtra) and Saurashtra, Kutch (Gujarat).'
+          },
+          {
+            id: 'a371-q3',
+            question: 'Article 371F for Sikkim was introduced by:',
+            options: ['27th Amendment', '36th Amendment', '53rd Amendment', '55th Amendment'],
+            correct: 1,
+            explanation: 'Article 371F was introduced by the 36th Amendment (1975) when Sikkim became a state.'
+          },
+          {
+            id: 'a371-q4',
+            question: 'Minimum members in Mizoram Legislative Assembly as per Article 371G:',
+            options: ['30', '35', '40', '60'],
+            correct: 2,
+            explanation: 'Article 371G (53rd Amendment, 1986) provides that Mizoram Legislative Assembly must have at least 40 members.'
+          },
+          {
+            id: 'a371-q5',
+            question: 'Article 371J provides special provisions for:',
+            options: ['Vidarbha-Marathwada', 'Hyderabad-Karnataka', 'Saurashtra-Kutch', 'Tuensang District'],
+            correct: 1,
+            explanation: 'Article 371J (98th Amendment) provides for Development Board for Hyderabad-Karnataka Region with reservations for local residents.'
+          },
+          {
+            id: 'a371-q6',
+            question: 'Under Article 371A, Parliament acts on Naga customary law apply:',
+            options: [
+              'Automatically',
+              'Only if State Assembly decides',
+              'Only if Governor approves',
+              'Only if President directs'
+            ],
+            correct: 1,
+            explanation: 'Parliament acts on Naga customary law, religious/social practices, justice, and land don\'t apply unless the State Legislative Assembly so decides.'
+          },
+        ]
       }
     ]
   }
