@@ -4724,6 +4724,84 @@ const topicsData = [
             explanation: 'Indira Gandhi was the first PM who was a member of the Rajya Sabha.'
           },
         ]
+      },
+      {
+        id: 'cabinet-secretariat',
+        name: 'Cabinet Secretariat',
+        flashcards: [
+          {
+            id: 'csec-1',
+            front: 'What is the Cabinet Secretariat and who heads it? (UPSC 2015)',
+            back: 'The Cabinet Secretariat functions directly under the Prime Minister. The administrative head is the Cabinet Secretary who is also the ex-officio Chairman of the Civil Services Board.'
+          },
+          {
+            id: 'csec-2',
+            front: 'What business is allocated to the Cabinet Secretariat? (UPSC 2014)',
+            back: 'Under the Government of India (Allocation of Business) Rules, 1961:\n(i) Secretarial assistance to the Cabinet and Cabinet Committees\n(ii) Rules of Business, preparation of agenda for Cabinet Meetings, and secretariat assistance to Cabinet Committees'
+          },
+          {
+            id: 'csec-3',
+            front: 'What did the Report on Reorganisation of the Machinery of Central Government (1950) recommend? (UPSC 2021)',
+            back: 'N. Gopalaswamy Ayyangar recommended grouping ministries and enhancing personnel capabilities in the O&M Division but did NOT propose a minister or secretary for administrative reform.'
+          },
+          {
+            id: 'csec-4',
+            front: 'What did the 1st ARC recommend? (UPSC 2021)',
+            back: 'The 1st Administrative Reforms Commission (ARC) recommended designating a minister and secretary specifically for promoting administrative reform.'
+          },
+          {
+            id: 'csec-5',
+            front: 'When was the Department of Personnel established? (UPSC 2021)',
+            back: 'In 1970, the Department of Personnel was established based on ARC recommendations under the Cabinet Secretariat. In 1985, it came under the Prime Minister\'s charge, assisted by a Minister of State.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'csec-q1',
+            question: 'The Cabinet Secretary is the ex-officio Chairman of: (UPSC 2015)',
+            options: ['UPSC', 'Finance Commission', 'Civil Services Board', 'Planning Commission'],
+            correct: 2,
+            explanation: 'The Cabinet Secretary is the ex-officio Chairman of the Civil Services Board.'
+          },
+          {
+            id: 'csec-q2',
+            question: 'The Cabinet Secretariat functions directly under: (UPSC 2015)',
+            options: ['President', 'Prime Minister', 'Home Minister', 'Finance Minister'],
+            correct: 1,
+            explanation: 'The Cabinet Secretariat functions directly under the Prime Minister.'
+          },
+          {
+            id: 'csec-q3',
+            question: 'N. Gopalaswamy Ayyangar\'s 1950 report recommended: (UPSC 2021)',
+            options: [
+              'A minister for administrative reform',
+              'Grouping ministries and enhancing O&M Division capabilities',
+              'Abolishing the Cabinet Secretariat',
+              'Creating the Department of Personnel'
+            ],
+            correct: 1,
+            explanation: 'The report recommended grouping ministries and enhancing personnel capabilities in the O&M Division, but did NOT propose a minister or secretary for administrative reform.'
+          },
+          {
+            id: 'csec-q4',
+            question: 'The Department of Personnel was established in: (UPSC 2021)',
+            options: ['1950', '1964', '1970', '1985'],
+            correct: 2,
+            explanation: 'The Department of Personnel was established in 1970 based on ARC recommendations under the Cabinet Secretariat. In 1985, it came under PM\'s charge.'
+          },
+          {
+            id: 'csec-q5',
+            question: 'The 1st ARC recommended: (UPSC 2021)',
+            options: [
+              'Abolishing Cabinet Committees',
+              'Designating a minister and secretary for promoting administrative reform',
+              'Merging the Cabinet Secretariat with PMO',
+              'Creating NITI Aayog'
+            ],
+            correct: 1,
+            explanation: 'The 1st ARC recommended designating a minister and secretary specifically for promoting administrative reform.'
+          },
+        ]
       }
     ]
   },
