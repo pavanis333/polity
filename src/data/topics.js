@@ -7766,6 +7766,74 @@ const topicsData = [
             explanation: 'The Commercial Division handles commercial disputes in High Courts that have original jurisdiction.'
           },
         ]
+      },
+      {
+        id: 'tribunals-in-india',
+        name: 'Tribunals in India',
+        flashcards: [
+          {
+            id: 'tri-1',
+            front: 'What are Tribunals?',
+            back: 'Judicial or quasi-judicial bodies established by law to resolve specific disputes efficiently, often with subject matter expertise.'
+          },
+          {
+            id: 'tri-2',
+            front: 'What are the Constitutional provisions for Tribunals?',
+            back: '42nd Amendment Act, 1976: Introduced Part XIV-A on Tribunals in the Constitution, comprising:\n- Article 323A: Pertains to administrative tribunals\n- Article 323B: Covers tribunals for other matters like taxation'
+          },
+          {
+            id: 'tri-3',
+            front: 'What are the differences between Articles 323A and 323B?',
+            back: 'Article 323A:\n- Establishes tribunals for public service\n- Created solely by Parliament\n- No hierarchy of tribunals\n\nArticle 323B:\n- Establishes tribunals for various matters\n- Both Parliament and State Legislatures can create\n- Hierarchy may be established'
+          },
+          {
+            id: 'tri-4',
+            front: 'What are the salient features of Tribunals?',
+            back: '- Expertise: Members with specialised knowledge\n- Flexible Procedures: Not bound by the Civil Procedure Code (CPC)\n- Natural Justice: Adhere to fair hearing principles\n- Quasi-Judicial Powers: Can hear evidence, examine witnesses, and make binding decisions\n- Expedited Process: Faster resolution than traditional courts\n- Appellate Authority: Decisions can be appealed to higher courts'
+          },
+          {
+            id: 'tri-5',
+            front: 'What are the functions of Tribunals?',
+            back: '- Resolve disputes and determine rights\n- Make administrative decisions and review existing ones\n- Must operate independently of the executive'
+          },
+        ],
+        quiz: [
+          {
+            id: 'tri-q1',
+            question: 'Part XIV-A on Tribunals was introduced by:',
+            options: ['24th Amendment, 1971', '42nd Amendment, 1976', '44th Amendment, 1978', '73rd Amendment, 1992'],
+            correct: 1,
+            explanation: 'The 42nd Amendment Act, 1976 introduced Part XIV-A on Tribunals, comprising Articles 323A and 323B.'
+          },
+          {
+            id: 'tri-q2',
+            question: 'Article 323A pertains to:',
+            options: ['Taxation tribunals', 'Administrative tribunals', 'Commercial tribunals', 'Environmental tribunals'],
+            correct: 1,
+            explanation: 'Article 323A pertains to administrative tribunals (public service matters). Article 323B covers other matters like taxation.'
+          },
+          {
+            id: 'tri-q3',
+            question: 'Tribunals under Article 323A can be created by:',
+            options: ['Both Parliament and State Legislatures', 'Parliament only', 'State Legislatures only', 'President by ordinance only'],
+            correct: 1,
+            explanation: 'Article 323A tribunals are created solely by Parliament. Article 323B allows both Parliament and State Legislatures.'
+          },
+          {
+            id: 'tri-q4',
+            question: 'Tribunals are NOT bound by:',
+            options: ['Constitution', 'Principles of natural justice', 'Civil Procedure Code (CPC)', 'Higher court decisions'],
+            correct: 2,
+            explanation: 'Tribunals have flexible procedures and are not bound by the CPC, but they adhere to principles of natural justice.'
+          },
+          {
+            id: 'tri-q5',
+            question: 'A hierarchy of tribunals may be established under:',
+            options: ['Article 323A only', 'Article 323B only', 'Both 323A and 323B', 'Neither'],
+            correct: 1,
+            explanation: 'Article 323B allows hierarchy of tribunals to be established. Article 323A has no provision for hierarchy.'
+          },
+        ]
       }
     ]
   }
