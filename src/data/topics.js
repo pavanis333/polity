@@ -6409,6 +6409,304 @@ const topicsData = [
             explanation: 'The Fourth Judges case (NJAC case) was decided in 2015, striking down the 99th Amendment and NJAC Act as unconstitutional.'
           },
         ]
+      },
+      {
+        id: 'sc-hc-composition-appointment-tenure',
+        name: 'SC & HC: Composition, Appointment & Tenure',
+        flashcards: [
+          {
+            id: 'schc-1',
+            front: 'What are the basic facts about the Supreme Court?',
+            back: '- Part of an integrated judicial system, based on the GoI Act, 1935\n- Enforces central and state laws\n- Inaugurated on January 28, 1950, replacing the Federal Court of India and the British Privy Council\n- Acts as both a federal court and a final appellate court\n- Described as having more powers than any other Supreme Court worldwide'
+          },
+          {
+            id: 'schc-2',
+            front: 'What are the basic facts about High Courts?',
+            back: '- Constitution originally provided for one HC per state\n- 7th Amendment Act (1956) allows a common HC for multiple states or UTs\n- Territorial jurisdiction is co-terminus with the concerned state(s) or UT(s), and Parliament can alter it'
+          },
+          {
+            id: 'schc-3',
+            front: 'What is the composition of the SC? (UPSC 2014)',
+            back: '34 judges (CJI + 33 others).\nThe Supreme Court (Number of Judges) Amendment Act, 2019 raised the number from 31 to 34. The power to increase the number is vested in Parliament. (UPSC 2014)'
+          },
+          {
+            id: 'schc-4',
+            front: 'What is the composition of High Courts?',
+            back: 'Strength not fixed in the Constitution; at the President\'s discretion. Each HC consists of a Chief Justice and other judges as appointed by the President.'
+          },
+          {
+            id: 'schc-5',
+            front: 'How are SC judges appointed? (UPSC 2012-13)',
+            back: 'From 1950-1973, the senior-most judge was appointed CJI, but violated in 1973 (A.N. Ray) and 1977 (M.U. Beg).\nSecond Judges Case (1993): Established that only the senior-most judge should be appointed as CJI.\nCJI Appointment: President consults SC and HC judges.\nOther Judges: Appointed by President after consultation with CJI, SC, and HC judges.'
+          },
+          {
+            id: 'schc-6',
+            front: 'How are HC judges appointed? (Article 217)',
+            back: 'Chief Justice: President consults CJI and the Governor of the state.\nOther Judges: Appointed by President after consulting CJI, Governor, and Chief Justice of the State HC.\nCommon High Courts: President consults Governors of all concerned states.\nThird Judges Case: CJI must consult a collegium of two senior-most SC judges for HC appointments.'
+          },
+          {
+            id: 'schc-7',
+            front: 'What are the qualifications for SC judges?',
+            back: '- Citizenship: Must be a citizen of India\n- Judicial Experience: Must have served as HC judge for 5 years OR been an advocate of HC for 10 years\n- Distinguished Jurist: Can be appointed at President\'s discretion (not for HC judges)\n- No minimum age prescribed'
+          },
+          {
+            id: 'schc-8',
+            front: 'What are the qualifications for HC judges?',
+            back: '- Citizenship: Must be a citizen of India\n- Judicial Experience: Must have held a judicial office for 10 years OR been an advocate of HC for 10 years\n- No provision for distinguished jurist in HC appointments\n- No minimum age prescribed'
+          },
+          {
+            id: 'schc-9',
+            front: 'What is the tenure and oath for SC and HC judges?',
+            back: 'SC: Serve until 65 years; resign by writing to President; removal recommended by Parliament. Oath before President or appointed representative.\nHC: Serve until 62 years; resign by writing to President; removed similarly as SC judges. Oath before Governor or appointed representative (Article 219).'
+          },
+          {
+            id: 'schc-10',
+            front: 'When can an Acting Chief Justice be appointed?',
+            back: 'SC: President can appoint a SC judge as Acting CJI if CJI\'s office is vacant, CJI is temporarily absent, or CJI is unable to perform duties (Article 126).\nHC: President can appoint a HC judge as Acting CJ if HC CJ\'s office is vacant, HC CJ is temporarily absent, or unable to perform duties (Article 223).'
+          },
+          {
+            id: 'schc-11',
+            front: 'What is the provision for retired judges?',
+            back: 'SC: CJI can request a retired SC judge or retired HC judge (qualified for SC) to act temporarily. Requires consent from President and the individual. Holds all jurisdiction and powers but is not deemed a judge.\nHC: HC Chief Justice can request a retired HC judge temporarily (Article 224A). Requires President\'s and individual\'s consent.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'schc-q1',
+            question: 'The SC was inaugurated on:',
+            options: ['January 26, 1950', 'January 28, 1950', 'November 26, 1949', 'August 15, 1947'],
+            correct: 1,
+            explanation: 'The Supreme Court was inaugurated on January 28, 1950, replacing the Federal Court of India and British Privy Council.'
+          },
+          {
+            id: 'schc-q2',
+            question: 'The current number of SC judges is: (UPSC 2014)',
+            options: ['26', '31', '34', '36'],
+            correct: 2,
+            explanation: 'The SC (Number of Judges) Amendment Act, 2019 raised the number from 31 to 34 (CJI + 33 others).'
+          },
+          {
+            id: 'schc-q3',
+            question: 'SC judges serve until age:',
+            options: ['60', '62', '65', '70'],
+            correct: 2,
+            explanation: 'SC judges serve until 65 years. HC judges serve until 62 years.'
+          },
+          {
+            id: 'schc-q4',
+            question: 'The "Distinguished Jurist" provision for appointment applies to:',
+            options: ['Both SC and HC', 'SC only', 'HC only', 'Neither'],
+            correct: 1,
+            explanation: 'Distinguished Jurist can be appointed to SC at President\'s discretion. No such provision exists for HC appointments.'
+          },
+          {
+            id: 'schc-q5',
+            question: 'HC judges take oath before:',
+            options: ['President', 'CJI', 'Governor or appointed representative', 'PM'],
+            correct: 2,
+            explanation: 'HC judges take oath before the Governor or an appointed representative (Article 219).'
+          },
+          {
+            id: 'schc-q6',
+            question: 'The Second Judges Case (1993) established that:',
+            options: [
+              'NJAC should appoint judges',
+              'Only the senior-most judge should be appointed CJI',
+              'Parliament should appoint judges',
+              'Governor should appoint HC judges'
+            ],
+            correct: 1,
+            explanation: 'The Second Judges Case (1993) established that only the senior-most judge should be appointed as CJI.'
+          },
+        ]
+      },
+      {
+        id: 'sc-hc-jurisdiction-and-powers',
+        name: 'SC & HC: Jurisdiction & Powers',
+        flashcards: [
+          {
+            id: 'jur-1',
+            front: 'What is the SC\'s general jurisdiction? (UPSC 2015, 2019)',
+            back: 'The SC has extensive jurisdiction. It is the final interpreter and guardian of the Constitution and the guarantor of fundamental rights. It acts as both a federal court and a final appellate court. Supreme Court is custodian of the Constitution of India. (UPSC 2015)'
+          },
+          {
+            id: 'jur-2',
+            front: 'What is the SC\'s Original Jurisdiction? (UPSC 2012, 2014)',
+            back: 'Original and exclusive jurisdiction (Art 131) in disputes between:\n- States and the Centre (UPSC 2014)\n- States and other states (UPSC 2012)\n- Centre and a state vs another state\n\nPolitical questions generally avoided. Disputes must involve a legal right.\nPrivate citizens cannot bring suits against Centre or a state.\nFirst suit: West Bengal vs Centre (1961).'
+          },
+          {
+            id: 'jur-3',
+            front: 'What is excluded from SC\'s Original Jurisdiction?',
+            back: '- Pre-Constitutional treaties or agreements\n- Inter-state water disputes\n- Financial adjustments or pensions between Centre and states\n- Commercial disputes between Centre and states\n- Recovery of damages'
+          },
+          {
+            id: 'jur-4',
+            front: 'What is the HC\'s Original Jurisdiction?',
+            back: '- Election disputes for MPs and state legislators\n- Revenue matters\n- Enforcement of Fundamental Rights\n- Cases transferred from subordinate courts involving constitutional interpretation\n- Original civil jurisdiction in high-value cases (Calcutta, Bombay, Madras, and Delhi HCs)\n- Narrower than SC\'s jurisdiction\n\nNote: Original criminal jurisdiction of Calcutta, Bombay, and Madras HCs was abolished in 1973.'
+          },
+          {
+            id: 'jur-5',
+            front: 'What is the SC\'s Writ Jurisdiction?',
+            back: 'Writs: Habeas corpus, mandamus, prohibition, quo warranto, and certiorari.\nScope: Aggrieved individuals approach SC under Article 32 for enforcement of Fundamental Rights.\nThe Court\'s writ jurisdiction is original but shared with High Courts, and Parliament can extend its scope.'
+          },
+          {
+            id: 'jur-6',
+            front: 'What is the HC\'s Writ Jurisdiction?',
+            back: 'Wider jurisdiction than SC: Can issue writs for both Fundamental Rights AND other legal rights (Article 226).\nCan issue writs beyond its territorial jurisdiction if the cause of action arises within its territory.\nConcurrent with SC\'s writ jurisdiction (Chandra Kumar case, 1997).'
+          },
+          {
+            id: 'jur-7',
+            front: 'What is the SC\'s Appellate Jurisdiction?',
+            back: 'Constitutional matters: Under Art 132, appeals against HC judgments involving substantial constitutional questions.\nCivil & Criminal: Art 133 and 134 govern appeals including death sentences. Appeals limited when acquittal is confirmed, but HC certification enables SC appeals.\nNo right to appeal if acquittal confirmed. However, Special Leave Petition under Art 136 is still available.'
+          },
+          {
+            id: 'jur-8',
+            front: 'What is the HC\'s Appellate Jurisdiction?',
+            back: 'HC has wider appellate jurisdiction than its original jurisdiction. Applicable in both civil and criminal matters against judgements of subordinate courts.\n1st appeal: Cases involving questions of law and facts.\n2nd appeal: Cases involving questions of laws only.'
+          },
+          {
+            id: 'jur-9',
+            front: 'What is Court of Record status for SC and HC? (UPSC 2021)',
+            back: 'SC: Acts as a court of record (Art 129). Judgments recorded for perpetual memory and legal precedent. Records have evidentiary value and cannot be questioned. Has power to punish for contempt.\nHC: Judgments recorded for evidentiary value (Art 215). HC has power to review and correct its own judgement, hence bound by its previous decision, but not on the lines as SC does. (UPSC 2021) Has power to punish for contempt.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'jur-q1',
+            question: 'SC\'s Original Jurisdiction under Art 131 covers disputes between: (UPSC 2012)',
+            options: [
+              'Citizens and the State',
+              'States and the Centre, States and other States',
+              'Private parties only',
+              'International disputes'
+            ],
+            correct: 1,
+            explanation: 'Art 131: Original and exclusive jurisdiction in disputes between states and Centre, and between states.'
+          },
+          {
+            id: 'jur-q2',
+            question: 'HC\'s writ jurisdiction under Article 226 is wider than SC because:',
+            options: [
+              'HC can issue more types of writs',
+              'HC can issue writs for FRs AND other legal rights',
+              'HC writs are binding on SC',
+              'HC has unlimited territorial jurisdiction'
+            ],
+            correct: 1,
+            explanation: 'HC can issue writs for both Fundamental Rights and other legal rights under Art 226, while SC writs are only for FRs under Art 32.'
+          },
+          {
+            id: 'jur-q3',
+            question: 'The first suit under SC\'s original jurisdiction was: (UPSC 2012)',
+            options: [
+              'Kerala vs Centre (1957)',
+              'West Bengal vs Centre (1961)',
+              'Tamil Nadu vs Centre (1965)',
+              'Bihar vs Centre (1970)'
+            ],
+            correct: 1,
+            explanation: 'The first suit under SC\'s original jurisdiction was West Bengal vs Centre (1961).'
+          },
+          {
+            id: 'jur-q4',
+            question: 'Original criminal jurisdiction of Calcutta, Bombay, and Madras HCs was abolished in:',
+            options: ['1950', '1961', '1973', '1993'],
+            correct: 2,
+            explanation: 'Original criminal jurisdiction of Calcutta, Bombay, and Madras HCs was abolished in 1973.'
+          },
+          {
+            id: 'jur-q5',
+            question: 'Supreme Court is the custodian of: (UPSC 2015)',
+            options: ['Parliament', 'Government', 'Constitution of India', 'Electoral process'],
+            correct: 2,
+            explanation: 'The Supreme Court is the custodian of the Constitution of India (UPSC 2015).'
+          },
+        ]
+      },
+      {
+        id: 'contempt-salaries-removal',
+        name: 'Contempt of Court, Salaries & Removal of Judges',
+        flashcards: [
+          {
+            id: 'csr-1',
+            front: 'What governs Contempt of Court? (UPSC 2022)',
+            back: 'Governed by the Contempt of Court Act, 1971, based on recommendations of H.N. Sanyal committee.\nExpression "contempt of court" has NOT been defined by the Constitution. (UPSC 2022)\nCivil Contempt: Wilful disobedience to court orders or judgments.\nCriminal Contempt: Publication or actions that scandalise or lower the authority of the court, or interfere with justice.'
+          },
+          {
+            id: 'csr-2',
+            front: 'What actions do NOT amount to contempt of court?',
+            back: '- Innocent publication\n- Fair reports of judicial proceedings\n- Reasonable criticism of judicial acts\n\nPenalties: Simple imprisonment for up to six months, or fines up to ₹2000.\nProceedings must be initiated within one year of the alleged contempt.\nThe Act does not apply to Nyaya Panchayats or similar village courts.'
+          },
+          {
+            id: 'csr-3',
+            front: 'How are salaries of SC and HC judges determined?',
+            back: 'Determination: Salaries fixed by Parliament; cannot be reduced post-appointment, except during financial emergencies (Article 360).\nPension: Retired SC & HC judges receive 50% of their last drawn salary as pension.\nSC: Salaries charged on Consolidated Fund of India (Art 125).\nHC: Salaries charged on Consolidated Fund of State; pensions charged on Consolidated Fund of India (Art 221).'
+          },
+          {
+            id: 'csr-4',
+            front: 'How are SC and HC judges removed? (UPSC 2019)',
+            back: 'Grounds: Proved misbehaviour or incapacity.\nProcedure: Governed by Judges Enquiry Act (1968); requires Parliament\'s recommendation. (UPSC 2019)\nParliamentary Support: Special majority in both Houses.\nNo SC or HC judge has been impeached.\n\nJudges Enquiry Act, 1968 — Removal Motion:\n- Must be signed by 100 members (LS) or 50 members (RS)\n- Speaker/Chairman may admit or reject\n- If admitted, a three-member committee investigates\n- If found guilty, motion goes to House; must pass with special majority\n- President issues final removal order'
+          },
+        ],
+        quiz: [
+          {
+            id: 'csr-q1',
+            question: '"Contempt of court" has been defined by: (UPSC 2022)',
+            options: [
+              'The Constitution',
+              'The Contempt of Court Act, 1971 (not defined by Constitution)',
+              'Supreme Court only',
+              'Parliament through an amendment'
+            ],
+            correct: 1,
+            explanation: 'The expression "contempt of court" has NOT been defined by the Constitution. It is governed by the Contempt of Court Act, 1971.'
+          },
+          {
+            id: 'csr-q2',
+            question: 'Penalty for contempt of court includes imprisonment up to:',
+            options: ['3 months', '6 months', '1 year', '2 years'],
+            correct: 1,
+            explanation: 'Penalties include simple imprisonment for up to six months, or fines up to ₹2000.'
+          },
+          {
+            id: 'csr-q3',
+            question: 'Retired SC/HC judges receive what percentage of last drawn salary as pension?',
+            options: ['25%', '40%', '50%', '60%'],
+            correct: 2,
+            explanation: 'Retired SC and HC judges receive 50% of their last drawn salary as pension.'
+          },
+          {
+            id: 'csr-q4',
+            question: 'HC judges\' salaries are charged on:',
+            options: [
+              'Consolidated Fund of India',
+              'Consolidated Fund of the State',
+              'Public Account of India',
+              'Contingency Fund'
+            ],
+            correct: 1,
+            explanation: 'HC salaries are charged on the Consolidated Fund of the State (Art 221). Pensions are charged on the Consolidated Fund of India.'
+          },
+          {
+            id: 'csr-q5',
+            question: 'A removal motion for judges must be signed by: (UPSC 2019)',
+            options: [
+              '50 LS or 25 RS members',
+              '100 LS or 50 RS members',
+              '150 LS or 75 RS members',
+              'Majority of either House'
+            ],
+            correct: 1,
+            explanation: 'Removal motion must be signed by 100 members (LS) or 50 members (RS). Speaker/Chairman may admit or reject it.'
+          },
+          {
+            id: 'csr-q6',
+            question: 'The Contempt of Court Act does NOT apply to:',
+            options: ['Supreme Court', 'High Courts', 'Nyaya Panchayats or village courts', 'District Courts'],
+            correct: 2,
+            explanation: 'The Contempt of Court Act, 1971 does not apply to Nyaya Panchayats or similar village courts.'
+          },
+        ]
       }
     ]
   }
