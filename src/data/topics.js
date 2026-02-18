@@ -8628,6 +8628,74 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'special-provisions',
+    name: 'Special Provisions in Constitution',
+    icon: '📜',
+    subtopics: [
+      {
+        id: 'fifth-sixth-schedules',
+        name: 'Fifth & Sixth Schedules: Scheduled & Tribal Areas',
+        flashcards: [
+          {
+            id: 'fss-1',
+            front: 'What does the Fifth Schedule deal with?',
+            back: '- Supervision and administration of Scheduled Areas\n- Protects tribal interests in all scheduled territories, EXCLUDING Assam, Meghalaya, Tripura, and Mizoram\n- Safeguards tribal communities in states EXCEPT Assam, Mizoram, Tripura, and Meghalaya\n- Establishes a Tribal Advisory Council\n- Empowers the Governor to adapt legislation for unique local needs'
+          },
+          {
+            id: 'fss-2',
+            front: 'What does the Sixth Schedule deal with?',
+            back: '- Constitution, powers, and functions of District and Regional Councils in autonomous districts\n- Addresses scheduled regions NOT covered by the Fifth Schedule\n- Focuses on welfare of tribal communities in the northeastern states of Assam, Meghalaya, Tripura and Mizoram\n- Defines the authority and functions of District and Regional Councils in autonomous districts\n- Allows the Governor to designate regions autonomous district council jurisdiction as per the Sixth Schedule'
+          },
+          {
+            id: 'fss-3',
+            front: 'What is the key difference between Fifth and Sixth Schedules?',
+            back: 'Fifth Schedule: Applies to scheduled areas in ALL states EXCEPT Assam, Meghalaya, Tripura, and Mizoram. Governor has power through Tribal Advisory Council.\n\nSixth Schedule: Specifically for northeastern states — Assam, Meghalaya, Tripura, and Mizoram. Creates autonomous District and Regional Councils with legislative, judicial, and executive powers.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'fss-q1',
+            question: 'The Fifth Schedule does NOT apply to:',
+            options: ['Madhya Pradesh', 'Jharkhand', 'Assam', 'Odisha'],
+            correct: 2,
+            explanation: 'The Fifth Schedule excludes Assam, Meghalaya, Tripura, and Mizoram — these are covered by the Sixth Schedule.'
+          },
+          {
+            id: 'fss-q2',
+            question: 'The Sixth Schedule creates:',
+            options: [
+              'Tribal Advisory Councils',
+              'District and Regional Councils',
+              'Panchayati Raj Institutions',
+              'Municipalities'
+            ],
+            correct: 1,
+            explanation: 'The Sixth Schedule creates District and Regional Councils in autonomous districts of northeastern states.'
+          },
+          {
+            id: 'fss-q3',
+            question: 'The Sixth Schedule applies to:',
+            options: [
+              'All states with tribal population',
+              'Only Assam, Meghalaya, Tripura, and Mizoram',
+              'All northeastern states',
+              'Union Territories only'
+            ],
+            correct: 1,
+            explanation: 'The Sixth Schedule specifically applies to Assam, Meghalaya, Tripura, and Mizoram for autonomous district governance.'
+          },
+          {
+            id: 'fss-q4',
+            question: 'Under the Fifth Schedule, who can adapt legislation for local needs?',
+            options: ['President', 'Chief Minister', 'Governor', 'Parliament'],
+            correct: 2,
+            explanation: 'The Fifth Schedule empowers the Governor to adapt legislation for unique local needs in scheduled areas.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
