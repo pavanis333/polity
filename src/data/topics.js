@@ -5221,6 +5221,79 @@ const topicsData = [
             explanation: 'If a joint sitting is notified before Lok Sabha dissolution, the bill does not lapse.'
           },
         ]
+      },
+      {
+        id: 'financial-bill-i-vs-ii',
+        name: 'Financial Bill (I) vs Financial Bill (II)',
+        flashcards: [
+          {
+            id: 'fb-1',
+            front: 'What is a Financial Bill (I)? [Article 117(1)]',
+            back: '- Bill that not only contains exclusive matters of Article 110 (money bill matters), but also contains other matters of general legislation\n- Can be introduced only in the Lok Sabha\n- Introduced only on the recommendation of the President'
+          },
+          {
+            id: 'fb-2',
+            front: 'What is a Financial Bill (II)? [Article 117(3)]',
+            back: '- Bill contains provisions involving expenditure from the Consolidated Fund of India, but does NOT include any of the matters mentioned in Article 110\n- Can be introduced in both Houses of Parliament\n- Recommendation of the President is NOT necessary for its introduction but is required at the consideration stage'
+          },
+          {
+            id: 'fb-3',
+            front: 'Key differences between Financial Bill (I) and Financial Bill (II)?',
+            back: 'Financial Bill (I) [Art 117(1)]:\n- Contains Art 110 matters + other matters\n- Only in Lok Sabha\n- President\'s recommendation needed for introduction\n\nFinancial Bill (II) [Art 117(3)]:\n- Does NOT contain Art 110 matters\n- In either House\n- President\'s recommendation needed only at consideration stage, not introduction'
+          },
+          {
+            id: 'fb-4',
+            front: 'What is Article 110?',
+            back: 'Article 110 defines a Money Bill — dealing exclusively with taxation, borrowing, Consolidated Fund expenditure/receipts, appropriation, etc. The Speaker certifies whether a bill is a Money Bill.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'fb-q1',
+            question: 'Financial Bill (I) under Article 117(1) can be introduced in:',
+            options: ['Both Houses', 'Lok Sabha only', 'Rajya Sabha only', 'Joint sitting only'],
+            correct: 1,
+            explanation: 'Financial Bill (I) can be introduced only in the Lok Sabha, similar to a Money Bill.'
+          },
+          {
+            id: 'fb-q2',
+            question: 'Financial Bill (II) under Article 117(3) requires President\'s recommendation:',
+            options: [
+              'For introduction only',
+              'At the consideration stage only',
+              'For both introduction and consideration',
+              'Not required at all'
+            ],
+            correct: 1,
+            explanation: 'Financial Bill (II) does NOT need President\'s recommendation for introduction, but it IS required at the consideration stage.'
+          },
+          {
+            id: 'fb-q3',
+            question: 'Which Financial Bill contains matters of Article 110 along with other matters?',
+            options: ['Financial Bill (I)', 'Financial Bill (II)', 'Both', 'Neither'],
+            correct: 0,
+            explanation: 'Financial Bill (I) contains exclusive matters of Article 110 plus other matters of general legislation.'
+          },
+          {
+            id: 'fb-q4',
+            question: 'Financial Bill (II) can be introduced in:',
+            options: ['Lok Sabha only', 'Rajya Sabha only', 'Both Houses of Parliament', 'Only in joint sittings'],
+            correct: 2,
+            explanation: 'Financial Bill (II) can be introduced in both Houses of Parliament, unlike Financial Bill (I) which is Lok Sabha only.'
+          },
+          {
+            id: 'fb-q5',
+            question: 'Financial Bill (I) requires President\'s recommendation for:',
+            options: [
+              'Consideration stage only',
+              'Introduction',
+              'Neither introduction nor consideration',
+              'Passing only'
+            ],
+            correct: 1,
+            explanation: 'Financial Bill (I) is introduced only on the recommendation of the President.'
+          },
+        ]
       }
     ]
   }
