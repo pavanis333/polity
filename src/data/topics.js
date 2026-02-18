@@ -8050,6 +8050,101 @@ const topicsData = [
             explanation: 'Thungon Committee (1988) recommended that the maximum period of supersession of a body should be six months.'
           },
         ]
+      },
+      {
+        id: '73rd-amendment-powers-finances',
+        name: '73rd Amendment: Powers, Functions & 11th Schedule',
+        flashcards: [
+          {
+            id: 'p73-1',
+            front: 'What powers does the 73rd Amendment grant to Panchayats?',
+            back: 'Authority: States can grant necessary powers for panchayats to operate as self-governing institutions.\nThe Constitution prescribes that Panchayats should be assigned the task of preparation of plans for economic development and social justice. (UPSC 2013)'
+          },
+          {
+            id: 'p73-2',
+            front: 'What are the financial powers of Panchayats?',
+            back: '- Taxation: Panchayats can levy and collect taxes, duties, tolls, and fees\n- Grants-in-Aid: States may provide funds from the consolidated state fund\n- Establishment of funds for panchayat finances'
+          },
+          {
+            id: 'p73-3',
+            front: 'What is the 11th Schedule?',
+            back: 'Includes 29 matters for panchayat administration, added by the 73rd Amendment. These are functional items that may be entrusted to Panchayats by state legislatures.'
+          },
+          {
+            id: 'p73-4',
+            front: 'List the 29 matters in the 11th Schedule (Part 1: 1-10)',
+            back: '1. Agriculture, including agricultural extension\n2. Land improvement, land reforms, land consolidation, soil conservation\n3. Minor irrigation, water management, watershed development\n4. Animal husbandry, dairying, and poultry\n5. Fisheries\n6. Social forestry and farm forestry\n7. Minor forest produce\n8. Small-scale industries, including food processing\n9. Khadi, village, and cottage industries\n10. Rural Housing'
+          },
+          {
+            id: 'p73-5',
+            front: 'List the 29 matters in the 11th Schedule (Part 2: 11-20)',
+            back: '11. Drinking water\n12. Fuel and fodder\n13. Roads, culverts, bridges, ferries, waterways, and other means of communication\n14. Rural electrification, including distribution of electricity\n15. Non-conventional energy sources\n16. Poverty alleviation programme\n17. Education, including primary and secondary schools\n18. Technical training and vocational education\n19. Adult and non-formal education\n20. Libraries'
+          },
+          {
+            id: 'p73-6',
+            front: 'List the 29 matters in the 11th Schedule (Part 3: 21-29)',
+            back: '21. Cultural activities\n22. Markets and fairs\n23. Health and sanitation, including hospitals, PHCs, dispensaries\n24. Family welfare\n25. Women and child development\n26. Social welfare (welfare of handicapped and mentally retarded)\n27. Welfare of weaker sections (SCs and STs)\n28. Public distribution system\n29. Maintenance of community assets'
+          },
+        ],
+        quiz: [
+          {
+            id: 'p73-q1',
+            question: 'The 11th Schedule contains how many matters for Panchayat administration?',
+            options: ['18', '25', '29', '33'],
+            correct: 2,
+            explanation: 'The 11th Schedule includes 29 matters for panchayat administration, added by the 73rd Amendment.'
+          },
+          {
+            id: 'p73-q2',
+            question: 'Panchayats should prepare plans for: (UPSC 2013)',
+            options: [
+              'Industrial development only',
+              'Economic development and social justice',
+              'Defence and security',
+              'International trade'
+            ],
+            correct: 1,
+            explanation: 'The Constitution prescribes that Panchayats should prepare plans for economic development and social justice.'
+          },
+          {
+            id: 'p73-q3',
+            question: 'Which of the following is NOT in the 11th Schedule?',
+            options: ['Agriculture', 'Drinking water', 'Defence', 'Rural housing'],
+            correct: 2,
+            explanation: 'Defence is not in the 11th Schedule. It contains matters like agriculture, drinking water, rural housing, education, health, etc.'
+          },
+          {
+            id: 'p73-q4',
+            question: 'Panchayats can levy and collect:',
+            options: [
+              'Only income tax',
+              'Taxes, duties, tolls, and fees',
+              'Only property tax',
+              'No taxes — only grants'
+            ],
+            correct: 1,
+            explanation: 'Panchayats can levy and collect taxes, duties, tolls, and fees. States may also provide grants-in-aid.'
+          },
+          {
+            id: 'p73-q5',
+            question: 'The 11th Schedule was added by:',
+            options: ['42nd Amendment', '44th Amendment', '73rd Amendment', '74th Amendment'],
+            correct: 2,
+            explanation: 'The 11th Schedule was added by the 73rd Amendment for Panchayat administration (29 matters).'
+          },
+          {
+            id: 'p73-q6',
+            question: 'Which of the following is in the 11th Schedule?',
+            options: [
+              'Banking and insurance',
+              'Public distribution system',
+              'Foreign trade',
+              'Railways'
+            ],
+            correct: 1,
+            explanation: 'Public distribution system is item 28 in the 11th Schedule. Banking, foreign trade, and railways are not included.'
+          },
+        ]
       }
     ]
   }
