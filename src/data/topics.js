@@ -7595,6 +7595,106 @@ const topicsData = [
             explanation: 'Mobile Lok Adalat uses multi-utility vans to reach remote areas, resolving petty cases and raising legal awareness.'
           },
         ]
+      },
+      {
+        id: 'gram-nyayalayas',
+        name: 'Gram Nyayalayas',
+        flashcards: [
+          {
+            id: 'gn-1',
+            front: 'What is the objective of Gram Nyayalayas?',
+            back: 'To provide access to justice at the grassroots level, ensuring speedy and affordable dispute resolution in rural areas.'
+          },
+          {
+            id: 'gn-2',
+            front: 'How are Gram Nyayalayas established?',
+            back: 'For every Panchayat at the intermediate level or a group of contiguous Panchayats. Headquarters are located at the intermediate Panchayat, but the court travels to villages.'
+          },
+          {
+            id: 'gn-3',
+            front: 'What is the composition of a Gram Nyayalaya?',
+            back: 'Presiding officer (Nyayadhikari): A Judicial Magistrate of the first class, appointed by the State Government in consultation with the High Court.\nAdequate representation from SC/ST, women, and other communities is mandated.'
+          },
+          {
+            id: 'gn-4',
+            front: 'What is the jurisdiction of Gram Nyayalayas?',
+            back: 'Criminal and Civil jurisdiction over cases specified in the First and Second Schedule. Can try cases related to both criminal offences and civil disputes using summary procedure.'
+          },
+          {
+            id: 'gn-5',
+            front: 'How does conciliation work in Gram Nyayalayas? (UPSC 2016)',
+            back: 'The court aims to resolve disputes through conciliation with the help of appointed conciliators. Not bound by the Indian Evidence Act, but guided by principles of natural justice.'
+          },
+          {
+            id: 'gn-6',
+            front: 'Where do appeals from Gram Nyayalayas go? (UPSC 2016)',
+            back: 'Criminal cases: Appeals go to the Sessions Court — must dispose within 6 months.\nCivil cases: Appeals go to the District Court — same 6-month disposal timeline.'
+          },
+          {
+            id: 'gn-7',
+            front: 'What are other features of Gram Nyayalayas?',
+            back: 'Salary: Nyayadhikaris receive the same salary as First Class Judicial Magistrates.\nLanguage: Judgements and proceedings in the local state language.\nAwards: Decision treated as a decree; follows summary procedures for execution.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'gn-q1',
+            question: 'The presiding officer (Nyayadhikari) of a Gram Nyayalaya is:',
+            options: [
+              'A retired HC judge',
+              'A Judicial Magistrate of the first class',
+              'A district judge',
+              'A Panchayat member'
+            ],
+            correct: 1,
+            explanation: 'Nyayadhikari is a Judicial Magistrate of the first class, appointed by the State Government in consultation with the High Court.'
+          },
+          {
+            id: 'gn-q2',
+            question: 'Gram Nyayalayas are NOT bound by: (UPSC 2016)',
+            options: [
+              'Constitution of India',
+              'Indian Evidence Act',
+              'Criminal Procedure Code',
+              'Principles of natural justice'
+            ],
+            correct: 1,
+            explanation: 'Gram Nyayalayas are not bound by the Indian Evidence Act, but are guided by principles of natural justice.'
+          },
+          {
+            id: 'gn-q3',
+            question: 'Appeals from criminal cases in Gram Nyayalayas go to: (UPSC 2016)',
+            options: ['High Court', 'District Court', 'Sessions Court', 'Supreme Court'],
+            correct: 2,
+            explanation: 'Criminal appeals go to Sessions Court; civil appeals go to District Court. Both must be disposed within 6 months.'
+          },
+          {
+            id: 'gn-q4',
+            question: 'Gram Nyayalayas are established at:',
+            options: [
+              'Village Panchayat level',
+              'Intermediate Panchayat level or group of contiguous Panchayats',
+              'District level',
+              'State level'
+            ],
+            correct: 1,
+            explanation: 'Established for every Panchayat at the intermediate level or a group of contiguous Panchayats.'
+          },
+          {
+            id: 'gn-q5',
+            question: 'Proceedings in Gram Nyayalayas are conducted in:',
+            options: ['Hindi', 'English', 'Local state language', 'Any official language'],
+            correct: 2,
+            explanation: 'Judgements and proceedings are conducted in the local state language.'
+          },
+          {
+            id: 'gn-q6',
+            question: 'Appeals from Gram Nyayalayas must be disposed within:',
+            options: ['3 months', '6 months', '1 year', 'No time limit'],
+            correct: 1,
+            explanation: 'Both criminal (Sessions Court) and civil (District Court) appeals must be disposed within 6 months.'
+          },
+        ]
       }
     ]
   }
