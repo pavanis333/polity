@@ -6165,6 +6165,155 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'state-legislatures',
+    name: 'State Legislatures (Part-VI: Articles 168-212)',
+    icon: '🏠',
+    subtopics: [
+      {
+        id: 'la-lc-qualifications-disqualifications',
+        name: 'Legislative Assembly & Council: Qualifications & Disqualifications',
+        flashcards: [
+          {
+            id: 'slq-1',
+            front: 'What are the Constitutional qualifications for state legislature membership?',
+            back: 'Citizenship: Must be a citizen of India\nOath: Must affirm allegiance to the Constitution and uphold India\'s sovereignty\nAge: At least 30 years for Legislative Council, 25 years for Legislative Assembly\nOther Qualifications: As prescribed by Parliament'
+          },
+          {
+            id: 'slq-2',
+            front: 'What are the RPA 1951 qualifications for state legislature?',
+            back: 'Legislative Council: Must be an elector in the state and a resident; eligible for Governor\'s nomination\nLegislative Assembly: Must be an elector in the state\nReserved Seats: Must belong to a SC or ST to contest reserved seats, but can contest unreserved seats as well'
+          },
+          {
+            id: 'slq-3',
+            front: 'What are the Constitutional grounds for disqualification of state legislators?',
+            back: '- Office of Profit: Cannot hold any profit-making office under Union or state government (exceptions apply)\n- Unsound Mind: Declared by a court\n- Insolvency: Must not be an undischarged insolvent\n- Citizenship: Must not hold foreign citizenship\n- Parliamentary Disqualifications: As defined by law'
+          },
+          {
+            id: 'slq-4',
+            front: 'What are the RPA 1951 grounds for disqualification of state legislators?',
+            back: '- Election Offences: Must not be guilty of corrupt practices\n- Criminal Conviction: Cannot be convicted for crimes resulting in 2+ years imprisonment (preventive detention is exempt)\n- Election Expenses: Must submit accounts on time\n- Government Contracts: No interest in govt contracts or corporations with 25% govt share\n- Service Dismissal: Must not have been dismissed for corruption or disloyalty\n- Social Crimes: Must not be punished for offences like untouchability, dowry, or sati'
+          },
+          {
+            id: 'slq-5',
+            front: 'How is disqualification (other than defection) decided for state legislators?',
+            back: 'For disqualifications under Articles 191-192 (other than defection), the Governor decides after obtaining the binding opinion of the Election Commission; such decisions are subject to judicial review.'
+          },
+          {
+            id: 'slq-6',
+            front: 'How is disqualification due to defection decided for state legislators?',
+            back: 'Under the 10th Schedule, disqualification due to defection is determined by the Chairman (Council) or Speaker (Assembly), NOT the Governor. Decisions are subject to judicial review as per 1992 (Kihoto Hollohan v/s Zachillhu).'
+          },
+        ],
+        quiz: [
+          {
+            id: 'slq-q1',
+            question: 'Minimum age for Legislative Council membership is:',
+            options: ['21 years', '25 years', '30 years', '35 years'],
+            correct: 2,
+            explanation: 'Minimum age is 30 years for Legislative Council and 25 years for Legislative Assembly.'
+          },
+          {
+            id: 'slq-q2',
+            question: 'Disqualification due to defection in state legislature is decided by:',
+            options: [
+              'Governor',
+              'Election Commission',
+              'Chairman (Council) or Speaker (Assembly)',
+              'High Court'
+            ],
+            correct: 2,
+            explanation: 'Under the 10th Schedule, defection disqualification is decided by Chairman (Council) or Speaker (Assembly), NOT the Governor. Judicially reviewable per Kihoto Hollohan 1992.'
+          },
+          {
+            id: 'slq-q3',
+            question: 'For disqualification other than defection (Art 191-192), the Governor decides after obtaining opinion of:',
+            options: ['High Court', 'Supreme Court', 'Election Commission', 'Speaker'],
+            correct: 2,
+            explanation: 'The Governor decides after obtaining the binding opinion of the Election Commission. Such decisions are subject to judicial review.'
+          },
+          {
+            id: 'slq-q4',
+            question: 'Under RPA 1951, criminal conviction disqualifies if imprisonment is:',
+            options: ['6 months or more', '1 year or more', '2 years or more', 'Any term'],
+            correct: 2,
+            explanation: 'Cannot be convicted for crimes resulting in 2 or more years of imprisonment. Preventive detention is exempt.'
+          },
+          {
+            id: 'slq-q5',
+            question: 'For reserved seats in state legislature, a SC/ST candidate:',
+            options: [
+              'Can only contest reserved seats',
+              'Can contest both reserved and unreserved seats',
+              'Cannot contest Council seats',
+              'Must be nominated by Governor'
+            ],
+            correct: 1,
+            explanation: 'SC/ST members must belong to the community to contest reserved seats, but can also contest unreserved seats.'
+          },
+        ]
+      },
+      {
+        id: 'salaries-and-exclusive-provisions',
+        name: 'Salaries & Exclusive Provisions of State Legislative Assemblies',
+        flashcards: [
+          {
+            id: 'sep-1',
+            front: 'How are salaries of state legislators determined?',
+            back: 'Fixed by the state legislature; charged on the Consolidated Fund of the State, not subject to annual vote.'
+          },
+          {
+            id: 'sep-2',
+            front: 'What are the provisions exclusive to State Legislative Assemblies regarding territorial constituencies?',
+            back: 'Each state is divided into territorial constituencies; constituencies are demarcated to maintain a uniform ratio between population and seats.'
+          },
+          {
+            id: 'sep-3',
+            front: 'What happens to seats after each census?',
+            back: 'Readjustment of total number of seats in the assembly and division into constituencies after each census; Parliament determines the authority and its manner.'
+          },
+          {
+            id: 'sep-4',
+            front: 'How is reservation of seats for SCs & STs handled in state assemblies?',
+            back: 'Readjustment of total number of seats and division into constituencies after each census; Parliament determines the authority and its manner for reservation of seats for SCs and STs.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'sep-q1',
+            question: 'Salaries of state legislators are charged on:',
+            options: [
+              'Consolidated Fund of India',
+              'Consolidated Fund of the State',
+              'Public Account of the State',
+              'Contingency Fund of the State'
+            ],
+            correct: 1,
+            explanation: 'Salaries are fixed by the state legislature and charged on the Consolidated Fund of the State, not subject to annual vote.'
+          },
+          {
+            id: 'sep-q2',
+            question: 'Readjustment of assembly seats and constituencies after each census is determined by:',
+            options: ['Governor', 'State Legislature', 'Parliament', 'Election Commission'],
+            correct: 2,
+            explanation: 'Parliament determines the authority and manner for readjustment of seats and division into constituencies after each census.'
+          },
+          {
+            id: 'sep-q3',
+            question: 'Territorial constituencies in state assemblies maintain uniform ratio between:',
+            options: [
+              'Area and seats',
+              'Population and seats',
+              'Revenue and seats',
+              'Districts and seats'
+            ],
+            correct: 1,
+            explanation: 'Constituencies are demarcated to maintain a uniform ratio between population and seats.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
