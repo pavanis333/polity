@@ -2617,6 +2617,147 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'fundamental-rights',
+    name: 'Fundamental Rights (Part-III: Articles 12-35)',
+    icon: '⚖️',
+    subtopics: [
+      {
+        id: 'laws-inconsistent-with-fr',
+        name: 'Laws Inconsistent with Fundamental Rights (Article 13)',
+        flashcards: [
+          {
+            id: 'lifr-1',
+            front: 'What does Article 13 state?',
+            back: 'All laws that are inconsistent with or in derogation of any of the Fundamental Rights shall be void. It expressly provides for the doctrine of judicial review.'
+          },
+          {
+            id: 'lifr-2',
+            front: 'What does the term "law" mean in Article 13?',
+            back: 'It includes:\n- Permanent laws enacted by the Centre and State\n- Temporary ordinance by the President\n- Statutory instruments of delegated legislation (executive legislation)\n- Orders, custom or usage having the force of law'
+          },
+          {
+            id: 'lifr-3',
+            front: 'What does Article 13(4) state?',
+            back: 'Nothing in this article shall apply to any amendment of the Constitution made under Article 368. (Added by the 24th Constitutional Amendment, 1971)'
+          },
+          {
+            id: 'lifr-4',
+            front: 'What did the Kesavananda Bharati case (1973) hold regarding Article 13(4)?',
+            back: 'The SC held that a Constitutional amendment can be challenged on the ground if it violates a fundamental right that forms a part of the "basic structure" of the Constitution, and hence can be declared as void.'
+          },
+          {
+            id: 'lifr-5',
+            front: 'Which Article expressly provides for the doctrine of judicial review?',
+            back: 'Article 13 — by declaring that laws inconsistent with Fundamental Rights shall be void.'
+          },
+          {
+            id: 'lifr-6',
+            front: 'Can a Constitutional Amendment be challenged under Article 13?',
+            back: 'Article 13(4) says it shall not apply to amendments under Article 368. However, the Kesavananda Bharati case (1973) held that amendments violating the "basic structure" can still be challenged and declared void.'
+          },
+          {
+            id: 'lifr-7',
+            front: 'Which amendment added Article 13(4)?',
+            back: 'The 24th Constitutional Amendment, 1971.'
+          },
+          {
+            id: 'lifr-8',
+            front: 'Does Article 13 cover ordinances and executive orders?',
+            back: 'Yes. The term "law" in Article 13 includes temporary ordinances by the President, statutory instruments of delegated legislation, orders, custom or usage having the force of law.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'lifr-q1',
+            question: 'Article 13 provides for:',
+            options: [
+              'Right to Equality',
+              'Doctrine of Judicial Review',
+              'Right to Freedom of Religion',
+              'Right against Exploitation'
+            ],
+            correct: 1,
+            explanation: 'Article 13 expressly provides for the doctrine of judicial review by declaring that laws inconsistent with Fundamental Rights shall be void.'
+          },
+          {
+            id: 'lifr-q2',
+            question: 'According to Article 13, laws inconsistent with Fundamental Rights are:',
+            options: ['Voidable', 'Void', 'Suspended', 'Valid until challenged'],
+            correct: 1,
+            explanation: 'Article 13 states that all laws inconsistent with or in derogation of Fundamental Rights shall be void.'
+          },
+          {
+            id: 'lifr-q3',
+            question: 'Article 13(4) was added by which amendment?',
+            options: ['1st Amendment, 1951', '24th Amendment, 1971', '42nd Amendment, 1976', '44th Amendment, 1978'],
+            correct: 1,
+            explanation: 'Article 13(4) was added by the 24th Constitutional Amendment, 1971, stating that Article 13 shall not apply to amendments under Article 368.'
+          },
+          {
+            id: 'lifr-q4',
+            question: 'The Kesavananda Bharati case (1973) held that:',
+            options: [
+              'Parliament has unlimited amending power',
+              'Article 13 cannot be invoked against any law',
+              'Constitutional amendments violating basic structure can be declared void',
+              'Fundamental Rights are absolute and cannot be restricted'
+            ],
+            correct: 2,
+            explanation: 'The SC held that amendments violating a fundamental right that forms part of the "basic structure" can be challenged and declared void.'
+          },
+          {
+            id: 'lifr-q5',
+            question: 'The term "law" in Article 13 includes:',
+            options: [
+              'Only Acts of Parliament',
+              'Only permanent legislation',
+              'Permanent laws, ordinances, delegated legislation, orders, customs',
+              'Only customs and usage'
+            ],
+            correct: 2,
+            explanation: '"Law" in Article 13 includes permanent laws, temporary ordinances, statutory instruments, delegated legislation, orders, customs or usage having the force of law.'
+          },
+          {
+            id: 'lifr-q6',
+            question: 'Article 13(4) states that Article 13 shall not apply to:',
+            options: [
+              'Ordinances by the President',
+              'State laws',
+              'Amendments under Article 368',
+              'Executive orders'
+            ],
+            correct: 2,
+            explanation: 'Article 13(4) states that nothing in Article 13 shall apply to any amendment of the Constitution made under Article 368.'
+          },
+          {
+            id: 'lifr-q7',
+            question: 'Which landmark case established the Basic Structure Doctrine?',
+            options: [
+              'Golaknath case (1967)',
+              'Kesavananda Bharati case (1973)',
+              'Minerva Mills case (1980)',
+              'Shankari Prasad case (1951)'
+            ],
+            correct: 1,
+            explanation: 'The Kesavananda Bharati case (1973) established the Basic Structure Doctrine, holding that Parliament cannot amend the basic structure of the Constitution.'
+          },
+          {
+            id: 'lifr-q8',
+            question: 'Can a Presidential ordinance be struck down under Article 13?',
+            options: [
+              'No, ordinances are exempt',
+              'Yes, if it violates Fundamental Rights',
+              'Only if Parliament approves',
+              'Only during an emergency'
+            ],
+            correct: 1,
+            explanation: 'Yes. The term "law" in Article 13 includes temporary ordinances by the President, so they can be struck down if inconsistent with Fundamental Rights.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
