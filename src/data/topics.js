@@ -3751,6 +3751,82 @@ const topicsData = [
             explanation: 'The 86th CAA, 2002 made elementary education a Fundamental Right under Article 21A and modified Article 45 for early childhood care.'
           },
         ]
+      },
+      {
+        id: 'directives-outside-part-iv',
+        name: 'Directives Outside Part IV',
+        flashcards: [
+          {
+            id: 'dop-1',
+            front: 'What does Article 335 (Part XVI) direct?',
+            back: 'Claims of SCs and STs to services — the State shall consider the claims of Scheduled Castes and Scheduled Tribes in making appointments to services and posts.'
+          },
+          {
+            id: 'dop-2',
+            front: 'What does Article 350A (Part XVII) direct?',
+            back: 'Instruction in mother tongue — facilities for instruction in the mother-tongue at the primary stage of education to children belonging to linguistic minority groups.'
+          },
+          {
+            id: 'dop-3',
+            front: 'What does Article 351 (Part XVII) direct?',
+            back: 'Development of Hindi Language — it shall be the duty of the Union to promote the spread of Hindi language.'
+          },
+          {
+            id: 'dop-4',
+            front: 'Are all Directive Principles contained in Part IV?',
+            back: 'No. Some directives are found outside Part IV:\n- Article 335 (Part XVI): Claims of SCs & STs to services\n- Article 350A (Part XVII): Instruction in mother tongue\n- Article 351 (Part XVII): Development of Hindi Language'
+          },
+        ],
+        quiz: [
+          {
+            id: 'dop-q1',
+            question: 'Article 335 deals with:',
+            options: [
+              'Development of Hindi Language',
+              'Instruction in mother tongue',
+              'Claims of SCs and STs to services',
+              'Protection of environment'
+            ],
+            correct: 2,
+            explanation: 'Article 335 (Part XVI) deals with claims of SCs and STs to services and posts.'
+          },
+          {
+            id: 'dop-q2',
+            question: 'Article 350A directs:',
+            options: [
+              'Development of Hindi Language',
+              'Instruction in mother tongue at primary stage for linguistic minorities',
+              'Claims of SCs and STs to services',
+              'Free legal aid'
+            ],
+            correct: 1,
+            explanation: 'Article 350A (Part XVII) directs facilities for instruction in mother tongue at primary stage for children of linguistic minority groups.'
+          },
+          {
+            id: 'dop-q3',
+            question: 'Which of the following is a directive found OUTSIDE Part IV?',
+            options: [
+              'Article 39A — Free legal aid',
+              'Article 43B — Co-operative Societies',
+              'Article 351 — Development of Hindi Language',
+              'Article 48A — Protection of environment'
+            ],
+            correct: 2,
+            explanation: 'Article 351 (Part XVII) is a directive outside Part IV. Articles 39A, 43B, and 48A are all within Part IV.'
+          },
+          {
+            id: 'dop-q4',
+            question: 'Article 351 deals with:',
+            options: [
+              'Claims of SCs and STs',
+              'Instruction in mother tongue',
+              'Development of Hindi Language',
+              'Co-operative Societies'
+            ],
+            correct: 2,
+            explanation: 'Article 351 (Part XVII) directs the Union to promote the spread of Hindi language.'
+          },
+        ]
       }
     ]
   }
