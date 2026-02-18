@@ -8145,6 +8145,81 @@ const topicsData = [
             explanation: 'Public distribution system is item 28 in the 11th Schedule. Banking, foreign trade, and railways are not included.'
           },
         ]
+      },
+      {
+        id: '73rd-amendment-compulsory-voluntary',
+        name: '73rd Amendment: Compulsory & Voluntary Provisions',
+        flashcards: [
+          {
+            id: 'pcv-1',
+            front: 'What are the Compulsory Provisions of the 73rd Amendment?',
+            back: '- Gram Sabha: Organisation in villages or groups of villages\n- Panchayat Structure: Establishment at village, intermediate, and district levels\n- Direct Elections: All seats at all levels elected directly\n- Indirect Elections: Chairpersons at intermediate and district levels elected indirectly\n- Age Requirement: Minimum 21 years to contest (UPSC 2025)\n- Reservations: 1/3 seats for women at all levels; reserved seats for SCs and STs at all levels'
+          },
+          {
+            id: 'pcv-2',
+            front: 'What are the Compulsory Provisions (continued)?',
+            back: '- Tenure: Five years for panchayats. If dissolved, elections must be held within 6 months; newly elected Panchayat serves only for the remainder of the original term\n- State Election Commission: Established for conducting panchayat elections\n- State Finance Commission: Reviews financial status of panchayats every five years'
+          },
+          {
+            id: 'pcv-3',
+            front: 'What are the Voluntary Provisions of the 73rd Amendment?',
+            back: '- Gram Sabha Empowerment: Granting powers and functions to Gram Sabha\n- Chairperson Elections: States determine the election process for village panchayat chairpersons\n- Representation: Village chairpersons represented in intermediate/district panchayats; MPs and MLAs represented in respective panchayats\n- Backward Classes: Provision for reserving seats\n- Autonomy: Granting powers for panchayats to operate as autonomous bodies'
+          },
+          {
+            id: 'pcv-4',
+            front: 'What are the Voluntary Financial Provisions?',
+            back: '- Devolution of Powers: Responsibilities for economic development and social justice, including 29 functions from the 11th Schedule\n- Financial Powers:\n  - Ability to levy and collect taxes, duties, tolls, and fees\n  - Taxes levied by state government assigned to panchayats\n  - Grants-in-aid from the state\'s consolidated fund\n  - Establishment of funds for panchayat finances'
+          },
+        ],
+        quiz: [
+          {
+            id: 'pcv-q1',
+            question: 'Minimum age to contest Panchayat elections is: (UPSC 2025)',
+            options: ['18 years', '21 years', '25 years', '30 years'],
+            correct: 1,
+            explanation: 'Minimum age of 21 years to contest Panchayat elections (UPSC 2025).'
+          },
+          {
+            id: 'pcv-q2',
+            question: 'Reservation for women in Panchayats is:',
+            options: ['1/4 of seats', '1/3 of seats', '1/2 of seats', '2/3 of seats'],
+            correct: 1,
+            explanation: 'One-third of seats are reserved for women at all levels of Panchayats — this is a compulsory provision.'
+          },
+          {
+            id: 'pcv-q3',
+            question: 'If a Panchayat is dissolved, elections must be held within:',
+            options: ['3 months', '6 months', '1 year', '2 years'],
+            correct: 1,
+            explanation: 'If dissolved, elections must be held within 6 months. The newly elected Panchayat serves only for the remainder of the original term.'
+          },
+          {
+            id: 'pcv-q4',
+            question: 'State Finance Commission reviews panchayat finances every:',
+            options: ['3 years', '5 years', '7 years', '10 years'],
+            correct: 1,
+            explanation: 'The State Finance Commission reviews financial status of panchayats every five years.'
+          },
+          {
+            id: 'pcv-q5',
+            question: 'Which of the following is a VOLUNTARY provision?',
+            options: [
+              'Gram Sabha organisation',
+              'Direct elections at all levels',
+              'Reservation for backward classes in panchayats',
+              'Five-year tenure'
+            ],
+            correct: 2,
+            explanation: 'Reservation for backward classes is voluntary. Gram Sabha, direct elections, and five-year tenure are compulsory provisions.'
+          },
+          {
+            id: 'pcv-q6',
+            question: 'Chairpersons at intermediate and district levels are elected:',
+            options: ['Directly by people', 'Indirectly', 'Nominated by Governor', 'Appointed by State Government'],
+            correct: 1,
+            explanation: 'Chairpersons at intermediate and district levels are elected indirectly. All seats at all levels are elected directly.'
+          },
+        ]
       }
     ]
   }
