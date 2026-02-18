@@ -9220,6 +9220,74 @@ const topicsData = [
             explanation: 'One criterion for national party status is having state party status in 4 states.'
           },
         ]
+      },
+      {
+        id: 'state-party-recognition',
+        name: 'State Party Recognition & Electoral Articles',
+        flashcards: [
+          {
+            id: 'spr-1',
+            front: 'What are the criteria for recognition as a State Party?',
+            back: 'Fulfillment of ANY of the following:\n\n1. 8% votes in the last Lok Sabha or state assembly elections\n2. 1 Lok Sabha seat for every 25 seats in the state\n3. 3% of assembly seats or 3 seats, whichever is higher\n4. 6% valid votes in State Assembly election + at least 2 MLAs\n5. 6% valid votes in LS election from state + at least 1 MP'
+          },
+          {
+            id: 'spr-2',
+            front: 'What happened in the First General Election? (UPSC 2018)',
+            back: 'The Communist Party of India (CPI) was the single largest opposition party, winning 16 seats.\n\nINC won a landslide victory: 364 of 489 seats and 45% of total votes.\n\nJawaharlal Nehru became the first democratically elected PM of the country. (UPSC 2018)'
+          },
+          {
+            id: 'spr-3',
+            front: 'What are the provisions for deregistration of Political Parties?',
+            back: 'Section 29A of the Representation of People Act, 1951 governs registration with ECI.\n\nDeregistration can occur if:\n- Obtained registration through fraud\n- Illegal declaration by Central Government\n- Violation of Indian Constitution\n\nIMPORTANT: RPA does NOT allow deregistration of parties by the ECI.'
+          },
+          {
+            id: 'spr-4',
+            front: 'What is the Representation of People Act, 1951?',
+            back: 'Regulates:\n- Elections and by-elections\n- Party registration\n- Qualifications and disqualifications\n- Election expenditure\n- Administrative machinery for elections\n\nDoes NOT allow deregistration of parties by the ECI.'
+          },
+          {
+            id: 'spr-5',
+            front: 'What are the Constitutional Articles on Elections (325-329)?',
+            back: 'Article 325: Prohibits exclusion from electoral rolls on grounds of religion, race, caste, or sex\n\nArticle 326: Elections based on adult suffrage\n\nArticle 327: Empowers Parliament to legislate on elections, electoral rolls, delimitation\n\nArticle 328: Empowers State Legislatures to legislate on elections (subject to Constitution)\n\nArticle 329: Prevents court interference in electoral matters, except through election petitions'
+          },
+        ],
+        quiz: [
+          {
+            id: 'spr-q1',
+            question: 'To be a State Party, minimum valid votes required in state assembly/LS elections is:',
+            options: ['6%', '8%', '10%', '12%'],
+            correct: 1,
+            explanation: 'One criterion is 8% votes in the last Lok Sabha or state assembly elections.'
+          },
+          {
+            id: 'spr-q2',
+            question: 'Which was the single largest opposition party in the First General Election? (UPSC 2018)',
+            options: ['BSP', 'CPI', 'Socialist Party', 'Jana Sangh'],
+            correct: 1,
+            explanation: 'CPI was the single largest opposition party in the First General Election, winning 16 seats.'
+          },
+          {
+            id: 'spr-q3',
+            question: 'Article 326 provides for:',
+            options: ['Delimitation', 'Adult suffrage', 'Electoral rolls', 'Election petitions'],
+            correct: 1,
+            explanation: 'Article 326 provides for elections to LS and State Assemblies based on adult suffrage.'
+          },
+          {
+            id: 'spr-q4',
+            question: 'Registration of political parties is governed by:',
+            options: ['Article 325', 'Article 329', 'Section 29A of RPA 1951', 'ECI Act'],
+            correct: 2,
+            explanation: 'Section 29A of the Representation of People Act, 1951 governs registration of parties with the ECI.'
+          },
+          {
+            id: 'spr-q5',
+            question: 'Article 329 prevents court interference in electoral matters except through:',
+            options: ['Writ petitions', 'PIL', 'Election petitions', 'Appeals to SC'],
+            correct: 2,
+            explanation: 'Article 329 prevents court interference in electoral matters, except through election petitions.'
+          },
+        ]
       }
     ]
   }
