@@ -5121,6 +5121,106 @@ const topicsData = [
             explanation: 'Speaker\'s salary and allowances are charged on the Consolidated Fund of India, ensuring independence from executive control.'
           },
         ]
+      },
+      {
+        id: 'dissolution-and-lapsing-of-bills',
+        name: 'Dissolution & Lapsing of Bills',
+        flashcards: [
+          {
+            id: 'dlb-1',
+            front: 'Can the Rajya Sabha be dissolved?',
+            back: 'No. Only the Lok Sabha can be dissolved, ending its current life irrevocably. The Rajya Sabha is a permanent body.'
+          },
+          {
+            id: 'dlb-2',
+            front: 'When may dissolution of Lok Sabha occur?',
+            back: '1. Automatically at the end of its tenure (5 years)\n2. By the President\'s decision (on advice of PM/CoM)'
+          },
+          {
+            id: 'dlb-3',
+            front: 'What happens to pending business upon dissolution? (UPSC 2024)',
+            back: 'All pending business lapses upon dissolution, EXCEPT:\n- Some bills (see lapsing rules)\n- Pending assurances for the Committee on Government Assurances'
+          },
+          {
+            id: 'dlb-4',
+            front: 'When does a Bill LAPSE on dissolution of Lok Sabha? (UPSC 2016)',
+            back: 'A bill lapses if:\n1. It is pending in Lok Sabha\n2. It is pending in Rajya Sabha but has been passed by Lok Sabha'
+          },
+          {
+            id: 'dlb-5',
+            front: 'When does a Bill NOT LAPSE on dissolution of Lok Sabha? (UPSC 2016)',
+            back: 'A bill does NOT lapse if:\n1. Passed by both Houses but returned by the President for reconsideration\n2. Pending in Rajya Sabha and NOT passed by Lok Sabha\n3. A joint sitting is notified before Lok Sabha dissolution\n4. Passed by both Houses but awaiting the President\'s assent'
+          },
+        ],
+        quiz: [
+          {
+            id: 'dlb-q1',
+            question: 'Which House can be dissolved? (UPSC 2024)',
+            options: ['Rajya Sabha only', 'Lok Sabha only', 'Both Houses', 'Neither House'],
+            correct: 1,
+            explanation: 'Only the Lok Sabha can be dissolved. Rajya Sabha is a permanent body and cannot be dissolved.'
+          },
+          {
+            id: 'dlb-q2',
+            question: 'A bill pending in Rajya Sabha but passed by Lok Sabha will: (UPSC 2016)',
+            options: [
+              'Not lapse on dissolution',
+              'Lapse on dissolution of Lok Sabha',
+              'Be referred to President',
+              'Continue in Rajya Sabha'
+            ],
+            correct: 1,
+            explanation: 'A bill pending in RS but passed by LS lapses on dissolution of Lok Sabha.'
+          },
+          {
+            id: 'dlb-q3',
+            question: 'A bill passed by both Houses but awaiting President\'s assent will: (UPSC 2016)',
+            options: [
+              'Lapse on dissolution',
+              'Not lapse on dissolution',
+              'Be sent back to Lok Sabha',
+              'Automatically become law'
+            ],
+            correct: 1,
+            explanation: 'A bill passed by both Houses but awaiting President\'s assent does NOT lapse on dissolution.'
+          },
+          {
+            id: 'dlb-q4',
+            question: 'Which of the following does NOT lapse on dissolution?',
+            options: [
+              'Bill pending in Lok Sabha',
+              'Bill pending in RS but passed by LS',
+              'Bill pending in RS and not passed by LS',
+              'All bills lapse'
+            ],
+            correct: 2,
+            explanation: 'A bill pending in RS and NOT passed by LS does not lapse, since it originated/remains in the permanent House.'
+          },
+          {
+            id: 'dlb-q5',
+            question: 'Upon dissolution, pending assurances for which committee do NOT lapse? (UPSC 2024)',
+            options: [
+              'Public Accounts Committee',
+              'Estimates Committee',
+              'Committee on Government Assurances',
+              'Committee on Subordinate Legislation'
+            ],
+            correct: 2,
+            explanation: 'Pending assurances for the Committee on Government Assurances do not lapse upon dissolution.'
+          },
+          {
+            id: 'dlb-q6',
+            question: 'A bill does NOT lapse if a joint sitting is notified:',
+            options: [
+              'After Lok Sabha dissolution',
+              'Before Lok Sabha dissolution',
+              'During the Budget session',
+              'Only with President\'s approval'
+            ],
+            correct: 1,
+            explanation: 'If a joint sitting is notified before Lok Sabha dissolution, the bill does not lapse.'
+          },
+        ]
       }
     ]
   }
