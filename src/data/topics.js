@@ -1486,6 +1486,179 @@ const topicsData = [
             explanation: 'Bodo, Dongri, Maithili, and Santhali were added by the 92nd Constitutional Amendment Act, 2003.'
           },
         ]
+      },
+      {
+        id: 'types-of-majorities',
+        name: 'Types of Majorities in Parliament',
+        flashcards: [
+          {
+            id: 'maj-1',
+            front: 'What is Simple Majority?',
+            back: 'Majority of the members present and voting. NOT considered under Article 368.\nExample: SC judges increased from 31 to 34 by the Supreme Court (Number of Judges) Amendment Act, 2019.'
+          },
+          {
+            id: 'maj-2',
+            front: 'What is Absolute Majority?',
+            back: 'Majority of the total membership of the House, regardless of vacancies or absent members.'
+          },
+          {
+            id: 'maj-3',
+            front: 'What is Effective Majority?',
+            back: 'Majority of the effective strength of the House (i.e. Total Strength minus vacancies).\nExample: Removal of chair of house.'
+          },
+          {
+            id: 'maj-4',
+            front: 'What is Special Majority as per Article 249?',
+            back: 'Majority of not less than 2/3 of the members present and voting.'
+          },
+          {
+            id: 'maj-5',
+            front: 'What is Special Majority under Article 368?',
+            back: 'Majority of the total membership (irrespective of vacancies/absentees) AND by a majority of not less than 2/3 of members present and voting.\nExample: 103rd Amendment to provide 10% reservation to EWS.'
+          },
+          {
+            id: 'maj-6',
+            front: 'What is Special Majority under Article 61?',
+            back: 'Majority of not less than 2/3 of the total membership of the House.'
+          },
+          {
+            id: 'maj-7',
+            front: 'What is Special Majority of Parliament & Consent of States?',
+            back: 'Special majority + Ratification of half (50%) of the state legislatures by a simple majority. Most federal provisions are amended by this method.\nNo time limit for states to give consent. If some states take no action, it doesn\'t matter — the moment half give consent, the formality is completed.\nExample: 101st Amendment related to GST.'
+          },
+          {
+            id: 'maj-8',
+            front: 'Which type of majority is used for Constitutional Amendments under Article 368?',
+            back: 'Special Majority under Article 368: Majority of total membership + not less than 2/3 of members present and voting. Some amendments additionally require ratification by half the state legislatures.'
+          },
+          {
+            id: 'maj-9',
+            front: 'What is the difference between Simple Majority and Absolute Majority?',
+            back: 'Simple Majority = majority of members present and voting (ignores absentees).\nAbsolute Majority = majority of total membership of the House (includes absentees).'
+          },
+          {
+            id: 'maj-10',
+            front: 'What is the difference between Effective Majority and Absolute Majority?',
+            back: 'Absolute Majority = total membership (including vacancies).\nEffective Majority = total strength minus vacancies (excludes vacant seats).'
+          },
+          {
+            id: 'maj-11',
+            front: 'Is there a time limit for state legislatures to ratify a Constitutional Amendment?',
+            back: 'No. There is no time limit. If one or some or all remaining states take no action, it doesn\'t matter. The moment half of the states give consent, the formality is completed.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'maj-q1',
+            question: 'Simple Majority means:',
+            options: [
+              'Majority of total membership of the House',
+              'Majority of members present and voting',
+              '2/3 of members present and voting',
+              '2/3 of total membership'
+            ],
+            correct: 1,
+            explanation: 'Simple Majority is the majority of members present and voting. It is not considered under Article 368.'
+          },
+          {
+            id: 'maj-q2',
+            question: 'Special Majority under Article 368 requires:',
+            options: [
+              'Majority of members present and voting',
+              '2/3 of members present and voting only',
+              'Majority of total membership AND 2/3 of members present and voting',
+              '2/3 of total membership'
+            ],
+            correct: 2,
+            explanation: 'Article 368 requires majority of total membership (irrespective of vacancies) AND not less than 2/3 of members present and voting.'
+          },
+          {
+            id: 'maj-q3',
+            question: 'Effective Majority is calculated as:',
+            options: [
+              'Total membership including vacancies',
+              'Members present and voting',
+              'Total strength minus vacancies',
+              '2/3 of total membership'
+            ],
+            correct: 2,
+            explanation: 'Effective Majority = Total Strength minus vacancies. Example: Removal of chair of house.'
+          },
+          {
+            id: 'maj-q4',
+            question: 'For amendments requiring state ratification, how many state legislatures must ratify?',
+            options: ['All states', '2/3 of states', 'Half (50%) of states', '1/3 of states'],
+            correct: 2,
+            explanation: 'Half (50%) of state legislatures must ratify by simple majority. There is no time limit for this ratification.'
+          },
+          {
+            id: 'maj-q5',
+            question: 'The 103rd Amendment (10% EWS reservation) was passed by:',
+            options: [
+              'Simple Majority',
+              'Absolute Majority',
+              'Special Majority under Article 368',
+              'Special Majority with state ratification'
+            ],
+            correct: 2,
+            explanation: 'The 103rd Amendment was passed by Special Majority under Article 368 — majority of total membership AND 2/3 of members present and voting.'
+          },
+          {
+            id: 'maj-q6',
+            question: 'Special Majority under Article 249 requires:',
+            options: [
+              'Majority of members present and voting',
+              'Not less than 2/3 of members present and voting',
+              'Majority of total membership',
+              '2/3 of total membership'
+            ],
+            correct: 1,
+            explanation: 'Article 249 requires a majority of not less than 2/3 of the members present and voting.'
+          },
+          {
+            id: 'maj-q7',
+            question: 'The 101st Amendment (GST) was passed by which type of majority?',
+            options: [
+              'Simple Majority',
+              'Special Majority under Article 368',
+              'Special Majority under Article 61',
+              'Special Majority of Parliament & Consent of States'
+            ],
+            correct: 3,
+            explanation: 'The 101st Amendment (GST) required Special Majority of Parliament plus ratification by half the state legislatures, as it affected federal provisions.'
+          },
+          {
+            id: 'maj-q8',
+            question: 'Special Majority under Article 61 is used for:',
+            options: [
+              'Constitutional amendments',
+              'Impeachment of the President',
+              'Removal of judges',
+              'Passing money bills'
+            ],
+            correct: 1,
+            explanation: 'Article 61 deals with the impeachment of the President, requiring a majority of not less than 2/3 of the total membership of the House.'
+          },
+          {
+            id: 'maj-q9',
+            question: 'Is there a time limit for state legislatures to ratify a Constitutional Amendment?',
+            options: [
+              'Yes, within 6 months',
+              'Yes, within 1 year',
+              'No time limit',
+              'Yes, within the current session'
+            ],
+            correct: 2,
+            explanation: 'There is no time limit for state legislatures to ratify. The formality is completed the moment half of the states give consent.'
+          },
+          {
+            id: 'maj-q10',
+            question: 'Which majority is NOT considered under Article 368?',
+            options: ['Absolute Majority', 'Simple Majority', 'Effective Majority', 'Special Majority under Article 249'],
+            correct: 1,
+            explanation: 'Simple Majority (majority of members present and voting) is not considered under Article 368 for constitutional amendments.'
+          },
+        ]
       }
     ]
   }
