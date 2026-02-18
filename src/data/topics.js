@@ -346,6 +346,237 @@ const topicsData = [
             explanation: 'The Objective Resolution provides safeguards for minorities and backward classes, along with protection for underprivileged, ethnic, and minority groups.'
           },
         ]
+      },
+      {
+        id: 'specific-insights-constituent-assembly',
+        name: 'Specific Insights on Constituent Assembly',
+        flashcards: [
+          {
+            id: 'sica-1',
+            front: 'When was the Constituent Assembly constituted and under what plan?',
+            back: 'November 1946, formed under the Cabinet Mission Plan.'
+          },
+          {
+            id: 'sica-2',
+            front: 'What was the total strength of the Constituent Assembly?',
+            back: 'Total Members: 389 (296 from British India + 93 from Princely States).'
+          },
+          {
+            id: 'sica-3',
+            front: 'How were the 296 British India seats distributed?',
+            back: '292 members from 11 Governor\'s Provinces and 4 Chief Commissioner\'s Provinces.'
+          },
+          {
+            id: 'sica-4',
+            front: 'What was the composition of the Constituent Assembly in terms of community representation?',
+            back: 'Representatives from diverse sections: Hindus, Muslims, Sikhs, Parsis, Anglo-Indians, Indian Christians, SCs, STs, and women from all these sections.'
+          },
+          {
+            id: 'sica-5',
+            front: 'How were seats allocated in the Constituent Assembly?',
+            back: 'In proportion to population (around one seat per million people) of each province and princely state. Seats for each British province were divided among Muslims, Sikhs, and General.'
+          },
+          {
+            id: 'sica-6',
+            front: 'What voting method was used for provincial representation in the Constituent Assembly?',
+            back: 'Proportional representation using a Single Transferable Vote. Representatives from princely states were nominated by their heads.'
+          },
+          {
+            id: 'sica-7',
+            front: 'How were members of the Constituent Assembly selected?',
+            back: 'Partly elected (in British Provinces) and partly nominated (by heads of Princely States). Members were indirectly elected by provincial assembly members.'
+          },
+          {
+            id: 'sica-8',
+            front: 'Who was notably absent from the Constituent Assembly?',
+            back: 'Mahatma Gandhi did not participate in the Constituent Assembly.'
+          },
+          {
+            id: 'sica-9',
+            front: 'What happened to the 93 seats allotted to princely states?',
+            back: 'They remained mostly unfilled as the princely states opted out.'
+          },
+          {
+            id: 'sica-10',
+            front: 'How many total sessions did the Constituent Assembly have? What was the duration?',
+            back: '11 sessions over 2 years, 11 months, and 18 days.'
+          },
+          {
+            id: 'sica-11',
+            front: 'What was the total expenditure of the Constituent Assembly?',
+            back: '₹64 lakh.'
+          },
+          {
+            id: 'sica-12',
+            front: 'What symbol was adopted as the seal of the Constituent Assembly?',
+            back: 'The Elephant was adopted as the seal of the Constituent Assembly.'
+          },
+          {
+            id: 'sica-13',
+            front: 'What changes were made to the Constituent Assembly by the Independence Act, 1947?',
+            back: '1. Assembly became a Sovereign Body (fully sovereign, able to alter any law)\n2. Dual Functions: Legislative Body (chaired by G.V. Mavalankar) and Constituent Body (chaired by Dr. Rajendra Prasad)\n3. Became the first Parliament of free India\n4. Membership reduced to 299 after Muslim League withdrawal (down from 389)'
+          },
+          {
+            id: 'sica-14',
+            front: 'Who chaired the Legislative Body and who chaired the Constituent Body after the Independence Act, 1947?',
+            back: 'Legislative Body: G.V. Mavalankar\nConstituent Body: Dr. Rajendra Prasad'
+          },
+          {
+            id: 'sica-15',
+            front: 'What was the reduced membership of the Constituent Assembly after the Muslim League withdrawal?',
+            back: '299 (reduced from 389).'
+          },
+          {
+            id: 'sica-16',
+            front: 'Who was the Constitutional Adviser to the Constituent Assembly?',
+            back: 'Sir B.N. Rau.'
+          },
+          {
+            id: 'sica-17',
+            front: 'Who was the Secretary to the Constituent Assembly?',
+            back: 'H.V.R. Iyengar.'
+          },
+          {
+            id: 'sica-18',
+            front: 'Who was the Chief Draftsman of the Constitution?',
+            back: 'S.N. Mukherjee.'
+          },
+          {
+            id: 'sica-19',
+            front: 'Who was responsible for decorating the Constitution?',
+            back: 'Nand Lal Bose and B.R. Sinha.'
+          },
+          {
+            id: 'sica-20',
+            front: 'Who did the Hindi Calligraphy of the Constitution?',
+            back: 'Vasant Krishan Vaidya (calligraphy) and Nand Lal Bose (illumination).'
+          },
+          {
+            id: 'sica-21',
+            front: 'How many women were in the initial membership of the Constituent Assembly?',
+            back: '15 women, later increased by 2.'
+          },
+          {
+            id: 'sica-22',
+            front: 'How many women were signatories of the Indian Constitution? Name them.',
+            back: '11 women: G. Durgabai, Ammu Swaminathan, Amrit Kaur, Dakshayani Velayudhan, Hansa Mehta, Renuka Ray, Sucheta Kripalani, Purnima Banerji, Begum Qudsiya Aizaz Rasul, Kamala Chaudhri, and Annie Mascarene.'
+          },
+          {
+            id: 'sica-23',
+            front: 'Why was Dr. Sachidanand Sinha chosen as the temporary President of the Assembly?',
+            back: 'He was the oldest member, following the French practice of electing the oldest member as temporary president.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'sica-q1',
+            question: 'The Constituent Assembly was formed under which plan?',
+            options: ['Cripps Mission', 'Cabinet Mission Plan', 'Mountbatten Plan', 'Wavell Plan'],
+            correct: 1,
+            explanation: 'The Constituent Assembly was formed in November 1946 under the Cabinet Mission Plan.'
+          },
+          {
+            id: 'sica-q2',
+            question: 'What was the original total strength of the Constituent Assembly?',
+            options: ['299', '389', '296', '292'],
+            correct: 1,
+            explanation: 'Total Members: 389 (296 from British India + 93 from Princely States).'
+          },
+          {
+            id: 'sica-q3',
+            question: 'Which voting method was used for electing provincial representatives to the Constituent Assembly?',
+            options: [
+              'Direct election by universal adult franchise',
+              'First Past the Post system',
+              'Proportional representation using Single Transferable Vote',
+              'Nomination by the British Government'
+            ],
+            correct: 2,
+            explanation: 'Proportional representation using a Single Transferable Vote was used for provincial representation.'
+          },
+          {
+            id: 'sica-q4',
+            question: 'Who did NOT participate in the Constituent Assembly?',
+            options: ['Dr. B.R. Ambedkar', 'Jawaharlal Nehru', 'Mahatma Gandhi', 'Dr. Rajendra Prasad'],
+            correct: 2,
+            explanation: 'Mahatma Gandhi did not participate in the Constituent Assembly.'
+          },
+          {
+            id: 'sica-q5',
+            question: 'What symbol was adopted as the seal of the Constituent Assembly?',
+            options: ['Lion', 'Elephant', 'Peacock', 'Ashoka Chakra'],
+            correct: 1,
+            explanation: 'The Elephant was adopted as the seal of the Constituent Assembly.'
+          },
+          {
+            id: 'sica-q6',
+            question: 'What was the total expenditure of the Constituent Assembly?',
+            options: ['₹46 lakh', '₹64 lakh', '₹96 lakh', '₹36 lakh'],
+            correct: 1,
+            explanation: 'The total expenditure of the Constituent Assembly was ₹64 lakh.'
+          },
+          {
+            id: 'sica-q7',
+            question: 'After the Independence Act 1947, the membership of the Constituent Assembly was reduced to:',
+            options: ['296', '389', '299', '292'],
+            correct: 2,
+            explanation: 'Membership was reduced to 299 after the Muslim League withdrawal (down from 389).'
+          },
+          {
+            id: 'sica-q8',
+            question: 'Who chaired the Legislative Body of the Constituent Assembly after the Independence Act, 1947?',
+            options: ['Dr. Rajendra Prasad', 'G.V. Mavalankar', 'Jawaharlal Nehru', 'H.V.R. Iyengar'],
+            correct: 1,
+            explanation: 'G.V. Mavalankar chaired the Legislative Body, while Dr. Rajendra Prasad chaired the Constituent Body.'
+          },
+          {
+            id: 'sica-q9',
+            question: 'Who was the Constitutional Adviser to the Constituent Assembly?',
+            options: ['S.N. Mukherjee', 'H.V.R. Iyengar', 'Sir B.N. Rau', 'Dr. B.R. Ambedkar'],
+            correct: 2,
+            explanation: 'Sir B.N. Rau served as the Constitutional Adviser to the Constituent Assembly.'
+          },
+          {
+            id: 'sica-q10',
+            question: 'Who was the Chief Draftsman of the Constitution?',
+            options: ['Sir B.N. Rau', 'S.N. Mukherjee', 'H.V.R. Iyengar', 'Dr. B.R. Ambedkar'],
+            correct: 1,
+            explanation: 'S.N. Mukherjee was the Chief Draftsman. Note: Dr. B.R. Ambedkar was Chairman of the Drafting Committee, which is a different role.'
+          },
+          {
+            id: 'sica-q11',
+            question: 'How many sessions did the Constituent Assembly hold in total?',
+            options: ['9', '10', '11', '12'],
+            correct: 2,
+            explanation: 'The Constituent Assembly held 11 sessions over 2 years, 11 months, and 18 days.'
+          },
+          {
+            id: 'sica-q12',
+            question: 'How many women were signatories of the Indian Constitution?',
+            options: ['9', '11', '13', '15'],
+            correct: 1,
+            explanation: '11 women signed the Indian Constitution, including G. Durgabai, Ammu Swaminathan, Amrit Kaur, Hansa Mehta, Sucheta Kripalani, and others.'
+          },
+          {
+            id: 'sica-q13',
+            question: 'The seats for each British province were divided among which three principal communities?',
+            options: [
+              'Hindus, Muslims, and Christians',
+              'Muslims, Sikhs, and General',
+              'Hindus, Muslims, and Sikhs',
+              'General, Scheduled Castes, and Muslims'
+            ],
+            correct: 1,
+            explanation: 'Seats for each British province were divided among three principal communities: Muslims, Sikhs, and General.'
+          },
+          {
+            id: 'sica-q14',
+            question: 'Who was responsible for the Hindi calligraphy of the Constitution?',
+            options: ['Nand Lal Bose', 'Vasant Krishan Vaidya', 'B.R. Sinha', 'Beohar Rammanohar Sinha'],
+            correct: 1,
+            explanation: 'Vasant Krishan Vaidya did the Hindi calligraphy, while Nand Lal Bose illuminated it.'
+          },
+        ]
       }
     ]
   }
