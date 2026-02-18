@@ -8288,6 +8288,101 @@ const topicsData = [
             explanation: 'Existing laws continue for one year post-enactment under Article 243-N.'
           },
         ]
+      },
+      {
+        id: 'pesa-act-1996',
+        name: 'PESA Act, 1996 & Revenue Sources',
+        flashcards: [
+          {
+            id: 'pesa-1',
+            front: 'What is the PESA Act, 1996? (UPSC 2012, 2013)',
+            back: 'Part IX provisions on Panchayats do not automatically apply to Fifth Schedule areas. Parliament can extend these with exceptions and modifications through the PESA Act. Created to create autonomous regions in tribal areas.'
+          },
+          {
+            id: 'pesa-2',
+            front: 'What are the key features of PESA regarding state legislation and Gram Sabha? (UPSC 2012, 2013)',
+            back: 'State Legislation: Must align with customary laws, social, and religious practices.\nGram Sabha: Mandatory in every village. Powers:\n- Prevent alienation of land in Scheduled Areas\n- Ownership of minor forest produce\n- Under Forest Rights Act (2006), Gram Sabha initiates process for determining forest rights (UPSC 2012/2013)'
+          },
+          {
+            id: 'pesa-3',
+            front: 'Who is the nodal agency for the Forest Rights Act, 2006? (UPSC 2021)',
+            back: 'Ministry of Tribal Affairs (MoTA) is the nodal agency for the Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006. Deals with forest and livelihood objectives at the national level.'
+          },
+          {
+            id: 'pesa-4',
+            front: 'What are the seat reservation provisions under PESA?',
+            back: '- In proportion to community population, with 50% reserved for Scheduled Tribes\n- Chairpersons of ALL Panchayat levels reserved for Scheduled Tribes\n- States may nominate STs without representation at intermediate/district levels (up to 10% of total members)'
+          },
+          {
+            id: 'pesa-5',
+            front: 'What are the land acquisition and resource management provisions under PESA?',
+            back: '- Consultation Requirement: Gram Sabha or Panchayats must be consulted before land acquisition for development projects\n- Water Body Management: Minor water bodies assigned to Panchayats\n- Mandatory Recommendations: From Gram Sabha/Panchayats for prospecting licences and mining leases for minor minerals'
+          },
+          {
+            id: 'pesa-6',
+            front: 'What are the powers and administrative structure under PESA?',
+            back: 'Powers:\n- Control over sale/consumption of intoxicants and minor forest produce\n- Prevent alienation of land, manage village markets\n- Authority over local plans, resources, and tribal sub-plans\n- State laws must prevent higher-level Panchayats from usurping lower-level powers\n\nAdministrative: State Legislature should follow Sixth Schedule framework for district-level Panchayats. Inconsistent laws cease within one year post-presidential assent.'
+          },
+          {
+            id: 'pesa-7',
+            front: 'What are the sources of revenue for PRIs? (2nd ARC)',
+            back: '1. Grants from Union Government per Central Finance Commission recommendations (Article 280)\n2. Devolution from State Government per State Finance Commission (Article 243-I)\n3. Loans/Grants from the State Government\n4. Program-Specific Allocations under Centrally Sponsored Schemes\n5. Internal Resource Generation through taxes and non-tax revenues'
+          },
+          {
+            id: 'pesa-8',
+            front: 'What was the Rajbala v. State of Haryana (2015) case?',
+            back: 'SC upheld a law requiring minimum education to contest Panchayat elections, ruling that the Constitution allows such limits if they aim to strengthen leadership and accountability in local self-government.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'pesa-q1',
+            question: 'PESA Act extends Panchayat provisions to areas under: (UPSC 2012)',
+            options: ['Sixth Schedule', 'Fifth Schedule', 'Eighth Schedule', 'Ninth Schedule'],
+            correct: 1,
+            explanation: 'PESA extends Part IX provisions to areas under the Fifth Schedule with specific exceptions and modifications.'
+          },
+          {
+            id: 'pesa-q2',
+            question: 'Under PESA, Gram Sabha has ownership of: (UPSC 2013)',
+            options: ['All forest land', 'Minor forest produce', 'Major minerals', 'All tribal land'],
+            correct: 1,
+            explanation: 'Gram Sabha has ownership of minor forest produce and power to prevent alienation of land in Scheduled Areas.'
+          },
+          {
+            id: 'pesa-q3',
+            question: 'Under PESA, reservation for Scheduled Tribes is:',
+            options: ['1/3 of seats', '40% of seats', '50% of seats', '2/3 of seats'],
+            correct: 2,
+            explanation: '50% of seats reserved for Scheduled Tribes, with chairpersons of all Panchayat levels reserved for STs.'
+          },
+          {
+            id: 'pesa-q4',
+            question: 'Nodal agency for Forest Rights Act, 2006 is: (UPSC 2021)',
+            options: ['Ministry of Environment', 'Ministry of Tribal Affairs', 'Ministry of Home Affairs', 'Ministry of Rural Development'],
+            correct: 1,
+            explanation: 'Ministry of Tribal Affairs (MoTA) is the nodal agency for the Forest Rights Act, 2006.'
+          },
+          {
+            id: 'pesa-q5',
+            question: 'Under PESA, before land acquisition, consultation is mandatory with:',
+            options: ['State Government only', 'District Collector', 'Gram Sabha or Panchayats', 'Governor'],
+            correct: 2,
+            explanation: 'Gram Sabha or Panchayats must be consulted before land acquisition for development projects.'
+          },
+          {
+            id: 'pesa-q6',
+            question: 'In Rajbala v. State of Haryana (2015), the SC upheld:',
+            options: [
+              'Right to contest without education',
+              'Minimum education requirement to contest Panchayat elections',
+              'Abolition of Panchayat elections',
+              'Reservation for OBCs in Panchayats'
+            ],
+            correct: 1,
+            explanation: 'SC upheld minimum education requirement for Panchayat elections to strengthen leadership and accountability.'
+          },
+        ]
       }
     ]
   }
