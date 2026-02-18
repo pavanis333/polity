@@ -6707,6 +6707,91 @@ const topicsData = [
             explanation: 'The Contempt of Court Act, 1971 does not apply to Nyaya Panchayats or similar village courts.'
           },
         ]
+      },
+      {
+        id: 'additional-provisions-sc',
+        name: 'Additional Provisions Related to Supreme Court',
+        flashcards: [
+          {
+            id: 'apsc-1',
+            front: 'What is the provision for Ad Hoc Judges? (Article 127)',
+            back: 'Appointment: CJI can appoint a High Court judge as an Ad Hoc judge when there is a lack of quorum. Requires consultation with CJ of the concerned HC and the President\'s consent.\nJurisdiction: Ad hoc judges possess the same powers and privileges as SC judges.\nQualifications: Must be qualified for appointment as a SC judge.'
+          },
+          {
+            id: 'apsc-2',
+            front: 'Where is the seat of the Supreme Court? (Article 130)',
+            back: 'The Supreme Court is constitutionally located in Delhi.\nAlternative Seats: The CJI can appoint another location as the SC\'s seat with Presidential approval (optional).'
+          },
+          {
+            id: 'apsc-3',
+            front: 'What is the procedure of the Supreme Court?',
+            back: 'Rule-Making: The SC, with Presidential approval, can regulate its practice and procedure.\nBench Composition: Constitutional cases or Presidential references are decided by a bench of at least 5 judges; other cases can be decided by single or division benches.\nJudgement Delivery: Majority voting is required, with provisions for dissenting opinions.'
+          },
+          {
+            id: 'apsc-4',
+            front: 'What is Appeal by Special Leave? (Article 136)',
+            back: 'Grants special leave to appeal from judgments of any court or tribunal, except court martial.\nKey Features:\n- Discretionary, not a right\n- Applicable to final or interlocutory judgments\n- Covers various matters (constitutional, civil, criminal, etc.)\n- Used sparingly in exceptional cases'
+          },
+          {
+            id: 'apsc-5',
+            front: 'What is the Advisory Jurisdiction of the SC? (Article 143)',
+            back: 'The President can seek SC\'s opinion on:\n(a) Any question of law/fact of public importance — SC may or may not give its opinion\n(b) Disputes arising from pre-constitutional treaties/agreements/sanads — SC is bound to give its opinion\n\nNature: Advisory, not binding; the President may choose whether to follow it.'
+          },
+          {
+            id: 'apsc-6',
+            front: 'Key difference: Article 143(1) vs Article 143(2)',
+            back: 'Article 143(1): Questions of law/fact of public importance — SC MAY or MAY NOT give opinion (discretionary)\nArticle 143(2): Pre-constitutional treaties/agreements — SC is BOUND to give opinion (mandatory)\n\nIn both cases, the opinion is advisory and not binding on the President.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'apsc-q1',
+            question: 'An Ad Hoc Judge under Article 127 is appointed by:',
+            options: ['President', 'CJI', 'Parliament', 'Law Minister'],
+            correct: 1,
+            explanation: 'CJI can appoint a HC judge as an Ad Hoc judge when there is a lack of quorum, with consultation of concerned HC CJ and President\'s consent.'
+          },
+          {
+            id: 'apsc-q2',
+            question: 'The SC is constitutionally located in:',
+            options: ['Any city decided by Parliament', 'Delhi', 'As decided by the President', 'As decided by CJI'],
+            correct: 1,
+            explanation: 'Article 130: The SC is constitutionally located in Delhi. CJI can appoint alternative seats with Presidential approval.'
+          },
+          {
+            id: 'apsc-q3',
+            question: 'Constitutional cases in the SC require a bench of at least:',
+            options: ['3 judges', '5 judges', '7 judges', '9 judges'],
+            correct: 1,
+            explanation: 'Constitutional cases or Presidential references require a bench of at least 5 judges. Other cases can be decided by smaller benches.'
+          },
+          {
+            id: 'apsc-q4',
+            question: 'Special Leave Petition under Article 136 does NOT apply to:',
+            options: ['Civil matters', 'Criminal matters', 'Court martial', 'Constitutional matters'],
+            correct: 2,
+            explanation: 'Article 136 grants special leave to appeal from any court or tribunal, EXCEPT court martial.'
+          },
+          {
+            id: 'apsc-q5',
+            question: 'Under Article 143(2), regarding pre-constitutional treaties, the SC is:',
+            options: [
+              'Free to decline giving opinion',
+              'Bound to give its opinion',
+              'Required to get Parliament\'s approval',
+              'Not allowed to give opinion'
+            ],
+            correct: 1,
+            explanation: 'Under Art 143(2), SC is bound to give opinion on pre-constitutional treaties. Under Art 143(1), it may or may not give opinion.'
+          },
+          {
+            id: 'apsc-q6',
+            question: 'The SC\'s advisory opinion under Article 143 is:',
+            options: ['Binding on the President', 'Binding on Parliament', 'Advisory and not binding', 'Binding on all courts'],
+            correct: 2,
+            explanation: 'The opinion is advisory and not binding. The President may choose whether to follow it.'
+          },
+        ]
       }
     ]
   }
