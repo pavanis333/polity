@@ -5014,6 +5014,113 @@ const topicsData = [
             explanation: 'The 61st Constitutional Amendment Act, 1988 reduced the voting age from 21 to 18 years.'
           },
         ]
+      },
+      {
+        id: 'speaker-pro-tem-and-chairman',
+        name: 'Speaker Pro-Tem, Powers & RS Chairman',
+        flashcards: [
+          {
+            id: 'spt-1',
+            front: 'What are the Powers and Duties of the Speaker?',
+            back: '- Derives powers from the Constitution, Rules of Procedure, and Parliamentary Conventions\n- Guardian of House privileges\n- Maintains order and decorum\n- Final interpreter of provisions of the Constitution and Rules\n- Adjourns the House or suspends meetings for lack of quorum (1/10th of total strength)\n- Decides if a bill is a money bill (decision is final)\n- Presides over joint sittings (Art. 108)\n- Allows secret sittings at the request of Leader of the House\n- Decides disqualifications arising from defection (subject to judicial review) (UPSC 2025)\n- Appoints chairpersons of parliamentary committees and supervises their functions\n- Ex-officio chairman of various committees'
+          },
+          {
+            id: 'spt-2',
+            front: 'What are the exclusive powers of the Rajya Sabha Chairman?',
+            back: 'Similar powers to the Speaker, EXCEPT:\n- Cannot decide if a bill is a money bill (that power lies with the Speaker)\n- Does not preside over joint sittings of Parliament (that is the Speaker\'s role)\n- Acts as a link between the Rajya Sabha and the President of India'
+          },
+          {
+            id: 'spt-3',
+            front: 'How is the Speaker\'s independence and impartiality ensured?',
+            back: '- Security of tenure\n- Salaries and allowances fixed by Parliament, charged on the Consolidated Fund of India\n- Work cannot be discussed or criticised in Lok Sabha except on a substantive motion\n- Powers of regulating procedure and maintaining order are not subject to court jurisdiction\n- Can only exercise a casting vote'
+          },
+          {
+            id: 'spt-4',
+            front: 'What is a casting vote?',
+            back: 'A casting vote is an extra vote exercised by the presiding officer to break a tie when votes for and against a motion are equal. The Speaker can ONLY exercise a casting vote (does not vote in first instance).'
+          },
+          {
+            id: 'spt-5',
+            front: 'How is the RS Chairman\'s independence ensured?',
+            back: '- Salary and allowances fixed by Parliament, charged on the Consolidated Fund of India\n- Cannot preside over Rajya Sabha when a removal resolution is under consideration; acts as a normal member without voting rights\n- Must ensure the smooth functioning of the Rajya Sabha'
+          },
+          {
+            id: 'spt-6',
+            front: 'What is the quorum for a House sitting?',
+            back: 'One-tenth (1/10th) of the total strength of the House. The Speaker/Chairman adjourns or suspends meetings for lack of quorum.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'spt-q1',
+            question: 'Who decides if a bill is a money bill (decision is final)?',
+            options: ['President', 'Prime Minister', 'Speaker of Lok Sabha', 'Chairman of Rajya Sabha'],
+            correct: 2,
+            explanation: 'The Speaker of Lok Sabha decides if a bill is a money bill, and the decision is final.'
+          },
+          {
+            id: 'spt-q2',
+            question: 'Who presides over joint sittings of Parliament (Art. 108)?',
+            options: ['President', 'Vice President', 'Speaker of Lok Sabha', 'Senior-most MP'],
+            correct: 2,
+            explanation: 'The Speaker presides over joint sittings under Article 108. The RS Chairman does NOT preside over joint sittings.'
+          },
+          {
+            id: 'spt-q3',
+            question: 'The Speaker decides defection disqualifications, which are: (UPSC 2025)',
+            options: [
+              'Final and not reviewable',
+              'Subject to judicial review',
+              'Subject to President\'s approval',
+              'Decided by Election Commission'
+            ],
+            correct: 1,
+            explanation: 'The Speaker decides disqualifications arising from defection, subject to judicial review (Kihoto Hollohan 1992).'
+          },
+          {
+            id: 'spt-q4',
+            question: 'The quorum for a House sitting is:',
+            options: ['1/4th of total strength', '1/3rd of total strength', '1/10th of total strength', 'Majority of total strength'],
+            correct: 2,
+            explanation: 'Quorum is 1/10th of the total strength of the House.'
+          },
+          {
+            id: 'spt-q5',
+            question: 'A casting vote is exercised by the Speaker when:',
+            options: [
+              'The Speaker wants to support a bill',
+              'Votes for and against a motion are equal',
+              'The opposition demands it',
+              'The PM requests it'
+            ],
+            correct: 1,
+            explanation: 'A casting vote is exercised to break a tie when votes for and against are equal. The Speaker does not vote in the first instance.'
+          },
+          {
+            id: 'spt-q6',
+            question: 'The RS Chairman CANNOT:',
+            options: [
+              'Maintain order in the House',
+              'Decide if a bill is a money bill',
+              'Adjourn the House for lack of quorum',
+              'Allow discussions in the House'
+            ],
+            correct: 1,
+            explanation: 'The RS Chairman cannot decide if a bill is a money bill — that power lies exclusively with the Speaker of Lok Sabha.'
+          },
+          {
+            id: 'spt-q7',
+            question: 'Speaker\'s salary is charged on:',
+            options: [
+              'Contingency Fund of India',
+              'Consolidated Fund of India',
+              'Public Account of India',
+              'State Consolidated Fund'
+            ],
+            correct: 1,
+            explanation: 'Speaker\'s salary and allowances are charged on the Consolidated Fund of India, ensuring independence from executive control.'
+          },
+        ]
       }
     ]
   }
