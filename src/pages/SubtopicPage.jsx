@@ -1,12 +1,14 @@
+import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, BookOpen, HelpCircle } from 'lucide-react'
+import { ArrowLeft, BookOpen, HelpCircle, Trash2 } from 'lucide-react'
 import { getSubtopic, getTopic, getSubtopicFlashcardIds } from '../data/topics'
-import { getReviewStats, getBestScore, getAttemptCount, getDueCards } from '../utils/spaced-repetition'
+import { getReviewStats, getBestScore, getAttemptCount, getDueCards, resetCardProgress, resetQuizProgress } from '../utils/spaced-repetition'
 
 export default function SubtopicPage() {
   const { topicId, subtopicId } = useParams()
   const topic = getTopic(topicId)
   const sub = getSubtopic(topicId, subtopicId)
+  const [refreshKey, setRefreshKey] = useState(0)
 
   if (!topic || !sub) {
     return (
@@ -71,6 +73,30 @@ export default function SubtopicPage() {
           <HelpCircle size={18} />
           Take Quiz ({sub.quiz.length} questions)
         </Link>
+      </div>
+
+      <div style={{ marginTop: 32, borderTop: '1px solid var(--border)', paddingTop: 24 }}>
+        <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginBottom: 12 }}>Reset Progress</p>
+        <div className="btn-group">
+          <button className="btn btn-sm" style={{ background: 'rgba(231,76,60,0.1)', color: 'var(--danger)', border: '1px solid rgba(231,76,60,0.3)' }}
+            onClick={() => {
+              if (confirm('Reset all flashcard progress for this subtopic? This cannot be undone.')) {
+                resetCardProgress(cardIds)
+                setRefreshKey(k => k + 1)
+              }
+            }}>
+            <Trash2 size={14} /> Reset Flashcards
+          </button>
+          <button className="btn btn-sm" style={{ background: 'rgba(231,76,60,0.1)', color: 'var(--danger)', border: '1px solid rgba(231,76,60,0.3)' }}
+            onClick={() => {
+              if (confirm('Reset all quiz scores for this subtopic? This cannot be undone.')) {
+                resetQuizProgress(`${topicId}/${subtopicId}`)
+                setRefreshKey(k => k + 1)
+              }
+            }}>
+            <Trash2 size={14} /> Reset Quiz Scores
+          </button>
+        </div>
       </div>
     </div>
   )

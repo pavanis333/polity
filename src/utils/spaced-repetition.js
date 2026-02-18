@@ -130,3 +130,21 @@ export function getAttemptCount(subtopicId) {
   const scores = getQuizScores()
   return (scores[subtopicId] || []).length
 }
+
+// Reset functions
+export function resetCardProgress(cardIds) {
+  const data = getStorageData()
+  cardIds.forEach(id => { delete data[id] })
+  saveStorageData(data)
+}
+
+export function resetQuizProgress(subtopicId) {
+  const scores = getQuizScores()
+  delete scores[subtopicId]
+  localStorage.setItem(QUIZ_KEY, JSON.stringify(scores))
+}
+
+export function resetAllProgress() {
+  localStorage.removeItem(STORAGE_KEY)
+  localStorage.removeItem(QUIZ_KEY)
+}

@@ -1,9 +1,11 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowLeft } from 'lucide-react'
 import topicsData, { getSubtopicFlashcardIds, getAllFlashcardIds } from '../data/topics'
-import { getReviewStats, getQuizScores, getBestScore, getAttemptCount } from '../utils/spaced-repetition'
+import { getReviewStats, getQuizScores, getBestScore, getAttemptCount, resetAllProgress } from '../utils/spaced-repetition'
 
 export default function ProgressPage() {
+  const [refreshKey, setRefreshKey] = useState(0)
   const allCardIds = getAllFlashcardIds()
   const allStats = getReviewStats(allCardIds)
   const quizScores = getQuizScores()
@@ -107,6 +109,21 @@ export default function ProgressPage() {
           ))}
         </div>
       )}
+
+      <div style={{ marginTop: 48, borderTop: '1px solid var(--border)', paddingTop: 24, textAlign: 'center' }}>
+        <button
+          className="btn btn-sm"
+          style={{ background: 'rgba(231,76,60,0.1)', color: 'var(--danger)', border: '1px solid rgba(231,76,60,0.3)' }}
+          onClick={() => {
+            if (confirm('Reset ALL progress? This will clear every flashcard review and quiz score. Cannot be undone.')) {
+              resetAllProgress()
+              setRefreshKey(k => k + 1)
+            }
+          }}
+        >
+          🗑️ Reset All Progress
+        </button>
+      </div>
     </div>
   )
 }
