@@ -7921,6 +7921,137 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'panchayats-municipalities-cooperatives',
+    name: 'Panchayats, Municipalities and Cooperative Societies',
+    icon: '🏘️',
+    subtopics: [
+      {
+        id: 'important-committees-panchayati-raj',
+        name: 'Important Committees & Their Recommendations',
+        flashcards: [
+          {
+            id: 'pmc-1',
+            front: 'What did the Balwant Rai Mehta Committee (1957) recommend?',
+            back: 'Examined Community Development Programs (1952) and National Extension Services (1953).\n- Recommended three-tier Panchayati Raj: Gram Panchayat (village), Panchayat Samiti (block), Zila Parishad (district)\n- Direct elections at village level, indirect for higher levels\n- Zila Parishad: advisory and coordinating body, chaired by District Collector\n- Emphasised district-level planning and devolution of powers\n- Accepted by National Development Council in 1958'
+          },
+          {
+            id: 'pmc-2',
+            front: 'What is the National Development Council? (UPSC 2013, 2014)',
+            back: 'NDC is associated with "Planning" in India (UPSC 2014). No mention in the Constitution (UPSC 2013).\nMembers: Prime Minister (Chairman), ministers of the Union Cabinet, and Chief Ministers of the States.'
+          },
+          {
+            id: 'pmc-3',
+            front: 'What did the Ashok Mehta Committee (1977) recommend?',
+            back: '- Two-tier system: Zila Parishad (district) and Mandal Panchayat (cluster of villages)\n- Dedicated minister for Panchayati Raj in states\n- District as key point for decentralisation\n- Political parties should contest Panchayat elections (West Bengal first to implement)\n- Mandatory taxation powers for Panchayats\n- Reservation for SCs/STs, constitutional status for PRIs\n- Social audits, limited state govt intervention\n- No actions were taken on its recommendations'
+          },
+          {
+            id: 'pmc-4',
+            front: 'What did the G.V.K. Rao Committee (1985) recommend?',
+            back: '- Zila Parishad as the principal institution for rural development\n- Panchayats at all levels should participate in planning, implementation, and monitoring\n- Creation of District Development Commissioner post\n- Concluded PRIs were becoming "grass without roots" due to excessive bureaucracy'
+          },
+          {
+            id: 'pmc-5',
+            front: 'What did the L.M. Singhvi Committee (1986) recommend?',
+            back: '- Constitutional recognition for PRIs by adding a new chapter in the Constitution\n- Nyaya Panchayats (local judicial bodies) for villages\n- PRIs should have more financial resources and be directly democratic\n- Establishment of tribunals for resolving Panchayat-related disputes'
+          },
+          {
+            id: 'pmc-6',
+            front: 'What did the Gadgil Committee (1988) recommend?',
+            back: '- Emphasised constitutional status for PRIs\n- Direct elections for all three Panchayat levels and five-year tenure\n- Power to levy and collect taxes for PRIs\n- State Finance and Election Commissions established\n- Became the basis for the 73rd Constitutional Amendment'
+          },
+          {
+            id: 'pmc-7',
+            front: 'What did the Thungon Committee (1988) recommend?',
+            back: '- Three tiers of Panchayati Raj, Zila Parishad to lead district planning\n- District Collector should be CEO of Zila Parishad\n- Maximum period of supersession: six months\n- Reservation for SCs, STs, and women; fixed five-year tenure\n- Suggested State Finance Commission and State Planning Committee'
+          },
+          {
+            id: 'pmc-8',
+            front: 'What were the Dantwala (1978) and Hanumantha Rao (1984) Committees?',
+            back: 'Dantwala Committee (1978): Focused on block-level planning.\nHanumantha Rao Committee (1984): Recommended separate district planning bodies under either the District Collector or a minister.'
+          },
+          {
+            id: 'pmc-9',
+            front: 'What are the post-73rd Amendment committees?',
+            back: '1. Task Force on Devolution of Powers (2001): Lalit Mathur\n2. Expert Group on Planning at Grassroots Level (2005): V. Ramachandran\n3. Task Force for Manual on District Planning (2008): Rajwant Sandhu\n4. Committee on Restructuring of DRDA (2010): V. Ramachandran\n5. Expert Committee on Leveraging Panchayats (2012): Mani Shankar Aiyar'
+          },
+        ],
+        quiz: [
+          {
+            id: 'pmc-q1',
+            question: 'The Balwant Rai Mehta Committee recommended:',
+            options: [
+              'Two-tier Panchayati Raj',
+              'Three-tier Panchayati Raj',
+              'Four-tier Panchayati Raj',
+              'Single-tier Panchayati Raj'
+            ],
+            correct: 1,
+            explanation: 'Balwant Rai Mehta (1957) recommended three-tier: Gram Panchayat, Panchayat Samiti, and Zila Parishad.'
+          },
+          {
+            id: 'pmc-q2',
+            question: 'The Ashok Mehta Committee (1977) recommended:',
+            options: ['Three-tier system', 'Two-tier system', 'Single-tier system', 'Four-tier system'],
+            correct: 1,
+            explanation: 'Ashok Mehta recommended two-tier: Zila Parishad (district) and Mandal Panchayat (cluster of villages).'
+          },
+          {
+            id: 'pmc-q3',
+            question: 'The NDC has: (UPSC 2013)',
+            options: [
+              'Constitutional status',
+              'No mention in the Constitution',
+              'Statutory status under an Act',
+              'Status under Article 280'
+            ],
+            correct: 1,
+            explanation: 'The National Development Council has no mention in the Constitution. It is associated with Planning in India (UPSC 2014).'
+          },
+          {
+            id: 'pmc-q4',
+            question: '"Grass without roots" was the conclusion of:',
+            options: ['Balwant Rai Mehta Committee', 'Ashok Mehta Committee', 'G.V.K. Rao Committee', 'L.M. Singhvi Committee'],
+            correct: 2,
+            explanation: 'G.V.K. Rao Committee (1985) concluded PRIs were becoming "grass without roots" due to excessive bureaucracy.'
+          },
+          {
+            id: 'pmc-q5',
+            question: 'Which committee became the basis for the 73rd Constitutional Amendment?',
+            options: ['Ashok Mehta', 'G.V.K. Rao', 'L.M. Singhvi', 'Gadgil Committee'],
+            correct: 3,
+            explanation: 'The Gadgil Committee (1988) became the basis for the 73rd Constitutional Amendment.'
+          },
+          {
+            id: 'pmc-q6',
+            question: 'L.M. Singhvi Committee (1986) recommended:',
+            options: [
+              'Two-tier system',
+              'Constitutional recognition for PRIs and Nyaya Panchayats',
+              'Abolition of Panchayats',
+              'Mandatory taxation powers only'
+            ],
+            correct: 1,
+            explanation: 'L.M. Singhvi recommended constitutional recognition for PRIs by adding a new chapter, Nyaya Panchayats, and more financial resources.'
+          },
+          {
+            id: 'pmc-q7',
+            question: 'The first state to implement political party participation in Panchayat elections (as recommended by Ashok Mehta) was:',
+            options: ['Kerala', 'West Bengal', 'Tamil Nadu', 'Maharashtra'],
+            correct: 1,
+            explanation: 'West Bengal was the first state to implement political party participation in Panchayat elections.'
+          },
+          {
+            id: 'pmc-q8',
+            question: 'The Thungon Committee recommended maximum supersession period of:',
+            options: ['3 months', '6 months', '1 year', '2 years'],
+            correct: 1,
+            explanation: 'Thungon Committee (1988) recommended that the maximum period of supersession of a body should be six months.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
