@@ -4488,6 +4488,142 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'the-executive',
+    name: 'The Executive in India',
+    icon: '👔',
+    subtopics: [
+      {
+        id: 'pm-and-cm-constitutional-provisions',
+        name: 'Constitutional Provisions: PM & CM',
+        flashcards: [
+          {
+            id: 'pmcm-1',
+            front: 'What does Article 74 provide about the PM and Council of Ministers?',
+            back: 'PM heads the Council of Ministers (CoM) to aid and advise the President. The President may ask for reconsideration but must follow the final advice.'
+          },
+          {
+            id: 'pmcm-2',
+            front: 'What does Article 75 provide?',
+            back: '- PM is appointed by the President; other ministers appointed on PM\'s advice\n- Ministers hold office at the pleasure of the President\n- CoM is collectively responsible to the Lok Sabha'
+          },
+          {
+            id: 'pmcm-3',
+            front: 'What are the PM\'s duties under Article 78?',
+            back: '- Communicating CoM decisions and legislative proposals to the President\n- Submitting matters for CoM consideration upon the President\'s request\nOthers: Advises President on appointments of key officials (Attorney General, CAG, UPSC, Election Commissioners, etc.)'
+          },
+          {
+            id: 'pmcm-4',
+            front: 'What does Article 163 provide about the CM and Governor?',
+            back: 'CM heads the CoM to aid and advise the Governor, who may act at discretion in some cases.'
+          },
+          {
+            id: 'pmcm-5',
+            front: 'What does Article 164 provide?',
+            back: '- CM is appointed by the Governor; other ministers on CM\'s advice\n- Ministers hold office at the pleasure of the Governor\n- CoM is collectively responsible to the state legislative assembly'
+          },
+          {
+            id: 'pmcm-6',
+            front: 'What are the CM\'s duties under Article 167?',
+            back: '- Communicating CoM decisions and legislative proposals to the Governor\n- Submitting matters for CoM reconsideration upon Governor\'s request'
+          },
+          {
+            id: 'pmcm-7',
+            front: 'Who determines the salary of the PM and CM?',
+            back: 'PM\'s salary: Determined by Parliament\nCM\'s salary: Determined by the State Legislature'
+          },
+          {
+            id: 'pmcm-8',
+            front: 'Compare: PM\'s relation with President vs CM\'s relation with Governor',
+            back: 'PM (Art 74, 75, 78):\n- President MUST follow CoM advice (after reconsideration)\n- CoM responsible to Lok Sabha\n- Advises on key appointments\n\nCM (Art 163, 164, 167):\n- Governor MAY act at discretion in some cases\n- CoM responsible to state legislative assembly\n- No advisory role on central appointments'
+          },
+        ],
+        quiz: [
+          {
+            id: 'pmcm-q1',
+            question: 'Under Article 74, the President must:',
+            options: [
+              'Follow CoM advice without question',
+              'May ask for reconsideration but must follow final advice',
+              'Can reject CoM advice at any time',
+              'Follow only PM\'s personal advice'
+            ],
+            correct: 1,
+            explanation: 'Article 74: The President may ask for reconsideration but must follow the final advice of the CoM.'
+          },
+          {
+            id: 'pmcm-q2',
+            question: 'The CoM is collectively responsible to:',
+            options: [
+              'The President',
+              'The Lok Sabha',
+              'The Rajya Sabha',
+              'Both Houses of Parliament'
+            ],
+            correct: 1,
+            explanation: 'Under Article 75, the Council of Ministers is collectively responsible to the Lok Sabha.'
+          },
+          {
+            id: 'pmcm-q3',
+            question: 'The CM is appointed by:',
+            options: ['President', 'Governor', 'State Legislature', 'Chief Justice of HC'],
+            correct: 1,
+            explanation: 'Under Article 164, the CM is appointed by the Governor.'
+          },
+          {
+            id: 'pmcm-q4',
+            question: 'Article 78 deals with the duties of:',
+            options: ['President', 'Vice President', 'Prime Minister', 'Speaker'],
+            correct: 2,
+            explanation: 'Article 78 deals with the PM\'s duties — communicating CoM decisions to President and submitting matters for CoM consideration.'
+          },
+          {
+            id: 'pmcm-q5',
+            question: 'PM\'s salary is determined by:',
+            options: ['President', 'Parliament', 'Finance Commission', 'Cabinet'],
+            correct: 1,
+            explanation: 'The PM\'s salary is determined by Parliament. The CM\'s salary is determined by the State Legislature.'
+          },
+          {
+            id: 'pmcm-q6',
+            question: 'Under Article 163, the Governor may act at discretion:',
+            options: [
+              'Never',
+              'Always',
+              'In some cases',
+              'Only during President\'s Rule'
+            ],
+            correct: 2,
+            explanation: 'Article 163: CM heads the CoM to aid and advise the Governor, who may act at discretion in some cases.'
+          },
+          {
+            id: 'pmcm-q7',
+            question: 'The CM\'s duties under Article 167 include:',
+            options: [
+              'Appointing state judges',
+              'Communicating CoM decisions to Governor and submitting matters for reconsideration',
+              'Dissolving the state assembly',
+              'Advising on central appointments'
+            ],
+            correct: 1,
+            explanation: 'Article 167: CM communicates CoM decisions and legislative proposals to the Governor and submits matters for reconsideration upon request.'
+          },
+          {
+            id: 'pmcm-q8',
+            question: 'Ministers hold office at the pleasure of:',
+            options: [
+              'Parliament and State Legislature respectively',
+              'President and Governor respectively',
+              'PM and CM respectively',
+              'Speaker and Governor respectively'
+            ],
+            correct: 1,
+            explanation: 'Under Art 75 and 164, ministers hold office at the pleasure of the President (Centre) and Governor (State) respectively.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
