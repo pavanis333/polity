@@ -7834,6 +7834,91 @@ const topicsData = [
             explanation: 'Article 323B allows hierarchy of tribunals to be established. Article 323A has no provision for hierarchy.'
           },
         ]
+      },
+      {
+        id: 'types-of-tribunals',
+        name: 'Types of Tribunals: CAT, SAT, JAT & Article 323B',
+        flashcards: [
+          {
+            id: 'tot-1',
+            front: 'What is the Central Administrative Tribunal (CAT)?',
+            back: 'Established 1985, under the Administrative Tribunals Act, 1985.\nPrincipal Bench in Delhi, with additional benches in various states.\nJurisdiction: All-India services, Central civil services, and civilian employees of defence services.\nExcludes: Members of defence forces, officers of SC, and Parliament\'s secretarial staff.'
+          },
+          {
+            id: 'tot-2',
+            front: 'What is the structure of CAT?',
+            back: 'Multi-member body: 69 members in various Benches — 34 Judicial Members and 35 Administrative Members.\nAppointment: By the President, based on recommendations from a SC Judge-led committee, approved by Appointments Committee of the Cabinet.\nTerm: Chairman — 5 years or until 65 years; Members — 5 years or until 62 years.'
+          },
+          {
+            id: 'tot-3',
+            front: 'What is the procedure and appeals process of CAT?',
+            back: 'Procedure: Follows natural justice principles, not bound by CPC. Nominal ₹50 fee for application. Can appear in person or via lawyer.\nAppeals: Initially only to SC. After L. Chandra Kumar Case (1997): HCs regained jurisdiction — appeals must first go to the concerned HC before approaching the SC.'
+          },
+          {
+            id: 'tot-4',
+            front: 'What are State Administrative Tribunals (SATs)?',
+            back: 'Established based on state government requests under the Administrative Tribunals Act, 1985.\nJurisdiction: Recruitment and service matters of state government employees.\nAppointment: Chairman and members appointed by the President after consulting the state\'s Governor.\nStates with SATs: Andhra Pradesh, Odisha, Karnataka, Maharashtra, West Bengal, Kerala.\nAbolished: Madhya Pradesh, Tamil Nadu, Himachal Pradesh (TN and HP requested re-establishment).'
+          },
+          {
+            id: 'tot-5',
+            front: 'What are Joint Administrative Tribunals (JATs)?',
+            back: 'Provision for two or more states under the Administrative Tribunals Act, 1985.\nAppointment: Chairman and members appointed by the President, with consultation from Governors of the concerned states.'
+          },
+          {
+            id: 'tot-6',
+            front: 'What areas do Tribunals under Article 323B cover?',
+            back: 'Authority: Both Parliament and State Legislatures can establish tribunals.\nAreas: Taxation, Foreign exchange, Import/export, Industrial and labour disputes, Land reforms, Urban property ceiling, Elections (to Parliament and State Legislatures), Foodstuffs, Rent and tenancy rights.\nExamples: NGT, National Company Law Tribunal, etc.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'tot-q1',
+            question: 'CAT was established in:',
+            options: ['1976', '1980', '1985', '1997'],
+            correct: 2,
+            explanation: 'CAT was established in 1985 under the Administrative Tribunals Act, 1985. Principal Bench is in Delhi.'
+          },
+          {
+            id: 'tot-q2',
+            question: 'After L. Chandra Kumar Case (1997), appeals from CAT go to:',
+            options: ['Supreme Court directly', 'Concerned High Court first', 'President', 'Parliament'],
+            correct: 1,
+            explanation: 'L. Chandra Kumar Case (1997): HCs regained jurisdiction. Appeals must first go to the concerned HC before approaching the SC.'
+          },
+          {
+            id: 'tot-q3',
+            question: 'CAT excludes which of the following from its jurisdiction?',
+            options: [
+              'Central civil services',
+              'All-India services',
+              'Members of defence forces',
+              'Civilian employees of defence'
+            ],
+            correct: 2,
+            explanation: 'CAT excludes members of defence forces, officers of the SC, and Parliament\'s secretarial staff.'
+          },
+          {
+            id: 'tot-q4',
+            question: 'Chairman of SAT is appointed by:',
+            options: ['Governor', 'Chief Minister', 'President after consulting Governor', 'CJI'],
+            correct: 2,
+            explanation: 'Chairman and members of SATs are appointed by the President after consulting the state\'s Governor.'
+          },
+          {
+            id: 'tot-q5',
+            question: 'The term of CAT Chairman is:',
+            options: ['3 years or 62 years', '5 years or 62 years', '5 years or 65 years', '6 years or 65 years'],
+            correct: 2,
+            explanation: 'CAT Chairman: 5 years or until 65 years. Members: 5 years or until 62 years.'
+          },
+          {
+            id: 'tot-q6',
+            question: 'Which of the following is NOT an area under Article 323B tribunals?',
+            options: ['Taxation', 'Land reforms', 'Public service matters', 'Foreign exchange'],
+            correct: 2,
+            explanation: 'Public service matters fall under Article 323A (CAT/SAT). Article 323B covers taxation, foreign exchange, labour disputes, land reforms, etc.'
+          },
+        ]
       }
     ]
   }
