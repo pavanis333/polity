@@ -9349,6 +9349,89 @@ const topicsData = [
             explanation: 'Statutory powers for Election Observers were established by amendments in 1996.'
           },
         ]
+      },
+      {
+        id: 'rpa-1950',
+        name: 'Representation of the People Act, 1950',
+        flashcards: [
+          {
+            id: 'rpa50-1',
+            front: 'What does the Representation of the People Act, 1950 govern?',
+            back: 'Governs allocation of seats and delimitation of constituencies for elections to:\n- House of the People (Lok Sabha)\n- State Legislatures\n\nEstablishes voter qualifications and electoral rolls.'
+          },
+          {
+            id: 'rpa50-2',
+            front: 'What are the Seat Allocation and Delimitation provisions under RPA 1950?',
+            back: '- Defines procedures for allocating seats in Parliament and State Legislatures based on census figures\n- Empowers the President to amend delimitation orders after consulting the Election Commission of India (ECI)'
+          },
+          {
+            id: 'rpa50-3',
+            front: 'What are the Voter Qualifications under RPA 1950?',
+            back: 'Voters must be:\n- Permanent residents of India\n- At least 18 years old\n- Not disqualified by law for reasons such as:\n  - Non-residence\n  - Unsoundness of mind\n  - Criminal activities'
+          },
+          {
+            id: 'rpa50-4',
+            front: 'What are the Electoral Roll and Reservation provisions under RPA 1950?',
+            back: 'Electoral Roll: Outlines procedures for creating rolls, appointing CEO, DEO, and ERO. ERO is responsible for electoral rolls in each constituency.\n\nReservation: Mandates reservation for SC and ST in Lok Sabha and State Assemblies. ECI determines reserved constituencies, especially in specific northeastern states.'
+          },
+          {
+            id: 'rpa50-5',
+            front: 'What are NRI voting rights and key officer roles under RPA 1950?',
+            back: 'NRI Voting: Extended voting rights to Indian citizens living abroad in 2010.\n\nERO\'s Role: Prepares electoral rolls for constituencies.\n\nRO\'s Role: Conducts elections and supervises the counting process.'
+          },
+          {
+            id: 'rpa50-6',
+            front: 'What are the 4 Schedules of RPA, 1950?',
+            back: 'First Schedule: Allocates seats in the House of the People (Lok Sabha)\n\nSecond Schedule: Lists total seats in Legislative Assemblies\n\nThird Schedule: Allocates seats in Legislative Councils\n\nFourth Schedule: Defines local authorities for Legislative Council elections'
+          },
+        ],
+        quiz: [
+          {
+            id: 'rpa50-q1',
+            question: 'RPA 1950 primarily deals with:',
+            options: [
+              'Conduct of elections',
+              'Seat allocation, delimitation, and electoral rolls',
+              'Election offences',
+              'Party registration'
+            ],
+            correct: 1,
+            explanation: 'RPA 1950 governs allocation of seats, delimitation of constituencies, voter qualifications, and electoral rolls.'
+          },
+          {
+            id: 'rpa50-q2',
+            question: 'Minimum voting age in India is:',
+            options: ['16 years', '18 years', '21 years', '25 years'],
+            correct: 1,
+            explanation: 'Under RPA 1950, voters must be at least 18 years old.'
+          },
+          {
+            id: 'rpa50-q3',
+            question: 'NRI voting rights were extended in:',
+            options: ['2005', '2008', '2010', '2014'],
+            correct: 2,
+            explanation: 'Voting rights were extended to Indian citizens living abroad (NRIs) in 2010.'
+          },
+          {
+            id: 'rpa50-q4',
+            question: 'The First Schedule of RPA 1950 deals with:',
+            options: [
+              'Legislative Assembly seats',
+              'Lok Sabha seat allocation',
+              'Legislative Council seats',
+              'Local authorities'
+            ],
+            correct: 1,
+            explanation: 'First Schedule allocates seats in the House of the People (Lok Sabha).'
+          },
+          {
+            id: 'rpa50-q5',
+            question: 'Who can amend delimitation orders under RPA 1950?',
+            options: ['Parliament', 'ECI', 'President after consulting ECI', 'Supreme Court'],
+            correct: 2,
+            explanation: 'The President is empowered to amend delimitation orders after consulting the Election Commission of India.'
+          },
+        ]
       }
     ]
   }
