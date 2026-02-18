@@ -8490,6 +8490,98 @@ const topicsData = [
             explanation: 'Agriculture is in the 11th Schedule (Panchayats). The 12th Schedule covers urban matters like urban planning, fire services, slum improvement.'
           },
         ]
+      },
+      {
+        id: 'types-of-urban-government',
+        name: 'Types of Urban Government & Planning Committees',
+        flashcards: [
+          {
+            id: 'tug-1',
+            front: 'What is a Municipal Corporation?',
+            back: 'Establishment: Created by state legislature acts (or Parliament for UTs).\nStructure: Council (headed by Mayor), standing committees, and municipal commissioner.\nMayor: Presides over council; election mode and tenure (1-5 years) vary by state.\nCouncil: Legislative wing with directly elected councillors and nominated experts.\nStanding Committees: Handle specific issues (health, finance, etc.).\nMunicipal Commissioner: Chief executive, appointed by state government, usually IAS officer.'
+          },
+          {
+            id: 'tug-2',
+            front: 'What are Municipalities (Municipal Councils)?',
+            back: 'Establishment: Created by state legislature acts for towns and smaller cities.\nStructure: Similar to corporations — council (headed by President) and Chief Executive Officer.\nPresident: Presides over meetings, plays significant role in administration.\nCEO: Manages daily operations, appointed by state government.'
+          },
+          {
+            id: 'tug-3',
+            front: 'What is a Town Area Committee?',
+            back: 'Establishment: Created by state legislature acts for small towns.\nFunctions: Limited civic functions (e.g., drainage, roads).\nComposition: May be elected, nominated, or a mix of both.'
+          },
+          {
+            id: 'tug-4',
+            front: 'What is a Cantonment Board?',
+            back: 'Establishment: Governed by the Cantonments Act of 2006.\nStructure: Partly elected and partly nominated.\nEx-officio President: Military officer commanding the station.\nExecutive Officer: Appointed by the President of India to implement board decisions.'
+          },
+          {
+            id: 'tug-5',
+            front: 'What are Notified Area Committee, Township, Port Trust, and Special Purpose Agency?',
+            back: 'Notified Area Committee: Created through gazette notification for fast-developing towns; entirely nominated, not elected.\n\nTownship: Created by large public enterprises for staff amenities; lacks elected members.\n\nPort Trust: Created by Parliament for ports; includes elected and nominated members, chaired by an official.\n\nSpecial Purpose Agency: Set up for specific functions; not area-based, independent of local bodies.'
+          },
+          {
+            id: 'tug-6',
+            front: 'What is the District Planning Committee (DPC)? (UPSC 2011)',
+            back: 'Article 243ZD: Formed to consolidate plans from panchayats and municipalities.\nComposition: Mostly elected members from local bodies, with representation proportional to rural and urban populations.\nFunction: Forwards development plans to the state government.'
+          },
+          {
+            id: 'tug-7',
+            front: 'What is the Metropolitan Planning Committee (MPC)? (UPSC 2011)',
+            back: 'Article 243ZE: For areas with populations over 10 lakhs.\nComposition: Two-thirds elected from local bodies, one-third nominated; representation based on population ratios.\nFunction: Prepares the draft development plans for the metropolitan area and forwards to state government. (UPSC 2011)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'tug-q1',
+            question: 'The Municipal Commissioner is usually:',
+            options: ['Elected by people', 'Elected by councillors', 'An IAS officer appointed by state government', 'Appointed by President'],
+            correct: 2,
+            explanation: 'The Municipal Commissioner is the chief executive, appointed by the state government, usually an IAS officer.'
+          },
+          {
+            id: 'tug-q2',
+            question: 'The ex-officio president of a Cantonment Board is:',
+            options: ['District Collector', 'Mayor', 'Military officer commanding the station', 'State Governor'],
+            correct: 2,
+            explanation: 'The ex-officio president of a Cantonment Board is the military officer commanding the station.'
+          },
+          {
+            id: 'tug-q3',
+            question: 'A Notified Area Committee is:',
+            options: ['Entirely elected', 'Entirely nominated', 'Partly elected, partly nominated', 'Appointed by President'],
+            correct: 1,
+            explanation: 'A Notified Area Committee is entirely nominated, not elected. It is created through gazette notification for fast-developing towns.'
+          },
+          {
+            id: 'tug-q4',
+            question: 'Metropolitan Planning Committee is for areas with population over: (UPSC 2011)',
+            options: ['5 lakhs', '10 lakhs', '20 lakhs', '50 lakhs'],
+            correct: 1,
+            explanation: 'Article 243ZE: MPC is for metropolitan areas with populations over 10 lakhs.'
+          },
+          {
+            id: 'tug-q5',
+            question: 'In MPC, elected members constitute:',
+            options: ['One-third', 'Half', 'Two-thirds', 'All members'],
+            correct: 2,
+            explanation: 'MPC composition: Two-thirds elected from local bodies, one-third nominated; representation based on population ratios.'
+          },
+          {
+            id: 'tug-q6',
+            question: 'The Cantonments Act was enacted in:',
+            options: ['1992', '2000', '2006', '2013'],
+            correct: 2,
+            explanation: 'Cantonment Boards are governed by the Cantonments Act of 2006.'
+          },
+          {
+            id: 'tug-q7',
+            question: 'District Planning Committee consolidates plans from: (UPSC 2011)',
+            options: ['Only Panchayats', 'Only Municipalities', 'Both Panchayats and Municipalities', 'State Government'],
+            correct: 2,
+            explanation: 'Article 243ZD: DPC consolidates plans from both panchayats and municipalities.'
+          },
+        ]
       }
     ]
   }
