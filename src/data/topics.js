@@ -2971,6 +2971,182 @@ const topicsData = [
             explanation: 'Article 26 is subject to public order, morality and health, but NOT subject to other provisions relating to fundamental rights (unlike Article 25).'
           },
         ]
+      },
+      {
+        id: 'cultural-educational-rights',
+        name: 'Cultural and Educational Rights (Articles 29-30)',
+        flashcards: [
+          {
+            id: 'cer-1',
+            front: 'What does Article 29 protect?',
+            back: 'Protection of Interests of Minorities:\n1. Group right: Any section of citizens having a distinct language, script or culture shall have the right to conserve the same.\n2. Individual right: No citizen shall be denied admission into any state-maintained or state-aided educational institution on grounds only of religion, race, caste, or language.'
+          },
+          {
+            id: 'cer-2',
+            front: 'Does Article 29 protect only minorities?',
+            back: 'No. Article 29 grants protection to both religious minorities and linguistic minorities. The SC held that the term "section of the citizens" includes minorities as well as the majority.'
+          },
+          {
+            id: 'cer-3',
+            front: 'What did the SC hold about the "right to conserve language" under Article 29?',
+            back: 'The right to conserve the language includes the right to agitate for the protection of the language.'
+          },
+          {
+            id: 'cer-4',
+            front: 'What does Article 30 guarantee?',
+            back: 'Right of minorities to establish and administer educational institutions:\n- All minorities (religious or linguistic) can establish and administer educational institutions of their choice.\n- State compensation for compulsory acquisition shall not restrict this right.\n- State shall not discriminate against minority institutions in granting aid.'
+          },
+          {
+            id: 'cer-5',
+            front: 'What is the key difference between Article 29 and Article 30?',
+            back: 'Article 29: Protection extends to "any section of citizens" (includes minorities AND majority).\nArticle 30: Protection is confined ONLY to minorities (religious or linguistic), does not extend to any section of citizens.'
+          },
+          {
+            id: 'cer-6',
+            front: 'Is the term "minority" defined in the Constitution?',
+            back: 'No. The term "minority" has not been defined anywhere in the Constitution.'
+          },
+          {
+            id: 'cer-7',
+            front: 'Does Article 30 include the right to teach in the minority\'s own language?',
+            back: 'Yes. The right under Article 30 also includes the right of a minority to impart education to its children in its own language.'
+          },
+          {
+            id: 'cer-8',
+            front: 'What are the three types of minority educational institutions?',
+            back: '1. Seeking recognition AND aid from State → Subject to regulatory power of state\n2. Seeking only recognition (not aid) from State → Subject to regulatory power of state\n3. Neither seeking recognition nor aid → Free to administer, but subject to general laws (contract law, labour law, etc.)'
+          },
+          {
+            id: 'cer-9',
+            front: 'Is the right under Article 30 absolute?',
+            back: 'No. The right to establish and administer educational institutions is not absolute. It does NOT include the right to maladminister. It is only to ensure equality with the majority, not to place minorities in a more advantageous position.'
+          },
+          {
+            id: 'cer-10',
+            front: 'Is there reverse discrimination in favour of minorities under Article 30?',
+            back: 'No. The right under Article 30 is only to ensure equality with the majority and is not intended to place minorities in a more advantageous position. There is no reverse discrimination.'
+          },
+          {
+            id: 'cer-11',
+            front: 'What benefits does a community get if given national minority status in India? (UPSC 2011)',
+            back: '1. Entitled to establish and administer exclusive educational institutions\n2. Can derive benefits from the Prime Minister\'s 15-Point Programme'
+          },
+          {
+            id: 'cer-12',
+            front: 'On what grounds can admission to a state-maintained institution NOT be denied (Article 29)?',
+            back: 'On grounds only of religion, race, caste, or language.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'cer-q1',
+            question: 'Article 29 provides protection to:',
+            options: [
+              'Only religious minorities',
+              'Only linguistic minorities',
+              'Both religious and linguistic minorities, as well as the majority',
+              'Only scheduled castes and tribes'
+            ],
+            correct: 2,
+            explanation: 'Article 29 grants protection to both religious and linguistic minorities. SC held that "section of citizens" includes minorities as well as the majority.'
+          },
+          {
+            id: 'cer-q2',
+            question: 'Article 30 protection is confined to:',
+            options: [
+              'Any section of citizens',
+              'Only minorities (religious or linguistic)',
+              'Only religious minorities',
+              'Both minorities and majority'
+            ],
+            correct: 1,
+            explanation: 'Article 30 protection is confined only to minorities (religious or linguistic), unlike Article 29 which extends to any section of citizens.'
+          },
+          {
+            id: 'cer-q3',
+            question: 'The term "minority" is defined in:',
+            options: [
+              'Article 29',
+              'Article 30',
+              'Eighth Schedule',
+              'It is not defined anywhere in the Constitution'
+            ],
+            correct: 3,
+            explanation: 'The term "minority" has not been defined anywhere in the Constitution.'
+          },
+          {
+            id: 'cer-q4',
+            question: 'A minority educational institution that neither seeks recognition nor aid from the state is:',
+            options: [
+              'Completely free from all laws',
+              'Subject to regulatory power of the state',
+              'Free to administer but subject to general laws (contract, labour, etc.)',
+              'Illegal'
+            ],
+            correct: 2,
+            explanation: 'Such institutions are free to administer their affairs but are still subject to general laws like contract law, labour law, etc.'
+          },
+          {
+            id: 'cer-q5',
+            question: 'Article 30 includes:',
+            options: [
+              'Right to maladminister',
+              'Reverse discrimination in favour of minorities',
+              'Right to establish and administer educational institutions (not absolute)',
+              'Right to deny admission to majority community'
+            ],
+            correct: 2,
+            explanation: 'Article 30 grants the right to establish and administer educational institutions, but it is not absolute and does not include the right to maladminister.'
+          },
+          {
+            id: 'cer-q6',
+            question: 'Under Article 29, a citizen cannot be denied admission to a state institution on grounds of:',
+            options: [
+              'Only religion',
+              'Religion, race, caste, or language',
+              'Only caste',
+              'Religion, gender, and age'
+            ],
+            correct: 1,
+            explanation: 'No citizen shall be denied admission on grounds only of religion, race, caste, or language (Article 29).'
+          },
+          {
+            id: 'cer-q7',
+            question: 'If a community gets national minority status in India, it is entitled to: (UPSC 2011)',
+            options: [
+              'Separate electorate and reservation',
+              'Establish exclusive educational institutions and benefits from PM\'s 15-Point Programme',
+              'Tax exemptions and free land',
+              'Automatic seats in Parliament'
+            ],
+            correct: 1,
+            explanation: 'A national minority can establish and administer exclusive educational institutions and derive benefits from the PM\'s 15-Point Programme.'
+          },
+          {
+            id: 'cer-q8',
+            question: 'The SC held that the right to conserve language under Article 29 includes:',
+            options: [
+              'Only the right to teach in that language',
+              'The right to agitate for the protection of the language',
+              'The right to impose that language on others',
+              'The right to make it the official language'
+            ],
+            correct: 1,
+            explanation: 'The SC held that the right to conserve the language includes the right to agitate for the protection of the language.'
+          },
+          {
+            id: 'cer-q9',
+            question: 'The right under Article 30 is intended to:',
+            options: [
+              'Place minorities in a more advantageous position than the majority',
+              'Ensure equality with the majority',
+              'Give minorities absolute freedom',
+              'Override other fundamental rights'
+            ],
+            correct: 1,
+            explanation: 'The right under Article 30 is only to ensure equality with the majority. There is no reverse discrimination in favour of minorities.'
+          },
+        ]
       }
     ]
   }
