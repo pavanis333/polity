@@ -7044,6 +7044,74 @@ const topicsData = [
             explanation: 'Parliament can enlarge the Supreme Court\'s jurisdiction regarding Union matters.'
           },
         ]
+      },
+      {
+        id: 'additional-provisions-hc',
+        name: 'Additional Provisions Related to High Courts',
+        flashcards: [
+          {
+            id: 'aphc-1',
+            front: 'How are HC judges transferred? (Article 222)',
+            back: 'Presidential Power: The President can transfer judges of High Courts after consulting the CJI.\nCompensatory Allowance: Transferred judges receive an allowance determined by Parliament.\nJudicial Review: Necessary to prevent arbitrariness; only the transferred judge can challenge the transfer.\nThird Judges Case (1998): CJI must consult a collegium of senior judges and Chief Justices of the relevant HCs.'
+          },
+          {
+            id: 'aphc-2',
+            front: 'What is the provision for Additional and Acting Judges? (Article 224)',
+            back: 'Appointment: The President can appoint additional judges for up to two years during temporary increases in workload.\nAge Limit: Cannot hold office after reaching 62 years.'
+          },
+          {
+            id: 'aphc-3',
+            front: 'What is the Supervisory Jurisdiction of HC? (Article 227)',
+            back: 'Scope: Superintendence over all state courts and tribunals, excluding military courts.\nTypes: Includes both administrative and judicial superintendence; can act suo-motu.\nUsage: Applied in extraordinary cases for excess jurisdiction, natural justice violations, and manifest injustice.'
+          },
+          {
+            id: 'aphc-4',
+            front: 'What is the HC\'s Control Over Subordinate Courts? (Article 227)',
+            back: 'Governor\'s Consultation: HC is consulted in the appointment and promotion of district judges and judicial service personnel.\nSubstantial Questions: Can withdraw cases from subordinate courts involving substantial constitutional questions.\nBinding Authority: Supreme Court\'s law is binding on all subordinate courts within its jurisdiction.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'aphc-q1',
+            question: 'Transfer of HC judges under Article 222 requires consultation with:',
+            options: ['Governor', 'Parliament', 'CJI', 'Law Minister'],
+            correct: 2,
+            explanation: 'The President can transfer HC judges after consulting the CJI. Third Judges Case (1998): CJI must consult a collegium of senior judges.'
+          },
+          {
+            id: 'aphc-q2',
+            question: 'Additional judges under Article 224 can be appointed for up to:',
+            options: ['6 months', '1 year', '2 years', '3 years'],
+            correct: 2,
+            explanation: 'The President can appoint additional judges for up to two years during temporary increases in workload.'
+          },
+          {
+            id: 'aphc-q3',
+            question: 'HC\'s supervisory jurisdiction under Article 227 excludes:',
+            options: ['District courts', 'Tribunals', 'Military courts', 'Family courts'],
+            correct: 2,
+            explanation: 'HC has superintendence over all state courts and tribunals, excluding military courts.'
+          },
+          {
+            id: 'aphc-q4',
+            question: 'Who can challenge the transfer of an HC judge?',
+            options: ['Any citizen', 'Only the transferred judge', 'The Bar Association', 'The Governor'],
+            correct: 1,
+            explanation: 'Only the transferred judge can challenge the transfer. Judicial review is necessary to prevent arbitrariness.'
+          },
+          {
+            id: 'aphc-q5',
+            question: 'HC\'s supervisory jurisdiction can be exercised:',
+            options: [
+              'Only on appeal',
+              'Only on application by parties',
+              'Suo-motu (on its own motion)',
+              'Only with SC permission'
+            ],
+            correct: 2,
+            explanation: 'HC can exercise supervisory jurisdiction suo-motu — it includes both administrative and judicial superintendence.'
+          },
+        ]
       }
     ]
   }
