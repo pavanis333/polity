@@ -9169,6 +9169,59 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'elections-in-india',
+    name: 'The Elections in India',
+    icon: '🗳️',
+    subtopics: [
+      {
+        id: 'national-party-recognition',
+        name: 'Criteria for Recognition as National Party',
+        flashcards: [
+          {
+            id: 'npr-1',
+            front: 'What are the criteria for recognition as a National Party?',
+            back: 'Fulfillment of ANY ONE of the following:\n\n1. 6% valid votes in 4 or more states PLUS 4 Lok Sabha seats\n\n2. State party status in 4 states\n\n3. 2% Lok Sabha seats from 3 states'
+          },
+          {
+            id: 'npr-2',
+            front: 'What are the current National Parties in India?',
+            back: 'India has a multi-party system with 6 national parties:\n\n1. AAP (Aam Aadmi Party)\n2. BSP (Bahujan Samaj Party)\n3. BJP (Bharatiya Janata Party)\n4. INC (Indian National Congress)\n5. CPI-M (Communist Party of India - Marxist)\n6. NPP (National People\'s Party) — First national party from the North-East region'
+          },
+        ],
+        quiz: [
+          {
+            id: 'npr-q1',
+            question: 'To be recognized as a National Party, a party needs 6% valid votes in how many states (plus 4 LS seats)?',
+            options: ['2 or more', '3 or more', '4 or more', '5 or more'],
+            correct: 2,
+            explanation: 'One criterion is 6% valid votes in 4 or more states PLUS 4 Lok Sabha seats.'
+          },
+          {
+            id: 'npr-q2',
+            question: 'Which is the first national party from the North-East region?',
+            options: ['AAP', 'BSP', 'National People\'s Party', 'CPI-M'],
+            correct: 2,
+            explanation: 'National People\'s Party (NPP) is the first national party from the North-East region.'
+          },
+          {
+            id: 'npr-q3',
+            question: 'How many national parties are currently recognized in India?',
+            options: ['4', '5', '6', '7'],
+            correct: 2,
+            explanation: 'India has 6 national parties: AAP, BSP, BJP, INC, CPI-M, and NPP.'
+          },
+          {
+            id: 'npr-q4',
+            question: 'A party can get national party status if it has state party status in:',
+            options: ['2 states', '3 states', '4 states', '5 states'],
+            correct: 2,
+            explanation: 'One criterion for national party status is having state party status in 4 states.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
