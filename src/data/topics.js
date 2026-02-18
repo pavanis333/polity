@@ -3829,6 +3829,130 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'fundamental-duties',
+    name: 'Fundamental Duties (Part-IVA: Article 51A)',
+    icon: '🤝',
+    subtopics: [
+      {
+        id: 'important-cases-fundamental-duties',
+        name: 'Important Cases Related to Fundamental Duties',
+        flashcards: [
+          {
+            id: 'icfd-1',
+            front: 'What did the Minerva Mills Ltd. vs. Union of India (1980) hold regarding Fundamental Duties?',
+            back: 'Upheld the 42nd Amendment but stated that Fundamental Duties are NOT enforceable by courts.'
+          },
+          {
+            id: 'icfd-2',
+            front: 'What did the Supreme Court hold in 1992 regarding Fundamental Duties?',
+            back: 'In determining the constitutional validity of any law, if the law in question seeks to give effect to FDs, the court may consider such law to be "reasonable" in relation to Article 14 or Article 19 and thus save such law from unconstitutionality.'
+          },
+          {
+            id: 'icfd-3',
+            front: 'What was the significance of M.C. Mehta vs. Union of India (2000)?',
+            back: 'Mandated one-hour lectures on environmental protection in schools; made it part of the curriculum. (Related to the FD of protecting the environment under Art 51A(g).)'
+          },
+          {
+            id: 'icfd-4',
+            front: 'What was held in Ramlila Maidan Incident vs. Home Secretary (2012)?',
+            back: 'Affirmed freedom of speech as a fundamental right, subject to reasonable restrictions; highlighted the duty to respect the Constitution.'
+          },
+          {
+            id: 'icfd-5',
+            front: 'Are Fundamental Duties enforceable by courts?',
+            back: 'No. As per Minerva Mills (1980), FDs are not directly enforceable by courts. However, courts can use them to determine the "reasonableness" of laws under Art 14 and 19 (SC, 1992).'
+          },
+          {
+            id: 'icfd-6',
+            front: 'Which amendment added Fundamental Duties?',
+            back: 'The 42nd Constitutional Amendment Act, 1976 added Part IVA containing Article 51A with 10 Fundamental Duties. The 86th Amendment (2002) added the 11th duty (education of children aged 6-14).'
+          },
+          {
+            id: 'icfd-7',
+            front: 'How can Fundamental Duties help save a law from being struck down?',
+            back: 'If a law seeks to give effect to Fundamental Duties, courts may consider it "reasonable" under Art 14 (Equality) or Art 19 (Freedoms), thereby saving it from unconstitutionality. (SC, 1992)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'icfd-q1',
+            question: 'Minerva Mills Ltd. vs. Union of India (1980) held that Fundamental Duties are:',
+            options: [
+              'Directly enforceable by courts',
+              'Not enforceable by courts',
+              'Superior to Fundamental Rights',
+              'Part of the Basic Structure'
+            ],
+            correct: 1,
+            explanation: 'The SC upheld the 42nd Amendment but stated that Fundamental Duties are NOT enforceable by courts.'
+          },
+          {
+            id: 'icfd-q2',
+            question: 'In 1992, the SC held that laws giving effect to FDs may be considered:',
+            options: [
+              'Unconstitutional',
+              'Void under Article 13',
+              '"Reasonable" in relation to Art 14 or Art 19',
+              'Not subject to judicial review'
+            ],
+            correct: 2,
+            explanation: 'The SC held that courts may consider such laws "reasonable" under Art 14 or 19, thus saving them from unconstitutionality.'
+          },
+          {
+            id: 'icfd-q3',
+            question: 'M.C. Mehta vs. Union of India (2000) mandated:',
+            options: [
+              'Banning all polluting industries',
+              'One-hour lectures on environmental protection in schools',
+              'Making environmental protection a Fundamental Right',
+              'Imposing fines on polluters'
+            ],
+            correct: 1,
+            explanation: 'The SC mandated one-hour lectures on environmental protection in schools, making it part of the curriculum.'
+          },
+          {
+            id: 'icfd-q4',
+            question: 'Ramlila Maidan Incident vs. Home Secretary (2012) highlighted:',
+            options: [
+              'Right to property',
+              'Freedom of speech and duty to respect the Constitution',
+              'Right to education',
+              'Freedom of religion'
+            ],
+            correct: 1,
+            explanation: 'The case affirmed freedom of speech as a fundamental right with reasonable restrictions and highlighted the duty to respect the Constitution.'
+          },
+          {
+            id: 'icfd-q5',
+            question: 'Fundamental Duties were added by:',
+            options: ['24th Amendment, 1971', '42nd Amendment, 1976', '44th Amendment, 1978', '86th Amendment, 2002'],
+            correct: 1,
+            explanation: 'The 42nd Amendment (1976) added Part IVA with Article 51A containing 10 FDs. The 86th Amendment (2002) added the 11th duty.'
+          },
+          {
+            id: 'icfd-q6',
+            question: 'The 11th Fundamental Duty (education of children aged 6-14) was added by:',
+            options: ['42nd Amendment, 1976', '73rd Amendment, 1992', '86th Amendment, 2002', '97th Amendment, 2011'],
+            correct: 2,
+            explanation: 'The 86th Amendment (2002) added the 11th Fundamental Duty regarding education of children aged 6-14.'
+          },
+          {
+            id: 'icfd-q7',
+            question: 'Which of the following correctly describes Fundamental Duties?',
+            options: [
+              'They are directly enforceable and justiciable',
+              'They are not enforceable but courts can use them to test reasonableness of laws',
+              'They override Fundamental Rights',
+              'They apply only to government officials'
+            ],
+            correct: 1,
+            explanation: 'FDs are not directly enforceable (Minerva Mills, 1980), but courts can use them to determine if a law is "reasonable" under Art 14/19 (SC, 1992).'
+          },
+        ]
+      }
+    ]
   }
 ]
 
