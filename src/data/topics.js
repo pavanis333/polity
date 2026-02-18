@@ -8784,6 +8784,94 @@ const topicsData = [
             explanation: 'There is NO provision under the Fifth Schedule allowing Union Government to take over total administration of Scheduled Areas.'
           },
         ]
+      },
+      {
+        id: 'sixth-schedule-administration',
+        name: 'Administration of Tribal Areas (Sixth Schedule)',
+        flashcards: [
+          {
+            id: 'ssa-1',
+            front: 'What is the Sixth Schedule?',
+            back: 'Administration of tribal areas in 4 Northeastern states: Assam, Meghalaya, Tripura & Mizoram (AMTM).\nRationale: To protect the culture, customs & civilizations of people who still need to assimilate with the majorities in such areas.'
+          },
+          {
+            id: 'ssa-2',
+            front: 'What are the Tribal Areas under the Sixth Schedule?',
+            back: 'Assam: 1. North Cachar Hills District, 2. Karbi Anglong District, 3. Bodoland Territorial Areas District\n\nTripura: Tripura Tribal Areas District\n\nMeghalaya: 1. Khasi Hills District, 2. Jaintia Hills District, 3. Garo Hills District\n\nMizoram: 1. Chakma District, 2. Mara District, 3. Lai District'
+          },
+          {
+            id: 'ssa-3',
+            front: 'What are Autonomous Districts and District Councils?',
+            back: 'Autonomous Districts (ADs): Tribal areas governed as ADs under state executive authority. Governor can organise, reorganise, and divide ADs into autonomous regions if multiple tribes inhabit them.\n\nDistrict Council: Each AD has a District Council with 30 members:\n- 26 elected members (5-year term)\n- 4 nominated members (at pleasure of Governor)\n\nEach autonomous region has its own Regional Council.'
+          },
+          {
+            id: 'ssa-4',
+            front: 'What are the Legislative and Judicial powers of District/Regional Councils?',
+            back: 'Legislative Authority: Councils can make laws on land, forests, water, etc., but require Governor\'s assent.\n\nJudicial Authority: Councils can establish Village Councils/Courts to adjudicate tribal disputes, with oversight from High Courts, as directed by Governor.'
+          },
+          {
+            id: 'ssa-5',
+            front: 'What are the Administrative and Revenue powers of District/Regional Councils?',
+            back: 'Administrative Functions:\n- Manage primary schools, dispensaries, markets, ferries, and roads\n- Regulate money lending and trading by non-tribals (with Governor\'s approval)\n\nRevenue Powers: Councils can assess and collect land revenue and impose specific taxes.'
+          },
+          {
+            id: 'ssa-6',
+            front: 'How do Central and State Acts apply to Sixth Schedule areas?',
+            back: 'Central/State Acts apply with modifications or exceptions:\n\nAssam: Governor decides on BOTH Central and State Acts\n\nMeghalaya, Tripura, Mizoram: President decides on Central Acts, Governor decides on State Acts'
+          },
+          {
+            id: 'ssa-7',
+            front: 'What power does the Governor have regarding Sixth Schedule areas?',
+            back: 'The Governor can appoint a commission to review the administration of autonomous regions and dissolve District or Regional Councils based on its recommendations.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'ssa-q1',
+            question: 'The Sixth Schedule applies to which states?',
+            options: [
+              'All Northeastern states',
+              'Assam, Meghalaya, Tripura, Mizoram',
+              'Only Assam',
+              'Nagaland, Manipur, Arunachal Pradesh'
+            ],
+            correct: 1,
+            explanation: 'The Sixth Schedule applies to 4 states: Assam, Meghalaya, Tripura & Mizoram (AMTM).'
+          },
+          {
+            id: 'ssa-q2',
+            question: 'A District Council under the Sixth Schedule has:',
+            options: ['20 members', '25 members', '30 members', '35 members'],
+            correct: 2,
+            explanation: 'District Council has 30 members — 26 elected (5-year term) and 4 nominated (at pleasure of Governor).'
+          },
+          {
+            id: 'ssa-q3',
+            question: 'In Meghalaya, who decides on applicability of Central Acts?',
+            options: ['Governor', 'President', 'Chief Minister', 'Parliament'],
+            correct: 1,
+            explanation: 'In Meghalaya, Tripura, and Mizoram, President decides on Central Acts and Governor on State Acts. In Assam, Governor decides both.'
+          },
+          {
+            id: 'ssa-q4',
+            question: 'Which is NOT a tribal area under the Sixth Schedule?',
+            options: ['Karbi Anglong', 'Khasi Hills', 'Darjeeling', 'Chakma District'],
+            correct: 2,
+            explanation: 'Darjeeling (in West Bengal) is NOT under the Sixth Schedule. Karbi Anglong (Assam), Khasi Hills (Meghalaya), and Chakma (Mizoram) are.'
+          },
+          {
+            id: 'ssa-q5',
+            question: 'District Councils can make laws on:',
+            options: [
+              'Defence and foreign affairs',
+              'Land, forests, and water',
+              'Banking and currency',
+              'Inter-state trade'
+            ],
+            correct: 1,
+            explanation: 'District Councils can make laws on land, forests, water, etc., but require Governor\'s assent.'
+          },
+        ]
       }
     ]
   }
