@@ -2229,6 +2229,144 @@ const topicsData = [
             explanation: 'Andhra State was created in October 1953 by separating Telugu-speaking areas from the Madras state.'
           },
         ]
+      },
+      {
+        id: 'states-and-uts-post-1956',
+        name: 'States and UTs (Post-1956)',
+        flashcards: [
+          {
+            id: 'sut-1',
+            front: 'What happened in 1960 regarding states?',
+            back: 'Bifurcation of Maharashtra and Gujarat (from the former Bombay state).'
+          },
+          {
+            id: 'sut-2',
+            front: 'Which UT was created in 1961?',
+            back: 'Dadra and Nagar Haveli.'
+          },
+          {
+            id: 'sut-3',
+            front: 'Which UTs were created in 1962 and by which amendments?',
+            back: 'Goa, Daman, Diu (12th Amendment) and Puducherry (14th Amendment).'
+          },
+          {
+            id: 'sut-4',
+            front: 'When was Nagaland created and how?',
+            back: '1963 — Nagaland came into existence on the basis of a Constitutional Amendment Act. (UPSC 2025)'
+          },
+          {
+            id: 'sut-5',
+            front: 'When was Haryana created and on whose recommendation?',
+            back: '1966 — on the recommendation of the Shah Commission.'
+          },
+          {
+            id: 'sut-6',
+            front: 'When did Himachal Pradesh become a state?',
+            back: '1971.'
+          },
+          {
+            id: 'sut-7',
+            front: 'Which states were created in 1987?',
+            back: 'Mizoram, Arunachal Pradesh, and Goa.\nNote: Arunachal Pradesh\'s capital is named after a fort, and the state has two National Parks. (UPSC 2025)'
+          },
+          {
+            id: 'sut-8',
+            front: 'Which three states were created in 2000?',
+            back: 'Chhattisgarh, Uttarakhand, and Jharkhand.'
+          },
+          {
+            id: 'sut-9',
+            front: 'When was Telangana created?',
+            back: '2014 — carved out of Andhra Pradesh. It became the 29th state of India.'
+          },
+          {
+            id: 'sut-10',
+            front: 'Which two UTs were created in 2019?',
+            back: 'J&K and Ladakh (created by bifurcating the former state of Jammu & Kashmir).'
+          },
+          {
+            id: 'sut-11',
+            front: 'How many states and UTs does India currently have?',
+            back: '28 States and 8 Union Territories.'
+          },
+          {
+            id: 'sut-12',
+            front: 'List the timeline of state/UT creation post-1956.',
+            back: '1960: Maharashtra, Gujarat\n1961: Dadra & Nagar Haveli (UT)\n1962: Goa/Daman/Diu (UT), Puducherry (UT)\n1963: Nagaland\n1966: Haryana\n1971: Himachal Pradesh\n1987: Mizoram, Arunachal Pradesh, Goa\n2000: Chhattisgarh, Uttarakhand, Jharkhand\n2014: Telangana\n2019: J&K (UT), Ladakh (UT)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'sut-q1',
+            question: 'Maharashtra and Gujarat were created by bifurcation in:',
+            options: ['1956', '1960', '1962', '1966'],
+            correct: 1,
+            explanation: 'Maharashtra and Gujarat were created in 1960 by bifurcation of the former Bombay state.'
+          },
+          {
+            id: 'sut-q2',
+            question: 'Nagaland came into existence in:',
+            options: ['1960', '1962', '1963', '1966'],
+            correct: 2,
+            explanation: 'Nagaland was created in 1963 on the basis of a Constitutional Amendment Act.'
+          },
+          {
+            id: 'sut-q3',
+            question: 'Haryana was created on the recommendation of:',
+            options: ['Dhar Commission', 'Fazl Ali Commission', 'Shah Commission', 'JVP Committee'],
+            correct: 2,
+            explanation: 'Haryana was created in 1966 on the recommendation of the Shah Commission.'
+          },
+          {
+            id: 'sut-q4',
+            question: 'Which of the following states was NOT created in 1987?',
+            options: ['Mizoram', 'Arunachal Pradesh', 'Goa', 'Nagaland'],
+            correct: 3,
+            explanation: 'Nagaland was created in 1963. Mizoram, Arunachal Pradesh, and Goa were created in 1987.'
+          },
+          {
+            id: 'sut-q5',
+            question: 'Chhattisgarh, Uttarakhand, and Jharkhand were created in:',
+            options: ['1987', '2000', '2014', '2019'],
+            correct: 1,
+            explanation: 'All three states — Chhattisgarh, Uttarakhand, and Jharkhand — were created in 2000.'
+          },
+          {
+            id: 'sut-q6',
+            question: 'Telangana became a state in:',
+            options: ['2000', '2009', '2014', '2019'],
+            correct: 2,
+            explanation: 'Telangana was created in 2014, carved out of Andhra Pradesh, becoming the 29th state.'
+          },
+          {
+            id: 'sut-q7',
+            question: 'The UTs of J&K and Ladakh were created in:',
+            options: ['2014', '2017', '2019', '2020'],
+            correct: 2,
+            explanation: 'J&K and Ladakh were created as UTs in 2019 by bifurcating the former state of Jammu & Kashmir.'
+          },
+          {
+            id: 'sut-q8',
+            question: 'Puducherry became a UT through which Constitutional Amendment?',
+            options: ['10th Amendment', '12th Amendment', '14th Amendment', '16th Amendment'],
+            correct: 2,
+            explanation: 'Puducherry became a UT through the 14th Amendment in 1962. Goa, Daman, Diu were through the 12th Amendment.'
+          },
+          {
+            id: 'sut-q9',
+            question: 'India currently has:',
+            options: ['28 States and 8 UTs', '29 States and 7 UTs', '28 States and 9 UTs', '30 States and 6 UTs'],
+            correct: 0,
+            explanation: 'India currently has 28 States and 8 Union Territories.'
+          },
+          {
+            id: 'sut-q10',
+            question: 'Himachal Pradesh became a full state in:',
+            options: ['1966', '1971', '1975', '1987'],
+            correct: 1,
+            explanation: 'Himachal Pradesh became a full state in 1971.'
+          },
+        ]
       }
     ]
   }
