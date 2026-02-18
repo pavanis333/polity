@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, BookOpen, HelpCircle, RotateCcw } from 'lucide-react'
+import { ArrowLeft, BookOpen, HelpCircle } from 'lucide-react'
 import { getSubtopic, getTopic, getSubtopicFlashcardIds } from '../data/topics'
 import { getReviewStats, getBestScore, getAttemptCount, getDueCards } from '../utils/spaced-repetition'
 
@@ -52,17 +52,13 @@ export default function SubtopicPage() {
       </div>
 
       <div className="btn-group">
-        <Link to={`/topic/${topicId}/${subtopicId}/flashcards`}>
-          <button className="btn btn-primary">
-            <BookOpen size={18} />
-            {dueCards.length > 0 ? `Review ${dueCards.length} Due Cards` : 'Study Flashcards'}
-          </button>
+        <Link to={`/topic/${topicId}/${subtopicId}/flashcards`} className="btn btn-primary">
+          <BookOpen size={18} />
+          {dueCards.length > 0 ? `Review ${dueCards.length} Due Cards` : 'Study Flashcards'}
         </Link>
-        <Link to={`/topic/${topicId}/${subtopicId}/quiz`}>
-          <button className="btn btn-secondary">
-            <HelpCircle size={18} />
-            Take Quiz ({sub.quiz.length} questions)
-          </button>
+        <Link to={`/topic/${topicId}/${subtopicId}/quiz`} className="btn btn-secondary">
+          <HelpCircle size={18} />
+          Take Quiz ({sub.quiz.length} questions)
         </Link>
       </div>
     </div>

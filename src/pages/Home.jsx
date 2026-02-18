@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import topicsData from '../data/topics'
 import { getSubtopicFlashcardIds } from '../data/topics'
-import { getReviewStats, getBestScore } from '../utils/spaced-repetition'
+import { getReviewStats } from '../utils/spaced-repetition'
 
 export default function Home() {
   return (
@@ -21,7 +21,6 @@ export default function Home() {
             const totalCards = topic.subtopics.reduce((sum, sub) => sum + sub.flashcards.length, 0)
             const totalQuizzes = topic.subtopics.reduce((sum, sub) => sum + sub.quiz.length, 0)
 
-            // Calculate overall progress
             let totalReviewed = 0
             let totalFlashcards = 0
             topic.subtopics.forEach(sub => {
@@ -33,7 +32,7 @@ export default function Home() {
             const progress = totalFlashcards > 0 ? (totalReviewed / totalFlashcards) * 100 : 0
 
             return (
-              <Link to={`/topic/${topic.id}`} key={topic.id}>
+              <Link to={`/topic/${topic.id}`} key={topic.id} className="card-link">
                 <div className="card">
                   <div className="card-title">
                     {topic.icon} {topic.name}

@@ -125,8 +125,8 @@ export default function QuizPage() {
             <button className="btn btn-primary" onClick={handleRestart}>
               <RotateCcw size={18} /> Try Again
             </button>
-            <Link to={`/topic/${topicId}/${subtopicId}`}>
-              <button className="btn btn-secondary">Back to {sub.name}</button>
+            <Link to={`/topic/${topicId}/${subtopicId}`} className="btn btn-secondary">
+              Back to {sub.name}
             </Link>
           </div>
         </div>

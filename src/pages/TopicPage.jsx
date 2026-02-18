@@ -31,7 +31,7 @@ export default function TopicPage() {
           const progress = stats.total > 0 ? (stats.reviewed / stats.total) * 100 : 0
 
           return (
-            <Link to={`/topic/${topicId}/${sub.id}`} key={sub.id}>
+            <Link to={`/topic/${topicId}/${sub.id}`} key={sub.id} className="card-link">
               <div className="card">
                 <div className="card-title">{sub.name}</div>
                 <div className="card-meta">
