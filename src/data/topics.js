@@ -2756,6 +2756,221 @@ const topicsData = [
             explanation: 'Yes. The term "law" in Article 13 includes temporary ordinances by the President, so they can be struck down if inconsistent with Fundamental Rights.'
           },
         ]
+      },
+      {
+        id: 'right-to-freedom-of-religion',
+        name: 'Right to Freedom of Religion (Articles 25-28)',
+        flashcards: [
+          {
+            id: 'rfr-1',
+            front: 'What does Article 25 guarantee?',
+            back: 'All persons are equally entitled to freedom of conscience and the right to freely profess, practice and propagate religion.\nAvailable to all persons — citizens as well as non-citizens.'
+          },
+          {
+            id: 'rfr-2',
+            front: 'What are the four freedoms under Article 25?',
+            back: '1. Freedom of conscience: Inner freedom to mould relation with God\n2. Right to profess: Declare religious beliefs openly and freely\n3. Right to practice: Perform worship, rituals, ceremonies\n4. Right to propagate: Transmit and disseminate one\'s religious beliefs to others'
+          },
+          {
+            id: 'rfr-3',
+            front: 'Does the Right to Propagate include the right to convert?',
+            back: 'No. Right to propagate does NOT include a right to convert another person. Forcible conversions impinge on the "freedom of conscience" guaranteed to all persons.'
+          },
+          {
+            id: 'rfr-4',
+            front: 'What does Article 25 cover?',
+            back: 'Religious beliefs (doctrines) and religious practices (rituals).'
+          },
+          {
+            id: 'rfr-5',
+            front: 'What are the two explanations in Article 25?',
+            back: '1. Wearing and carrying of kirpans is included in the profession of the Sikh religion\n2. Hindus include Sikhs, Jains and Buddhists'
+          },
+          {
+            id: 'rfr-6',
+            front: 'What are the exceptions/restrictions to Article 25?',
+            back: 'Public order, morality, health, and other provisions relating to fundamental rights.'
+          },
+          {
+            id: 'rfr-7',
+            front: 'What was held in Lt. Kamaleshan\'s case regarding Article 25?',
+            back: 'SC upheld dismissal of a Christian Army officer who refused to attend aarti at a regimental temple. Religious freedom is not absolute for armed forces. Under Article 33, Parliament may restrict FRs for discipline, unit cohesion, and operational effectiveness. Institutional duty outweighs personal belief.'
+          },
+          {
+            id: 'rfr-8',
+            front: 'What does Article 26 guarantee?',
+            back: 'Freedom to manage religious affairs for every religious denomination or its sections:\n1. Right to establish and maintain religious/charitable institutions\n2. Right to manage its own affairs in matters of religion\n3. Right to own and acquire movable and immovable property\n4. Right to administer such property in accordance with law'
+          },
+          {
+            id: 'rfr-9',
+            front: 'What is the difference between Article 25 and Article 26?',
+            back: 'Article 25: Guarantees rights of individuals (personal freedom of religion)\nArticle 26: Guarantees rights of religious denominations or their sections (collective freedom of religion)'
+          },
+          {
+            id: 'rfr-10',
+            front: 'What are the restrictions on Article 26?',
+            back: 'Subject to public order, morality and health. But NOT subject to other provisions relating to fundamental rights (unlike Article 25 which is subject to other FR provisions too).'
+          },
+          {
+            id: 'rfr-11',
+            front: 'What three conditions must a religious denomination satisfy (as per SC)?',
+            back: '1. It should be a collection of beliefs (doctrines) conducive to spiritual well-being\n2. It should have a common organisation\n3. It should be designated by a distinctive name'
+          },
+          {
+            id: 'rfr-12',
+            front: 'Which organisations did SC hold as religious denominations and which not?',
+            back: 'Religious denominations within Hinduism: Ramakrishna Mission and Ananda Marga.\nNOT a religious denomination: Aurobindo Society.'
+          },
+          {
+            id: 'rfr-13',
+            front: 'What does Article 27 state?',
+            back: 'Freedom from Taxation for Promotion of a Religion: No person shall be compelled to pay any taxes for the promotion or maintenance of any particular religion.\n- Taxes can be used for ALL religions, not any particular one\n- Prohibits only levy of tax, NOT a fee\n- Fee can be levied on religious endowments for regulation expenditure'
+          },
+          {
+            id: 'rfr-14',
+            front: 'What is the difference between "tax" and "fee" under Article 27?',
+            back: 'Article 27 prohibits only the levy of a tax for promotion of a particular religion, not a fee. A fee can be levied on religious endowments for meeting regulation expenditure.'
+          },
+          {
+            id: 'rfr-15',
+            front: 'What does Article 28 deal with?',
+            back: 'Freedom from Attending Religious Instruction: No religious instruction in institutions wholly maintained by state funds.'
+          },
+          {
+            id: 'rfr-16',
+            front: 'What are the four types of educational institutions under Article 28?',
+            back: '1. Wholly maintained by state → Religious instruction completely prohibited\n2. Administered by state but established under endowment/trust → Religious instruction permitted\n3. Recognised by state → Permitted on voluntary basis\n4. Receiving aid from state → Permitted on voluntary basis'
+          },
+          {
+            id: 'rfr-17',
+            front: 'What is the Essential Religious Practices doctrine?',
+            back: 'Under Articles 25-28, Indian courts apply this doctrine (from the Shirur Mutt Case) to decide what is core to a faith and what is not. No other major democracy empowers judges to filter religious belief through constitutional scrutiny.'
+          },
+          {
+            id: 'rfr-18',
+            front: 'Which case established the Essential Religious Practices doctrine?',
+            back: 'The Shirur Mutt Case.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'rfr-q1',
+            question: 'Article 25 is available to:',
+            options: ['Only citizens', 'Only non-citizens', 'All persons (citizens and non-citizens)', 'Only religious denominations'],
+            correct: 2,
+            explanation: 'Article 25 is available to all persons — both citizens and non-citizens.'
+          },
+          {
+            id: 'rfr-q2',
+            question: 'Right to propagate under Article 25 includes:',
+            options: [
+              'Right to convert others to your religion',
+              'Right to forcibly convert others',
+              'Right to transmit and disseminate religious beliefs, but NOT convert',
+              'Right to propagate only within your community'
+            ],
+            correct: 2,
+            explanation: 'Right to propagate means transmission and dissemination of beliefs. It does NOT include a right to convert. Forcible conversions violate freedom of conscience.'
+          },
+          {
+            id: 'rfr-q3',
+            question: 'According to Article 25, Hindus include:',
+            options: [
+              'Only those who follow Hinduism',
+              'Sikhs, Jains and Buddhists',
+              'Sikhs and Jains only',
+              'All Indian religions'
+            ],
+            correct: 1,
+            explanation: 'Article 25 contains an explanation that Hindus include Sikhs, Jains and Buddhists.'
+          },
+          {
+            id: 'rfr-q4',
+            question: 'Article 25 guarantees individual rights while Article 26 guarantees:',
+            options: [
+              'Individual rights as well',
+              'Rights of religious denominations (collective)',
+              'Rights of the state',
+              'Rights of educational institutions'
+            ],
+            correct: 1,
+            explanation: 'Article 25 = individual freedom of religion. Article 26 = collective freedom — rights of religious denominations or their sections.'
+          },
+          {
+            id: 'rfr-q5',
+            question: 'SC held that Aurobindo Society is:',
+            options: [
+              'A religious denomination within Hinduism',
+              'A religious denomination outside Hinduism',
+              'NOT a religious denomination',
+              'A charitable trust'
+            ],
+            correct: 2,
+            explanation: 'SC held that Aurobindo Society is NOT a religious denomination. Ramakrishna Mission and Ananda Marga are religious denominations within Hinduism.'
+          },
+          {
+            id: 'rfr-q6',
+            question: 'Article 27 prohibits:',
+            options: [
+              'All taxes related to religion',
+              'Tax for promotion of any particular religion, but not a fee',
+              'Both tax and fee for religion',
+              'Only fees for religious purposes'
+            ],
+            correct: 1,
+            explanation: 'Article 27 prohibits only the levy of a tax for promotion of a particular religion. Fees can be levied on religious endowments for regulation expenditure.'
+          },
+          {
+            id: 'rfr-q7',
+            question: 'In an institution wholly maintained by state funds, Article 28 provides:',
+            options: [
+              'Religious instruction is permitted on voluntary basis',
+              'Religious instruction is completely prohibited',
+              'Religious instruction is mandatory',
+              'Only moral instruction is allowed'
+            ],
+            correct: 1,
+            explanation: 'In institutions wholly maintained by state funds, religious instruction is completely prohibited under Article 28.'
+          },
+          {
+            id: 'rfr-q8',
+            question: 'The Essential Religious Practices doctrine was established in:',
+            options: ['Kesavananda Bharati case', 'Shirur Mutt Case', 'Golaknath case', 'Minerva Mills case'],
+            correct: 1,
+            explanation: 'The Essential Religious Practices doctrine was established in the Shirur Mutt Case, where courts decide what is core to a faith.'
+          },
+          {
+            id: 'rfr-q9',
+            question: 'In Lt. Kamaleshan\'s case, the SC held that:',
+            options: [
+              'Armed forces cannot restrict religious freedom',
+              'Article 25 is absolute',
+              'Religious freedom is not absolute for armed forces; institutional duty outweighs personal belief',
+              'Only civilian courts can decide on armed forces matters'
+            ],
+            correct: 2,
+            explanation: 'SC held that under Article 33, Parliament may restrict FRs for armed forces to maintain discipline. Institutional duty outweighs personal belief.'
+          },
+          {
+            id: 'rfr-q10',
+            question: 'Wearing and carrying of kirpans is included in the profession of which religion under Article 25?',
+            options: ['Hinduism', 'Islam', 'Sikhism', 'Buddhism'],
+            correct: 2,
+            explanation: 'Article 25 contains an explanation that wearing and carrying of kirpans is included in the profession of the Sikh religion.'
+          },
+          {
+            id: 'rfr-q11',
+            question: 'Article 26 is subject to which restrictions?',
+            options: [
+              'Public order, morality, health, and other FR provisions',
+              'Public order, morality, and health only (NOT other FR provisions)',
+              'No restrictions at all',
+              'Only public order'
+            ],
+            correct: 1,
+            explanation: 'Article 26 is subject to public order, morality and health, but NOT subject to other provisions relating to fundamental rights (unlike Article 25).'
+          },
+        ]
       }
     ]
   }
