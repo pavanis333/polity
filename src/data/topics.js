@@ -8582,6 +8582,50 @@ const topicsData = [
             explanation: 'Article 243ZD: DPC consolidates plans from both panchayats and municipalities.'
           },
         ]
+      },
+      {
+        id: 'cooperative-societies',
+        name: 'Cooperative Societies (97th Amendment)',
+        flashcards: [
+          {
+            id: 'coop-1',
+            front: 'What are Cooperative Societies?',
+            back: 'Definition: Democratic organisations controlled by their members, who participate in decision-making and policy formulation.\nMembership: Comprises individuals or groups like farmers, artisans, small businesses, or consumers.\nPrinciples: Governed by cooperation, self-help, and mutual assistance to meet common needs.'
+          },
+          {
+            id: 'coop-2',
+            front: 'What is the constitutional status of Cooperative Societies?',
+            back: 'Subject: State List Entry 32 refers to cooperative societies under the Seventh Schedule.\nRecognition: Acknowledged constitutionally in India via the 97th Constitutional Amendment Act of 2011, akin to Panchayati Raj Institutions.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'coop-q1',
+            question: 'Cooperative Societies were given constitutional recognition by:',
+            options: ['73rd Amendment', '74th Amendment', '97th Amendment', '101st Amendment'],
+            correct: 2,
+            explanation: 'The 97th Constitutional Amendment Act of 2011 gave constitutional recognition to cooperative societies.'
+          },
+          {
+            id: 'coop-q2',
+            question: 'Cooperative Societies are in which list of the Seventh Schedule?',
+            options: ['Union List', 'State List', 'Concurrent List', 'Residuary List'],
+            correct: 1,
+            explanation: 'Cooperative Societies are under State List Entry 32 of the Seventh Schedule.'
+          },
+          {
+            id: 'coop-q3',
+            question: 'Cooperative Societies are based on principles of:',
+            options: [
+              'Competition and profit',
+              'Cooperation, self-help, and mutual assistance',
+              'Government control',
+              'Individual ownership'
+            ],
+            correct: 1,
+            explanation: 'Cooperative societies are governed by principles of cooperation, self-help, and mutual assistance to meet common needs.'
+          },
+        ]
       }
     ]
   }
