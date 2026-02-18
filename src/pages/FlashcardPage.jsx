@@ -140,17 +140,19 @@ export default function FlashcardPage() {
 
       {/* Fixed-height controls area — prevents layout shift */}
       <div className="flashcard-actions">
-        {/* Rating buttons — only visible when flipped */}
-        <div className={`flashcard-rating ${flipped && showRating ? 'visible' : ''}`}>
-          <button className="rating-btn hard" onClick={(e) => { e.stopPropagation(); handleRate('hard'); }}>
-            😣 Hard
-          </button>
-          <button className="rating-btn medium" onClick={(e) => { e.stopPropagation(); handleRate('medium'); }}>
-            🤔 Medium
-          </button>
-          <button className="rating-btn easy" onClick={(e) => { e.stopPropagation(); handleRate('easy'); }}>
-            😎 Easy
-          </button>
+        {/* Rating row — always takes up space, buttons fade in */}
+        <div className="flashcard-rating-wrapper">
+          <div className={`flashcard-rating ${flipped && showRating ? 'visible' : ''}`}>
+            <button className="rating-btn hard" onClick={(e) => { e.stopPropagation(); handleRate('hard'); }}>
+              😣 Hard
+            </button>
+            <button className="rating-btn medium" onClick={(e) => { e.stopPropagation(); handleRate('medium'); }}>
+              🤔 Medium
+            </button>
+            <button className="rating-btn easy" onClick={(e) => { e.stopPropagation(); handleRate('easy'); }}>
+              😎 Easy
+            </button>
+          </div>
         </div>
 
         {/* Navigation — always visible */}
