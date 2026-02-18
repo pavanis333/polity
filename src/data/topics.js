@@ -2100,6 +2100,137 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'states-and-union-territories',
+    name: 'States and Union Territories (Part-I: Article 1-4)',
+    icon: '🗺️',
+    subtopics: [
+      {
+        id: 'commissions-reorganisation',
+        name: 'Various Commissions in Reorganisation of States and UTs',
+        flashcards: [
+          {
+            id: 'cr-1',
+            front: 'What was the Dhar Commission (Dec 1948)?',
+            back: 'Recommended state reorganisation based on administrative convenience, NOT language.'
+          },
+          {
+            id: 'cr-2',
+            front: 'What was the JVP Committee (Dec 1948 – Apr 1949)?',
+            back: 'Formally rejected language as the basis for state reorganisation.\nMembers: Jawaharlal Nehru, Vallabhbhai Patel, and Pattabhi Sitaramayya (JVP = initials of the three members).'
+          },
+          {
+            id: 'cr-3',
+            front: 'What was the first linguistic state of India and when was it created?',
+            back: 'Andhra State — created in October 1953 by separating Telugu-speaking areas from the Madras state. The Government of India was forced to create it due to public demand.'
+          },
+          {
+            id: 'cr-4',
+            front: 'What was the Fazl Ali Commission (Dec 1953 – Sept 1955)?',
+            back: 'Accepted language as a basis for reorganisation but rejected the "one language-one state" theory.\nIts recommendations led to the States Reorganisation Act (1956), creating 14 states and 6 UTs on Nov 1, 1956.'
+          },
+          {
+            id: 'cr-5',
+            front: 'Who were the members of the Fazl Ali Commission?',
+            back: 'Fazl Ali (Chairman), K.M. Panikkar, and H.N. Kunzru.'
+          },
+          {
+            id: 'cr-6',
+            front: 'What did the States Reorganisation Act (1956) do?',
+            back: 'Created 14 states and 6 Union Territories on November 1, 1956, based on the recommendations of the Fazl Ali Commission.'
+          },
+          {
+            id: 'cr-7',
+            front: 'What does JVP stand for in the JVP Committee?',
+            back: 'J = Jawaharlal Nehru\nV = Vallabhbhai Patel\nP = Pattabhi Sitaramayya'
+          },
+          {
+            id: 'cr-8',
+            front: 'What was the Dhar Commission\'s stance vs Fazl Ali Commission\'s stance on language?',
+            back: 'Dhar Commission: Rejected language, recommended administrative convenience.\nFazl Ali Commission: Accepted language as a basis but rejected "one language-one state" theory.'
+          },
+          {
+            id: 'cr-9',
+            front: 'What was the chronological order of commissions/events in state reorganisation?',
+            back: '1. Dhar Commission (Dec 1948) — rejected language\n2. JVP Committee (Dec 1948–Apr 1949) — rejected language\n3. Andhra State created (Oct 1953) — first linguistic state\n4. Fazl Ali Commission (Dec 1953–Sept 1955) — accepted language\n5. States Reorganisation Act (1956) — 14 states, 6 UTs'
+          },
+        ],
+        quiz: [
+          {
+            id: 'cr-q1',
+            question: 'The Dhar Commission recommended state reorganisation based on:',
+            options: ['Language', 'Administrative convenience', 'Religion', 'Geography'],
+            correct: 1,
+            explanation: 'The Dhar Commission (Dec 1948) recommended reorganisation based on administrative convenience, not language.'
+          },
+          {
+            id: 'cr-q2',
+            question: 'Who were the members of the JVP Committee?',
+            options: [
+              'Fazl Ali, K.M. Panikkar, H.N. Kunzru',
+              'Jawaharlal Nehru, Vallabhbhai Patel, Pattabhi Sitaramayya',
+              'Rajendra Prasad, B.R. Ambedkar, Nehru',
+              'Sardar Patel, J.B. Kripalani, Nehru'
+            ],
+            correct: 1,
+            explanation: 'JVP = Jawaharlal Nehru, Vallabhbhai Patel, and Pattabhi Sitaramayya. They formally rejected language as basis for reorganisation.'
+          },
+          {
+            id: 'cr-q3',
+            question: 'The first linguistic state of India was:',
+            options: ['Kerala', 'Andhra State', 'Karnataka', 'Tamil Nadu'],
+            correct: 1,
+            explanation: 'Andhra State was the first linguistic state, created in October 1953 by separating Telugu-speaking areas from Madras state.'
+          },
+          {
+            id: 'cr-q4',
+            question: 'The Fazl Ali Commission\'s stance on language was:',
+            options: [
+              'Completely rejected language as basis',
+              'Accepted language as basis but rejected "one language-one state" theory',
+              'Accepted "one language-one state" theory',
+              'Recommended Hindi as the sole basis'
+            ],
+            correct: 1,
+            explanation: 'The Fazl Ali Commission accepted language as a basis for reorganisation but rejected the "one language-one state" theory.'
+          },
+          {
+            id: 'cr-q5',
+            question: 'The States Reorganisation Act (1956) created:',
+            options: ['12 States and 8 UTs', '14 States and 6 UTs', '16 States and 4 UTs', '28 States and 8 UTs'],
+            correct: 1,
+            explanation: 'The States Reorganisation Act (1956) created 14 states and 6 Union Territories on November 1, 1956.'
+          },
+          {
+            id: 'cr-q6',
+            question: 'Who was the Chairman of the Fazl Ali Commission?',
+            options: ['K.M. Panikkar', 'H.N. Kunzru', 'Fazl Ali', 'Jawaharlal Nehru'],
+            correct: 2,
+            explanation: 'Fazl Ali was the Chairman. Other members were K.M. Panikkar and H.N. Kunzru.'
+          },
+          {
+            id: 'cr-q7',
+            question: 'Which commission/committee formally rejected language as basis for state reorganisation?',
+            options: [
+              'Only Dhar Commission',
+              'Only JVP Committee',
+              'Both Dhar Commission and JVP Committee',
+              'Fazl Ali Commission'
+            ],
+            correct: 2,
+            explanation: 'Both the Dhar Commission (Dec 1948) and the JVP Committee (Dec 1948–Apr 1949) rejected language as the basis. The Fazl Ali Commission later accepted it.'
+          },
+          {
+            id: 'cr-q8',
+            question: 'Andhra State was created by separating Telugu-speaking areas from:',
+            options: ['Bombay state', 'Hyderabad state', 'Madras state', 'Mysore state'],
+            correct: 2,
+            explanation: 'Andhra State was created in October 1953 by separating Telugu-speaking areas from the Madras state.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
