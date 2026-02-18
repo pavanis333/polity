@@ -7695,6 +7695,77 @@ const topicsData = [
             explanation: 'Both criminal (Sessions Court) and civil (District Court) appeals must be disposed within 6 months.'
           },
         ]
+      },
+      {
+        id: 'commercial-courts',
+        name: 'Commercial Courts',
+        flashcards: [
+          {
+            id: 'cc-1',
+            front: 'What is the purpose of Commercial Courts?',
+            back: 'To establish specialised courts for quick resolution of commercial disputes.'
+          },
+          {
+            id: 'cc-2',
+            front: 'How are Commercial Courts set up?',
+            back: 'Set up by State Governments at the district level for disputes above ₹3 lakh.'
+          },
+          {
+            id: 'cc-3',
+            front: 'What are Commercial Appellate Courts?',
+            back: 'Handle appeals from lower commercial courts, established at the District Judge level.'
+          },
+          {
+            id: 'cc-4',
+            front: 'How do High Courts handle commercial disputes?',
+            back: 'Commercial Division: For commercial disputes in High Courts with original jurisdiction.\nCommercial Appellate Division: Hears appeals from Commercial Courts/Divisions.'
+          },
+          {
+            id: 'cc-5',
+            front: 'What is the hierarchy of Commercial Courts?',
+            back: '1. Commercial Courts (district level, disputes > ₹3 lakh)\n2. Commercial Appellate Courts (District Judge level, appeals from lower courts)\n3. HC Commercial Division (original jurisdiction)\n4. HC Commercial Appellate Division (appeals from Commercial Courts/Divisions)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'cc-q1',
+            question: 'Commercial Courts handle disputes above:',
+            options: ['₹1 lakh', '₹3 lakh', '₹5 lakh', '₹10 lakh'],
+            correct: 1,
+            explanation: 'Commercial Courts are set up at the district level for disputes above ₹3 lakh.'
+          },
+          {
+            id: 'cc-q2',
+            question: 'Commercial Courts are established by:',
+            options: ['Central Government', 'State Governments', 'High Courts', 'Supreme Court'],
+            correct: 1,
+            explanation: 'Commercial Courts are set up by State Governments at the district level.'
+          },
+          {
+            id: 'cc-q3',
+            question: 'Appeals from Commercial Courts go to:',
+            options: [
+              'High Court directly',
+              'Supreme Court',
+              'Commercial Appellate Courts at District Judge level',
+              'Sessions Court'
+            ],
+            correct: 2,
+            explanation: 'Commercial Appellate Courts handle appeals from lower commercial courts, established at the District Judge level.'
+          },
+          {
+            id: 'cc-q4',
+            question: 'The Commercial Division in High Courts handles:',
+            options: [
+              'Appeals from Commercial Appellate Courts',
+              'Commercial disputes in HCs with original jurisdiction',
+              'Criminal commercial fraud cases',
+              'International trade disputes only'
+            ],
+            correct: 1,
+            explanation: 'The Commercial Division handles commercial disputes in High Courts that have original jurisdiction.'
+          },
+        ]
       }
     ]
   }
