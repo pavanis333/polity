@@ -7490,6 +7490,111 @@ const topicsData = [
             explanation: 'Nyaya Bandhu is a Pro Bono Legal Service initiative under NALSA.'
           },
         ]
+      },
+      {
+        id: 'lok-adalat',
+        name: 'Lok Adalat',
+        flashcards: [
+          {
+            id: 'lad-1',
+            front: 'What is a Lok Adalat?',
+            back: 'Lok Adalat ("people\'s court") serves as an ADR mechanism aimed at resolving disputes outside traditional court settings. Promotes informal, affordable, and expedient resolutions, reflecting Gandhian principles.\nStatutory Status: Established under the Legal Services Authority Act, 1987.'
+          },
+          {
+            id: 'lad-2',
+            front: 'When and where was the first Lok Adalat held?',
+            back: 'The first Lok Adalat was held in Gujarat in 1982, successfully settling various disputes, leading to its expansion across India.'
+          },
+          {
+            id: 'lad-3',
+            front: 'What is the composition of a Lok Adalat?',
+            back: 'Consists of serving or retired judicial officers and other persons as specified by the agency. Generally:\n- A judicial officer as the Chairman\n- A lawyer (advocate) as member\n- A social worker as member'
+          },
+          {
+            id: 'lad-4',
+            front: 'What are the types of Lok Adalat?',
+            back: '1. National Lok Adalats: Cover all courts nationwide on designated days (since 2015)\n2. State (Regular) Lok Adalats:\n   - Continuous Lok Adalat: Set number of days\n   - Daily Lok Adalat: Held every day\n   - Mobile Lok Adalat: Multi-utility vans for remote areas\n   - Mega Lok Adalat: Statewide on a single day'
+          },
+          {
+            id: 'lad-5',
+            front: 'What is a Permanent Lok Adalat?',
+            back: 'Established under the Legal Services Authorities Act, 1987 (amended 2002).\nPurpose: Resolves disputes related to public utility services.\nComposition: Chairman (serving/retired district judge or higher) + two members (experts in public utility services).'
+          },
+          {
+            id: 'lad-6',
+            front: 'What is the jurisdiction of a Permanent Lok Adalat?',
+            back: 'Covers: Transport, postal, telegraph, electricity, sanitation, hospitals, and insurance.\nPecuniary limit: Initially ₹10 lakhs, raised to ₹1 crore in 2015.\nNo jurisdiction over non-compoundable offences.\nOnce a case is filed, parties cannot approach other courts.'
+          },
+          {
+            id: 'lad-7',
+            front: 'How does a Permanent Lok Adalat settle disputes?',
+            back: 'Tries to formulate settlement terms first. If no agreement, resolves the dispute on merits.\nThe award is final and binding, with no appeal allowed.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'lad-q1',
+            question: 'The first Lok Adalat was held in:',
+            options: ['Delhi, 1980', 'Gujarat, 1982', 'Maharashtra, 1985', 'Tamil Nadu, 1987'],
+            correct: 1,
+            explanation: 'The first Lok Adalat was held in Gujarat in 1982.'
+          },
+          {
+            id: 'lad-q2',
+            question: 'Lok Adalat is established under:',
+            options: [
+              'Constitution of India',
+              'Arbitration and Conciliation Act, 1996',
+              'Legal Services Authority Act, 1987',
+              'Civil Procedure Code, 1908'
+            ],
+            correct: 2,
+            explanation: 'Lok Adalat is established under the Legal Services Authority Act, 1987.'
+          },
+          {
+            id: 'lad-q3',
+            question: 'The award of a Permanent Lok Adalat is:',
+            options: [
+              'Advisory only',
+              'Subject to appeal in HC',
+              'Final and binding with no appeal',
+              'Subject to SC review'
+            ],
+            correct: 2,
+            explanation: 'The award of a Permanent Lok Adalat is final and binding, with no appeal allowed.'
+          },
+          {
+            id: 'lad-q4',
+            question: 'The pecuniary limit of Permanent Lok Adalat was raised to ₹1 crore in:',
+            options: ['2002', '2010', '2015', '2020'],
+            correct: 2,
+            explanation: 'The pecuniary limit was initially ₹10 lakhs, raised to ₹1 crore in 2015.'
+          },
+          {
+            id: 'lad-q5',
+            question: 'Permanent Lok Adalat has NO jurisdiction over:',
+            options: [
+              'Transport disputes',
+              'Insurance disputes',
+              'Non-compoundable offences',
+              'Electricity disputes'
+            ],
+            correct: 2,
+            explanation: 'Permanent Lok Adalat has no jurisdiction over non-compoundable offences.'
+          },
+          {
+            id: 'lad-q6',
+            question: 'Mobile Lok Adalat uses:',
+            options: [
+              'Online video conferencing',
+              'Multi-utility vans to reach remote areas',
+              'Satellite courts',
+              'District court premises only'
+            ],
+            correct: 1,
+            explanation: 'Mobile Lok Adalat uses multi-utility vans to reach remote areas, resolving petty cases and raising legal awareness.'
+          },
+        ]
       }
     ]
   }
