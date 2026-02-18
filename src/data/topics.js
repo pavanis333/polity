@@ -7380,6 +7380,116 @@ const topicsData = [
             explanation: 'In Negotiation, parties directly discuss and resolve disputes with a neutral party having a limited role.'
           },
         ]
+      },
+      {
+        id: 'nalsa',
+        name: 'National Legal Services Authority (NALSA)',
+        flashcards: [
+          {
+            id: 'nal-1',
+            front: 'When was NALSA established?',
+            back: 'Established under the Legal Services Authorities Act (1987), effective from November 9, 1995, to provide free legal services for the weaker sections of society.'
+          },
+          {
+            id: 'nal-2',
+            front: 'What are the objectives of NALSA? (UPSC 2013)',
+            back: 'To provide free and competent legal services to the weaker sections of society on the basis of equal opportunity. It issues guidelines for State Legal Services Authorities to implement legal programmes and schemes throughout the country.'
+          },
+          {
+            id: 'nal-3',
+            front: 'What are the Constitutional provisions behind NALSA?',
+            back: 'Article 39A: Ensures free legal aid for the poor.\nArticles 14 & 22(1): Mandate state responsibility for equality before law and equal opportunity.'
+          },
+          {
+            id: 'nal-4',
+            front: 'What are the Legal Service Institutions under NALSA?',
+            back: '- State Legal Services Authorities oversee district and taluka legal services, conducting Lok Adalats and awareness camps\n- The Supreme Court Legal Services Committee manages legal services related to the Supreme Court'
+          },
+          {
+            id: 'nal-5',
+            front: 'Who is eligible for free legal services? (UPSC 2020)',
+            back: 'Women, children, SC/ST members, victims of disasters, disabled persons, and low-income individuals (≤ ₹1 lakh; ₹1.25 lakh for Supreme Court).'
+          },
+          {
+            id: 'nal-6',
+            front: 'What services and initiatives does NALSA offer?',
+            back: 'Services: Coverage of court fees, lawyer services, certified document copies, and appeal preparation.\n\nInitiatives:\n- Legal Service Mobile App: Facilitates access to justice\n- DISHA Scheme: Aims for holistic access to justice (2021-26)\n- Nyaya Bandhu (Pro Bono Legal Service)'
+          },
+          {
+            id: 'nal-7',
+            front: 'What are the roles and functions of NALSA?',
+            back: '- Set policies for free legal services\n- Monitor implementation of legal aid programmes\n- Organise Lok Adalats\n- Conduct legal literacy programs\n- Coordinate with government and non-government agencies for effective service delivery'
+          },
+        ],
+        quiz: [
+          {
+            id: 'nal-q1',
+            question: 'NALSA was established under:',
+            options: [
+              'Constitution of India directly',
+              'Legal Services Authorities Act, 1987',
+              'Advocates Act, 1961',
+              'Arbitration and Conciliation Act, 1996'
+            ],
+            correct: 1,
+            explanation: 'NALSA was established under the Legal Services Authorities Act (1987), effective from November 9, 1995.'
+          },
+          {
+            id: 'nal-q2',
+            question: 'Article 39A ensures: (UPSC 2013)',
+            options: [
+              'Right to education',
+              'Free legal aid for the poor',
+              'Equal pay for equal work',
+              'Protection of environment'
+            ],
+            correct: 1,
+            explanation: 'Article 39A ensures free legal aid for the poor. This is the constitutional basis for NALSA.'
+          },
+          {
+            id: 'nal-q3',
+            question: 'Free legal services income limit for Supreme Court cases is: (UPSC 2020)',
+            options: ['₹50,000', '₹1 lakh', '₹1.25 lakh', '₹2 lakh'],
+            correct: 2,
+            explanation: 'Income limit: ≤ ₹1 lakh generally; ₹1.25 lakh for Supreme Court cases.'
+          },
+          {
+            id: 'nal-q4',
+            question: 'The DISHA Scheme aims for:',
+            options: [
+              'Digital literacy',
+              'Holistic access to justice (2021-26)',
+              'Women empowerment',
+              'Environmental protection'
+            ],
+            correct: 1,
+            explanation: 'DISHA Scheme aims for holistic access to justice for the period 2021-26.'
+          },
+          {
+            id: 'nal-q5',
+            question: 'Which of the following is NOT eligible for free legal services?',
+            options: [
+              'SC/ST members',
+              'Disabled persons',
+              'High-income individuals above ₹5 lakh',
+              'Victims of disasters'
+            ],
+            correct: 2,
+            explanation: 'Eligible: Women, children, SC/ST members, disaster victims, disabled persons, and low-income individuals (≤ ₹1 lakh). High-income individuals are not eligible.'
+          },
+          {
+            id: 'nal-q6',
+            question: 'Nyaya Bandhu is:',
+            options: [
+              'A legal literacy program',
+              'A pro bono legal service initiative',
+              'A mobile app for courts',
+              'A scheme for Lok Adalats'
+            ],
+            correct: 1,
+            explanation: 'Nyaya Bandhu is a Pro Bono Legal Service initiative under NALSA.'
+          },
+        ]
       }
     ]
   }
