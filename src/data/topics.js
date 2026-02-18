@@ -7112,6 +7112,96 @@ const topicsData = [
             explanation: 'HC can exercise supervisory jurisdiction suo-motu — it includes both administrative and judicial superintendence.'
           },
         ]
+      },
+      {
+        id: 'common-jurisdiction-hc',
+        name: 'Common Jurisdiction of High Courts',
+        flashcards: [
+          {
+            id: 'cjhc-1',
+            front: 'Which states/UTs fall under the Bombay High Court?',
+            back: 'Maharashtra, Goa, Dadra and Nagar Haveli, Daman and Diu.'
+          },
+          {
+            id: 'cjhc-2',
+            front: 'Which states fall under the Guwahati High Court?',
+            back: 'Assam, Nagaland, Mizoram, and Arunachal Pradesh.'
+          },
+          {
+            id: 'cjhc-3',
+            front: 'Which states/UTs fall under the Punjab and Haryana High Court?',
+            back: 'Punjab, Haryana, and Chandigarh.'
+          },
+          {
+            id: 'cjhc-4',
+            front: 'Which states/UTs fall under the Calcutta High Court?',
+            back: 'West Bengal and Andaman and Nicobar Islands.'
+          },
+          {
+            id: 'cjhc-5',
+            front: 'Which states/UTs fall under the Madras High Court?',
+            back: 'Tamil Nadu and Puducherry.'
+          },
+          {
+            id: 'cjhc-6',
+            front: 'Which states/UTs fall under the Kerala High Court?',
+            back: 'Kerala and Lakshadweep.'
+          },
+          {
+            id: 'cjhc-7',
+            front: 'List all 6 High Courts with common jurisdiction over multiple states/UTs.',
+            back: '1. Bombay HC → Maharashtra, Goa, Dadra & Nagar Haveli, Daman & Diu\n2. Guwahati HC → Assam, Nagaland, Mizoram, Arunachal Pradesh\n3. Punjab & Haryana HC → Punjab, Haryana, Chandigarh\n4. Calcutta HC → West Bengal, Andaman & Nicobar Islands\n5. Madras HC → Tamil Nadu, Puducherry\n6. Kerala HC → Kerala, Lakshadweep'
+          },
+        ],
+        quiz: [
+          {
+            id: 'cjhc-q1',
+            question: 'Goa falls under the jurisdiction of which High Court?',
+            options: ['Karnataka HC', 'Bombay HC', 'Madras HC', 'Kerala HC'],
+            correct: 1,
+            explanation: 'Goa falls under the Bombay High Court along with Maharashtra, Dadra and Nagar Haveli, and Daman and Diu.'
+          },
+          {
+            id: 'cjhc-q2',
+            question: 'The Guwahati High Court has jurisdiction over:',
+            options: [
+              'Assam, Meghalaya, Manipur, Tripura',
+              'Assam, Nagaland, Mizoram, Arunachal Pradesh',
+              'All north-eastern states',
+              'Assam only'
+            ],
+            correct: 1,
+            explanation: 'Guwahati HC covers Assam, Nagaland, Mizoram, and Arunachal Pradesh.'
+          },
+          {
+            id: 'cjhc-q3',
+            question: 'Andaman and Nicobar Islands falls under:',
+            options: ['Madras HC', 'Calcutta HC', 'Bombay HC', 'Delhi HC'],
+            correct: 1,
+            explanation: 'Andaman and Nicobar Islands falls under the Calcutta High Court along with West Bengal.'
+          },
+          {
+            id: 'cjhc-q4',
+            question: 'Lakshadweep falls under the jurisdiction of:',
+            options: ['Madras HC', 'Karnataka HC', 'Kerala HC', 'Bombay HC'],
+            correct: 2,
+            explanation: 'Lakshadweep falls under the Kerala High Court along with Kerala.'
+          },
+          {
+            id: 'cjhc-q5',
+            question: 'Chandigarh falls under:',
+            options: ['Delhi HC', 'Punjab and Haryana HC', 'Himachal Pradesh HC', 'Bombay HC'],
+            correct: 1,
+            explanation: 'Chandigarh falls under the Punjab and Haryana High Court along with Punjab and Haryana.'
+          },
+          {
+            id: 'cjhc-q6',
+            question: 'Puducherry falls under the jurisdiction of:',
+            options: ['Kerala HC', 'Karnataka HC', 'Madras HC', 'Bombay HC'],
+            correct: 2,
+            explanation: 'Puducherry falls under the Madras High Court along with Tamil Nadu.'
+          },
+        ]
       }
     ]
   }
