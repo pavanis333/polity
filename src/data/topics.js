@@ -6314,6 +6314,103 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'indian-judicial-system',
+    name: 'The Indian Judicial System',
+    icon: '⚖️',
+    subtopics: [
+      {
+        id: 'collegium-system-evolution',
+        name: 'Evolution of Collegium System: Concurrence vs Consultation',
+        flashcards: [
+          {
+            id: 'col-1',
+            front: 'What happened in the Fourth Judges case (2015) / NJAC case? (UPSC 2019)',
+            back: 'The 99th Constitutional Amendment Act of 2014 and the National Judicial Appointments Commission (NJAC) Act of 2014 replaced the collegium system with the NJAC.\n\nSC declared both the 99th Amendment and the NJAC Act unconstitutional and void on grounds of interference with judicial independence. The earlier collegium system became operative again.'
+          },
+          {
+            id: 'col-2',
+            front: 'What is the present process for appointment of Supreme Court judges? (UPSC 2019)',
+            back: '1. Initiation: CJI initiates the process upon vacancy\n2. Collegium Recommendations: The Collegium (CJI + four senior judges) recommends candidates\n3. Consultation: Consults eligible high court judges or lawyers\n4. Government Review: Recommendations sent to government for feedback\n5. Presidential Approval: President approves appointments, followed by swearing-in ceremony'
+          },
+          {
+            id: 'col-3',
+            front: 'What is the composition of the Supreme Court Collegium?',
+            back: 'CJI + four senior-most judges of the Supreme Court.'
+          },
+          {
+            id: 'col-4',
+            front: 'Why was the NJAC struck down?',
+            back: 'The SC held that the NJAC interfered with the independence of the judiciary, which is part of the basic structure of the Constitution. Judicial independence in appointments cannot be compromised by giving government a role in the selection process.'
+          },
+          {
+            id: 'col-5',
+            front: 'What is the difference between "concurrence" and "consultation"?',
+            back: 'Consultation: Seeking opinion/advice (government can disagree)\nConcurrence: Agreement is mandatory (government must agree)\n\nThe collegium system evolved through judicial interpretation to give primacy to the CJI\'s opinion (effectively making it concurrence rather than mere consultation).'
+          },
+        ],
+        quiz: [
+          {
+            id: 'col-q1',
+            question: 'The NJAC was established by: (UPSC 2019)',
+            options: [
+              '97th Constitutional Amendment',
+              '98th Constitutional Amendment',
+              '99th Constitutional Amendment',
+              '100th Constitutional Amendment'
+            ],
+            correct: 2,
+            explanation: 'The 99th Constitutional Amendment Act of 2014 and the NJAC Act of 2014 established the NJAC, replacing the collegium system.'
+          },
+          {
+            id: 'col-q2',
+            question: 'The SC declared the NJAC unconstitutional because: (UPSC 2019)',
+            options: [
+              'It was not passed by special majority',
+              'It interfered with judicial independence',
+              'It gave too much power to the CJI',
+              'It was not ratified by states'
+            ],
+            correct: 1,
+            explanation: 'SC struck down NJAC on grounds of interference with judicial independence, which is part of the basic structure.'
+          },
+          {
+            id: 'col-q3',
+            question: 'The Supreme Court Collegium consists of:',
+            options: [
+              'CJI + 2 senior judges',
+              'CJI + 3 senior judges',
+              'CJI + 4 senior judges',
+              'All SC judges'
+            ],
+            correct: 2,
+            explanation: 'The SC Collegium consists of CJI + four senior-most judges of the Supreme Court.'
+          },
+          {
+            id: 'col-q4',
+            question: 'After the NJAC was struck down, which system became operative again?',
+            options: ['NJAC', 'Collegium system', 'Parliamentary Committee system', 'Executive appointment system'],
+            correct: 1,
+            explanation: 'After the NJAC was declared unconstitutional, the earlier collegium system became operative again.'
+          },
+          {
+            id: 'col-q5',
+            question: 'The appointment process for SC judges is initiated by:',
+            options: ['President', 'Prime Minister', 'CJI', 'Law Minister'],
+            correct: 2,
+            explanation: 'The CJI initiates the process upon vacancy. The Collegium then recommends candidates.'
+          },
+          {
+            id: 'col-q6',
+            question: 'The Fourth Judges case (NJAC case) was decided in:',
+            options: ['2007', '2012', '2014', '2015'],
+            correct: 3,
+            explanation: 'The Fourth Judges case (NJAC case) was decided in 2015, striking down the 99th Amendment and NJAC Act as unconstitutional.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
