@@ -3953,6 +3953,137 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'federal-dynamics',
+    name: 'Federal Dynamics in India',
+    icon: '⚖️',
+    subtopics: [
+      {
+        id: 'distribution-of-tax-revenues',
+        name: 'Distribution of Tax Revenues',
+        flashcards: [
+          {
+            id: 'dtr-1',
+            front: 'What does Article 268 provide regarding tax distribution?',
+            back: 'Levy: Centre\nCollection: States\nAppropriation: States\nTaxes: Stamp duties on shares, cheque, promissory notes, insurance, etc.'
+          },
+          {
+            id: 'dtr-2',
+            front: 'What does Article 269 provide regarding tax distribution?',
+            back: 'Levy: Centre\nCollection: Centre\nAppropriation: States\nTaxes: Taxes on interstate trade and commerce.\nNote: Revenues do NOT form part of the Consolidated Fund of India.'
+          },
+          {
+            id: 'dtr-3',
+            front: 'What does Article 270 provide regarding tax distribution?',
+            back: 'Levy: Centre\nCollection: Centre\nAppropriation: Shared between Centre and States\nTaxes: All taxes and duties in the Union List EXCEPT:\n- Duties and taxes referred to in Articles 268, 269, and 269-A\n- Surcharge on taxes and duties referred to in Article 271'
+          },
+          {
+            id: 'dtr-4',
+            front: 'What does Article 271 provide regarding tax distribution?',
+            back: 'Levy: Centre\nCollection: Centre\nAppropriation: Centre\nTaxes: Surcharge on taxes under Art 269 and 270.\nNote: GST is exempted from this surcharge — this surcharge can\'t be imposed on the GST.'
+          },
+          {
+            id: 'dtr-5',
+            front: 'What does Article 269-A provide?',
+            back: 'Levy and Collection of GST in the course of Inter-State Trade or Commerce.'
+          },
+          {
+            id: 'dtr-6',
+            front: 'What are taxes levied and collected and retained by the States?',
+            back: 'These are taxes belonging to the states exclusively, e.g.:\n- Land revenue\n- Tax on mineral rights, etc.'
+          },
+          {
+            id: 'dtr-7',
+            front: 'What is the UPSC 2014 note about sales tax on toothpaste?',
+            back: 'The sales tax you pay while purchasing a toothpaste is a tax imposed and collected by the State Government.'
+          },
+          {
+            id: 'dtr-8',
+            front: 'Which Article\'s revenues do NOT form part of the Consolidated Fund of India?',
+            back: 'Article 269 — taxes on interstate trade and commerce. The revenues are assigned to states and do not form part of the Consolidated Fund of India.'
+          },
+          {
+            id: 'dtr-9',
+            front: 'Can surcharge under Article 271 be imposed on GST?',
+            back: 'No. GST is exempted from the surcharge under Article 271.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'dtr-q1',
+            question: 'Under Article 268, taxes are levied by the Centre but collected and appropriated by:',
+            options: ['Centre', 'States', 'Both Centre and States', 'Local bodies'],
+            correct: 1,
+            explanation: 'Article 268: Levy by Centre, Collection by States, Appropriation by States. E.g., stamp duties on shares, cheques, etc.'
+          },
+          {
+            id: 'dtr-q2',
+            question: 'Revenues under Article 269 do NOT form part of:',
+            options: [
+              'State Consolidated Fund',
+              'Consolidated Fund of India',
+              'Contingency Fund',
+              'Public Account'
+            ],
+            correct: 1,
+            explanation: 'Article 269 revenues (taxes on interstate trade and commerce) do not form part of the Consolidated Fund of India.'
+          },
+          {
+            id: 'dtr-q3',
+            question: 'Article 270 covers all Union List taxes EXCEPT:',
+            options: [
+              'Income tax and customs duty',
+              'Taxes under Art 268, 269, 269-A and surcharge under Art 271',
+              'GST only',
+              'Excise duties only'
+            ],
+            correct: 1,
+            explanation: 'Article 270 covers all Union taxes except those under Art 268, 269, 269-A and surcharge under Art 271.'
+          },
+          {
+            id: 'dtr-q4',
+            question: 'GST on inter-state trade is covered under:',
+            options: ['Article 268', 'Article 269', 'Article 269-A', 'Article 271'],
+            correct: 2,
+            explanation: 'Article 269-A deals with levy and collection of GST in the course of inter-state trade or commerce.'
+          },
+          {
+            id: 'dtr-q5',
+            question: 'The sales tax on toothpaste is imposed and collected by: (UPSC 2014)',
+            options: ['Central Government', 'State Government', 'Local Government', 'Both Centre and State'],
+            correct: 1,
+            explanation: 'The sales tax on toothpaste is a tax imposed and collected by the State Government.'
+          },
+          {
+            id: 'dtr-q6',
+            question: 'Surcharge under Article 271 CANNOT be imposed on:',
+            options: ['Income tax', 'Customs duty', 'GST', 'Excise duty'],
+            correct: 2,
+            explanation: 'GST is exempted from the surcharge under Article 271.'
+          },
+          {
+            id: 'dtr-q7',
+            question: 'Under Article 271, the surcharge is levied, collected, and appropriated by:',
+            options: ['States', 'Centre', 'Shared between Centre and States', 'Local bodies'],
+            correct: 1,
+            explanation: 'Article 271: Levy, Collection, and Appropriation all by Centre — surcharge on taxes under Art 269 and 270.'
+          },
+          {
+            id: 'dtr-q8',
+            question: 'Land revenue and tax on mineral rights are examples of:',
+            options: [
+              'Taxes under Article 268',
+              'Taxes under Article 269',
+              'Taxes levied, collected, and retained by States',
+              'Taxes shared under Article 270'
+            ],
+            correct: 2,
+            explanation: 'Land revenue and tax on mineral rights are taxes belonging to the states exclusively — levied, collected, and retained by states.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
