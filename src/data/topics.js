@@ -1934,6 +1934,170 @@ const topicsData = [
             explanation: 'The 42nd CAA, 1976 made the President obligated to follow the cabinet\'s advice regarding unrestricted amendment powers.'
           },
         ]
+      },
+      {
+        id: 'elements-of-basic-structure',
+        name: 'Elements of Basic Structure',
+        flashcards: [
+          {
+            id: 'ebs-1',
+            front: 'What is the Basic Structure Doctrine?',
+            back: 'With various Supreme Court judgements, certain elements emerged as "basic features" of the Constitution that cannot be amended or destroyed by Parliament.'
+          },
+          {
+            id: 'ebs-2',
+            front: 'List the key elements of the Basic Structure.',
+            back: '1. Separation of powers (legislature, executive, judiciary)\n2. Powers of SC under Articles 32, 136, 141, 142\n3. Sovereign, democratic and republican nature\n4. Balance between Fundamental Rights and DPSPs\n5. Powers of High Courts under Articles 226 and 227\n6. Limited power of Parliament to amend the Constitution\n7. Effective access to justice\n8. Principles underlying fundamental rights\n9. Federal character\n10. Secular character\n11. Welfare state (socio-economic justice)\n12. Unity and integrity of the nation\n13. Principle of equality\n14. Rule of Law\n15. Parliamentary system\n16. Judicial review\n17. Freedom and dignity of the individual\n18. Supremacy of the Constitution\n19. Free and fair elections\n20. Independence of Judiciary'
+          },
+          {
+            id: 'ebs-3',
+            front: 'Is "Separation of Powers" part of the Basic Structure?',
+            back: 'Yes — separation of powers between the legislature, the executive, and the judiciary is a basic feature.'
+          },
+          {
+            id: 'ebs-4',
+            front: 'Which Articles relate to the Supreme Court\'s powers that are part of Basic Structure?',
+            back: 'Articles 32 (right to constitutional remedies), 136 (special leave to appeal), 141 (law declared by SC binding), and 142 (enforcement of decrees and orders).'
+          },
+          {
+            id: 'ebs-5',
+            front: 'Is Judicial Review part of the Basic Structure?',
+            back: 'Yes. Judicial review is a basic feature of the Constitution and cannot be taken away by amendment.'
+          },
+          {
+            id: 'ebs-6',
+            front: 'Is the Federal Character of the Constitution part of the Basic Structure?',
+            back: 'Yes. The federal character of the Constitution is a basic feature.'
+          },
+          {
+            id: 'ebs-7',
+            front: 'Is the Secular Character of the Constitution part of the Basic Structure?',
+            back: 'Yes. The secular character of the Constitution is a basic feature.'
+          },
+          {
+            id: 'ebs-8',
+            front: 'Is the Parliamentary System part of the Basic Structure?',
+            back: 'Yes. The parliamentary system is a basic feature of the Constitution.'
+          },
+          {
+            id: 'ebs-9',
+            front: 'Is Free and Fair Elections part of the Basic Structure?',
+            back: 'Yes. Free and fair elections is a basic feature of the Constitution.'
+          },
+          {
+            id: 'ebs-10',
+            front: 'Is the "Balance between Fundamental Rights and DPSPs" part of the Basic Structure?',
+            back: 'Yes. The balance (harmony) between Fundamental Rights and Directive Principles is a basic feature.'
+          },
+          {
+            id: 'ebs-11',
+            front: 'Which High Court Articles are part of the Basic Structure?',
+            back: 'Articles 226 (power to issue writs) and 227 (power of superintendence over subordinate courts).'
+          },
+          {
+            id: 'ebs-12',
+            front: 'Is Parliament\'s power to amend the Constitution unlimited?',
+            back: 'No. "Limited power of Parliament to amend the Constitution" is itself a basic feature. Parliament cannot destroy the basic structure through amendments.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'ebs-q1',
+            question: 'Which of the following is NOT an element of the Basic Structure?',
+            options: [
+              'Judicial review',
+              'Parliamentary system',
+              'Right to property',
+              'Secular character'
+            ],
+            correct: 2,
+            explanation: 'Right to property was removed from Fundamental Rights by the 44th CAA and is not part of the basic structure. It is only a legal right now.'
+          },
+          {
+            id: 'ebs-q2',
+            question: 'The Basic Structure Doctrine means:',
+            options: [
+              'Parliament can amend any part of the Constitution',
+              'Certain features of the Constitution cannot be amended or destroyed',
+              'Only the Supreme Court can amend the Constitution',
+              'The President can veto any amendment'
+            ],
+            correct: 1,
+            explanation: 'The Basic Structure Doctrine holds that certain "basic features" of the Constitution cannot be amended or destroyed by Parliament.'
+          },
+          {
+            id: 'ebs-q3',
+            question: 'Which Articles relate to Supreme Court powers that are part of Basic Structure?',
+            options: [
+              'Articles 14, 19, 21',
+              'Articles 32, 136, 141, 142',
+              'Articles 226, 227',
+              'Articles 352, 356, 360'
+            ],
+            correct: 1,
+            explanation: 'Articles 32 (constitutional remedies), 136 (special leave), 141 (binding law), and 142 (enforcement) relate to SC powers that are basic features.'
+          },
+          {
+            id: 'ebs-q4',
+            question: 'Which of the following IS a basic feature of the Constitution?',
+            options: [
+              'Reservation in government jobs',
+              'Right to property',
+              'Free and fair elections',
+              'Uniform Civil Code'
+            ],
+            correct: 2,
+            explanation: 'Free and fair elections is a recognized basic feature of the Constitution.'
+          },
+          {
+            id: 'ebs-q5',
+            question: '"Limited power of Parliament to amend the Constitution" is:',
+            options: [
+              'Not a basic feature',
+              'A basic feature itself',
+              'Only applicable during emergency',
+              'Applicable only to Part III'
+            ],
+            correct: 1,
+            explanation: 'The limited power of Parliament to amend the Constitution is itself a basic feature — Parliament cannot grant itself unlimited amending power.'
+          },
+          {
+            id: 'ebs-q6',
+            question: 'Which of the following pairs are BOTH basic features?',
+            options: [
+              'Right to property and Judicial review',
+              'Parliamentary system and Presidential system',
+              'Separation of powers and Independence of Judiciary',
+              'Uniform Civil Code and Secular character'
+            ],
+            correct: 2,
+            explanation: 'Both separation of powers and independence of judiciary are recognized basic features of the Constitution.'
+          },
+          {
+            id: 'ebs-q7',
+            question: 'The powers of High Courts under which Articles are part of Basic Structure?',
+            options: [
+              'Articles 124 and 125',
+              'Articles 226 and 227',
+              'Articles 214 and 215',
+              'Articles 233 and 234'
+            ],
+            correct: 1,
+            explanation: 'Powers of High Courts under Articles 226 (writs) and 227 (superintendence) are part of the basic structure.'
+          },
+          {
+            id: 'ebs-q8',
+            question: 'The "sovereign, democratic and republican nature" of the Indian polity is:',
+            options: [
+              'Not a basic feature',
+              'A basic feature that can be amended',
+              'A basic feature that cannot be destroyed',
+              'Only a Preamble feature with no legal value'
+            ],
+            correct: 2,
+            explanation: 'The sovereign, democratic and republican nature of the Indian polity is a basic feature that cannot be destroyed by constitutional amendments.'
+          },
+        ]
       }
     ]
   }
