@@ -9588,6 +9588,152 @@ const topicsData = [
             explanation: 'J&K Assembly seats increased from 83 to 90 (6 additional for Jammu, 1 for Kashmir).'
           },
         ]
+      },
+      {
+        id: 'anti-defection-law',
+        name: 'Anti-Defection Law (52nd & 91st Amendments)',
+        flashcards: [
+          {
+            id: 'adl-1',
+            front: 'What is the Anti-Defection Law?',
+            back: 'Enacted through 52nd Amendment in 1985 to prevent political defections and ensure party discipline.\n\nArticles Amended: 101, 102, 190, 191\n- Art 101 & 190: Vacation of seats (Parliament/State)\n- Art 102 & 191: Disqualifications (Parliament/State)\n\nAddition: Tenth Schedule detailing grounds for disqualification due to defection. (UPSC 2014)'
+          },
+          {
+            id: 'adl-2',
+            front: 'What are the Disqualification Criteria under Anti-Defection Law?',
+            back: 'Political Party Members: Disqualified if they:\n- Voluntarily resign from party\n- Vote against party directives without prior permission (unless condoned within 15 days)\n\nIndependent Members: Disqualified if they join a political party post-election\n\nNominated Members: Disqualified if they join a party after 6 months from appointment (UPSC 2022)'
+          },
+          {
+            id: 'adl-3',
+            front: 'What are the exceptions and adjudication under Anti-Defection Law? (UPSC 2022, 2025)',
+            back: 'Exceptions:\n- Merger: No disqualification if 2/3rds of party agrees to merge\n- Presiding Officer: May resign after being elected\n\nAdjudication: Presiding officer (Chairperson RS/Speaker LS) decides cases. NO stipulated time limit. (UPSC 2022)\n\nKihoto Hollohan Case (1993): Speaker\'s decisions are subject to judicial review. (UPSC 2025)'
+          },
+          {
+            id: 'adl-4',
+            front: 'What is the role of Whip and rule-making power?',
+            back: 'Whip: Responsible for ensuring party attendance and monitoring member behaviour. Members defying whip face disciplinary actions.\n\nRule-Making: Presiding officer can create rules for Tenth Schedule, subject to House approval within 30 days. Accused member must get chance to respond.'
+          },
+          {
+            id: 'adl-5',
+            front: 'What are the provisions of the 91st Amendment Act (2003)?',
+            back: 'Article 75(1A): Central ministers ≤15% of LS strength\nArticle 75(1B): Defectors cannot be ministers until re-elected\nArticle 164(1A): State ministers ≤15% of Assembly strength (min 12, Delhi 10%)\nArticle 164(1B): State defectors ineligible for ministry\nArticle 361B: Defectors cannot hold remunerative political positions\n\nTenth Schedule: Exemption for 1/3rd split DELETED'
+          },
+          {
+            id: 'adl-6',
+            front: 'What are the key Supreme Court cases on Anti-Defection?',
+            back: '- Kihoto Hollohan vs Zachillhu (1992): Affirmed judicial review of Speaker\'s decisions\n- Ravi S. Naik vs UOI (1994): Clarified "voluntarily giving up membership"\n- G. Viswanathan vs Speaker TN (1996): Expelled members retain status as unattached\n- Shrimant Balasaheb Patil vs Karnataka (2019): MLAs not bound by whip during trust votes\n- Keisham Meghachandra Singh vs Speaker Manipur (2020): Suggested amendments for independent adjudication'
+          },
+        ],
+        quiz: [
+          {
+            id: 'adl-q1',
+            question: 'The Anti-Defection Law was enacted through:',
+            options: ['42nd Amendment', '52nd Amendment', '73rd Amendment', '91st Amendment'],
+            correct: 1,
+            explanation: 'Anti-Defection Law was enacted through 52nd Amendment in 1985, adding the Tenth Schedule.'
+          },
+          {
+            id: 'adl-q2',
+            question: 'A nominated member is disqualified if they join a party after: (UPSC 2022)',
+            options: ['3 months', '6 months', '1 year', 'Immediately'],
+            correct: 1,
+            explanation: 'Nominated members are disqualified if they join a political party after 6 months from their appointment.'
+          },
+          {
+            id: 'adl-q3',
+            question: 'Under 91st Amendment, Council of Ministers cannot exceed:',
+            options: ['10% of House', '15% of House', '20% of House', '25% of House'],
+            correct: 1,
+            explanation: 'Article 75(1A) and 164(1A): Ministers cannot exceed 15% of LS/Assembly strength.'
+          },
+          {
+            id: 'adl-q4',
+            question: 'Merger exception requires agreement of:',
+            options: ['1/3rd of party', '1/2 of party', '2/3rds of party', 'Unanimous'],
+            correct: 2,
+            explanation: 'Disqualification does not apply if 2/3rds of the party agrees to merge.'
+          },
+          {
+            id: 'adl-q5',
+            question: 'Which case affirmed judicial review of Speaker\'s decisions? (UPSC 2025)',
+            options: ['Ravi S. Naik case', 'Kihoto Hollohan case', 'G. Viswanathan case', 'Keisham Meghachandra case'],
+            correct: 1,
+            explanation: 'Kihoto Hollohan vs Zachillhu (1992/1993) affirmed judicial review of Speaker\'s decisions.'
+          },
+        ]
+      },
+      {
+        id: 'electoral-reforms-committees',
+        name: 'Electoral Reforms: SC Judgments & Committees',
+        flashcards: [
+          {
+            id: 'erc-1',
+            front: 'What are the key SC judgments on Candidate Eligibility?',
+            back: '- ADR vs UOI (2002): Disclosure of criminal records, assets, liabilities\n- K. Prabhakaran vs P. Jayarajan (2005): Disqualification for >2 years conviction\n- Lily Thomas vs UOI (2013): Automatic disqualification on conviction under RPA Section 8(4)\n- Rajbala vs State of Haryana (2015): Upheld educational criteria for local elections'
+          },
+          {
+            id: 'erc-2',
+            front: 'What are the key SC judgments on Electoral Reforms?',
+            back: '- Jan Chaukidar vs UOI (2014): Barred custodial candidates\n- Ashok Chavan vs Madhavrao (2014): Non-disclosure of poll expenses as corruption\n- Abhiram Singh vs C.D. Commachen (2017): Banned campaigns based on religion, race, caste, community, language'
+          },
+          {
+            id: 'erc-3',
+            front: 'What are the key SC judgments on ECI Independence?',
+            back: '- Mohinder Singh Gill vs CEC (1978): ECI\'s plenary powers under Article 324\n- T.N. Seshan vs UOI (1995): Equal powers for CEC and ECs\n- Anoop Baranwal vs UOI (2023): Independent Selection Committee for CEC, ECs'
+          },
+          {
+            id: 'erc-4',
+            front: 'What are the key SC judgments on Electoral Processes, RPA & MCC?',
+            back: 'Electoral Processes:\n- PUCL vs UOI (2013): Introduced NOTA\n- Subramanian Swamy vs ECI (2013): Made VVPAT mandatory\n\nRPA & Campaigning:\n- Kuldip Nayar vs UOI (2006): Allowed open ballot for RS\n- Union of India vs Harbans Singh (2001): ECI powers to cancel polls for booth capturing\n\nMCC:\n- Vikas Singh vs ECI (2004): Enforced MCC guidelines\n- Ministry of I&B vs ECI (2019): Media adherence to MCC upheld'
+          },
+          {
+            id: 'erc-5',
+            front: 'What are the Important Committees on Electoral Reforms (1974-1993)?',
+            back: '1974 - Tarkunde Committee: Curbing electoral malpractice\n1975 - J.P. Committee: By Jayaprakash Narayan for electoral reforms\n1983 - Vohra Committee: Crime-politics nexus, disqualification for criminal backgrounds\n1990 - Dinesh Goswami Committee: Transparency in election funding\n1993 - Vohra Committee: Curb criminal influence in elections'
+          },
+          {
+            id: 'erc-6',
+            front: 'What are the Important Committees on Electoral Reforms (1998-2023)?',
+            back: '1998 - Indrajit Gupta Committee: Partial state funding to reduce money power\n2000 - National Commission (M.N. Venkatachaliah): Constitutional review, electoral reforms\n2004 - Jeevan Reddy Committee: Reviewed electoral laws\n2005 - 2nd ARC (Veerappa Moily): Electoral reforms and ethics\n2010 - Tankha Committee: Election laws reforms\n2012 - J.S. Verma Committee: Criminal laws for electoral candidates\n2023 - Ramnath Kovind Committee: Simultaneous Elections'
+          },
+        ],
+        quiz: [
+          {
+            id: 'erc-q1',
+            question: 'NOTA was introduced following which case?',
+            options: ['ADR vs UOI (2002)', 'PUCL vs UOI (2013)', 'Lily Thomas vs UOI (2013)', 'Jan Chaukidar vs UOI (2014)'],
+            correct: 1,
+            explanation: 'PUCL vs UOI (2013) introduced NOTA (None of the Above) option.'
+          },
+          {
+            id: 'erc-q2',
+            question: 'VVPAT was made mandatory by which judgment?',
+            options: ['ADR vs UOI', 'PUCL vs UOI', 'Subramanian Swamy vs ECI', 'Anoop Baranwal vs UOI'],
+            correct: 2,
+            explanation: 'Subramanian Swamy vs ECI (2013) made VVPAT mandatory.'
+          },
+          {
+            id: 'erc-q3',
+            question: 'Anoop Baranwal vs UOI (2023) dealt with:',
+            options: ['NOTA', 'VVPAT', 'Independent Selection Committee for CEC/ECs', 'Booth capturing'],
+            correct: 2,
+            explanation: 'Anoop Baranwal vs UOI (2023) mandated an Independent Selection Committee for CEC and ECs.'
+          },
+          {
+            id: 'erc-q4',
+            question: 'Which committee recommended partial state funding of elections?',
+            options: ['Tarkunde Committee', 'Vohra Committee', 'Indrajit Gupta Committee', 'Dinesh Goswami Committee'],
+            correct: 2,
+            explanation: 'Indrajit Gupta Committee (1998) recommended partial state funding to reduce money power influence.'
+          },
+          {
+            id: 'erc-q5',
+            question: 'The Ramnath Kovind Committee (2023) was constituted for:',
+            options: ['Electoral funding', 'Criminal disqualification', 'Simultaneous Elections', 'VVPAT implementation'],
+            correct: 2,
+            explanation: 'Ramnath Kovind Committee (2023) is the High-level Committee on Simultaneous Elections.'
+          },
+        ]
       }
     ]
   }
