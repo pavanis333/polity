@@ -5591,6 +5591,93 @@ const topicsData = [
             explanation: 'Both Public Account and Contingency Fund are operated by executive action. Only the Consolidated Fund requires parliamentary authorisation.'
           },
         ]
+      },
+      {
+        id: 'position-of-rajya-sabha-vs-lok-sabha',
+        name: 'Position of Rajya Sabha with Respect to Lok Sabha',
+        flashcards: [
+          {
+            id: 'rsls-1',
+            front: 'In which matters does the Rajya Sabha have EQUAL status with the Lok Sabha? (UPSC 2020, 2013)',
+            back: '- Ordinary bills\n- Constitutional amendment bills (UPSC 2020, 2013)\n- Financial bills involving expenditure from the Consolidated Fund of India\n- Election and Impeachment of the President\n- Recommendation to the President for removal of CJI, SC and HC judges, CEC and CAG\n- Election and removal of Vice President (RS can alone initiate removal)\n- Approval of ordinance issued by President\n- Approval for proclamation of emergencies\n- Selection of ministers including PM\n- Consideration of reports of constitutional bodies\n- Enlargement of jurisdiction of SC and UPSC'
+          },
+          {
+            id: 'rsls-2',
+            front: 'In which matters does the Rajya Sabha have UNEQUAL status with Lok Sabha? (UPSC 2015)',
+            back: '- Money bills can be introduced only in LS; RS has no power to amend/reject the Money Bill (UPSC 2015)\n- LS can either accept or reject all or any RS recommendations on money bills; in both cases, the money bill is deemed passed by both Houses\n- Final power to decide if a bill is a Money Bill is vested in the Speaker of LS\n- Financial Bill-I introduced only in LS\n- Speaker presides over joint sitting\n- RS can only discuss Budget but cannot vote on demand for grants (UPSC 2015)\n- Resolution for discontinuance of national emergency passed only by LS\n- No confidence motion can only be initiated in LS (UPSC 2022, 2014)'
+          },
+          {
+            id: 'rsls-3',
+            front: 'What are the Special Powers of the Rajya Sabha?',
+            back: '- Article 249: RS can authorise Parliament to make law on state list subjects by a majority of not less than two-thirds of members present and voting (UPSC 2016)\n- Article 312: RS can authorise Parliament to create All India Services common to both Centre and State (UPSC 2012)\n- Article 67: RS alone can initiate a move for the removal of the Vice-President'
+          },
+          {
+            id: 'rsls-4',
+            front: 'What special power does the Rajya Sabha have under Articles 352, 356, and 360?',
+            back: 'If a proclamation is issued by the President for imposing emergency at a time when the Lok Sabha has been dissolved or the dissolution takes place within the period allowed for its approval, then the proclamation can remain effective even if it is approved by the Rajya Sabha alone.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'rsls-q1',
+            question: 'Constitutional amendment bills have: (UPSC 2020, 2013)',
+            options: [
+              'LS supremacy',
+              'RS supremacy',
+              'Equal status in both Houses',
+              'Only LS can introduce them'
+            ],
+            correct: 2,
+            explanation: 'Constitutional amendment bills have equal status — both Houses must pass them with the required special majority.'
+          },
+          {
+            id: 'rsls-q2',
+            question: 'Rajya Sabha can authorise Parliament to make law on State List subjects under: (UPSC 2016)',
+            options: ['Article 249', 'Article 312', 'Article 67', 'Article 352'],
+            correct: 0,
+            explanation: 'Article 249: RS can authorise Parliament to legislate on state list subjects by a majority of not less than 2/3 of members present and voting.'
+          },
+          {
+            id: 'rsls-q3',
+            question: 'No confidence motion can only be initiated in: (UPSC 2022, 2014)',
+            options: ['Rajya Sabha', 'Lok Sabha', 'Either House', 'Joint sitting'],
+            correct: 1,
+            explanation: 'No confidence motion can only be initiated in the Lok Sabha. This is an area of unequal status.'
+          },
+          {
+            id: 'rsls-q4',
+            question: 'RS can authorise Parliament to create All India Services under: (UPSC 2012)',
+            options: ['Article 249', 'Article 312', 'Article 352', 'Article 67'],
+            correct: 1,
+            explanation: 'Article 312: RS can authorise Parliament to create All India Services common to both Centre and State.'
+          },
+          {
+            id: 'rsls-q5',
+            question: 'Rajya Sabha CANNOT: (UPSC 2015)',
+            options: [
+              'Discuss the Budget',
+              'Vote on demands for grants',
+              'Approve ordinances',
+              'Approve proclamation of emergencies'
+            ],
+            correct: 1,
+            explanation: 'RS can only discuss the Budget but cannot vote on demands for grants — that power is exclusive to Lok Sabha.'
+          },
+          {
+            id: 'rsls-q6',
+            question: 'Who alone can initiate removal of the Vice-President?',
+            options: ['Lok Sabha', 'Rajya Sabha', 'Both Houses jointly', 'President'],
+            correct: 1,
+            explanation: 'Article 67: Rajya Sabha alone can initiate a move for the removal of the Vice-President. This is a special power of RS.'
+          },
+          {
+            id: 'rsls-q7',
+            question: 'During dissolution of Lok Sabha, emergency proclamation can remain effective if approved by:',
+            options: ['President alone', 'Rajya Sabha alone', 'Cabinet', 'Governor'],
+            correct: 1,
+            explanation: 'Under Art 352/356/360, if LS is dissolved, the proclamation can remain effective if approved by RS alone.'
+          },
+        ]
       }
     ]
   }
