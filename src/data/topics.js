@@ -178,6 +178,174 @@ const topicsData = [
             explanation: 'In May 1949, the Constituent Assembly ratified India\'s membership in the Commonwealth.'
           },
         ]
+      },
+      {
+        id: 'objective-resolution',
+        name: 'Objective Resolution',
+        flashcards: [
+          {
+            id: 'or-1',
+            front: 'What did the Objective Resolution contain?',
+            back: 'It contained the fundamentals and philosophy of the Constitutional structure.'
+          },
+          {
+            id: 'or-2',
+            front: 'What was the key declaration of the Objective Resolution regarding India?',
+            back: 'Declaration of India as an Independent Sovereign Republic.'
+          },
+          {
+            id: 'or-3',
+            front: 'What does the Objective Resolution say about the Union of Territories?',
+            back: 'It includes British India, Indian States, and territories willing to join.'
+          },
+          {
+            id: 'or-4',
+            front: 'What does the Objective Resolution say about autonomy of territories?',
+            back: 'Territories retain status as autonomous units with residual powers, except those assigned to the Union.'
+          },
+          {
+            id: 'or-5',
+            front: 'According to the Objective Resolution, where does all power derive from?',
+            back: 'All power derives from the people of India (People\'s Authority).'
+          },
+          {
+            id: 'or-6',
+            front: 'What does the Objective Resolution guarantee regarding Justice and Equality?',
+            back: 'Social, economic, and political justice; equality of opportunity; freedom of thought, expression, and action.'
+          },
+          {
+            id: 'or-7',
+            front: 'What safeguards does the Objective Resolution provide for minorities?',
+            back: 'Provisions for minorities and backward classes (Minority Safeguards).'
+          },
+          {
+            id: 'or-8',
+            front: 'What does the Objective Resolution say about Territorial Integrity?',
+            back: 'Sovereign rights on land, sea, and air are maintained.'
+          },
+          {
+            id: 'or-9',
+            front: 'What is the Objective Resolution\'s stance on global affairs?',
+            back: 'Commitment to world peace and welfare (Global Contribution).'
+          },
+          {
+            id: 'or-10',
+            front: 'What is the relationship between the Objective Resolution and the Preamble?',
+            back: 'The Preamble of the Constitution of India is a modified version of the Objective Resolution.'
+          },
+          {
+            id: 'or-11',
+            front: 'What became the foundation for the Constitution\'s Preamble?',
+            back: 'The Objective Resolution (introduced by Nehru on 13th Dec 1946, adopted 22nd Jan 1947).'
+          },
+          {
+            id: 'or-12',
+            front: 'List all 7 key features of the Objective Resolution.',
+            back: '1. India sovereign & independent\n2. Advancement of peace & well-being\n3. Protection for underprivileged, ethnic & minority groups\n4. Foundation for the Preamble\n5. Social, economic & political justice\n6. People as source of power\n7. Liberty of thought and ideas'
+          },
+        ],
+        quiz: [
+          {
+            id: 'or-q1',
+            question: 'The Objective Resolution contained the fundamentals and ______ of the Constitutional structure.',
+            options: ['Framework', 'Philosophy', 'Guidelines', 'Provisions'],
+            correct: 1,
+            explanation: 'The Objective Resolution contained the fundamentals and philosophy of the Constitutional structure.'
+          },
+          {
+            id: 'or-q2',
+            question: 'According to the Objective Resolution, India was declared as:',
+            options: ['A Democratic Republic', 'An Independent Sovereign Republic', 'A Federal Democratic State', 'A Secular Socialist Republic'],
+            correct: 1,
+            explanation: 'The Objective Resolution declared India as an Independent Sovereign Republic. The words "socialist" and "secular" were added later by the 42nd Amendment.'
+          },
+          {
+            id: 'or-q3',
+            question: 'Under the Objective Resolution, who is the source of all power?',
+            options: ['The Parliament', 'The President', 'The People of India', 'The Constituent Assembly'],
+            correct: 2,
+            explanation: 'The Objective Resolution states that all power derives from the people of India (People\'s Authority).'
+          },
+          {
+            id: 'or-q4',
+            question: 'What status do territories retain under the Objective Resolution?',
+            options: [
+              'Fully dependent units under the Centre',
+              'Autonomous units with residual powers',
+              'Independent sovereign territories',
+              'Union territories without any powers'
+            ],
+            correct: 1,
+            explanation: 'Territories retain status as autonomous units with residual powers, except those assigned to the Union.'
+          },
+          {
+            id: 'or-q5',
+            question: 'The Preamble of the Indian Constitution is a modified version of:',
+            options: ['The Government of India Act 1935', 'The Objective Resolution', 'The Cabinet Mission Plan', 'The Indian Independence Act'],
+            correct: 1,
+            explanation: 'The Preamble of the Constitution of India is a modified version of the Objective Resolution.'
+          },
+          {
+            id: 'or-q6',
+            question: 'Which of the following is NOT a feature of the Objective Resolution?',
+            options: [
+              'Commitment to world peace and welfare',
+              'Provisions for minorities and backward classes',
+              'Establishment of a Presidential form of government',
+              'Liberty of thought and ideas'
+            ],
+            correct: 2,
+            explanation: 'The Objective Resolution did not specify the form of government. It focused on sovereignty, justice, equality, minority safeguards, territorial integrity, and global peace.'
+          },
+          {
+            id: 'or-q7',
+            question: 'The Objective Resolution guarantees which types of justice?',
+            options: [
+              'Only social justice',
+              'Social and economic justice',
+              'Social, economic, and political justice',
+              'Economic and political justice'
+            ],
+            correct: 2,
+            explanation: 'The Objective Resolution guarantees social, economic, and political justice along with equality of opportunity and freedom of thought, expression, and action.'
+          },
+          {
+            id: 'or-q8',
+            question: 'What does "Territorial Integrity" in the Objective Resolution refer to?',
+            options: [
+              'No state can secede from India',
+              'Sovereign rights on land, sea, and air are maintained',
+              'All territories must join the Union compulsorily',
+              'Borders are permanent and cannot be changed'
+            ],
+            correct: 1,
+            explanation: 'Territorial Integrity in the Objective Resolution means sovereign rights on land, sea, and air are maintained.'
+          },
+          {
+            id: 'or-q9',
+            question: 'The Union of Territories under the Objective Resolution includes:',
+            options: [
+              'Only British India',
+              'Only Indian States (princely states)',
+              'British India, Indian States, and territories willing to join',
+              'All territories within the Indian subcontinent'
+            ],
+            correct: 2,
+            explanation: 'The Union of Territories includes British India, Indian States, and territories willing to join.'
+          },
+          {
+            id: 'or-q10',
+            question: 'Which of the following correctly describes the Objective Resolution\'s provision on minorities?',
+            options: [
+              'No special provisions needed',
+              'Provisions only for religious minorities',
+              'Provisions for minorities and backward classes',
+              'Separate electorates for minorities'
+            ],
+            correct: 2,
+            explanation: 'The Objective Resolution provides safeguards for minorities and backward classes, along with protection for underprivileged, ethnic, and minority groups.'
+          },
+        ]
       }
     ]
   }
