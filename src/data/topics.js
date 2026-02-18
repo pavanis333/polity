@@ -9016,6 +9016,62 @@ const topicsData = [
             explanation: 'Parliament acts on Naga customary law, religious/social practices, justice, and land don\'t apply unless the State Legislative Assembly so decides.'
           },
         ]
+      },
+      {
+        id: 'special-category-status',
+        name: 'Special Category Status (SCS) in India',
+        flashcards: [
+          {
+            id: 'scs-1',
+            front: 'What is Special Category Status (SCS)?',
+            back: 'The Indian Constitution does NOT make provisions for SCS.\nIntroduced in 1969 on recommendations of the Fifth Finance Commission.\nIncludes special provisions for certain states to address unique needs, preserve cultural distinctiveness, and ensure administrative autonomy.'
+          },
+          {
+            id: 'scs-2',
+            front: 'What are the criteria for Special Category Status?',
+            back: '1. Hilly Terrain: States with difficult geography (e.g., Himachal Pradesh)\n2. Low Population Density/Significant Tribal Population: Areas needing socio-economic development (e.g., Arunachal Pradesh)\n3. Strategic Border Locations: Essential for national security (e.g., J&K pre-2019)\n4. Economic Backwardness: States lacking infrastructure (e.g., Uttarakhand)\n5. Weak Finances: States struggling financially (e.g., Manipur)'
+          },
+          {
+            id: 'scs-3',
+            front: 'What changes did the 14th Finance Commission make to SCS?',
+            back: 'The 14th Finance Commission abolished distinction in plan assistance, but SCS status continues politically.\nRetained only for Northeastern states and three hill states.\nIncreased tax devolution from 32% to 42% to fill the resource gap.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'scs-q1',
+            question: 'Special Category Status was introduced in:',
+            options: ['1950', '1969', '1991', '2014'],
+            correct: 1,
+            explanation: 'SCS was introduced in 1969 on recommendations of the Fifth Finance Commission.'
+          },
+          {
+            id: 'scs-q2',
+            question: 'Special Category Status is:',
+            options: [
+              'A constitutional provision',
+              'Not in the Constitution, based on Finance Commission recommendation',
+              'A fundamental right',
+              'A directive principle'
+            ],
+            correct: 1,
+            explanation: 'The Indian Constitution does NOT make provisions for SCS. It was introduced based on Fifth Finance Commission recommendations.'
+          },
+          {
+            id: 'scs-q3',
+            question: 'The 14th Finance Commission increased tax devolution to:',
+            options: ['32%', '38%', '42%', '50%'],
+            correct: 2,
+            explanation: 'The 14th Finance Commission increased tax devolution from 32% to 42% to fill the resource gap after abolishing distinction in plan assistance.'
+          },
+          {
+            id: 'scs-q4',
+            question: 'Which is NOT a criterion for SCS?',
+            options: ['Hilly terrain', 'Strategic border location', 'High GDP growth', 'Economic backwardness'],
+            correct: 2,
+            explanation: 'High GDP growth is not a criterion. SCS criteria include hilly terrain, low population density, strategic borders, economic backwardness, and weak finances.'
+          },
+        ]
       }
     ]
   }
