@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, ChevronLeft, ChevronRight, RotateCcw } from 'lucide-react'
 import { getSubtopic, getTopic, getSubtopicFlashcardIds } from '../data/topics'
@@ -12,7 +12,7 @@ export default function FlashcardPage() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [showRating, setShowRating] = useState(false)
-  const [mode, setMode] = useState('all') // 'all' or 'due'
+  const [mode, setMode] = useState('all')
   const [refreshKey, setRefreshKey] = useState(0)
 
   if (!topic || !sub) {
@@ -138,8 +138,10 @@ export default function FlashcardPage() {
         </div>
       </div>
 
-      {flipped && showRating && (
-        <div className="flashcard-rating">
+      {/* Fixed-height controls area — prevents layout shift */}
+      <div className="flashcard-actions">
+        {/* Rating buttons — only visible when flipped */}
+        <div className={`flashcard-rating ${flipped && showRating ? 'visible' : ''}`}>
           <button className="rating-btn hard" onClick={(e) => { e.stopPropagation(); handleRate('hard'); }}>
             😣 Hard
           </button>
@@ -150,18 +152,19 @@ export default function FlashcardPage() {
             😎 Easy
           </button>
         </div>
-      )}
 
-      <div className="flashcard-controls">
-        <button className="btn btn-secondary btn-sm" onClick={handlePrev} disabled={currentIndex === 0}>
-          <ChevronLeft size={16} /> Prev
-        </button>
-        <button className="btn btn-secondary btn-sm" onClick={handleFlip}>
-          <RotateCcw size={16} /> Flip
-        </button>
-        <button className="btn btn-secondary btn-sm" onClick={handleNext} disabled={currentIndex === cards.length - 1}>
-          Next <ChevronRight size={16} />
-        </button>
+        {/* Navigation — always visible */}
+        <div className="flashcard-controls">
+          <button className="btn btn-secondary btn-sm" onClick={handlePrev} disabled={currentIndex === 0}>
+            <ChevronLeft size={16} /> Prev
+          </button>
+          <button className="btn btn-secondary btn-sm" onClick={handleFlip}>
+            <RotateCcw size={16} /> Flip
+          </button>
+          <button className="btn btn-secondary btn-sm" onClick={handleNext} disabled={currentIndex === cards.length - 1}>
+            Next <ChevronRight size={16} />
+          </button>
+        </div>
       </div>
     </div>
   )

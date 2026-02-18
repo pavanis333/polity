@@ -250,18 +250,39 @@ a.card-link { display: block; height: 100%; }
   font-size: 0.9rem;
 }
 
+/* Fixed actions area — no layout shift */
+.flashcard-actions {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  min-height: 110px;
+}
+
 .flashcard-controls {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-top: 24px;
 }
 
 .flashcard-rating {
   display: flex;
   justify-content: center;
   gap: 12px;
-  margin-top: 24px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: all 0.3s ease;
+  height: 0;
+  overflow: hidden;
+}
+
+.flashcard-rating.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  height: auto;
 }
 
 .rating-btn {
