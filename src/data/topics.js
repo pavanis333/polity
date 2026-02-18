@@ -5773,6 +5773,100 @@ const topicsData = [
             explanation: 'MPs are exempted from jury service and can refuse to give evidence and appear as a witness when Parliament is in session.'
           },
         ]
+      },
+      {
+        id: 'important-parliamentary-committees',
+        name: 'Important Parliamentary Committees',
+        flashcards: [
+          {
+            id: 'ipc-1',
+            front: 'What is the Estimates Committee?',
+            back: 'Origin: Traced to standing financial committee set up in 1921. First post-independence Estimates Committee set up in 1950 on recommendation of John Mathai.\nComposition: 30 members, all from Lok Sabha (largest committee) (UPSC 2014). Elected every year by proportional representation (single transferable vote). Minister cannot be a member.\nFunction: Examine the budget and suggest economies of public expenditure; suggest alternative policy to ensure economies.'
+          },
+          {
+            id: 'ipc-2',
+            front: 'What is the Public Accounts Committee (PAC)? (UPSC 2013)',
+            back: 'Set up first in 1921 under GOI Act 1919. CAG acts as guide, friend and philosopher of the Committee.\nComposition: 22 = 15(LS) + 7(RS) (UPSC 2013). Elected for one year by proportional representation (single transferable vote). Minister cannot be a member. Chairman appointed by Speaker from amongst members.\nChairman: Until 1966-67 from ruling party. Since 1967: invariably from the Opposition.'
+          },
+          {
+            id: 'ipc-3',
+            front: 'What does the Public Accounts Committee examine? (UPSC 2013)',
+            back: 'Examines CAG Audit report and discovers irregularities.\nExamines public expenditure not only from legal and formal point of view but also from the point of view of economy, prudence, wisdom and propriety. (UPSC 2013)'
+          },
+          {
+            id: 'ipc-4',
+            front: 'What is the Committee on Public Undertakings?',
+            back: 'Origin: Krishna Menon Committee, 1964.\nComposition: Originally 15 members (10 LS + 5 RS). Since 1974, raised to 22 (15 LS + 7 RS). Minister cannot be a member. Chairman appointed by Speaker from LS members only.\nFunction: Examine reports and accounts of public sector undertakings. Does NOT involve in day-to-day affairs of PSUs. Recommendations are advisory and not binding on ministries.'
+          },
+          {
+            id: 'ipc-5',
+            front: 'Compare: Estimates Committee vs PAC vs Committee on Public Undertakings',
+            back: 'Estimates Committee: 30 members (all LS), examines budget, suggests economies\nPAC: 22 members (15 LS + 7 RS), examines CAG audit reports, Chairman from Opposition since 1967\nPublic Undertakings: 22 members (15 LS + 7 RS), examines PSU reports/accounts, advisory recommendations\n\nCommon: All elected by proportional representation (STV), Minister cannot be a member'
+          },
+        ],
+        quiz: [
+          {
+            id: 'ipc-q1',
+            question: 'The Estimates Committee has: (UPSC 2014)',
+            options: ['15 members from LS', '22 members from both Houses', '30 members all from LS', '30 members from both Houses'],
+            correct: 2,
+            explanation: 'The Estimates Committee has 30 members, all from Lok Sabha — making it the largest parliamentary committee.'
+          },
+          {
+            id: 'ipc-q2',
+            question: 'The Public Accounts Committee composition is: (UPSC 2013)',
+            options: ['30 members all from LS', '22 = 15(LS) + 7(RS)', '15 members all from LS', '22 = 12(LS) + 10(RS)'],
+            correct: 1,
+            explanation: 'PAC has 22 members: 15 from Lok Sabha and 7 from Rajya Sabha.'
+          },
+          {
+            id: 'ipc-q3',
+            question: 'Since 1967, the Chairman of PAC is invariably from:',
+            options: ['Ruling party', 'Opposition', 'Rajya Sabha', 'Nominated members'],
+            correct: 1,
+            explanation: 'Since 1967, the Chairman of PAC has invariably been from the Opposition. Before 1966-67, Chairman was from the ruling party.'
+          },
+          {
+            id: 'ipc-q4',
+            question: 'The CAG acts as guide, friend and philosopher of: (UPSC 2013)',
+            options: ['Estimates Committee', 'Public Accounts Committee', 'Committee on Public Undertakings', 'Finance Committee'],
+            correct: 1,
+            explanation: 'The CAG acts as guide, friend and philosopher of the Public Accounts Committee.'
+          },
+          {
+            id: 'ipc-q5',
+            question: 'The Committee on Public Undertakings was set up on the recommendation of:',
+            options: ['John Mathai', 'Krishna Menon Committee, 1964', 'Sarkaria Commission', 'Balwant Rai Mehta Committee'],
+            correct: 1,
+            explanation: 'The Committee on Public Undertakings was set up based on the Krishna Menon Committee recommendation in 1964.'
+          },
+          {
+            id: 'ipc-q6',
+            question: 'Recommendations of the Committee on Public Undertakings are:',
+            options: [
+              'Binding on ministries',
+              'Binding on PSUs',
+              'Advisory and not binding on ministries',
+              'Enforceable by courts'
+            ],
+            correct: 2,
+            explanation: 'Recommendations of the Committee on Public Undertakings are advisory and not binding on the ministries.'
+          },
+          {
+            id: 'ipc-q7',
+            question: 'The first post-independence Estimates Committee was set up in 1950 on recommendation of:',
+            options: ['Krishna Menon', 'John Mathai', 'Jawaharlal Nehru', 'Dr. B.R. Ambedkar'],
+            correct: 1,
+            explanation: 'The first Estimates Committee in the post-independence era was set up in 1950 on the recommendation of John Mathai.'
+          },
+          {
+            id: 'ipc-q8',
+            question: 'Which committee does NOT include Rajya Sabha members?',
+            options: ['Public Accounts Committee', 'Committee on Public Undertakings', 'Estimates Committee', 'All include RS members'],
+            correct: 2,
+            explanation: 'The Estimates Committee has 30 members all from Lok Sabha only. PAC and Public Undertakings Committee include RS members.'
+          },
+        ]
       }
     ]
   }
