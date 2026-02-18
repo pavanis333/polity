@@ -3147,6 +3147,189 @@ const topicsData = [
             explanation: 'The right under Article 30 is only to ensure equality with the majority. There is no reverse discrimination in favour of minorities.'
           },
         ]
+      },
+      {
+        id: 'writs-types-and-scope',
+        name: 'Writs: Types and Scope',
+        flashcards: [
+          {
+            id: 'wrt-1',
+            front: 'Where are writs borrowed from and which courts can issue them?',
+            back: 'Borrowed from English prerogative writs (fountain of justice).\nSupreme Court (Article 32) and High Court (Article 226) can issue writs.\nParliament, under Art 32, can empower any other court to issue these writs.'
+          },
+          {
+            id: 'wrt-2',
+            front: 'What is Habeas Corpus?',
+            back: 'Meaning: "To have the body of."\nUse: To release a person who has been unlawfully detained or imprisoned. Court orders the detaining authority to bring the detained person before it to determine legality of detention.'
+          },
+          {
+            id: 'wrt-3',
+            front: 'When is Habeas Corpus NOT issued?',
+            back: '- When detention is lawful\n- Contempt of court or legislature\n- Detention by a competent court\n- Outside the court\'s jurisdiction'
+          },
+          {
+            id: 'wrt-4',
+            front: 'What is Mandamus?',
+            back: 'Meaning: "We command."\nUse: Commands a public authority to perform a public or statutory duty when a lower court, government officer, corporation, or public authority has failed or refused to fulfil its duty.'
+          },
+          {
+            id: 'wrt-5',
+            front: 'Against whom can Mandamus NOT be issued?',
+            back: '- Private individuals\n- For non-statutory departmental instructions\n- Discretionary duties\n- Contractual obligations\n- The President\n- State Governors\n- Chief Justice acting judicially (UPSC 2022)'
+          },
+          {
+            id: 'wrt-6',
+            front: 'What is Prohibition?',
+            back: 'Meaning: "To forbid."\nUse: Issued by a higher court to a lower court or tribunal to prevent it from exceeding its jurisdiction or usurping jurisdiction it does not possess.\nOnly issued against judicial and quasi-judicial authorities.'
+          },
+          {
+            id: 'wrt-7',
+            front: 'Against whom is Prohibition NOT available?',
+            back: 'Not available against:\n- Administrative authorities\n- Legislative bodies\n- Private individuals or bodies (UPSC 2024)'
+          },
+          {
+            id: 'wrt-8',
+            front: 'What is Certiorari?',
+            back: 'Meaning: "To be certified" or "To be informed."\nUse: Used by a higher court to review and quash a decision of a lower court or tribunal made without jurisdiction or in violation of natural justice.\nInitially against judicial/quasi-judicial authorities; extended to administrative authorities in 1991.'
+          },
+          {
+            id: 'wrt-9',
+            front: 'Against whom is Certiorari NOT available?',
+            back: 'Not available against:\n- Legislative bodies\n- Private individuals or bodies'
+          },
+          {
+            id: 'wrt-10',
+            front: 'What is the key difference between Prohibition and Certiorari?',
+            back: 'Prohibition: Issued BEFORE a lower court passes an order (preventive — forbids from exceeding jurisdiction).\nCertiorari: Issued AFTER a lower court has passed an order (corrective — quashes the order).\nAlso: Certiorari was extended to administrative authorities in 1991; Prohibition is still only against judicial/quasi-judicial authorities.'
+          },
+          {
+            id: 'wrt-11',
+            front: 'What is Quo Warranto?',
+            back: 'Meaning: "By what warrant?"\nUse: Challenges the legality of a person\'s claim to a public office. Restrains the person from acting in an office to which he/she is not entitled.\nApplicable to substantive public offices of a permanent character created by statute or Constitution.\nCan be sought by any interested person, not necessarily the aggrieved person. (UPSC 2022)'
+          },
+          {
+            id: 'wrt-12',
+            front: 'Who can file a Quo Warranto writ?',
+            back: 'Any interested person — not necessarily the aggrieved person. This is unique among writs.'
+          },
+          {
+            id: 'wrt-13',
+            front: 'What is the significance of Bandhua Mukti Morcha case (1984)?',
+            back: 'The SC allowed any concerned citizen to file a PIL for bonded labourers, turning Article 32 from a narrow legal remedy into a direct channel of justice for the voiceless. It expanded the concept of locus standi (who can approach the court).'
+          },
+          {
+            id: 'wrt-14',
+            front: 'What is the difference between Article 32 and Article 226 regarding writs?',
+            back: 'Article 32: SC can issue writs only for enforcement of Fundamental Rights.\nArticle 226: HC can issue writs for enforcement of Fundamental Rights AND for any other purpose (wider scope).'
+          },
+        ],
+        quiz: [
+          {
+            id: 'wrt-q1',
+            question: 'Habeas Corpus literally means:',
+            options: ['We command', 'To have the body of', 'To forbid', 'By what warrant'],
+            correct: 1,
+            explanation: 'Habeas Corpus means "To have the body of." It is used to release a person unlawfully detained.'
+          },
+          {
+            id: 'wrt-q2',
+            question: 'Mandamus cannot be issued against:',
+            options: [
+              'A government officer',
+              'A corporation',
+              'The President and State Governors',
+              'A lower court'
+            ],
+            correct: 2,
+            explanation: 'Mandamus cannot be issued against the President, State Governors, Chief Justice acting judicially, private individuals, for discretionary duties, or contractual obligations.'
+          },
+          {
+            id: 'wrt-q3',
+            question: 'The writ of Prohibition is issued against:',
+            options: [
+              'Administrative authorities only',
+              'Judicial and quasi-judicial authorities only',
+              'Legislative bodies',
+              'Private individuals'
+            ],
+            correct: 1,
+            explanation: 'Prohibition is only issued against judicial and quasi-judicial authorities. Not available against administrative authorities, legislative bodies, or private individuals.'
+          },
+          {
+            id: 'wrt-q4',
+            question: 'Certiorari was extended to administrative authorities in:',
+            options: ['1950', '1973', '1985', '1991'],
+            correct: 3,
+            explanation: 'Certiorari was initially only against judicial/quasi-judicial authorities but was extended to administrative authorities in 1991.'
+          },
+          {
+            id: 'wrt-q5',
+            question: 'Quo Warranto can be filed by:',
+            options: [
+              'Only the aggrieved person',
+              'Only a government authority',
+              'Any interested person, not necessarily the aggrieved person',
+              'Only the Attorney General'
+            ],
+            correct: 2,
+            explanation: 'Quo Warranto is unique — it can be sought by any interested person, not necessarily the aggrieved person.'
+          },
+          {
+            id: 'wrt-q6',
+            question: 'Which writ means "We command"?',
+            options: ['Habeas Corpus', 'Mandamus', 'Prohibition', 'Certiorari'],
+            correct: 1,
+            explanation: 'Mandamus means "We command." It commands a public authority to perform its public or statutory duty.'
+          },
+          {
+            id: 'wrt-q7',
+            question: 'The key difference between Prohibition and Certiorari is:',
+            options: [
+              'Prohibition is corrective, Certiorari is preventive',
+              'Prohibition is preventive (before order), Certiorari is corrective (after order)',
+              'Both are the same',
+              'Prohibition applies to administrative bodies, Certiorari does not'
+            ],
+            correct: 1,
+            explanation: 'Prohibition is preventive (issued before the order to prevent exceeding jurisdiction). Certiorari is corrective (issued after to quash the order).'
+          },
+          {
+            id: 'wrt-q8',
+            question: 'The Bandhua Mukti Morcha case (1984) is significant because:',
+            options: [
+              'It struck down Article 32',
+              'It expanded locus standi, allowing any citizen to file PIL under Article 32',
+              'It restricted writs to only Supreme Court',
+              'It defined Habeas Corpus'
+            ],
+            correct: 1,
+            explanation: 'The SC allowed any concerned citizen to file a PIL for bonded labourers, expanding Article 32 into a direct channel of justice for the voiceless.'
+          },
+          {
+            id: 'wrt-q9',
+            question: 'Article 226 (HC writs) is wider than Article 32 (SC writs) because:',
+            options: [
+              'HC can issue more types of writs',
+              'HC can issue writs for FRs AND any other purpose',
+              'SC cannot issue Habeas Corpus',
+              'HC writs are binding on SC'
+            ],
+            correct: 1,
+            explanation: 'Article 32: SC writs only for Fundamental Rights. Article 226: HC writs for FRs AND any other purpose — wider scope.'
+          },
+          {
+            id: 'wrt-q10',
+            question: 'Quo Warranto is applicable to:',
+            options: [
+              'Any private office',
+              'Temporary government positions',
+              'Substantive public offices of permanent character created by statute or Constitution',
+              'All types of employment'
+            ],
+            correct: 2,
+            explanation: 'Quo Warranto is applicable to substantive public offices of a permanent character created by statute or the Constitution.'
+          },
+        ]
       }
     ]
   }
