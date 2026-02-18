@@ -4917,6 +4917,103 @@ const topicsData = [
             explanation: 'Pensions for MPs were provided in 1976. There is no pension provision in the Constitution — it was determined by Parliament.'
           },
         ]
+      },
+      {
+        id: 'system-of-elections-to-lok-sabha',
+        name: 'System of Elections to Lok Sabha',
+        flashcards: [
+          {
+            id: 'sels-1',
+            front: 'How are Lok Sabha constituencies divided?',
+            back: 'Each state is divided into territorial constituencies ensuring uniformity at two levels:\n1. The ratio between number of seats and population is the same for all states\n2. Intra-State: Equal representation among constituencies within the same state'
+          },
+          {
+            id: 'sels-2',
+            front: 'How does reservation work for SC/ST in Lok Sabha?',
+            back: '- SC and ST are allocated reserved seats based on population ratios\n- All voters in a constituency elect reserved seats (no separate electorate)\n- Members of SC and ST can also contest general (non-reserved) seats'
+          },
+          {
+            id: 'sels-3',
+            front: 'How was Lok Sabha seat allocation frozen?',
+            back: '42nd Amendment Act, 1976: Froze Lok Sabha seat allocation and territorial constituency division until 2000 at 1971 census levels.\n84th Amendment Act, 2001: Extended this freeze for another 25 years (up to 2026) to promote population control measures.'
+          },
+          {
+            id: 'sels-4',
+            front: 'When was the voting age reduced and by which amendment?',
+            back: '61st Constitutional Amendment Act, 1988: Reduced the voting age from 21 to 18 years.'
+          },
+          {
+            id: 'sels-5',
+            front: 'What did the 104th CAA, 2019 do?',
+            back: '- Extends reservation for SC and ST in Lok Sabha and legislative bodies until January 25, 2030 (Articles 330 and 332)\n- Discontinues the nomination of Anglo-Indians (Article 331) to Lok Sabha (2 members) and legislative bodies (1 member)'
+          },
+          {
+            id: 'sels-6',
+            front: 'What is the "election process doctrine" from N.P. Ponnuswami v. Returning Officer (1952)?',
+            back: 'Once elections begin, courts cannot intervene. Challenges must wait for election petitions, insulating the democratic process from judicial disruption. The SC sealed this doctrine in this landmark case.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'sels-q1',
+            question: 'Lok Sabha seat allocation was frozen at 1971 census levels by:',
+            options: ['42nd Amendment, 1976', '44th Amendment, 1978', '61st Amendment, 1988', '84th Amendment, 2001'],
+            correct: 0,
+            explanation: 'The 42nd Amendment (1976) froze Lok Sabha seat allocation at 1971 levels. The 84th Amendment (2001) extended this freeze up to 2026.'
+          },
+          {
+            id: 'sels-q2',
+            question: 'The freeze on Lok Sabha seat allocation is extended up to:',
+            options: ['2020', '2026', '2030', '2031'],
+            correct: 1,
+            explanation: 'The 84th Amendment (2001) extended the freeze on seat allocation up to 2026.'
+          },
+          {
+            id: 'sels-q3',
+            question: 'The 104th CAA, 2019 extends SC/ST reservation in Lok Sabha until:',
+            options: ['January 25, 2025', 'January 25, 2030', 'January 26, 2035', 'January 26, 2040'],
+            correct: 1,
+            explanation: 'The 104th CAA extends SC/ST reservation until January 25, 2030 under Articles 330 and 332.'
+          },
+          {
+            id: 'sels-q4',
+            question: 'Anglo-Indian nomination to Lok Sabha was discontinued by:',
+            options: ['86th Amendment, 2002', '97th Amendment, 2011', '101st Amendment, 2017', '104th Amendment, 2019'],
+            correct: 3,
+            explanation: 'The 104th CAA, 2019 discontinued the nomination of Anglo-Indians (Article 331) to Lok Sabha and state legislative bodies.'
+          },
+          {
+            id: 'sels-q5',
+            question: 'In reserved SC/ST constituencies, who can vote?',
+            options: [
+              'Only SC/ST voters',
+              'All voters in the constituency',
+              'Only registered SC/ST members',
+              'Only members of the reserved category'
+            ],
+            correct: 1,
+            explanation: 'All voters in the constituency elect reserved seat candidates — there is no separate electorate. SC/ST members can also contest general seats.'
+          },
+          {
+            id: 'sels-q6',
+            question: 'The "election process doctrine" was established in:',
+            options: [
+              'Kesavananda Bharati (1973)',
+              'N.P. Ponnuswami v. Returning Officer (1952)',
+              'Minerva Mills (1980)',
+              'I.R. Coelho (2007)'
+            ],
+            correct: 1,
+            explanation: 'In N.P. Ponnuswami v. Returning Officer (1952), the SC held that once elections begin, courts cannot intervene — challenges must wait for election petitions.'
+          },
+          {
+            id: 'sels-q7',
+            question: 'The voting age was reduced from 21 to 18 by:',
+            options: ['42nd Amendment, 1976', '52nd Amendment, 1985', '61st Amendment, 1988', '73rd Amendment, 1992'],
+            correct: 2,
+            explanation: 'The 61st Constitutional Amendment Act, 1988 reduced the voting age from 21 to 18 years.'
+          },
+        ]
       }
     ]
   }
