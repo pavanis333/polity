@@ -5406,6 +5406,113 @@ const topicsData = [
             explanation: 'Order: Speaker → Deputy Speaker → Deputy Chairman of RS → member chosen by those present. The RS Chairman never presides.'
           },
         ]
+      },
+      {
+        id: 'budget-article-112',
+        name: 'Budget (Article 112): Grants, Cut Motions & Appropriation',
+        flashcards: [
+          {
+            id: 'bgt-1',
+            front: 'How does voting on Demands for Grants work?',
+            back: '- Based on reports of departmental standing committees, the Lok Sabha votes on demands for grants (presented ministry-wise)\n- A demand becomes a grant after being duly voted\n- Lok Sabha exclusively votes on demands\n- Expenditure charged on the Consolidated Fund of India is NOT submitted for a vote\n- Each demand is voted on separately'
+          },
+          {
+            id: 'bgt-2',
+            front: 'What is a Policy Cut Motion?',
+            back: 'Disapproval of the policy underlying the demand — the amount of the demand is reduced to ₹1. It signifies complete disapproval of the policy.'
+          },
+          {
+            id: 'bgt-3',
+            front: 'What is an Economy Cut Motion?',
+            back: 'Reduction of the demand by a specified amount. It suggests that the expenditure can be reduced by the stated amount.'
+          },
+          {
+            id: 'bgt-4',
+            front: 'What is a Token Cut Motion?',
+            back: 'Ventilation of a specific grievance — the demand is reduced by ₹100. It allows a member to raise a specific issue of concern.'
+          },
+          {
+            id: 'bgt-5',
+            front: 'What are the conditions for admissibility of Cut Motions?',
+            back: 'A cut motion must:\n- Pertain to a single demand\n- Be clearly expressed, free from arguments or defamatory statements\n- Focus on one specific matter\n- Not suggest amendments or repeal existing laws\n- Address matters concerning the Union government\n- Not relate to expenditure charged on the Consolidated Fund\n- Not concern matters under court adjudication\n- Not raise a question of privilege'
+          },
+          {
+            id: 'bgt-6',
+            front: 'What is the Appropriation Bill and how is it passed?',
+            back: '- Constitution mandates no money shall be withdrawn from the Consolidated Fund of India except under appropriation made by law\n- After demands for grants are voted and passed by Lok Sabha, an Appropriation Bill is introduced to authorise withdrawals\n- The Appropriation Bill becomes the Appropriation Act after receiving Presidential assent, allowing payments from the Consolidated Fund'
+          },
+        ],
+        quiz: [
+          {
+            id: 'bgt-q1',
+            question: 'A Policy Cut Motion reduces the demand amount to:',
+            options: ['₹0', '₹1', '₹100', 'Half the amount'],
+            correct: 1,
+            explanation: 'A Policy Cut reduces the demand to ₹1, signifying complete disapproval of the policy underlying the demand.'
+          },
+          {
+            id: 'bgt-q2',
+            question: 'A Token Cut Motion reduces the demand by:',
+            options: ['₹1', '₹10', '₹100', '₹1000'],
+            correct: 2,
+            explanation: 'A Token Cut reduces the demand by ₹100 to ventilate a specific grievance.'
+          },
+          {
+            id: 'bgt-q3',
+            question: 'Who exclusively votes on Demands for Grants?',
+            options: ['Rajya Sabha', 'Lok Sabha', 'Both Houses', 'President'],
+            correct: 1,
+            explanation: 'The Lok Sabha exclusively votes on demands for grants. This is one of Lok Sabha\'s special powers in financial matters.'
+          },
+          {
+            id: 'bgt-q4',
+            question: 'Expenditure charged on the Consolidated Fund of India is:',
+            options: [
+              'Voted on by Lok Sabha',
+              'Voted on by both Houses',
+              'Not submitted for a vote',
+              'Voted on by Rajya Sabha'
+            ],
+            correct: 2,
+            explanation: 'Expenditure charged on the Consolidated Fund of India is not submitted for a vote — it is non-votable.'
+          },
+          {
+            id: 'bgt-q5',
+            question: 'An Economy Cut Motion:',
+            options: [
+              'Reduces the demand to ₹1',
+              'Reduces the demand by ₹100',
+              'Reduces the demand by a specified amount',
+              'Rejects the entire budget'
+            ],
+            correct: 2,
+            explanation: 'An Economy Cut reduces the demand by a specified amount, suggesting expenditure can be reduced.'
+          },
+          {
+            id: 'bgt-q6',
+            question: 'The Appropriation Bill is introduced after:',
+            options: [
+              'The President\'s address',
+              'The general discussion on the budget',
+              'The demands for grants are voted on and passed by Lok Sabha',
+              'The Rajya Sabha approves the budget'
+            ],
+            correct: 2,
+            explanation: 'After demands for grants are voted and passed by Lok Sabha, the Appropriation Bill is introduced to authorise withdrawals from the Consolidated Fund.'
+          },
+          {
+            id: 'bgt-q7',
+            question: 'A cut motion must NOT:',
+            options: [
+              'Pertain to a single demand',
+              'Be clearly expressed',
+              'Suggest amendments or repeal existing laws',
+              'Focus on one specific matter'
+            ],
+            correct: 2,
+            explanation: 'A cut motion must not suggest amendments or repeal existing laws. It must be focused, clear, and pertain to a single demand.'
+          },
+        ]
       }
     ]
   }
