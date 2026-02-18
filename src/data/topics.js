@@ -9432,6 +9432,79 @@ const topicsData = [
             explanation: 'The President is empowered to amend delimitation orders after consulting the Election Commission of India.'
           },
         ]
+      },
+      {
+        id: 'rpa-1951',
+        name: 'Representation of the People Act, 1951',
+        flashcards: [
+          {
+            id: 'rpa51-1',
+            front: 'What does the Representation of the People Act, 1951 cover?',
+            back: 'Enacted to address provisions not covered by RPA 1950:\n- Conduct of elections\n- Membership qualifications and disqualifications\n- Election offences\n- Dispute resolutions\n- Administrative machinery for ECI\n- Bye-elections and political party registration'
+          },
+          {
+            id: 'rpa51-2',
+            front: 'What are the Qualifications for contesting elections under RPA 1951?',
+            back: 'Elector Status: Must be an elector in the relevant constituency.\n\nReserved Seats: SC/ST members must contest from reserved seats.\n\nAge:\n- Minimum 25 years for Lok Sabha\n- Minimum 21 years for Panchayat and Municipality elections'
+          },
+          {
+            id: 'rpa51-3',
+            front: 'What are the Disqualifications under RPA 1951? (UPSC 2020)',
+            back: 'Conviction for Offences (Section 8):\n- 2+ years for specified offences\n- 6+ months for bribery, election-related offences\n\nCorrupt Practices (Section 8A): Disqualified for 6 years post-conviction\n\nDismissal from Govt Service (Section 9): For corruption or disloyalty\n\nGovt Contracts (Section 9A): Must sever ties\n\nManaging Agent (Section 10): In govt-affiliated companies'
+          },
+          {
+            id: 'rpa51-4',
+            front: 'What is Section 10A of RPA 1951?',
+            back: 'Failure to Lodge Election Expenses (Section 10A): Disqualified for 3 years for not submitting election expense accounts on time.'
+          },
+          {
+            id: 'rpa51-5',
+            front: 'What are the Election Dispute provisions under RPA 1951?',
+            back: '- Trial of Election Petitions: Establishes procedures\n- Withdrawal and Abatement: Conditions outlined\n- Costs and Security: Specifies costs and security for costs\n- Appeals: Provides for appeals to Supreme Court\n- Civil Court Jurisdiction: BARRED over electoral matters\n- ECI Powers: Inquiries into disqualifications'
+          },
+          {
+            id: 'rpa51-6',
+            front: 'What is the Delimitation freeze issue?',
+            back: 'Due to Delimitation freeze till 2026, the principle of "one person, one vote, one value" is violated.\n\nA single Lok Sabha MP from high-growth states (e.g., UP) represents significantly larger population (up to 3 million) than an MP from low-growth states (e.g., Kerala).'
+          },
+        ],
+        quiz: [
+          {
+            id: 'rpa51-q1',
+            question: 'Minimum age to contest Lok Sabha elections is:',
+            options: ['18 years', '21 years', '25 years', '30 years'],
+            correct: 2,
+            explanation: 'Minimum age is 25 years for Lok Sabha. 21 years for Panchayat and Municipality elections.'
+          },
+          {
+            id: 'rpa51-q2',
+            question: 'Under Section 10A of RPA 1951, failure to lodge election expenses leads to disqualification for:',
+            options: ['1 year', '2 years', '3 years', '6 years'],
+            correct: 2,
+            explanation: 'Section 10A: Disqualified for 3 years for not submitting election expense accounts on time.'
+          },
+          {
+            id: 'rpa51-q3',
+            question: 'Under RPA 1951, conviction for corrupt practices leads to disqualification for: (UPSC 2020)',
+            options: ['3 years', '5 years', '6 years', '10 years'],
+            correct: 2,
+            explanation: 'Section 8A: Disqualified for 6 years post-conviction for corrupt practices.'
+          },
+          {
+            id: 'rpa51-q4',
+            question: 'Appeals against election petitions lie to:',
+            options: ['High Court', 'Supreme Court', 'Election Commission', 'President'],
+            correct: 1,
+            explanation: 'RPA 1951 provides for appeals to the Supreme Court regarding election matters.'
+          },
+          {
+            id: 'rpa51-q5',
+            question: 'RPA 1951 bars the jurisdiction of:',
+            options: ['Supreme Court', 'High Court', 'Civil Courts', 'All courts'],
+            correct: 2,
+            explanation: 'RPA 1951 bars the jurisdiction of civil courts over electoral matters.'
+          },
+        ]
       }
     ]
   }
