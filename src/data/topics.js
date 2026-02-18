@@ -8220,6 +8220,74 @@ const topicsData = [
             explanation: 'Chairpersons at intermediate and district levels are elected indirectly. All seats at all levels are elected directly.'
           },
         ]
+      },
+      {
+        id: 'state-finance-commission-other-provisions',
+        name: 'State Finance Commission & Other Provisions',
+        flashcards: [
+          {
+            id: 'sfc-1',
+            front: 'What is the State Finance Commission? (Article 243-I) (UPSC 2011, 2025)',
+            back: 'Constitution: Governor constitutes every five years to assess panchayat finances. (UPSC 2025)\nRecommendations:\n- Distribution of net proceeds from state taxes among panchayats\n- Determining taxes for panchayat assignment\n- Grants-in-aid from the consolidated state fund\nComposition & Qualifications: Defined by the state legislature.\nReporting: Recommendations submitted to the state legislature with an action taken report.'
+          },
+          {
+            id: 'sfc-2',
+            front: 'What role does the Central Finance Commission play regarding Panchayats?',
+            back: 'The Central Finance Commission can recommend measures to enhance state funds and panchayat resources.'
+          },
+          {
+            id: 'sfc-3',
+            front: 'What are the other provisions under the 73rd Amendment?',
+            back: '- Existing Laws: Continue for one year post-enactment (Art. 243-N)\n- Audit & Accounts: Governed by state legislature (Art. 243-J)\n- Applicability to UTs: Applicable to Union Territories, with presidential exceptions (Art. 243-L)'
+          },
+          {
+            id: 'sfc-4',
+            front: 'Which states/areas are exempted from the 73rd Amendment?',
+            back: 'States like Nagaland, Mizoram, Meghalaya, and areas with existing district councils are exempted.'
+          },
+          {
+            id: 'sfc-5',
+            front: 'What is the PESA Act?',
+            back: 'Panchayats (Extension to the Scheduled Areas) Act, 1996. Parliament can extend 73rd Amendment provisions to scheduled and tribal areas via this Act.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'sfc-q1',
+            question: 'The State Finance Commission is constituted by: (UPSC 2025)',
+            options: ['President', 'Chief Minister', 'Governor', 'State Legislature'],
+            correct: 2,
+            explanation: 'The Governor constitutes the State Finance Commission every five years to assess panchayat finances.'
+          },
+          {
+            id: 'sfc-q2',
+            question: 'The State Finance Commission is constituted every: (UPSC 2011)',
+            options: ['3 years', '5 years', '7 years', '10 years'],
+            correct: 1,
+            explanation: 'Article 243-I: The Governor constitutes the SFC every five years.'
+          },
+          {
+            id: 'sfc-q3',
+            question: 'PESA Act was enacted in:',
+            options: ['1992', '1993', '1996', '2000'],
+            correct: 2,
+            explanation: 'The Panchayats (Extension to the Scheduled Areas) Act was enacted in 1996 to extend 73rd Amendment provisions to scheduled and tribal areas.'
+          },
+          {
+            id: 'sfc-q4',
+            question: 'Which state is NOT exempted from the 73rd Amendment?',
+            options: ['Nagaland', 'Mizoram', 'Meghalaya', 'Kerala'],
+            correct: 3,
+            explanation: 'Kerala is not exempted. Nagaland, Mizoram, Meghalaya, and areas with existing district councils are exempted.'
+          },
+          {
+            id: 'sfc-q5',
+            question: 'Existing laws at the time of the 73rd Amendment continue for:',
+            options: ['6 months', '1 year', '2 years', 'Indefinitely'],
+            correct: 1,
+            explanation: 'Existing laws continue for one year post-enactment under Article 243-N.'
+          },
+        ]
       }
     ]
   }
