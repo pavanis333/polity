@@ -2457,6 +2457,164 @@ const topicsData = [
             explanation: 'Article 370 was abrogated in 2019, ending Jammu and Kashmir\'s special status.'
           },
         ]
+      },
+      {
+        id: 'administration-of-union-territories',
+        name: 'Administration of Union Territories (Article 239-241)',
+        flashcards: [
+          {
+            id: 'aut-1',
+            front: 'Which Articles and Part of the Constitution govern Union Territories?',
+            back: 'Articles 239–241 in Part VIII of the Constitution.'
+          },
+          {
+            id: 'aut-2',
+            front: 'How are Union Territories administered?',
+            back: 'By the President through an Administrator, who is an agent (not head of state).'
+          },
+          {
+            id: 'aut-3',
+            front: 'Which UTs have a Lieutenant Governor (LG)?',
+            back: 'Delhi, Puducherry, Andaman and Nicobar, Jammu and Kashmir, and Ladakh.'
+          },
+          {
+            id: 'aut-4',
+            front: 'Which UTs have Administrators (not LGs)?',
+            back: 'Chandigarh, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep.'
+          },
+          {
+            id: 'aut-5',
+            front: 'Which Union Territories have a Legislative Assembly and Council of Ministers headed by a Chief Minister?',
+            back: 'Puducherry, Delhi, and Jammu and Kashmir.'
+          },
+          {
+            id: 'aut-6',
+            front: 'What are the Advisory Committees for UTs without a legislature?',
+            back: 'Home Minister\'s Advisory Committee (HMAC): For UTs without legislature, chaired by the Union Home Minister.\nAdministrative Advisory Committee (AAC): Chaired by the Administrator of the UT.'
+          },
+          {
+            id: 'aut-7',
+            front: 'For which UTs can the President make regulations with the same effect as parliamentary acts?',
+            back: 'Andaman and Nicobar Islands, Lakshadweep, Dadra and Nagar Haveli, and Daman and Diu.'
+          },
+          {
+            id: 'aut-8',
+            front: 'Which is the only UT with an independent High Court?',
+            back: 'Delhi — since 1966, it has been the sole Union Territory with an independent High Court.'
+          },
+          {
+            id: 'aut-9',
+            front: 'List the High Court jurisdictions for all UTs.',
+            back: '- Delhi: Independent High Court (since 1966)\n- Dadra & Nagar Haveli, Daman & Diu: Bombay HC\n- Andaman & Nicobar: Calcutta HC\n- Chandigarh: Punjab and Haryana HC\n- Lakshadweep: Kerala HC\n- Puducherry: Madras HC\n- J&K and Ladakh: Share J&K and Ladakh HC'
+          },
+          {
+            id: 'aut-10',
+            front: 'Under which High Court does Andaman and Nicobar Islands fall?',
+            back: 'Calcutta High Court.'
+          },
+          {
+            id: 'aut-11',
+            front: 'Under which High Court does Lakshadweep fall?',
+            back: 'Kerala High Court.'
+          },
+          {
+            id: 'aut-12',
+            front: 'Under which High Court does Puducherry fall?',
+            back: 'Madras High Court.'
+          },
+          {
+            id: 'aut-13',
+            front: 'What is the difference between a Lieutenant Governor and an Administrator?',
+            back: 'Both are appointed by the President, but LG is a higher designation given to UTs with greater significance (Delhi, Puducherry, A&N, J&K, Ladakh). Administrators govern smaller UTs (Chandigarh, DNH&DD, Lakshadweep).'
+          },
+        ],
+        quiz: [
+          {
+            id: 'aut-q1',
+            question: 'Union Territories are governed by Articles:',
+            options: ['Articles 152–237', 'Articles 239–241', 'Articles 243–243O', 'Articles 244–244A'],
+            correct: 1,
+            explanation: 'Union Territories are governed by Articles 239–241 in Part VIII of the Constitution.'
+          },
+          {
+            id: 'aut-q2',
+            question: 'Which of the following UTs does NOT have a Lieutenant Governor?',
+            options: ['Delhi', 'Puducherry', 'Chandigarh', 'Jammu and Kashmir'],
+            correct: 2,
+            explanation: 'Chandigarh has an Administrator, not a Lieutenant Governor. LGs are for Delhi, Puducherry, A&N, J&K, and Ladakh.'
+          },
+          {
+            id: 'aut-q3',
+            question: 'Which UTs have a Legislative Assembly and Chief Minister?',
+            options: [
+              'Delhi, Chandigarh, Puducherry',
+              'Puducherry, Delhi, Jammu and Kashmir',
+              'All Union Territories',
+              'Delhi, Ladakh, Puducherry'
+            ],
+            correct: 1,
+            explanation: 'Only Puducherry, Delhi, and Jammu and Kashmir have a Legislative Assembly and Council of Ministers headed by a Chief Minister.'
+          },
+          {
+            id: 'aut-q4',
+            question: 'The Home Minister\'s Advisory Committee (HMAC) is for:',
+            options: [
+              'All Union Territories',
+              'UTs with legislature',
+              'UTs without legislature',
+              'Only Delhi and Puducherry'
+            ],
+            correct: 2,
+            explanation: 'HMAC is for UTs without legislature, chaired by the Union Home Minister.'
+          },
+          {
+            id: 'aut-q5',
+            question: 'Which is the only UT with an independent High Court?',
+            options: ['Puducherry', 'Chandigarh', 'Delhi', 'Jammu and Kashmir'],
+            correct: 2,
+            explanation: 'Delhi has been the sole UT with an independent High Court since 1966.'
+          },
+          {
+            id: 'aut-q6',
+            question: 'Andaman and Nicobar Islands falls under which High Court?',
+            options: ['Bombay HC', 'Madras HC', 'Calcutta HC', 'Kerala HC'],
+            correct: 2,
+            explanation: 'Andaman and Nicobar Islands falls under the Calcutta High Court.'
+          },
+          {
+            id: 'aut-q7',
+            question: 'The President can make regulations for which of the following UTs?',
+            options: [
+              'Delhi and Puducherry',
+              'A&N Islands, Lakshadweep, DNH&DD',
+              'All Union Territories',
+              'Only Ladakh'
+            ],
+            correct: 1,
+            explanation: 'The President can make regulations for Andaman & Nicobar, Lakshadweep, Dadra & Nagar Haveli, and Daman & Diu — with the same effect as parliamentary acts.'
+          },
+          {
+            id: 'aut-q8',
+            question: 'Puducherry falls under which High Court?',
+            options: ['Bombay HC', 'Calcutta HC', 'Kerala HC', 'Madras HC'],
+            correct: 3,
+            explanation: 'Puducherry falls under the Madras High Court.'
+          },
+          {
+            id: 'aut-q9',
+            question: 'Chandigarh falls under which High Court?',
+            options: ['Delhi HC', 'Punjab and Haryana HC', 'Bombay HC', 'Calcutta HC'],
+            correct: 1,
+            explanation: 'Chandigarh falls under the Punjab and Haryana High Court.'
+          },
+          {
+            id: 'aut-q10',
+            question: 'UTs are administered by the President through:',
+            options: ['A Governor', 'An Administrator (agent)', 'The Chief Minister', 'The Home Minister'],
+            correct: 1,
+            explanation: 'UTs are administered by the President via an Administrator, who is an agent, not a head of state.'
+          },
+        ]
       }
     ]
   }
