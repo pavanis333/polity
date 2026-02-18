@@ -6792,6 +6792,170 @@ const topicsData = [
             explanation: 'The opinion is advisory and not binding. The President may choose whether to follow it.'
           },
         ]
+      },
+      {
+        id: 'key-doctrines-constitutional-interpretation',
+        name: 'Key Doctrines of Constitutional Interpretation',
+        flashcards: [
+          {
+            id: 'doc-1',
+            front: 'What is the Doctrine of Severability?',
+            back: 'Offending provisions can be voided without invalidating the entire statute. If a part of a law violates fundamental rights, only that part is struck down, not the whole law.'
+          },
+          {
+            id: 'doc-2',
+            front: 'What is the Doctrine of Waiver?',
+            back: 'Rights or privileges can be intentionally given up. A person may voluntarily waive a right conferred upon them.'
+          },
+          {
+            id: 'doc-3',
+            front: 'What is the Doctrine of Eclipse?',
+            back: 'Laws inconsistent with fundamental rights are overshadowed (eclipsed), not invalid. The law is not dead but dormant — it can revive if the fundamental right is amended or the inconsistency is removed.'
+          },
+          {
+            id: 'doc-4',
+            front: 'What is the Doctrine of Territorial Nexus?',
+            back: 'State laws apply only within the state unless a sufficient nexus (connection) exists with the subject matter outside the state. A state can tax or legislate on matters outside its territory if there is a sufficient territorial connection.'
+          },
+          {
+            id: 'doc-5',
+            front: 'What is the Doctrine of Pith and Substance?',
+            back: 'Validity of legislation depends on its substance (true nature and character) within the legislature\'s jurisdiction. If the substance falls within the competent list, incidental encroachment on another list does not make it invalid.'
+          },
+          {
+            id: 'doc-6',
+            front: 'What is the Doctrine of Colourable Legislation?',
+            back: 'What cannot be done directly, cannot be done indirectly. Prohibitions apply indirectly to prevent misuse of authority. A legislature cannot do indirectly what it is not competent to do directly.'
+          },
+          {
+            id: 'doc-7',
+            front: 'What is the Doctrine of Incidental and Ancillary Powers?',
+            back: 'Enables laws for public benefit not explicitly stated. When a legislature has power to make laws on a subject, it also has the power to make laws on incidental and ancillary matters connected to that subject.'
+          },
+          {
+            id: 'doc-8',
+            front: 'What is the Doctrine of Precedent?',
+            back: 'Prior court decisions must be followed within limits. Lower courts are bound by decisions of higher courts (stare decisis). SC decisions are binding on all courts under Article 141.'
+          },
+          {
+            id: 'doc-9',
+            front: 'What is the Doctrine of Occupied Field?',
+            back: 'State laws obstructing parliamentary laws are repugnant. If Parliament has legislated on a subject in the Concurrent List, state laws on the same subject that are inconsistent become void (unless state law has received Presidential assent).'
+          },
+          {
+            id: 'doc-10',
+            front: 'What is the Doctrine of Prospective Overruling?',
+            back: 'Decisions apply only in the future, not retrospectively. When the SC overrules a previous decision, the new ruling applies prospectively to avoid disruption of past transactions.'
+          },
+          {
+            id: 'doc-11',
+            front: 'What is the Doctrine of Harmonious Construction?',
+            back: 'Interpret provisions together to resolve inconsistencies. When two provisions appear to conflict, they should be interpreted in a way that gives effect to both, rather than rendering one meaningless.'
+          },
+          {
+            id: 'doc-12',
+            front: 'What is the Doctrine of Liberal Interpretation?',
+            back: 'The Constitution should be read broadly and liberally, not narrowly or technically. Constitutional provisions, especially those conferring rights, should be given a wide and generous interpretation.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'doc-q1',
+            question: 'Under the Doctrine of Severability:',
+            options: [
+              'The entire statute is invalidated if any part is unconstitutional',
+              'Only the offending provisions are voided, rest of the statute survives',
+              'The law is eclipsed but not invalid',
+              'The law applies only prospectively'
+            ],
+            correct: 1,
+            explanation: 'Doctrine of Severability: Only the offending provisions are voided without invalidating the entire statute.'
+          },
+          {
+            id: 'doc-q2',
+            question: 'The Doctrine of Eclipse states that inconsistent laws are:',
+            options: [
+              'Permanently invalid',
+              'Overshadowed (dormant), not invalid — can revive if inconsistency removed',
+              'Automatically repealed',
+              'Only applicable to future laws'
+            ],
+            correct: 1,
+            explanation: 'Doctrine of Eclipse: Laws are overshadowed (eclipsed) but not dead — they can revive if the fundamental right is amended or inconsistency removed.'
+          },
+          {
+            id: 'doc-q3',
+            question: 'The Doctrine of Pith and Substance determines:',
+            options: [
+              'Whether a law is colourable',
+              'The true nature and character of legislation to check if it falls within jurisdiction',
+              'Whether rights can be waived',
+              'Whether state laws conflict with central laws'
+            ],
+            correct: 1,
+            explanation: 'Doctrine of Pith and Substance: Validity depends on the true nature (substance) of the legislation within the legislature\'s jurisdiction.'
+          },
+          {
+            id: 'doc-q4',
+            question: '"What cannot be done directly, cannot be done indirectly" is the:',
+            options: [
+              'Doctrine of Severability',
+              'Doctrine of Occupied Field',
+              'Doctrine of Colourable Legislation',
+              'Doctrine of Territorial Nexus'
+            ],
+            correct: 2,
+            explanation: 'Doctrine of Colourable Legislation: A legislature cannot do indirectly what it is not competent to do directly.'
+          },
+          {
+            id: 'doc-q5',
+            question: 'The Doctrine of Occupied Field is related to:',
+            options: [
+              'Fundamental Rights',
+              'Concurrent List — state laws conflicting with parliamentary laws',
+              'Judicial appointments',
+              'Constitutional amendments'
+            ],
+            correct: 1,
+            explanation: 'Doctrine of Occupied Field: If Parliament has legislated on a Concurrent List subject, inconsistent state laws become void.'
+          },
+          {
+            id: 'doc-q6',
+            question: 'The Doctrine of Prospective Overruling means:',
+            options: [
+              'Decisions apply retrospectively',
+              'Decisions apply only in the future',
+              'Old decisions can never be overruled',
+              'Only Parliament can overrule SC decisions'
+            ],
+            correct: 1,
+            explanation: 'Doctrine of Prospective Overruling: New rulings apply only prospectively to avoid disruption of past transactions.'
+          },
+          {
+            id: 'doc-q7',
+            question: 'The Doctrine of Harmonious Construction requires:',
+            options: [
+              'Striking down conflicting provisions',
+              'Interpreting provisions together to give effect to both',
+              'Always favoring fundamental rights',
+              'Literal interpretation only'
+            ],
+            correct: 1,
+            explanation: 'Doctrine of Harmonious Construction: When two provisions conflict, interpret them to give effect to both rather than rendering one meaningless.'
+          },
+          {
+            id: 'doc-q8',
+            question: 'The Doctrine of Territorial Nexus allows a state to:',
+            options: [
+              'Legislate on any subject anywhere in India',
+              'Legislate on matters outside its territory if sufficient connection exists',
+              'Override central laws within its territory',
+              'Tax only within its geographical boundaries'
+            ],
+            correct: 1,
+            explanation: 'Doctrine of Territorial Nexus: State laws can apply outside the state if there is a sufficient nexus with the subject matter.'
+          },
+        ]
       }
     ]
   }
