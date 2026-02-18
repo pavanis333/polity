@@ -5513,6 +5513,84 @@ const topicsData = [
             explanation: 'A cut motion must not suggest amendments or repeal existing laws. It must be focused, clear, and pertain to a single demand.'
           },
         ]
+      },
+      {
+        id: 'types-of-funds',
+        name: 'Comparison of Different Types of Funds',
+        flashcards: [
+          {
+            id: 'tof-1',
+            front: 'What is the Consolidated Fund of India? (Article 266) (UPSC 2015)',
+            back: '- All receipts are credited and all payments are debited\n- All legally authorised payments on behalf of the GoI are made out of this fund\n- No money out of this fund can be issued except in accordance with a parliamentary law'
+          },
+          {
+            id: 'tof-2',
+            front: 'What is the Public Account of India? (Article 266)',
+            back: '- All public money other than those credited to the Consolidated Fund of India shall be credited here\n- Includes: PF deposits, Judicial deposits, Savings Banks deposits, Departmental deposits, Remittances, etc.\n- Operated by executive action (no parliamentary authorisation needed for withdrawals)'
+          },
+          {
+            id: 'tof-3',
+            front: 'What is the Contingency Fund of India? (Article 267)',
+            back: '- Amounts determined by Parliament by law are paid from time to time into this fund\n- Placed at the disposal of the President, who can make advances out of it to meet unforeseen expenditure\n- Held by the finance secretary on behalf of the President\n- Operated by executive action'
+          },
+          {
+            id: 'tof-4',
+            front: 'Compare: Which funds need parliamentary authorisation for withdrawals?',
+            back: 'Consolidated Fund of India: YES — no money can be issued except by parliamentary law (UPSC 2015)\nPublic Account of India: NO — operated by executive action\nContingency Fund of India: NO — operated by executive action (President makes advances)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'tof-q1',
+            question: 'No money can be withdrawn from the Consolidated Fund of India except: (UPSC 2015)',
+            options: [
+              'By executive order',
+              'In accordance with a parliamentary law',
+              'By Presidential decree',
+              'By Cabinet resolution'
+            ],
+            correct: 1,
+            explanation: 'No money out of the Consolidated Fund can be issued except in accordance with a parliamentary law (Article 266).'
+          },
+          {
+            id: 'tof-q2',
+            question: 'The Contingency Fund of India is held by:',
+            options: ['The President directly', 'The Finance Minister', 'The Finance Secretary on behalf of the President', 'The RBI Governor'],
+            correct: 2,
+            explanation: 'The Contingency Fund is held by the finance secretary on behalf of the President and is operated by executive action.'
+          },
+          {
+            id: 'tof-q3',
+            question: 'PF deposits and Judicial deposits are credited to:',
+            options: ['Consolidated Fund of India', 'Public Account of India', 'Contingency Fund of India', 'None of these'],
+            correct: 1,
+            explanation: 'PF deposits, Judicial deposits, Savings Banks deposits, etc. are credited to the Public Account of India (Article 266).'
+          },
+          {
+            id: 'tof-q4',
+            question: 'The Contingency Fund of India is used for:',
+            options: [
+              'Regular government expenditure',
+              'Meeting unforeseen expenditure',
+              'Paying government salaries',
+              'International loans'
+            ],
+            correct: 1,
+            explanation: 'The Contingency Fund (Article 267) is used by the President to make advances for unforeseen expenditure.'
+          },
+          {
+            id: 'tof-q5',
+            question: 'Which fund is operated by executive action without parliamentary authorisation?',
+            options: [
+              'Consolidated Fund of India only',
+              'Public Account and Contingency Fund',
+              'All three funds',
+              'None of the funds'
+            ],
+            correct: 1,
+            explanation: 'Both Public Account and Contingency Fund are operated by executive action. Only the Consolidated Fund requires parliamentary authorisation.'
+          },
+        ]
       }
     ]
   }
