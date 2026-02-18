@@ -1062,6 +1062,240 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'salient-features',
+    name: 'Salient Features of the Indian Constitution',
+    icon: '📜',
+    subtopics: [
+      {
+        id: 'parts-of-constitution',
+        name: 'Parts of the Indian Constitution',
+        flashcards: [
+          {
+            id: 'parts-1',
+            front: 'How many Parts does the Indian Constitution have?',
+            back: '22 Parts (including Part IVA, IXA, IXB, and XIVA). Note: Part VII has been repealed.'
+          },
+          {
+            id: 'parts-2',
+            front: 'Part I of the Constitution deals with?',
+            back: 'The Union and its Territories (Articles 1–4).'
+          },
+          {
+            id: 'parts-3',
+            front: 'Part II of the Constitution deals with?',
+            back: 'Citizenship (Articles 5–11).'
+          },
+          {
+            id: 'parts-4',
+            front: 'Part III of the Constitution deals with?',
+            back: 'Fundamental Rights (Articles 12–35).'
+          },
+          {
+            id: 'parts-5',
+            front: 'Part IV of the Constitution deals with?',
+            back: 'Directive Principles of State Policy (Articles 36–51).'
+          },
+          {
+            id: 'parts-6',
+            front: 'Part IVA of the Constitution deals with?',
+            back: 'Fundamental Duties (Article 51A).'
+          },
+          {
+            id: 'parts-7',
+            front: 'Part V of the Constitution deals with?',
+            back: 'The Union (Articles 52–151) — covers President, Parliament, Supreme Court, CAG, etc.'
+          },
+          {
+            id: 'parts-8',
+            front: 'Part VI of the Constitution deals with?',
+            back: 'The States (Articles 152–237) — covers Governor, State Legislature, High Courts, etc.'
+          },
+          {
+            id: 'parts-9',
+            front: 'What happened to Part VII of the Constitution?',
+            back: 'Part VII dealt with States in Part B of the First Schedule. It was repealed by the 7th Constitutional Amendment Act, 1956.'
+          },
+          {
+            id: 'parts-10',
+            front: 'Part VIII of the Constitution deals with?',
+            back: 'The Union Territories (Articles 239–242).'
+          },
+          {
+            id: 'parts-11',
+            front: 'Part IX, IXA, and IXB deal with?',
+            back: 'Part IX: The Panchayats (Articles 243–243O)\nPart IXA: The Municipalities (Articles 243P–243ZG)\nPart IXB: The Co-operative Societies (Articles 243ZH–243ZT)'
+          },
+          {
+            id: 'parts-12',
+            front: 'Part X of the Constitution deals with?',
+            back: 'The Scheduled and Tribal Areas (Articles 244–244A).'
+          },
+          {
+            id: 'parts-13',
+            front: 'Part XI of the Constitution deals with?',
+            back: 'Relations between the Union and the States (Articles 245–263).'
+          },
+          {
+            id: 'parts-14',
+            front: 'Part XII of the Constitution deals with?',
+            back: 'Finance, Property, Contracts and Suits (Articles 264–300A).'
+          },
+          {
+            id: 'parts-15',
+            front: 'Part XIII of the Constitution deals with?',
+            back: 'Trade, Commerce and Intercourse within the territory of India (Articles 301–307).'
+          },
+          {
+            id: 'parts-16',
+            front: 'Part XIV and XIVA deal with?',
+            back: 'Part XIV: Services Under the Union and the States (Articles 308–323)\nPart XIVA: Tribunals (Articles 323A–323B)'
+          },
+          {
+            id: 'parts-17',
+            front: 'Part XV of the Constitution deals with?',
+            back: 'Elections (Articles 324–329A).'
+          },
+          {
+            id: 'parts-18',
+            front: 'Part XVI of the Constitution deals with?',
+            back: 'Special provisions relating to certain classes (Articles 330–342).'
+          },
+          {
+            id: 'parts-19',
+            front: 'Part XVII of the Constitution deals with?',
+            back: 'Official Language (Articles 343–351).'
+          },
+          {
+            id: 'parts-20',
+            front: 'Part XVIII of the Constitution deals with?',
+            back: 'Emergency Provisions (Articles 352–360).'
+          },
+          {
+            id: 'parts-21',
+            front: 'Part XIX of the Constitution deals with?',
+            back: 'Miscellaneous (Articles 361–367).'
+          },
+          {
+            id: 'parts-22',
+            front: 'Part XX of the Constitution deals with?',
+            back: 'Amendment of the Constitution (Article 368).'
+          },
+          {
+            id: 'parts-23',
+            front: 'Part XXI of the Constitution deals with?',
+            back: 'Temporary, Transitional and Special Provisions (Articles 369–392).'
+          },
+          {
+            id: 'parts-24',
+            front: 'Part XXII of the Constitution deals with?',
+            back: 'Short Title, Commencement, Authoritative Text in Hindi and Repeals (Articles 393–395).'
+          },
+          {
+            id: 'parts-25',
+            front: 'Which Part contains Article 368 (Amendment procedure)?',
+            back: 'Part XX.'
+          },
+          {
+            id: 'parts-26',
+            front: 'Which Part contains Emergency Provisions?',
+            back: 'Part XVIII (Articles 352–360).'
+          },
+          {
+            id: 'parts-27',
+            front: 'Which Part deals with Panchayats and which with Municipalities?',
+            back: 'Panchayats: Part IX (Articles 243–243O)\nMunicipalities: Part IXA (Articles 243P–243ZG)'
+          },
+        ],
+        quiz: [
+          {
+            id: 'parts-q1',
+            question: 'Fundamental Rights are contained in which Part of the Constitution?',
+            options: ['Part II', 'Part III', 'Part IV', 'Part IVA'],
+            correct: 1,
+            explanation: 'Fundamental Rights are in Part III (Articles 12–35). Part IV is DPSP and Part IVA is Fundamental Duties.'
+          },
+          {
+            id: 'parts-q2',
+            question: 'Directive Principles of State Policy are in which Part?',
+            options: ['Part III', 'Part IV', 'Part IVA', 'Part V'],
+            correct: 1,
+            explanation: 'DPSP is in Part IV (Articles 36–51).'
+          },
+          {
+            id: 'parts-q3',
+            question: 'Which Part of the Constitution has been repealed?',
+            options: ['Part VI', 'Part VII', 'Part VIII', 'Part IX'],
+            correct: 1,
+            explanation: 'Part VII (States in Part B of the First Schedule) was repealed by the 7th Constitutional Amendment Act, 1956.'
+          },
+          {
+            id: 'parts-q4',
+            question: 'The Panchayats are dealt with in:',
+            options: ['Part VIII', 'Part IX', 'Part IXA', 'Part X'],
+            correct: 1,
+            explanation: 'Part IX deals with Panchayats (Articles 243–243O). Part IXA deals with Municipalities.'
+          },
+          {
+            id: 'parts-q5',
+            question: 'Article 368 (Amendment of the Constitution) falls under which Part?',
+            options: ['Part XVIII', 'Part XIX', 'Part XX', 'Part XXI'],
+            correct: 2,
+            explanation: 'Article 368 falls under Part XX which deals with Amendment of the Constitution.'
+          },
+          {
+            id: 'parts-q6',
+            question: 'Emergency Provisions are contained in:',
+            options: ['Part XVI', 'Part XVII', 'Part XVIII', 'Part XIX'],
+            correct: 2,
+            explanation: 'Emergency Provisions are in Part XVIII (Articles 352–360).'
+          },
+          {
+            id: 'parts-q7',
+            question: 'Part IVA dealing with Fundamental Duties contains which Article?',
+            options: ['Article 50', 'Article 51', 'Article 51A', 'Article 52'],
+            correct: 2,
+            explanation: 'Part IVA contains Article 51A which lists the Fundamental Duties.'
+          },
+          {
+            id: 'parts-q8',
+            question: 'Relations between the Union and the States are dealt with in:',
+            options: ['Part X', 'Part XI', 'Part XII', 'Part XIII'],
+            correct: 1,
+            explanation: 'Part XI deals with Relations between the Union and the States (Articles 245–263).'
+          },
+          {
+            id: 'parts-q9',
+            question: 'The Co-operative Societies are dealt with in which Part?',
+            options: ['Part IX', 'Part IXA', 'Part IXB', 'Part X'],
+            correct: 2,
+            explanation: 'Part IXB deals with Co-operative Societies (Articles 243ZH–243ZT).'
+          },
+          {
+            id: 'parts-q10',
+            question: 'Citizenship is dealt with in which Part and Articles?',
+            options: ['Part I, Articles 1–4', 'Part II, Articles 5–11', 'Part III, Articles 12–35', 'Part IV, Articles 36–51'],
+            correct: 1,
+            explanation: 'Citizenship is dealt with in Part II (Articles 5–11).'
+          },
+          {
+            id: 'parts-q11',
+            question: 'Elections are covered under which Part of the Constitution?',
+            options: ['Part XIV', 'Part XIVA', 'Part XV', 'Part XVI'],
+            correct: 2,
+            explanation: 'Elections are covered under Part XV (Articles 324–329A).'
+          },
+          {
+            id: 'parts-q12',
+            question: 'Official Language is dealt with in:',
+            options: ['Part XV', 'Part XVI', 'Part XVII', 'Part XVIII'],
+            correct: 2,
+            explanation: 'Official Language is dealt with in Part XVII (Articles 343–351).'
+          },
+        ]
+      }
+    ]
   }
 ]
 
