@@ -4084,6 +4084,410 @@ const topicsData = [
         ]
       }
     ]
+  },
+  {
+    id: 'president-vp-governor',
+    name: 'President, Vice President and Governor',
+    icon: '🏛️',
+    subtopics: [
+      {
+        id: 'qualifications-term-removal',
+        name: 'Qualifications, Term, Impeachment & Vacancy',
+        flashcards: [
+          {
+            id: 'pvg-1',
+            front: 'What are the qualifications to become President?',
+            back: '- Citizen of India\n- 35+ years old\n- Qualified for Lok Sabha election\n- No office of profit'
+          },
+          {
+            id: 'pvg-2',
+            front: 'What are the qualifications to become Governor?',
+            back: '- Citizen of India\n- 35+ years old\n- Preferably an outsider to the state\n- President consults CM (not always followed)'
+          },
+          {
+            id: 'pvg-3',
+            front: 'What is the term of the President?',
+            back: '- 5 years from taking office\n- Resignation to Vice President\n- Can be re-elected without limit\n- Holds office until successor takes charge to avoid "interregnum"'
+          },
+          {
+            id: 'pvg-4',
+            front: 'What is the term of the Governor?',
+            back: '- 5 years, subject to President\'s pleasure\n- No fixed tenure\n- Resignation to President\n- Can be transferred or reappointed to same/another state\n- Holds office until successor takes charge to avoid "interregnum"'
+          },
+          {
+            id: 'pvg-5',
+            front: 'How is the President impeached?',
+            back: '- For violation of Constitution (undefined)\n- Initiated by 1/4th members of either house with 14-day notice\n- 2/3 majority of total membership of house needed in both houses\n- Quasi-judicial process\n- No President impeached so far'
+          },
+          {
+            id: 'pvg-6',
+            front: 'How is the Governor removed? (UPSC 2013)',
+            back: '- No specific grounds for removal by President\n- Not justiciable (Surya Narain case, 1981)\n- Governor serves at the President\'s pleasure'
+          },
+          {
+            id: 'pvg-7',
+            front: 'What happens when the President\'s office falls vacant?',
+            back: '- Causes: Tenure expiry, resignation, impeachment, death\n- VP acts as President during vacancy\n- New election within 6 months\n- New President serves a full term of 5 years\n- No interim term for VP if President\'s tenure is extended beyond 5 years due to delayed elections'
+          },
+          {
+            id: 'pvg-8',
+            front: 'What happens when the Governor\'s office falls vacant?',
+            back: '- Causes: Tenure expiry, resignation, death, or removal\n- President may appoint an interim governor until a successor assumes charge'
+          },
+        ],
+        quiz: [
+          {
+            id: 'pvg-q1',
+            question: 'The President submits resignation to:',
+            options: ['Chief Justice of India', 'Speaker of Lok Sabha', 'Vice President', 'Prime Minister'],
+            correct: 2,
+            explanation: 'The President submits resignation to the Vice President.'
+          },
+          {
+            id: 'pvg-q2',
+            question: 'Governor\'s removal by the President is: (UPSC 2013)',
+            options: ['Justiciable', 'Not justiciable', 'Requires Parliament approval', 'Requires HC approval'],
+            correct: 1,
+            explanation: 'Governor\'s removal is not justiciable as held in Surya Narain case (1981). Governor serves at President\'s pleasure.'
+          },
+          {
+            id: 'pvg-q3',
+            question: 'Impeachment of the President requires:',
+            options: [
+              'Simple majority in both houses',
+              'Absolute majority in both houses',
+              '2/3 majority of total membership in both houses',
+              '3/4 majority in Lok Sabha only'
+            ],
+            correct: 2,
+            explanation: 'Impeachment requires 2/3 majority of total membership of the house in both houses, initiated by 1/4th members with 14-day notice.'
+          },
+          {
+            id: 'pvg-q4',
+            question: 'When the President\'s office is vacant, new election must be held within:',
+            options: ['3 months', '6 months', '1 year', 'No time limit'],
+            correct: 1,
+            explanation: 'New presidential election must be held within 6 months of vacancy. VP acts as President meanwhile.'
+          },
+          {
+            id: 'pvg-q5',
+            question: 'The Governor submits resignation to:',
+            options: ['Chief Minister', 'President', 'Vice President', 'Speaker of State Assembly'],
+            correct: 1,
+            explanation: 'The Governor submits resignation to the President.'
+          },
+          {
+            id: 'pvg-q6',
+            question: 'A Governor can be:',
+            options: [
+              'Only appointed to one state in their lifetime',
+              'Transferred or reappointed to same/another state',
+              'Impeached like the President',
+              'Removed only by Parliament'
+            ],
+            correct: 1,
+            explanation: 'A Governor can be transferred or reappointed to the same or another state by the President.'
+          },
+        ]
+      },
+      {
+        id: 'executive-legislative-powers',
+        name: 'Executive & Legislative Powers',
+        flashcards: [
+          {
+            id: 'elp-1',
+            front: 'What are the Executive Powers of the President?',
+            back: '- All executive actions taken in his name\n- Makes rules for authenticating orders and business transactions of the Union\n- Requires PM to submit matters for CoM consideration\n- Appoints commissions for SCs, STs, OBCs\n- Appoints inter-state council and UT administrators\n- Appoints PM, Ministers, AG, CAG, CEC, other election commissioners, Governors, chairpersons of commissions, UT administrators\n- Declares Scheduled Areas'
+          },
+          {
+            id: 'elp-2',
+            front: 'What are the Executive Powers of the Governor?',
+            back: '- Executes state executive actions in his name\n- Appoints key state officials, members of State Finance Commission, SPSC\n- Promulgates ordinances when the state legislature is not in session'
+          },
+          {
+            id: 'elp-3',
+            front: 'What are the Legislative Powers of the President?',
+            back: '- Integral part of Parliament\n- Summons, prorogues, dissolves Lok Sabha\n- Can summon joint sittings of both Houses\n- Addresses Parliament at start of each year and after general elections\n- Sends messages to Parliament on bills\n- Prior permission for certain bills\n- Nominates 12 RS members, used to nominate 2 LS Anglo-Indian members until 2020\n- Promulgates ordinances (approved within 6 weeks)\n- Alters state boundaries/creates new states\n- Lays reports of Finance Commission, UPSC and CAG\n- Decisions on MP disqualification'
+          },
+          {
+            id: 'elp-4',
+            front: 'What are the Legislative Powers of the Governor? (UPSC 2019)',
+            back: '- Integral part of the state legislature\n- Summons, prorogues, dissolves the state legislative assembly\n- Addresses the state legislature after general elections and at the beginning of each year (UPSC 2019)\n- Sends messages to the state legislature\n- Nominates 1/6 of State Legislative Council members and used to nominate one Anglo-Indian (until 2020)\n- Promulgates ordinances (approved within 6 weeks)\n- Lays reports of State Finance Commission, SPSC, CAG\n- Decisions on disqualification of MLAs'
+          },
+        ],
+        quiz: [
+          {
+            id: 'elp-q1',
+            question: 'The President nominates how many members to the Rajya Sabha?',
+            options: ['2', '6', '12', '14'],
+            correct: 2,
+            explanation: 'The President nominates 12 members to the Rajya Sabha.'
+          },
+          {
+            id: 'elp-q2',
+            question: 'Who can summon joint sittings of both Houses of Parliament?',
+            options: ['Prime Minister', 'Speaker', 'President', 'Vice President'],
+            correct: 2,
+            explanation: 'The President can summon joint sittings of both Houses of Parliament.'
+          },
+          {
+            id: 'elp-q3',
+            question: 'The Governor addresses the state legislature: (UPSC 2019)',
+            options: [
+              'Only at the start of each year',
+              'After general elections and at the beginning of each year',
+              'Only when summoned by CM',
+              'Only during budget sessions'
+            ],
+            correct: 1,
+            explanation: 'The Governor addresses the state legislature after general elections and at the beginning of each year.'
+          },
+          {
+            id: 'elp-q4',
+            question: 'The Governor nominates what fraction of State Legislative Council members?',
+            options: ['1/3', '1/4', '1/6', '1/12'],
+            correct: 2,
+            explanation: 'The Governor nominates 1/6 of State Legislative Council members.'
+          },
+          {
+            id: 'elp-q5',
+            question: 'Who appoints the CAG and AG?',
+            options: ['Prime Minister', 'President', 'Parliament', 'Chief Justice'],
+            correct: 1,
+            explanation: 'The President appoints the Comptroller and Auditor General (CAG) and the Attorney General (AG).'
+          },
+          {
+            id: 'elp-q6',
+            question: 'Who can dissolve the Lok Sabha?',
+            options: ['Vice President', 'Prime Minister', 'Speaker', 'President'],
+            correct: 3,
+            explanation: 'The President summons, prorogues, and dissolves the Lok Sabha.'
+          },
+        ]
+      },
+      {
+        id: 'judicial-diplomatic-military-powers',
+        name: 'Judicial, Diplomatic & Military Powers',
+        flashcards: [
+          {
+            id: 'jdm-1',
+            front: 'What are the Judicial Powers of the President?',
+            back: '- Appoints CJI, SC, and HC judges\n- Seeks SC advisory opinion (non-binding)\n- Grants pardon, reprieve, respite, remission, or commutation of punishment for Union law offences, court-martial sentences, and death sentences'
+          },
+          {
+            id: 'jdm-2',
+            front: 'What are the Judicial Powers of the Governor?',
+            back: '- Consulted by President for HC judge appointments\n- Appoints district judges in consultation with HC\n- Grants pardon, reprieve, respite, remission, or commutation of punishment for offences under state laws\n- CANNOT pardon death sentence'
+          },
+          {
+            id: 'jdm-3',
+            front: 'Key difference in pardon powers: President vs Governor?',
+            back: 'President can pardon death sentences. Governor CANNOT pardon death sentence.'
+          },
+          {
+            id: 'jdm-4',
+            front: 'What are the Diplomatic Powers of the President?',
+            back: '- Negotiates and concludes international treaties (subject to Parliament\'s approval)\n- Represents India in international forums, sends and receives diplomats'
+          },
+          {
+            id: 'jdm-5',
+            front: 'Does the Governor have diplomatic powers?',
+            back: 'No. The Governor has no diplomatic powers.'
+          },
+          {
+            id: 'jdm-6',
+            front: 'What are the Military Powers of the President?',
+            back: '- Supreme Commander of India\'s defence forces\n- Appoints Army, Navy, Air Force chiefs\n- Can declare war/peace, subject to Parliament\'s approval'
+          },
+          {
+            id: 'jdm-7',
+            front: 'Does the Governor have military powers?',
+            back: 'No. The Governor has no military powers.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'jdm-q1',
+            question: 'Who CANNOT pardon a death sentence?',
+            options: ['President', 'Governor', 'Supreme Court', 'Both Governor and SC'],
+            correct: 1,
+            explanation: 'The Governor cannot pardon a death sentence. Only the President has that power.'
+          },
+          {
+            id: 'jdm-q2',
+            question: 'The President\'s advisory opinion from the SC under Article 143 is:',
+            options: ['Binding on the President', 'Non-binding', 'Binding on Parliament', 'Binding on all courts'],
+            correct: 1,
+            explanation: 'The SC advisory opinion sought by the President is non-binding.'
+          },
+          {
+            id: 'jdm-q3',
+            question: 'The Governor appoints district judges in consultation with:',
+            options: ['President', 'Chief Minister', 'High Court', 'Supreme Court'],
+            correct: 2,
+            explanation: 'The Governor appoints district judges in consultation with the High Court.'
+          },
+          {
+            id: 'jdm-q4',
+            question: 'The Supreme Commander of India\'s defence forces is:',
+            options: ['Prime Minister', 'Defence Minister', 'President', 'Army Chief'],
+            correct: 2,
+            explanation: 'The President is the Supreme Commander of India\'s defence forces.'
+          },
+          {
+            id: 'jdm-q5',
+            question: 'International treaties negotiated by the President are subject to:',
+            options: ['SC approval', 'Parliament\'s approval', 'Governor\'s approval', 'No approval needed'],
+            correct: 1,
+            explanation: 'International treaties are negotiated and concluded by the President, subject to Parliament\'s approval.'
+          },
+        ]
+      },
+      {
+        id: 'ordinance-powers',
+        name: 'Ordinance Powers (Art 123 & Art 213)',
+        flashcards: [
+          {
+            id: 'ord-1',
+            front: 'When can the President issue ordinances? (Article 123)',
+            back: '- When Parliament is not in session\n- Must be laid before both Houses when Parliament reassembles\n- Approved within 6 weeks to become an Act\n- Total validity: 6 months + 6 weeks\n- Cannot amend the Constitution\n- Judicial Review: 44th Amendment allows President\'s satisfaction to be questioned in court'
+          },
+          {
+            id: 'ord-2',
+            front: 'When can the Governor issue ordinances? (Article 213)',
+            back: '- When the state legislature is not in session\n- Valid for 6 weeks after the state legislature reassembles\n- Total maximum validity: 6 months + 6 weeks\n- Must be laid before the legislature upon reassembly\n- Ordinances require the President\'s instructions in certain cases, such as bills requiring Presidential assent'
+          },
+          {
+            id: 'ord-3',
+            front: 'What did the SC hold in D.C. Wadhwa case (1987) regarding ordinances?',
+            back: 'SC held that repeated re-promulgation of ordinances is unconstitutional.'
+          },
+          {
+            id: 'ord-4',
+            front: 'Key difference: President\'s ordinances vs Governor\'s ordinances?',
+            back: 'President: 44th Amendment allows judicial review of satisfaction.\nGovernor: Ordinances may require President\'s instructions in certain cases.\nBoth: Cannot be issued when legislature is in session; valid for 6 weeks after reassembly; total max life = 6 months + 6 weeks.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'ord-q1',
+            question: 'The maximum validity of a Presidential ordinance is:',
+            options: ['6 weeks', '6 months', '6 months + 6 weeks', '1 year'],
+            correct: 2,
+            explanation: 'Total validity is 6 months + 6 weeks (6 months max gap between sessions + 6 weeks after reassembly).'
+          },
+          {
+            id: 'ord-q2',
+            question: 'In D.C. Wadhwa case (1987), the SC held:',
+            options: [
+              'Ordinances can amend the Constitution',
+              'Repeated re-promulgation of ordinances is unconstitutional',
+              'Governor can issue ordinances without President\'s approval',
+              'Ordinances have unlimited validity'
+            ],
+            correct: 1,
+            explanation: 'SC held that repeated re-promulgation of ordinances is unconstitutional.'
+          },
+          {
+            id: 'ord-q3',
+            question: 'Governor\'s ordinances may require instructions from:',
+            options: ['Chief Minister', 'President', 'High Court', 'Parliament'],
+            correct: 1,
+            explanation: 'Governor\'s ordinances require the President\'s instructions in certain cases, such as bills requiring Presidential assent.'
+          },
+          {
+            id: 'ord-q4',
+            question: 'Which amendment allowed judicial review of the President\'s satisfaction in issuing ordinances?',
+            options: ['42nd Amendment', '44th Amendment', '86th Amendment', '97th Amendment'],
+            correct: 1,
+            explanation: 'The 44th Amendment allows the President\'s satisfaction in issuing ordinances to be questioned in court.'
+          },
+        ]
+      },
+      {
+        id: 'discretionary-powers',
+        name: 'Discretionary Powers (UPSC 2025)',
+        flashcards: [
+          {
+            id: 'dsc-1',
+            front: 'Does the President have constitutional discretion?',
+            back: 'No. The President has no constitutional discretion.\nBut some situational discretions include:\n- Appointment of PM when no clear majority exists\n- Dismissal of CoM if they lose Lok Sabha\'s confidence\n- Dissolution of Lok Sabha when CoM loses majority'
+          },
+          {
+            id: 'dsc-2',
+            front: 'What are the Governor\'s Constitutional Discretionary Powers?',
+            back: '- Reservation of bills for the President\n- Recommendations for President\'s Rule\n- Seeking information from the CM\n- Administration of adjoining Union Territories (UPSC 2014)'
+          },
+          {
+            id: 'dsc-3',
+            front: 'What are the Governor\'s Situational Discretionary Powers?',
+            back: '- Appointment of CM when no party has a clear majority or after death of sitting CM\n- Dismissal of CoM when they lose majority\n- Dissolution of the Assembly if CoM loses majority'
+          },
+          {
+            id: 'dsc-4',
+            front: 'What does Article 163 state about Governor\'s discretion? (UPSC 2025)',
+            back: 'Article 163 explicitly mentions that in certain spheres the Governor acts in his/her own discretion. If any question arises whether a matter requires the Governor to act in discretion, the Governor\'s decision shall be final, and the validity of any action taken cannot be challenged on grounds of whether he should or shouldn\'t have exercised that discretion.'
+          },
+          {
+            id: 'dsc-5',
+            front: 'What does Article 200 say about reserving bills? (UPSC 2025)',
+            back: 'Article 200 allows the Governor, not the President, to reserve State bills for the President\'s consideration. The President can act only on bills forwarded by the Governor, not on his own.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'dsc-q1',
+            question: 'The President has:',
+            options: [
+              'Constitutional discretion in all matters',
+              'No constitutional discretion, but situational discretions',
+              'Absolute discretion',
+              'No discretion at all'
+            ],
+            correct: 1,
+            explanation: 'The President has no constitutional discretion but has situational discretions like appointment of PM when no clear majority exists.'
+          },
+          {
+            id: 'dsc-q2',
+            question: 'Administration of adjoining Union Territories is a discretionary power of: (UPSC 2014)',
+            options: ['President', 'Prime Minister', 'Governor', 'Chief Minister'],
+            correct: 2,
+            explanation: 'Administration of adjoining Union Territories is a constitutional discretionary power of the Governor.'
+          },
+          {
+            id: 'dsc-q3',
+            question: 'Article 163 states that the Governor\'s decision on discretionary matters is: (UPSC 2025)',
+            options: [
+              'Subject to judicial review',
+              'Final and cannot be challenged',
+              'Subject to President\'s approval',
+              'Subject to CM\'s approval'
+            ],
+            correct: 1,
+            explanation: 'Under Article 163, the Governor\'s decision on discretionary matters is final and the validity cannot be challenged.'
+          },
+          {
+            id: 'dsc-q4',
+            question: 'Under Article 200, who reserves State bills for the President? (UPSC 2025)',
+            options: ['President himself', 'Chief Minister', 'Governor', 'Speaker of State Assembly'],
+            correct: 2,
+            explanation: 'Article 200 allows the Governor to reserve State bills for the President\'s consideration. The President acts only on bills forwarded by the Governor.'
+          },
+          {
+            id: 'dsc-q5',
+            question: 'Which of the following is a situational discretion of the President?',
+            options: [
+              'Reservation of bills',
+              'Administration of UTs',
+              'Appointment of PM when no clear majority exists',
+              'Seeking information from PM'
+            ],
+            correct: 2,
+            explanation: 'Appointment of PM when no clear majority exists is a situational discretion of the President.'
+          },
+        ]
+      }
+    ]
   }
 ]
 
