@@ -1294,6 +1294,198 @@ const topicsData = [
             explanation: 'Official Language is dealt with in Part XVII (Articles 343–351).'
           },
         ]
+      },
+      {
+        id: 'schedules-of-constitution',
+        name: 'Schedules of the Indian Constitution',
+        flashcards: [
+          {
+            id: 'sch-1',
+            front: 'How many Schedules does the Indian Constitution currently have?',
+            back: '12 Schedules (originally 8; Schedules 9–12 were added by amendments).'
+          },
+          {
+            id: 'sch-2',
+            front: 'What does the First Schedule contain?',
+            back: 'Lists the States and Union Territories along with their territories. Currently includes 28 States and 8 Union Territories. Related Articles: 1 and 4.'
+          },
+          {
+            id: 'sch-3',
+            front: 'What does the Second Schedule contain?',
+            back: 'Provisions for emoluments, allowances, and privileges for the President, Governors, Speaker & Deputy Speaker of Lok Sabha, Chairman & Deputy Chairman of Rajya Sabha, Speaker & Deputy Speaker of State Legislative Assembly, Chairman & Deputy Chairman of State Legislative Council, Judges of SC & HC, and CAG. Related Articles: 75(4), 99, 124(6), 148(2), 164(3), 188 and 219.'
+          },
+          {
+            id: 'sch-4',
+            front: 'What does the Third Schedule contain?',
+            back: 'Forms of oaths or affirmations for:\n- Union and State Ministers\n- Candidates for election to Parliament and State Legislature\n- Members of Parliament and State Legislature\n- Judges of SC and HC\n- CAG\nNote: An oath is under invocation of God; an affirmation is a non-religious pledge.'
+          },
+          {
+            id: 'sch-5',
+            front: 'What does the Fourth Schedule contain?',
+            back: 'The number of seats allocated to each state and union territory in the Council of States (Rajya Sabha). Related Articles: 4(1) and 80(2).'
+          },
+          {
+            id: 'sch-6',
+            front: 'What does the Fifth Schedule provide for?',
+            back: 'Administration of Scheduled Areas in certain states. Related Article: 244.'
+          },
+          {
+            id: 'sch-7',
+            front: 'What does the Sixth Schedule focus on?',
+            back: 'Administering Tribal Areas in the states of Assam, Meghalaya, Tripura, and Mizoram. Related Articles: 244(2) and 275(1).'
+          },
+          {
+            id: 'sch-8',
+            front: 'What does the Seventh Schedule contain?',
+            back: 'Three lists for legislative authority:\n- Union List: National importance (defence, foreign affairs)\n- State List: Local subjects (police, public health)\n- Concurrent List: Joint subjects (education)\nNote: Parliament can legislate on residuary subjects; Union List prevails over State & Concurrent List; Central law takes precedence unless state law is approved by President. Related Article: 246.'
+          },
+          {
+            id: 'sch-9',
+            front: 'What does the Eighth Schedule list?',
+            back: 'Recognized languages of India. Originally 14, now 22 languages. Related Articles: 344(1) and 351.'
+          },
+          {
+            id: 'sch-10',
+            front: 'Name all 22 languages in the Eighth Schedule.',
+            back: 'Assamese, Bengali, Bodo, Dogri, Gujarati, Hindi, Kannada, Kashmiri, Konkani, Maithili, Malayalam, Manipuri, Marathi, Nepali, Odia, Punjabi, Sanskrit, Santhali, Sindhi, Tamil, Telugu, Urdu.'
+          },
+          {
+            id: 'sch-11',
+            front: 'Which languages were added to the Eighth Schedule and when?',
+            back: '- Sindhi: 21st CAA, 1967\n- Konkani, Manipuri, Nepali: 71st CAA, 1992\n- Bodo, Dongri, Maithili, Santhali: 92nd CAA, 2003\n- Oriya renamed as "Odia": 96th CAA, 2011'
+          },
+          {
+            id: 'sch-12',
+            front: 'What does the Ninth Schedule contain?',
+            back: 'Acts and Regulations of State legislatures dealing with land reforms and abolition of the zamindari system. Added by the 1st Amendment (1951) under J.L. Nehru to protect the laws from judicial review. However, after the I.R. Coelho Case, SC ruled that laws included after April 24, 1973 are now open to judicial review. Originally 13 acts, now 282 acts. Related Article: 31B.'
+          },
+          {
+            id: 'sch-13',
+            front: 'What does the Tenth Schedule contain?',
+            back: 'Provisions regarding disqualification of Parliament and State Legislature members on grounds of defection (Anti-defection Law). Added by the 52nd Amendment (1985). Related Articles: 102(2) and 191(2).'
+          },
+          {
+            id: 'sch-14',
+            front: 'What does the Eleventh Schedule contain?',
+            back: 'Powers, authority, and responsibilities of Panchayats. Contains 29 functional items including agriculture, land improvement, land reforms, land consolidation, etc. Added by the 73rd Amendment (1992). Related Article: 243G.'
+          },
+          {
+            id: 'sch-15',
+            front: 'What does the Twelfth Schedule contain?',
+            back: 'Powers, authorities, and responsibilities of Municipalities. Contains 18 functional items including urban planning, town planning, regulation of land use, etc. Added by the 74th Amendment (1992). Related Article: 243W.'
+          },
+          {
+            id: 'sch-16',
+            front: 'Which Schedule deals with the Anti-defection Law?',
+            back: 'Tenth Schedule (added by 52nd Amendment, 1985).'
+          },
+          {
+            id: 'sch-17',
+            front: 'Which Schedule contains the three legislative lists (Union, State, Concurrent)?',
+            back: 'Seventh Schedule (Article 246).'
+          },
+          {
+            id: 'sch-18',
+            front: 'Which amendment added the Ninth Schedule and why?',
+            back: '1st Amendment (1951) under PM Jawaharlal Nehru, to protect land reform laws from judicial review on grounds of violation of Fundamental Rights.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'sch-q1',
+            question: 'How many Schedules does the Indian Constitution currently have?',
+            options: ['8', '10', '12', '14'],
+            correct: 2,
+            explanation: 'The Indian Constitution currently has 12 Schedules (originally 8).'
+          },
+          {
+            id: 'sch-q2',
+            question: 'The Seventh Schedule contains:',
+            options: ['Recognized languages', 'Three legislative lists', 'Oaths and affirmations', 'Anti-defection provisions'],
+            correct: 1,
+            explanation: 'The Seventh Schedule contains three lists — Union List, State List, and Concurrent List (Article 246).'
+          },
+          {
+            id: 'sch-q3',
+            question: 'The Anti-defection Law is contained in which Schedule?',
+            options: ['Eighth Schedule', 'Ninth Schedule', 'Tenth Schedule', 'Eleventh Schedule'],
+            correct: 2,
+            explanation: 'The Tenth Schedule deals with disqualification on grounds of defection, added by the 52nd Amendment (1985).'
+          },
+          {
+            id: 'sch-q4',
+            question: 'How many languages are currently recognized in the Eighth Schedule?',
+            options: ['14', '18', '22', '24'],
+            correct: 2,
+            explanation: 'The Eighth Schedule currently lists 22 recognized languages (originally 14).'
+          },
+          {
+            id: 'sch-q5',
+            question: 'The Ninth Schedule was added by which Amendment?',
+            options: ['1st Amendment (1951)', '42nd Amendment (1976)', '52nd Amendment (1985)', '73rd Amendment (1992)'],
+            correct: 0,
+            explanation: 'The Ninth Schedule was added by the 1st Amendment (1951) under PM Nehru to protect land reform laws from judicial review.'
+          },
+          {
+            id: 'sch-q6',
+            question: 'The Eleventh Schedule (Panchayats) was added by:',
+            options: ['52nd Amendment', '73rd Amendment', '74th Amendment', '92nd Amendment'],
+            correct: 1,
+            explanation: 'The Eleventh Schedule was added by the 73rd Amendment (1992) detailing powers and responsibilities of Panchayats with 29 functional items.'
+          },
+          {
+            id: 'sch-q7',
+            question: 'The Twelfth Schedule (Municipalities) contains how many functional items?',
+            options: ['14', '18', '22', '29'],
+            correct: 1,
+            explanation: 'The Twelfth Schedule contains 18 functional items for Municipalities, added by the 74th Amendment (1992).'
+          },
+          {
+            id: 'sch-q8',
+            question: 'Which Schedule deals with allocation of seats in Rajya Sabha?',
+            options: ['First Schedule', 'Second Schedule', 'Fourth Schedule', 'Seventh Schedule'],
+            correct: 2,
+            explanation: 'The Fourth Schedule details the number of seats allocated to each state and UT in Rajya Sabha.'
+          },
+          {
+            id: 'sch-q9',
+            question: 'Sindhi was added to the Eighth Schedule by:',
+            options: ['71st CAA, 1992', '21st CAA, 1967', '92nd CAA, 2003', '96th CAA, 2011'],
+            correct: 1,
+            explanation: 'Sindhi was added to the Eighth Schedule by the 21st Constitutional Amendment Act, 1967.'
+          },
+          {
+            id: 'sch-q10',
+            question: 'The Sixth Schedule deals with administration of Tribal Areas in:',
+            options: [
+              'All states of India',
+              'Assam, Meghalaya, Tripura, and Mizoram',
+              'Only North-Eastern states',
+              'Scheduled Areas in all states'
+            ],
+            correct: 1,
+            explanation: 'The Sixth Schedule focuses on administering Tribal Areas in Assam, Meghalaya, Tripura, and Mizoram.'
+          },
+          {
+            id: 'sch-q11',
+            question: 'After the I.R. Coelho Case, what happened to laws in the Ninth Schedule?',
+            options: [
+              'All laws became immune from judicial review',
+              'Laws added after April 24, 1973 are open to judicial review',
+              'The entire Ninth Schedule was struck down',
+              'Only land reform laws remained protected'
+            ],
+            correct: 1,
+            explanation: 'The Supreme Court ruled in the I.R. Coelho Case that laws included in the Ninth Schedule after April 24, 1973 are open to judicial review.'
+          },
+          {
+            id: 'sch-q12',
+            question: 'Bodo, Dongri, Maithili, and Santhali were added to the Eighth Schedule by:',
+            options: ['71st CAA, 1992', '86th CAA, 2002', '92nd CAA, 2003', '96th CAA, 2011'],
+            correct: 2,
+            explanation: 'Bodo, Dongri, Maithili, and Santhali were added by the 92nd Constitutional Amendment Act, 2003.'
+          },
+        ]
       }
     ]
   }
