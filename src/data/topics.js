@@ -754,6 +754,140 @@ const topicsData = [
             explanation: 'The Expert Committee of the Congress was formed on July 8, 1946, chaired by Jawaharlal Nehru, to prepare material for the Constituent Assembly.'
           },
         ]
+      },
+      {
+        id: 'enactment-and-enforcement',
+        name: 'Enactment and Enforcement of the Constitution',
+        flashcards: [
+          {
+            id: 'ee-1',
+            front: 'When was the Constitution of India adopted (enacted)?',
+            back: '26 November 1949.'
+          },
+          {
+            id: 'ee-2',
+            front: 'How many members were present on the day the Constitution was adopted?',
+            back: 'Out of 299 total members, only 284 were actually present and signed the Constitution.'
+          },
+          {
+            id: 'ee-3',
+            front: 'What did the Constitution contain at the time of enactment?',
+            back: 'The Preamble, 395 Articles, and 8 Schedules.'
+          },
+          {
+            id: 'ee-4',
+            front: 'When was the Preamble enacted — before or after the rest of the Constitution?',
+            back: 'The Preamble was enacted after the entire Constitution was already enacted, to align with the philosophy of the Constitution.'
+          },
+          {
+            id: 'ee-5',
+            front: 'Which provisions of the Constitution came into force on 26 November 1949 itself?',
+            back: 'Citizenship, Elections, Provisional Parliament, temporary and transitional provisions, and short titles contained in Articles 5, 6, 7, 8, 9, 60, 324, 366, 367, 379, 380, 388, 391, 392, and 393.'
+          },
+          {
+            id: 'ee-6',
+            front: 'When did the major part of the Constitution come into force?',
+            back: '26 January 1950 (commencement day — celebrated as Republic Day).'
+          },
+          {
+            id: 'ee-7',
+            front: 'Why was 26 January chosen as the commencement day (Republic Day)?',
+            back: 'On 26 January 1930, Purna Swaraj Day was celebrated following the Lahore Session (December 1929) of the Indian National Congress.'
+          },
+          {
+            id: 'ee-8',
+            front: 'Which acts were repealed when the Constitution came into force?',
+            back: 'The Indian Independence Act, 1947 and the Government of India Act, 1935 with all its enactments were repealed.'
+          },
+          {
+            id: 'ee-9',
+            front: 'What continued even after the Constitution came into force regarding the Privy Council?',
+            back: 'The Abolition of Privy Council Jurisdiction Act (1949) continued.'
+          },
+          {
+            id: 'ee-10',
+            front: 'What is the significance of the Lahore Session (December 1929)?',
+            back: 'The Lahore Session of the Indian National Congress (1929) led to the declaration of Purna Swaraj (complete independence), which was celebrated on 26 January 1930 — the date later chosen for Republic Day.'
+          },
+        ],
+        quiz: [
+          {
+            id: 'ee-q1',
+            question: 'How many members signed the Constitution on 26 November 1949?',
+            options: ['299', '289', '284', '292'],
+            correct: 2,
+            explanation: 'Out of 299 total members, only 284 were present and signed the Constitution on 26 November 1949.'
+          },
+          {
+            id: 'ee-q2',
+            question: 'The original Constitution contained how many Articles and Schedules?',
+            options: ['390 Articles and 10 Schedules', '395 Articles and 8 Schedules', '395 Articles and 12 Schedules', '400 Articles and 8 Schedules'],
+            correct: 1,
+            explanation: 'At the time of enactment, the Constitution contained the Preamble, 395 Articles, and 8 Schedules.'
+          },
+          {
+            id: 'ee-q3',
+            question: 'Which of the following came into force on 26 November 1949 itself?',
+            options: [
+              'Fundamental Rights',
+              'Directive Principles of State Policy',
+              'Citizenship and Elections provisions',
+              'Emergency Provisions'
+            ],
+            correct: 2,
+            explanation: 'Citizenship, Elections, Provisional Parliament, and temporary/transitional provisions came into force on 26 November 1949 itself.'
+          },
+          {
+            id: 'ee-q4',
+            question: '26 January was chosen as Republic Day because:',
+            options: [
+              'The Constituent Assembly first met on this date',
+              'Purna Swaraj Day was celebrated on 26 January 1930',
+              'India gained independence on this date',
+              'The Objective Resolution was passed on this date'
+            ],
+            correct: 1,
+            explanation: 'Purna Swaraj Day was celebrated on 26 January 1930, following the Lahore Session (December 1929) of the Indian National Congress.'
+          },
+          {
+            id: 'ee-q5',
+            question: 'Which of the following acts was NOT repealed when the Constitution came into force?',
+            options: [
+              'Indian Independence Act, 1947',
+              'Government of India Act, 1935',
+              'Abolition of Privy Council Jurisdiction Act, 1949',
+              'All of the above were repealed'
+            ],
+            correct: 2,
+            explanation: 'The Abolition of Privy Council Jurisdiction Act (1949) continued even after the Constitution came into force.'
+          },
+          {
+            id: 'ee-q6',
+            question: 'The Preamble was enacted:',
+            options: [
+              'Before the Constitution',
+              'Along with the Constitution simultaneously',
+              'After the entire Constitution was already enacted',
+              'On 26 January 1950'
+            ],
+            correct: 2,
+            explanation: 'The Preamble was enacted after the entire Constitution was already enacted, to align with the philosophy of the Constitution.'
+          },
+          {
+            id: 'ee-q7',
+            question: 'The Lahore Session of the Indian National Congress was held in:',
+            options: ['December 1928', 'December 1929', 'January 1930', 'December 1930'],
+            correct: 1,
+            explanation: 'The Lahore Session was held in December 1929, which led to the Purna Swaraj declaration celebrated on 26 January 1930.'
+          },
+          {
+            id: 'ee-q8',
+            question: 'Which Article deals with Elections that came into force on 26 November 1949?',
+            options: ['Article 320', 'Article 324', 'Article 330', 'Article 352'],
+            correct: 1,
+            explanation: 'Article 324 (dealing with Elections) was among the provisions that came into force on 26 November 1949 itself.'
+          },
+        ]
       }
     ]
   }
