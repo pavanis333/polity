@@ -3330,6 +3330,150 @@ const topicsData = [
             explanation: 'Quo Warranto is applicable to substantive public offices of a permanent character created by statute or the Constitution.'
           },
         ]
+      },
+      {
+        id: 'exceptions-to-fundamental-rights',
+        name: 'Exceptions to Fundamental Rights (Articles 31A, 31B, 31C)',
+        flashcards: [
+          {
+            id: 'efr-1',
+            front: 'What does Article 31A do?',
+            back: 'Saves five categories of laws from being challenged for contravention of Fundamental Rights under Article 14 and Article 19.'
+          },
+          {
+            id: 'efr-2',
+            front: 'What are the five categories of laws saved by Article 31A?',
+            back: '1. Acquisition of estates and related rights by the State\n2. Taking over the management of properties by the State\n3. Amalgamation of corporations\n4. Extinguishment or modification of rights of directors or shareholders of corporations\n5. Extinguishment or modification of mining leases'
+          },
+          {
+            id: 'efr-3',
+            front: 'From which Fundamental Rights does Article 31A provide protection?',
+            back: 'Article 14 (Right to Equality) and Article 19 (Protection of certain rights regarding freedom of speech, etc.).'
+          },
+          {
+            id: 'efr-4',
+            front: 'What does Article 31B do?',
+            back: 'Saves the acts and regulations included in the Ninth Schedule from being challenged for contravention of any Fundamental Rights. The Ninth Schedule was added by the First Amendment in 1951.'
+          },
+          {
+            id: 'efr-5',
+            front: 'What did the SC hold in the I.R. Coelho case (2007) regarding Article 31B?',
+            back: 'No blanket immunity from judicial review for laws in the Ninth Schedule. Judicial review is a "basic feature" of the Constitution. Laws placed in the Ninth Schedule after April 24, 1973 (date of Kesavananda Bharati judgement) are open to challenge if they violate Fundamental Rights. (UPSC 2018)'
+          },
+          {
+            id: 'efr-6',
+            front: 'What is the significance of April 24, 1973 regarding the Ninth Schedule?',
+            back: 'It is the date of the Kesavananda Bharati judgement. After the I.R. Coelho case (2007), laws placed in the Ninth Schedule after this date are open to judicial review if they violate FRs that form part of the basic structure.'
+          },
+          {
+            id: 'efr-7',
+            front: 'What does Article 31C provide?',
+            back: 'No law that seeks to implement the socialistic DPSPs specified in Article 39(b) or (c) shall be void on the ground of contravention of the FRs conferred by Article 14 or Article 19.'
+          },
+          {
+            id: 'efr-8',
+            front: 'Which DPSPs are protected under Article 31C?',
+            back: 'Article 39(b): Ownership and control of material resources for common good\nArticle 39(c): Prevention of concentration of wealth to the common detriment'
+          },
+          {
+            id: 'efr-9',
+            front: 'Compare Articles 31A, 31B, and 31C.',
+            back: 'Article 31A: Saves 5 specific categories of laws from Art 14 and 19\nArticle 31B: Saves all laws in the Ninth Schedule from ALL FRs (but post-1973 laws can be challenged — I.R. Coelho)\nArticle 31C: Saves laws implementing Art 39(b)/(c) DPSPs from Art 14 and 19'
+          },
+        ],
+        quiz: [
+          {
+            id: 'efr-q1',
+            question: 'Article 31A saves laws from challenge under:',
+            options: [
+              'All Fundamental Rights',
+              'Only Article 21',
+              'Articles 14 and 19',
+              'Articles 14, 19, and 21'
+            ],
+            correct: 2,
+            explanation: 'Article 31A saves five categories of laws from being challenged under Article 14 (Equality) and Article 19 (Freedoms).'
+          },
+          {
+            id: 'efr-q2',
+            question: 'Which of the following is NOT one of the five categories under Article 31A?',
+            options: [
+              'Acquisition of estates by the State',
+              'Amalgamation of corporations',
+              'Regulation of religious institutions',
+              'Extinguishment of mining leases'
+            ],
+            correct: 2,
+            explanation: 'The five categories are: acquisition of estates, taking over management of properties, amalgamation of corporations, modification of director/shareholder rights, and modification of mining leases.'
+          },
+          {
+            id: 'efr-q3',
+            question: 'The Ninth Schedule was added by:',
+            options: ['Original Constitution', '1st Amendment, 1951', '24th Amendment, 1971', '42nd Amendment, 1976'],
+            correct: 1,
+            explanation: 'The Ninth Schedule was added by the First Amendment in 1951 to protect land reform laws from judicial review.'
+          },
+          {
+            id: 'efr-q4',
+            question: 'In the I.R. Coelho case (2007), the SC held that: (UPSC 2018)',
+            options: [
+              'All laws in the Ninth Schedule are immune from judicial review',
+              'Laws placed after April 24, 1973 in the Ninth Schedule are open to challenge',
+              'The Ninth Schedule should be abolished',
+              'Only Parliament can review Ninth Schedule laws'
+            ],
+            correct: 1,
+            explanation: 'SC held there is no blanket immunity. Laws placed in the Ninth Schedule after April 24, 1973 (Kesavananda Bharati date) are open to challenge if they violate FRs.'
+          },
+          {
+            id: 'efr-q5',
+            question: 'Article 31C protects laws implementing which DPSPs?',
+            options: [
+              'All DPSPs',
+              'Article 39(b) and 39(c) only',
+              'Article 38 and 39',
+              'Articles 36 to 51'
+            ],
+            correct: 1,
+            explanation: 'Article 31C protects laws implementing Article 39(b) — material resources for common good — and 39(c) — prevention of concentration of wealth.'
+          },
+          {
+            id: 'efr-q6',
+            question: 'The date April 24, 1973 is significant because:',
+            options: [
+              'The Constitution was adopted on this date',
+              'The Kesavananda Bharati judgement was delivered',
+              'The First Amendment was passed',
+              'Article 31B was added'
+            ],
+            correct: 1,
+            explanation: 'April 24, 1973 is the date of the Kesavananda Bharati judgement. After I.R. Coelho, laws added to the Ninth Schedule after this date are open to judicial review.'
+          },
+          {
+            id: 'efr-q7',
+            question: 'Which Article provides the broadest protection from Fundamental Rights?',
+            options: [
+              'Article 31A (5 categories, Art 14 & 19)',
+              'Article 31B (Ninth Schedule, all FRs)',
+              'Article 31C (DPSPs, Art 14 & 19)',
+              'All provide equal protection'
+            ],
+            correct: 1,
+            explanation: 'Article 31B provides the broadest protection — it saves Ninth Schedule laws from ALL Fundamental Rights (though post-1973 laws can now be challenged after I.R. Coelho).'
+          },
+          {
+            id: 'efr-q8',
+            question: 'Article 31C protects laws from contravention of:',
+            options: [
+              'All Fundamental Rights',
+              'Article 14 and Article 19 only',
+              'Article 21 only',
+              'Articles 14, 19, and 21'
+            ],
+            correct: 1,
+            explanation: 'Article 31C protects laws implementing Art 39(b)/(c) from contravention of Article 14 (Equality) and Article 19 (Freedoms) only.'
+          },
+        ]
       }
     ]
   }
